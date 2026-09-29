@@ -44,7 +44,7 @@ Chosen to match the author's existing GetLocalised stack (the same tools, with c
 | Fonts | `next/font/google`: Raleway, Source Sans 3, Merriweather | The Slate typography | https://nextjs.org/docs/app/getting-started/fonts |
 
 **To verify early in the build (not checked live while writing this):**
-- The current Gemini and OpenAI model IDs and the JSON-schema output options in the installed SDK versions. The model ID is a single constant per provider so it's a one-line change (proposed defaults: `gemini-2.5-flash`, `gpt-4.1-mini`).
+- The current Gemini and OpenAI model IDs and the JSON-schema output options in the installed SDK versions. The model ID is a single constant per provider so it's a one-line change. *Resolved in slice 1:* Gemini default is `gemini-3.5-flash-lite` (see checklist Revisions); OpenAI is checked in slice 5.
 - `google-play-scraper` 10.1.3 `app()` and `suggest()` still work against Play today.
 - Next 16 route handler conventions, from the bundled docs.
 

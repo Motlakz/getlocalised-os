@@ -1,15 +1,15 @@
 ---
 doc: checklist
-status: draft
+status: approved
 ---
 
 # Build Checklist
 
-Build mode: [not chosen yet]
+Build mode: fast
 
 ## Slices
 
-- [ ] **1. The engine turns BellyClock's real English listing into a native German one, locally**
+- [x] **1. The engine turns BellyClock's real English listing into a native German one, locally**
   Becomes usable: `bun run capture --app bellyclock` pulls the real Play listing and German search suggestions into `data/examples/bellyclock/`, and `bun run localize --app bellyclock --to de-DE` prints a native listing with *why this term* notes.
   Why now: This is the riskiest part (does the scraper still work, does Gemini's structured output behave) and it is the kernel. Everything else displays what this produces. Bootstrapping (dependencies, env, folders) happens here.
   PRD ref: `prd.md > Local Run`, `prd.md > Example Apps and Seeded Data`, `prd.md > Native Listing and Compare View`
@@ -101,3 +101,6 @@ Reflection:
 Activity mode:
 
 ## Revisions
+
+- Gemini default model is `gemini-3.5-flash-lite`, not the spec's placeholder `gemini-2.5-flash`. The build found `gemini-2.5-flash` no longer accepts new users, and the newest Flash models (3.6–3.8) repeatedly returned 503 "high demand" on this key. The learner chose Flash-Lite because it stays available. The model is still one constant and overridable with `--model`.
+- Transient provider errors (5xx) are retried with backoff (20s/60s/120s), like rate limits. Capture and the single local run use the same retry, because the first real runs hit demand spikes.
