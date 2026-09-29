@@ -2,10 +2,11 @@
 
 import { useMemo, useReducer, useState } from "react";
 
-import { Badge } from "@/components/ui/badge";
 import { getCommand, type CommandId } from "@/lib/engine/commands";
 import { FIELDS, MARKET_INFO, type Field, type Note } from "@/lib/engine/types";
+import { PROVIDER_NAMES } from "@/lib/engine/providers/types";
 import { analyze } from "@/lib/findings";
+import { runRewrite, useLiveKey } from "@/lib/live-client";
 import type { PlaygroundData } from "@/lib/playground-data";
 
 import { CommandMenu, type FieldPreviews } from "./command-menu";
@@ -13,6 +14,8 @@ import { CommandsRail } from "./commands-rail";
 import { ExportButton } from "./export-button";
 import { FieldRow } from "./field-row";
 import { FindingsPanel } from "./findings-panel";
+import { KeyControl } from "./key-control";
+import { PasteListing } from "./paste-listing";
 import { PhrasesPanel } from "./phrases-panel";
 import { Pickers } from "./pickers";
 import { SectionLabel } from "./section-label";
@@ -31,6 +34,22 @@ export function Playground({ data }: { data: PlaygroundData }) {
   const [menu, setMenu] = useState<MenuState>(null);
   const [activeField, setActiveField] = useState<Field>("title");
   const [skill, setSkill] = useState(data.skills[0]?.name ?? "");
+  const live = useLiveKey();
+
+  /** A command the visitor runs with their own key, on the field as it is now. */
+  const runLive = (field: Field) => (command: CommandId, freeText?: string) => {
+    if (!live) return Promise.reject(new Error("Add your key to run this live."));
+    return runRewrite(live, {
+      market: data.market,
+      field,
+      text: state.fields[field],
+      sourceText: data.source[field],
+      skills: data.skills,
+      phrases: data.phrases.items,
+      command,
+      freeText,
+    });
+  };
 
   const findings = useMemo(
     () => analyze(state.fields, data.phrases.items, info.lang, [data.name]),
@@ -66,7 +85,12 @@ export function Playground({ data }: { data: PlaygroundData }) {
         appName={data.name}
         market={data.market}
         pickers={<Pickers data={data} />}
-        right={<Badge variant="outline">Seeded mode</Badge>}
+        right={
+          <>
+            <PasteListing market={data.market} skills={data.defaultSkills} />
+            <KeyControl />
+          </>
+        }
       />
 
       <div className="mx-auto grid w-full max-w-[1440px] flex-1 lg:grid-cols-[minmax(0,1fr)_380px]">
@@ -123,7 +147,10 @@ export function Playground({ data }: { data: PlaygroundData }) {
                     dispatch({ type: "apply", field, command, text: preview.text, notes: preview.notes })
                   }
                   onOpenSkill={openSkill}
-                  resultLabel={`Prepared result · ${data.generatedWith.model}`}
+                  live={Boolean(live)}
+                  preparedLabel={`Prepared result · ${data.generatedWith.model}`}
+                  liveLabel={live ? `Live · ${PROVIDER_NAMES[live.provider]}` : ""}
+                  runLive={runLive(field)}
                 />
               }
             />
@@ -137,7 +164,7 @@ export function Playground({ data }: { data: PlaygroundData }) {
         <aside className="border-t bg-card lg:sticky lg:top-14 lg:h-[calc(100vh-3.5rem)] lg:overflow-y-auto lg:border-t-0">
           <CommandsRail
             activeField={activeField}
-            isReady={(id) => Boolean(data.commands[id]?.[activeField])}
+            isReady={(id) => Boolean(live || data.commands[id]?.[activeField])}
             onRun={(id) => openMenu(activeField, id)}
           />
           <div className="border-t">

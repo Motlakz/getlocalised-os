@@ -27,10 +27,10 @@ Rules:
 - No superlatives ("best", "#1", "top") and no calls to action in the title.
 - Use the market's search phrases where they fit naturally, especially in the title and short description. Never stuff or list them.
 - Search phrases are typed by users and are often missing accents or capitals. Always write them with correct spelling, accents and capitalisation in the listing (for example \"jeune intermittent\" is written \"jeûne intermittent\").
-- Stay strictly within each field's character limit. Count characters, including spaces.
+- Stay strictly within each field's character limit. Count characters, including spaces. Keep the full description to about 3,600 characters at most so it fits with room to spare.
 - Keep the source's line breaks and bullet structure in the full description where it helps.
 - Follow the developer's skills below. They describe the brand, the audience and the store rules, and they override your defaults.
-- "notes" and "why" explanations are always written in English, one sentence each.
+- "notes" and "why" explanations are always written in English, one sentence each. You have no search-volume, popularity or ranking data: never claim a term is "high-volume", "most searched", "popular" or "frequently used". Say only what is true, e.g. that it matches one of the Play search suggestions above, or that the literal translation would sound unnatural.
 
 The developer's skills:
 
@@ -92,4 +92,11 @@ export function tooLongFeedback(over: { field: Field; length: number }[]): strin
   return `Your previous answer broke the character limits: ${over
     .map((o) => `${FIELD_LABELS[o.field]} was ${o.length} characters (max ${LIMITS[o.field]})`)
     .join("; ")}. Return the full answer again with those fields shortened to fit, keeping everything else.`;
+}
+
+/** A follow-up asking the model to drop demand claims it cannot back up. */
+export function claimFeedback(notes: { term: string; why: string }[]): string {
+  return `Some notes claim search volume or popularity, which you have no data for: ${notes
+    .map((n) => `"${n.term}"`)
+    .join(", ")}. Rewrite those notes to say only what is true (for example that the term matches one of the Play search suggestions, or that it is the natural local wording).`;
 }

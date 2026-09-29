@@ -47,7 +47,7 @@ const providerId = values.provider as ProviderId;
 if (providerId !== "gemini" && providerId !== "openai") fail(`Unknown provider "${values.provider}". Use gemini or openai.`);
 const provider = createProvider(providerId, requireKey(providerId), values.model);
 
-const PACE_MS = 4000;
+const PACE_MS = 6000;
 
 function printListing(title: string, out: LocalizeOutput) {
   console.log(`\n━━ ${title} ━━`);

@@ -3,7 +3,7 @@
  *
  *   bun run validate
  */
-import { FIELDS, LIMITS, MARKETS, SEEDED_COMMANDS } from "../lib/engine";
+import { FIELDS, hasDemandClaim, LIMITS, MARKETS, SEEDED_COMMANDS } from "../lib/engine";
 import { EXAMPLE_APPS, loadListing, loadMarket, loadSkills } from "../lib/examples";
 
 const problems: string[] = [];
@@ -42,6 +42,11 @@ for (const { app } of EXAMPLE_APPS) {
       if (file.native.fields[f].length > LIMITS[f]) problems.push(`${where}: native ${f} over limit (${file.native.fields[f].length})`);
     for (const c of SEEDED_COMMANDS)
       for (const f of FIELDS) if (!file.commands[c.id]?.[f]) problems.push(`${where}: missing ${c.id} · ${f}`);
+    const notes = [
+      ...file.native.notes,
+      ...Object.values(file.commands).flatMap((byField) => Object.values(byField).flatMap((p) => p?.notes ?? [])),
+    ];
+    for (const n of notes) if (hasDemandClaim(n.why)) problems.push(`${where}: note on "${n.term}" claims demand it can't back up`);
   }
 }
 

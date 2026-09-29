@@ -96,8 +96,8 @@ Carries forward `prd.md > Look and Feel` and `scope.md > Inspiration & Identity`
 ### Rewrite and Localize Routes
 `app/api/rewrite/route.ts`, `app/api/localize/route.ts`. Implements `prd.md > Bring Your Own Key (Playground)`.
 - `POST`, Node runtime. The key comes from the `x-model-key` header, the provider from the body. The body is validated with zod.
-- `rewrite` body: `{ provider, app?, listing?, market, field, text, command, freeText? }` → `{ previews }`.
-- `localize` body: `{ provider, listing: { title, short, full }, market }` → `{ fields, notes }`. This is "paste your own listing". Empty fields are rejected with `bad_input` naming the field. It uses a generic default skill set (`data/default-skills/*.md`).
+- `rewrite` body: `{ provider, market, field, text, sourceText, skills, phrases, command, freeText? }` → `{ previews }`. The browser already holds the app's skills and phrases, so it sends them; the routes never read repo files at runtime (size-capped by zod).
+- `localize` body: `{ provider, listing: { title, short, full }, market }` → `{ fields, notes }`. This is "paste your own listing". Empty fields are rejected with `bad_input` naming the field. It uses the generic default skills (`data/default-skills/*.md`), bundled into the static page at build and sent with the request.
 - Errors map to `{ error: { code: 'invalid_key' | 'quota' | 'bad_output' | 'bad_input', message } }` with plain wording ("The key was rejected by Gemini", "Out of credit or rate-limited"). There is no logging of headers or bodies, and the key never appears in a URL or response.
 
 ### Landing Page

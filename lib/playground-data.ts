@@ -1,7 +1,7 @@
 import { existsSync } from "node:fs";
 
 import { MARKETS, type Fields, type GeneratedWith, type Market, type MarketFile, type Note, type Skill } from "./engine/types";
-import { EXAMPLE_APPS, listingPath, loadListing, loadMarket, loadSkills, marketPath } from "./examples";
+import { EXAMPLE_APPS, listingPath, loadDefaultSkills, loadListing, loadMarket, loadSkills, marketPath } from "./examples";
 
 /** Everything the Playground client needs for one app × market, read from the repo at build time. */
 export type PlaygroundData = {
@@ -17,6 +17,8 @@ export type PlaygroundData = {
   commands: MarketFile["commands"];
   generatedWith: GeneratedWith;
   skills: Skill[];
+  /** Generic skills for "paste your own listing" (bundled at build, so the route never reads files). */
+  defaultSkills: Skill[];
   /** Which app × market pairs have seeded data, for the pickers. */
   available: { app: string; name: string; markets: Market[] }[];
 };
@@ -51,6 +53,7 @@ export function loadPlaygroundData(app: string, market: Market): PlaygroundData 
     commands: file.commands,
     generatedWith: file.generatedWith!,
     skills: loadSkills(app),
+    defaultSkills: loadDefaultSkills(),
     available: availableExamples(),
   };
 }
