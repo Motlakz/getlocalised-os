@@ -45,7 +45,7 @@ function overLimit(fields: Partial<Record<Field, string>>) {
 
 /** The engine has no demand data, so a note claiming volume or popularity would be made up. */
 const DEMAND_CLAIM =
-  /\b(high[- ]volume|search volume|most (searched|popular|used|common)|popular|frequently (used|searched)|commonly (used|searched)|widely (used|searched)|top search)/i;
+  /\b(high[- ]volume|search volume|most (searched|popular|used|common)|popular|frequently (used|searched)|commonly (used|searched)|widely (used|searched)|high[- ]intent|top search)/i;
 
 export const hasDemandClaim = (why: string) => DEMAND_CLAIM.test(why);
 

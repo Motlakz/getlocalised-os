@@ -69,7 +69,7 @@ Build mode: fast
   Learner check: Open http://localhost:3000. Does the hero feel cinematic enough, and does the page read like good open-source docs?
   Commit: `Add docs-style landing page with animated hero`
 
-- [ ] **7. The README matches the product and the repo is ready to publish**
+- [x] **7. The README matches the product and the repo is ready to publish**
   Becomes usable: A styled greyscale README (banner light/dark, badges, quick start, local run, how it works, boundaries) and an updated prior-work table (Slate tokens, command names, the author's app listings/skills content, `google-play-scraper` data).
   Why now: It comes last because it documents what actually got built.
   PRD ref: `prd.md > Screens and Layout` (README), `prd.md > Local Run`
@@ -120,3 +120,5 @@ Activity mode:
 - Five markets (BellyClock es-ES and de-DE, and LoveTest AI fr/es/de) are seeded with `gemini-3.1-flash-lite`. The day's regenerations used up the free tier's daily per-model cap for `gemini-3.5-flash-lite` (`GenerateRequestsPerDayPerProjectPerModel`). Each page's "Generated with" label names the model that wrote it.
 - Slice 5's code was committed before its seed regeneration finished: the run was stopped when the machine ran low on memory, and the learner moved on to the landing page (slice 6). Slice 5 stays unchecked until the remaining seeds (BellyClock de-DE commands, LoveTest AI fr/es/de) are regenerated and `bun run validate` passes.
 - Slice 5's seed regeneration was resumed and finished: all 9 files pass `bun run validate` (limits, completeness, no demand claims), and slice 5 is ticked.
+- "High-intent" joined the list of unsupported demand claims after the README's local-run check produced one. `bun run validate --fix` applies the engine's drop-the-note rule to existing seed data (6 notes removed) instead of spending another regeneration.
+- README verification ran the local-run commands with `--model gemini-3.1-flash-lite`, because the author's key had used up the day's free quota for the default `gemini-3.5-flash-lite`. The commands themselves are as documented.

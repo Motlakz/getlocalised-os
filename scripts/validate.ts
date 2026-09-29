@@ -2,9 +2,27 @@
  * Checks every example app × market seed file is complete and valid.
  *
  *   bun run validate
+ *   bun run validate --fix    # drops notes that claim demand, the same rule the engine applies
  */
-import { FIELDS, hasDemandClaim, LIMITS, MARKETS, SEEDED_COMMANDS } from "../lib/engine";
-import { EXAMPLE_APPS, loadListing, loadMarket, loadSkills } from "../lib/examples";
+import { FIELDS, hasDemandClaim, LIMITS, MARKETS, SEEDED_COMMANDS, type MarketFile, type Note } from "../lib/engine";
+import { EXAMPLE_APPS, loadListing, loadMarket, loadSkills, marketPath } from "../lib/examples";
+import { writeJson } from "./shared";
+
+const FIX = process.argv.includes("--fix");
+const keep = (notes: Note[]) => notes.filter((n) => !hasDemandClaim(n.why));
+
+function dropClaims(file: MarketFile): MarketFile {
+  return {
+    ...file,
+    native: file.native && { ...file.native, notes: keep(file.native.notes) },
+    commands: Object.fromEntries(
+      Object.entries(file.commands).map(([id, byField]) => [
+        id,
+        Object.fromEntries(Object.entries(byField).map(([f, p]) => [f, p && { ...p, notes: keep(p.notes) }])),
+      ]),
+    ),
+  };
+}
 
 const problems: string[] = [];
 let checked = 0;
@@ -30,6 +48,10 @@ for (const { app } of EXAMPLE_APPS) {
     if (!file) {
       problems.push(`${where}: missing`);
       continue;
+    }
+    if (FIX) {
+      file = dropClaims(file);
+      writeJson(marketPath(app, market), file);
     }
     checked++;
     if (file.phrases.items.length < 5) problems.push(`${where}: only ${file.phrases.items.length} phrases`);
