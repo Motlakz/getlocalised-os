@@ -1,0 +1,213 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>GetLocalised OS Scope</title>
+<style>
+  :root {
+    --bg: #f6f4ef; --surface: #ffffff; --ink: #1c1b19; --muted: #6b675f; --line: #e2ddd2;
+    --accent: #2f6b4f; --accent-soft: #e3efe8; --warn: #9a5b12; --warn-soft: #f7ecdc;
+    --cut: #8f2d2d; --cut-soft: #f5e2e2; --mono: ui-monospace, "Cascadia Code", Consolas, monospace;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) {
+      --bg: #151513; --surface: #1e1d1a; --ink: #ece9e2; --muted: #a09b90; --line: #33312c;
+      --accent: #7cc4a0; --accent-soft: #1f3129; --warn: #e0a95c; --warn-soft: #33281a;
+      --cut: #e28b8b; --cut-soft: #3a2222;
+    }
+  }
+  :root[data-theme="dark"] {
+    --bg: #151513; --surface: #1e1d1a; --ink: #ece9e2; --muted: #a09b90; --line: #33312c;
+    --accent: #7cc4a0; --accent-soft: #1f3129; --warn: #e0a95c; --warn-soft: #33281a;
+    --cut: #e28b8b; --cut-soft: #3a2222;
+  }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: var(--bg); color: var(--ink);
+    font: 16px/1.6 system-ui, -apple-system, "Segoe UI", sans-serif; }
+  main { max-width: 860px; margin: 0 auto; padding: 48px 16px 80px; }
+  .eyebrow { font: 600 12px/1 var(--mono); letter-spacing: .08em; text-transform: uppercase; color: var(--muted); }
+  h1 { font-size: clamp(28px, 5vw, 40px); line-height: 1.15; margin: 10px 0 12px; letter-spacing: -.02em; }
+  h2 { font-size: 20px; margin: 48px 0 12px; letter-spacing: -.01em; }
+  p { margin: 0 0 12px; }
+  .lede { color: var(--muted); font-size: 18px; max-width: 62ch; }
+  .status { display: inline-block; font: 600 12px/1 var(--mono); padding: 6px 10px; border-radius: 999px;
+    background: var(--warn-soft); color: var(--warn); }
+  .kernel { margin-top: 28px; padding: 22px 24px; background: var(--accent-soft); border-left: 4px solid var(--accent);
+    border-radius: 6px; }
+  .kernel strong { color: var(--accent); }
+  .card { background: var(--surface); border: 1px solid var(--line); border-radius: 10px; padding: 20px 22px; }
+  .diagram { overflow-x: auto; }
+  .diagram svg { width: 100%; min-width: 520px; height: auto; display: block; }
+  .diagram text { font-family: system-ui, sans-serif; fill: var(--ink); }
+  .diagram .muted { fill: var(--muted); }
+  .grid2 { display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 14px; }
+  .steps { display: flex; gap: 8px; flex-wrap: wrap; margin-bottom: 14px; }
+  .steps button { font: inherit; font-size: 14px; border: 1px solid var(--line); background: var(--surface); color: var(--ink);
+    padding: 8px 14px; border-radius: 999px; cursor: pointer; }
+  .steps button[aria-selected="true"] { background: var(--ink); color: var(--bg); border-color: var(--ink); }
+  .step-body { min-height: 96px; }
+  .step-body .n { font: 600 12px/1 var(--mono); color: var(--muted); }
+  .beat { margin-top: 14px; padding: 14px 16px; border: 1px dashed var(--accent); border-radius: 8px; }
+  details { background: var(--surface); border: 1px solid var(--line); border-radius: 10px; margin-bottom: 10px; }
+  summary { cursor: pointer; padding: 14px 18px; font-weight: 600; list-style: none; display: flex; align-items: center; gap: 10px; }
+  summary::-webkit-details-marker { display: none; }
+  summary::before { content: "▸"; color: var(--muted); transition: transform .15s; }
+  details[open] summary::before { transform: rotate(90deg); }
+  .tag { font: 600 11px/1 var(--mono); padding: 4px 8px; border-radius: 999px; }
+  .t-now { background: var(--accent-soft); color: var(--accent); }
+  .t-later { background: var(--warn-soft); color: var(--warn); }
+  .t-cut { background: var(--cut-soft); color: var(--cut); }
+  details ul { margin: 0; padding: 0 18px 16px 40px; }
+  details li { margin-bottom: 6px; }
+  code { font-family: var(--mono); font-size: .9em; background: var(--line); padding: 1px 5px; border-radius: 4px; }
+  footer { margin-top: 56px; color: var(--muted); font-size: 14px; }
+</style>
+</head>
+<body>
+<main>
+  <div class="eyebrow">devpost / scope · companion to scope.md</div>
+  <h1>GetLocalised OS</h1>
+  <p class="lede">An open-source localization agent for mobile apps. It turns one Play Store listing into a <em>native</em> listing for another market, guided by skills you can read and edit.</p>
+  <span class="status" id="status">status: approved</span>
+
+  <div class="kernel">
+    <strong>The kernel: native, not translated, shaped by skills you can see.</strong>
+    <p style="margin:8px 0 0">The output keeps the original meaning in the words people in that country actually search with. Plain skill files (brand, audience, store rules, ASO guidance) shape it, and the developer can open them, edit them, and run again.</p>
+  </div>
+
+  <h2>How it fits together</h2>
+  <div class="card diagram" role="img" aria-label="Diagram: a solo developer picks an example app or pastes a listing, chooses a target market, skills and a model (example mode or BYOK) generate a native listing that is validated and then copied or exported.">
+    <svg viewBox="0 0 616 330" xmlns="http://www.w3.org/2000/svg">
+      <defs>
+        <marker id="ar" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+          <path d="M0 0L10 5L0 10z" style="fill:var(--muted)"/>
+        </marker>
+      </defs>
+      <!-- open boundary -->
+      <rect x="8" y="8" width="600" height="314" rx="12" style="fill:none;stroke:var(--accent);stroke-dasharray:6 5"/>
+      <text x="22" y="30" class="muted" font-size="11" font-weight="600">GETLOCALISED OS · PLAYGROUND</text>
+      <!-- row: user -> source -> market -->
+      <rect x="28" y="50" width="130" height="58" rx="8" style="fill:var(--surface);stroke:var(--line)"/>
+      <text x="93" y="75" text-anchor="middle" font-size="13" font-weight="600">Solo dev</text>
+      <text x="93" y="93" text-anchor="middle" class="muted" font-size="11">many apps, many langs</text>
+
+      <rect x="200" y="50" width="160" height="58" rx="8" style="fill:var(--surface);stroke:var(--line)"/>
+      <text x="280" y="75" text-anchor="middle" font-size="13" font-weight="600">Example app</text>
+      <text x="280" y="93" text-anchor="middle" class="muted" font-size="11">or paste your listing</text>
+
+      <rect x="402" y="50" width="180" height="58" rx="8" style="fill:var(--surface);stroke:var(--line)"/>
+      <text x="492" y="75" text-anchor="middle" font-size="13" font-weight="600">Target market</text>
+      <text x="492" y="93" text-anchor="middle" class="muted" font-size="11">e.g. de-DE</text>
+
+      <line x1="158" y1="79" x2="196" y2="79" style="stroke:var(--muted)" marker-end="url(#ar)"/>
+      <line x1="360" y1="79" x2="398" y2="79" style="stroke:var(--muted)" marker-end="url(#ar)"/>
+
+      <!-- generation -->
+      <rect x="200" y="150" width="382" height="66" rx="10" style="fill:var(--accent-soft);stroke:var(--accent)"/>
+      <text x="391" y="178" text-anchor="middle" font-size="14" font-weight="700" style="fill:var(--accent)">Native listing generation</text>
+      <text x="391" y="198" text-anchor="middle" class="muted" font-size="11">title · short description · full description</text>
+      <line x1="492" y1="108" x2="460" y2="146" style="stroke:var(--muted)" marker-end="url(#ar)"/>
+
+      <!-- inputs -->
+      <rect x="28" y="140" width="130" height="40" rx="8" style="fill:var(--surface);stroke:var(--accent)"/>
+      <text x="93" y="165" text-anchor="middle" font-size="12" font-weight="600">Editable skills</text>
+      <rect x="28" y="190" width="130" height="40" rx="8" style="fill:var(--surface);stroke:var(--line)"/>
+      <text x="93" y="208" text-anchor="middle" font-size="12" font-weight="600">Model</text>
+      <text x="93" y="222" text-anchor="middle" class="muted" font-size="10">example mode · BYOK</text>
+      <line x1="158" y1="160" x2="196" y2="172" style="stroke:var(--muted)" marker-end="url(#ar)"/>
+      <line x1="158" y1="210" x2="196" y2="196" style="stroke:var(--muted)" marker-end="url(#ar)"/>
+
+      <!-- validation & export -->
+      <rect x="200" y="252" width="180" height="50" rx="8" style="fill:var(--surface);stroke:var(--line)"/>
+      <text x="290" y="274" text-anchor="middle" font-size="13" font-weight="600">Store checks</text>
+      <text x="290" y="291" text-anchor="middle" class="muted" font-size="11">char limits · quality</text>
+      <rect x="402" y="252" width="180" height="50" rx="8" style="fill:var(--surface);stroke:var(--line)"/>
+      <text x="492" y="274" text-anchor="middle" font-size="13" font-weight="600">Copy / export</text>
+      <text x="492" y="291" text-anchor="middle" class="muted" font-size="11">no store upload</text>
+      <line x1="290" y1="216" x2="290" y2="248" style="stroke:var(--muted)" marker-end="url(#ar)"/>
+      <line x1="380" y1="277" x2="398" y2="277" style="stroke:var(--muted)" marker-end="url(#ar)"/>
+
+      <!-- edit & rerun loop -->
+      <path d="M 93 140 C 93 118, 150 125, 196 150" style="fill:none;stroke:var(--accent);stroke-dasharray:3 4"/>
+      <text x="40" y="128" font-size="10" style="fill:var(--accent)">edit → re-run</text>
+
+    </svg>
+  </div>
+
+  <h2>What “working” looks like</h2>
+  <div class="card">
+    <p style="color:var(--muted);margin-bottom:14px">A hosted Playground that a judge can open with no setup and no key.</p>
+    <div class="steps" role="tablist" aria-label="Demo steps"></div>
+    <div class="step-body" id="step-body" role="tabpanel" aria-live="polite"></div>
+    <div class="beat"><strong>The “oh, that’s cool” beat:</strong> edit a skill (e.g. the brand/audience rules), run again, and watch the listing change. Then paste your own API key and run the same flow live.</div>
+  </div>
+
+  <h2>Who it’s for</h2>
+  <div class="grid2">
+    <div class="card"><div class="eyebrow">The person</div><p style="margin-top:8px">A solo developer shipping several apps in several languages and regions.</p></div>
+    <div class="card"><div class="eyebrow">Today</div><p style="margin-top:8px">Updates each Play Store listing by hand, language by language, asking an AI model about each line one at a time. Wants that work cut in half.</p></div>
+  </div>
+
+  <h2>Identity</h2>
+  <div class="card"><p style="margin:0">The original GetLocalised <strong>Slate</strong> design (near-black ink, sage greys, Raleway headings / Source Sans body / Merriweather serif) in <strong>greyscale instead of lime</strong>. It is a separate species with a family resemblance, shared by the landing page, Playground, and README.</p></div>
+
+  <h2>Boundary</h2>
+  <details open>
+    <summary><span class="tag t-now">NOW</span> The proof of concept</summary>
+    <ul>
+      <li>Hosted Playground, the main surface</li>
+      <li>Minimal landing page for <code>dev.getlocalised.com</code> (what it is, into the Playground, GitHub), same deploy</li>
+      <li>README styled to match: banner, clear structure, greyscale identity</li>
+      <li>Example apps: the author’s real listings as fixtures, with a predefined category and search flow, so the demo is <strong>deterministic</strong> without a key</li>
+      <li>“Paste your own listing” for any other app</li>
+      <li>Target-language selection and native generation of Play Store metadata</li>
+      <li>Visible, editable skills that feed the generation</li>
+      <li>BYOK live mode; keys are never stored server-side</li>
+      <li>Play Store character-limit validation and basic quality checks</li>
+      <li>Copy and export only</li>
+    </ul>
+  </details>
+  <details>
+    <summary><span class="tag t-later">LATER</span> Worth doing, not now</summary>
+    <ul>
+      <li>CLI: <code>getlocalised localize --from en-US --to de-DE,fr-FR</code> using <code>.getlocalised/skills</code> + <code>getlocalised.config.ts</code>, running locally</li>
+      <li>Screenshot localization, added as the open-source edition grows</li>
+      <li>Fetching any app live by package ID or store URL (no official public Play API, so it needs a deliberate data-source choice)</li>
+      <li>App Store (iOS) metadata</li>
+      <li>Remaining dev-site sections: Docs, Skills, CLI, Examples, Self-hosting</li>
+    </ul>
+  </details>
+  <details>
+    <summary><span class="tag t-cut">CUT</span> Out of scope</summary>
+    <ul>
+      <li><strong>Measured search volume, keywords, competitor/market intelligence, ranking and opportunity scoring:</strong> these need data infrastructure outside this project’s purpose. Native wording comes from the model plus your skills.</li>
+      <li><strong>Store upload and publishing via Play Console:</strong> credentials are sensitive, so copy/export keeps the developer in control of their keys</li>
+      <li><strong>Mentioning any other edition in the product:</strong> this project stands alone (the README’s prior-work disclosure still names related work, as the rules require)</li>
+      <li><strong>Code, prompts, or data from other projects:</strong> anything actually reused, including design tokens, is listed in the README’s prior-work table</li>
+    </ul>
+  </details>
+
+  <footer><code>devpost/scope.md</code> is the canonical source of this plan. This page is a companion view.</footer>
+</main>
+<script>
+  const steps = [
+    ["Pick an example app", "One of the author’s real apps, with its listing pre-fetched and its category and search flow predefined."],
+    ["Pick a market", "Choose a target language such as de-DE."],
+    ["Watch it form", "A native listing appears. Every field is checked against Play Store limits, and it is clearly not a word-for-word translation."],
+    ["Copy or export", "Take it straight into Play Console yourself."]
+  ];
+  const bar = document.querySelector(".steps"), body = document.getElementById("step-body");
+  function show(i) {
+    [...bar.children].forEach((b, j) => b.setAttribute("aria-selected", String(i === j)));
+    body.innerHTML = `<div class="n">STEP ${i + 1} OF ${steps.length}</div><p style="margin-top:8px"><strong>${steps[i][0]}.</strong> ${steps[i][1]}</p>`;
+  }
+  steps.forEach(([label], i) => {
+    const b = document.createElement("button");
+    b.type = "button"; b.role = "tab"; b.textContent = `${i + 1}. ${label}`;
+    b.onclick = () => show(i); bar.appendChild(b);
+  });
+  show(0);
+</script>
+</body>
+</html>

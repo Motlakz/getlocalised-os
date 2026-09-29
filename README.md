@@ -1,4 +1,4 @@
-# GetLocalised OSS
+# GetLocalised OS
 
 Open-source developer tooling for localizing mobile app store listings. Scope, requirements and technical plan are being written with the Build With AI: Basics skill pack and will live in `devpost/` (`scope.md`, `prd.md`, `spec.md`).
 
@@ -18,7 +18,7 @@ This repository was created on **2026-09-27**, inside the submission period. Eve
 | Incorporated | Source | Notes |
 | --- | --- | --- |
 | Next.js app scaffold (`app/`, configs, `AGENTS.md`, `CLAUDE.md`) | `create-next-app` 16.3.6 | Standard development tooling, generated unmodified |
-| Build With AI: Basics skill pack (`.claude/skills`, `.agents/skills`, `skills-lock.json`) | [challengepost/learn-ai-basics](https://github.com/challengepost/learn-ai-basics) | Course material; copies for Claude Code and Codex |
+| Build With AI: Basics skill pack (`.claude/skills`, `skills-lock.json`) | [challengepost/learn-ai-basics](https://github.com/challengepost/learn-ai-basics) | Course material, installed for Claude Code |
 
 **Related work that is not incorporated.** The author also builds GetLocalised, a separate, private commercial product for app store localization (started 2026-09-26). No source code, prompts, data or assets from it are included in this repository. This project may explore some of the same ideas; anything that is ever reused from it will be listed in the table above.
 

@@ -1,0 +1,215 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>GetLocalised OS Spec</title>
+<style>
+  :root {
+    --bg: #f6f4ef; --surface: #ffffff; --ink: #1c1b19; --muted: #6b675f; --line: #e2ddd2;
+    --accent: #2f6b4f; --accent-soft: #e3efe8; --warn: #9a5b12; --warn-soft: #f7ecdc;
+    --cut: #8f2d2d; --cut-soft: #f5e2e2; --mono: ui-monospace, "Cascadia Code", Consolas, monospace;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) {
+      --bg: #151513; --surface: #1e1d1a; --ink: #ece9e2; --muted: #a09b90; --line: #33312c;
+      --accent: #7cc4a0; --accent-soft: #1f3129; --warn: #e0a95c; --warn-soft: #33281a;
+      --cut: #e28b8b; --cut-soft: #3a2222;
+    }
+  }
+  :root[data-theme="dark"] {
+    --bg: #151513; --surface: #1e1d1a; --ink: #ece9e2; --muted: #a09b90; --line: #33312c;
+    --accent: #7cc4a0; --accent-soft: #1f3129; --warn: #e0a95c; --warn-soft: #33281a;
+    --cut: #e28b8b; --cut-soft: #3a2222;
+  }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: var(--bg); color: var(--ink);
+    font: 16px/1.6 system-ui, -apple-system, "Segoe UI", sans-serif; }
+  main { max-width: 900px; margin: 0 auto; padding: 48px 16px 80px; }
+  .eyebrow { font: 600 12px/1 var(--mono); letter-spacing: .08em; text-transform: uppercase; color: var(--muted); }
+  h1 { font-size: clamp(28px, 5vw, 40px); line-height: 1.15; margin: 10px 0 12px; letter-spacing: -.02em; }
+  h2 { font-size: 20px; margin: 48px 0 12px; letter-spacing: -.01em; }
+  h3 { font-size: 15px; margin: 18px 0 6px; }
+  p { margin: 0 0 12px; }
+  .lede { color: var(--muted); font-size: 18px; max-width: 62ch; }
+  .status { display: inline-block; font: 600 12px/1 var(--mono); padding: 6px 10px; border-radius: 999px;
+    background: var(--warn-soft); color: var(--warn); }
+  .card { background: var(--surface); border: 1px solid var(--line); border-radius: 10px; padding: 20px 22px; }
+  .diagram { overflow-x: auto; }
+  .diagram svg { width: 100%; min-width: 640px; height: auto; display: block; }
+  .diagram text { font-family: system-ui, sans-serif; fill: var(--ink); }
+  .diagram .muted { fill: var(--muted); }
+  .note { color: var(--muted); margin-top: 10px; font-size: 14px; }
+  .steps { display: flex; gap: 8px; flex-wrap: wrap; margin-bottom: 16px; }
+  .steps button { font: inherit; font-size: 14px; border: 1px solid var(--line); background: var(--surface); color: var(--ink);
+    padding: 8px 14px; border-radius: 999px; cursor: pointer; }
+  .steps button[aria-selected="true"] { background: var(--ink); color: var(--bg); border-color: var(--ink); }
+  .n { font: 600 12px/1 var(--mono); color: var(--muted); }
+  .crit { list-style: none; padding: 0; margin: 6px 0 0; }
+  .crit li { padding-left: 26px; position: relative; margin-bottom: 6px; }
+  .crit li::before { content: "☐"; position: absolute; left: 0; color: var(--accent); }
+  .state { border-left: 3px solid var(--line); padding: 4px 0 4px 12px; margin-bottom: 10px; }
+  .state b { display: block; }
+  .exp { display: grid; grid-template-columns: 1fr 24px 1.3fr; gap: 10px; align-items: start; padding: 10px 0;
+    border-bottom: 1px solid var(--line); font-size: 15px; }
+  .exp:last-child { border-bottom: 0; }
+  .exp .from { color: var(--muted); } .exp .arrow { color: var(--muted); text-align: center; }
+  @media (max-width: 600px) { .exp { grid-template-columns: 1fr; gap: 2px; } .exp .arrow { display: none; } }
+  details { background: var(--surface); border: 1px solid var(--line); border-radius: 10px; margin-bottom: 10px; }
+  summary { cursor: pointer; padding: 14px 18px; font-weight: 600; list-style: none; display: flex; align-items: center; gap: 10px; }
+  summary::-webkit-details-marker { display: none; }
+  summary::before { content: "▸"; color: var(--muted); transition: transform .15s; }
+  details[open] summary::before { transform: rotate(90deg); }
+  .tag { font: 600 11px/1 var(--mono); padding: 4px 8px; border-radius: 999px; }
+  .t-now { background: var(--accent-soft); color: var(--accent); }
+  .t-later { background: var(--warn-soft); color: var(--warn); }
+  .t-cut { background: var(--cut-soft); color: var(--cut); }
+  details ul { margin: 0; padding: 0 18px 16px 40px; }
+  details li { margin-bottom: 6px; }
+  code { font-family: var(--mono); font-size: .9em; background: var(--line); padding: 1px 5px; border-radius: 4px; }
+  footer { margin-top: 56px; color: var(--muted); font-size: 14px; }
+</style>
+<style>
+  table { width:100%; border-collapse:collapse; font-size:14px; }
+  th, td { text-align:left; padding:8px 10px; border-bottom:1px solid var(--line); vertical-align:top; }
+  th { font-weight:600; color: var(--muted); font-size:12px; text-transform:uppercase; letter-spacing:.05em; }
+  .files { font-family: var(--mono); font-size:13px; color: var(--muted); margin-top:6px; }
+  .tablewrap { overflow-x:auto; }
+  pre { font-family: var(--mono); font-size:13px; background: var(--bg); border:1px solid var(--line); border-radius:8px;
+    padding:14px; margin:0 18px 16px; overflow-x:auto; line-height:1.5; }
+</style>
+</head><body><main>
+<div class="eyebrow">devpost / spec · companion to spec.md</div>
+<h1>GetLocalised OS: Technical Spec</h1>
+<p class="lede">One Next.js app, two pages, one engine. Seeded JSON makes the Playground work with no key; the same engine runs live with a visitor's key and locally with yours.</p>
+<span class="status" id="status" style="background:var(--accent-soft);color:var(--accent)">status: approved</span>
+
+<h2>Architecture</h2>
+<div class="card diagram" role="img" aria-label="The browser holds the landing page, Playground and findings checks. The repo bundles seed JSON and skill files into the pages. Only with a key, the Playground calls the server routes, which run lib/engine against Gemini or OpenAI. Locally, the author runs capture and localize --seed, which write the seed JSON."><svg viewBox="0 0 780 330" xmlns="http://www.w3.org/2000/svg">
+<defs><marker id="ar" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10z" style="fill:var(--muted)"/></marker></defs>
+<g font-size="12">
+<rect x="10" y="10" width="520" height="150" rx="12" style="fill:none;stroke:var(--line);stroke-dasharray:6 5"/>
+<text x="24" y="30" class="muted" font-size="11" font-weight="600">BROWSER</text>
+<rect x="30" y="44" width="140" height="48" rx="8" style="fill:var(--surface);stroke:var(--line)"/>
+<text x="100" y="66" text-anchor="middle" font-weight="600">Landing /</text>
+<text x="100" y="82" text-anchor="middle" class="muted" font-size="10">HeroFlow (motion)</text>
+<rect x="200" y="44" width="170" height="48" rx="8" style="fill:var(--accent-soft);stroke:var(--accent)"/>
+<text x="285" y="66" text-anchor="middle" font-weight="700" style="fill:var(--accent)">Playground</text>
+<text x="285" y="82" text-anchor="middle" class="muted" font-size="10">compare · / menu · rails</text>
+<rect x="400" y="44" width="115" height="48" rx="8" style="fill:var(--surface);stroke:var(--line)"/>
+<text x="457" y="66" text-anchor="middle" font-weight="600">lib/findings</text>
+<text x="457" y="82" text-anchor="middle" class="muted" font-size="10">instant checks</text>
+<rect x="200" y="108" width="170" height="36" rx="8" style="fill:var(--surface);stroke:var(--line);stroke-dasharray:4 4"/>
+<text x="285" y="130" text-anchor="middle" font-size="11">key in sessionStorage</text>
+<line x1="370" y1="68" x2="396" y2="68" style="stroke:var(--muted)" marker-end="url(#ar)"/>
+
+<rect x="10" y="190" width="240" height="130" rx="12" style="fill:none;stroke:var(--line);stroke-dasharray:6 5"/>
+<text x="24" y="210" class="muted" font-size="11" font-weight="600">REPO (bundled at build)</text>
+<rect x="30" y="222" width="200" height="40" rx="8" style="fill:var(--surface);stroke:var(--line)"/>
+<text x="130" y="246" text-anchor="middle" font-weight="600">data/examples/*.json</text>
+<rect x="30" y="270" width="200" height="40" rx="8" style="fill:var(--surface);stroke:var(--line)"/>
+<text x="130" y="294" text-anchor="middle" font-weight="600">skills/*.md</text>
+<line x1="150" y1="222" x2="240" y2="96" style="stroke:var(--muted)" marker-end="url(#ar)"/>
+<line x1="110" y1="222" x2="100" y2="96" style="stroke:var(--muted)" marker-end="url(#ar)"/>
+
+<rect x="280" y="190" width="250" height="130" rx="12" style="fill:none;stroke:var(--line);stroke-dasharray:6 5"/>
+<text x="294" y="210" class="muted" font-size="11" font-weight="600">SERVER (Vercel · Node)</text>
+<rect x="300" y="222" width="210" height="40" rx="8" style="fill:var(--surface);stroke:var(--line)"/>
+<text x="405" y="246" text-anchor="middle" font-weight="600">/api/rewrite · /api/localize</text>
+<rect x="300" y="270" width="210" height="40" rx="8" style="fill:var(--accent-soft);stroke:var(--accent)"/>
+<text x="405" y="294" text-anchor="middle" font-weight="700" style="fill:var(--accent)">lib/engine</text>
+<line x1="405" y1="262" x2="405" y2="267" style="stroke:var(--muted)" marker-end="url(#ar)"/>
+<path d="M300 144 C 320 175, 360 190, 380 218" style="fill:none;stroke:var(--muted);stroke-dasharray:4 4" marker-end="url(#ar)"/>
+<text x="330" y="176" class="muted" font-size="10">x-model-key (only with a key)</text>
+
+<rect x="570" y="222" width="200" height="88" rx="12" style="fill:var(--surface);stroke:var(--line)"/>
+<text x="670" y="248" text-anchor="middle" font-weight="600">Gemini / OpenAI</text>
+<text x="670" y="266" text-anchor="middle" class="muted" font-size="10">visitor key (live)</text>
+<text x="670" y="282" text-anchor="middle" class="muted" font-size="10">author key (seed run)</text>
+<line x1="510" y1="290" x2="566" y2="272" style="stroke:var(--muted)" marker-end="url(#ar)"/>
+
+<rect x="570" y="10" width="200" height="170" rx="12" style="fill:none;stroke:var(--line);stroke-dasharray:6 5"/>
+<text x="584" y="30" class="muted" font-size="11" font-weight="600">LOCAL · AUTHOR</text>
+<rect x="590" y="44" width="160" height="36" rx="8" style="fill:var(--surface);stroke:var(--line)"/>
+<text x="670" y="66" text-anchor="middle" font-size="11" font-weight="600">bun run capture</text>
+<text x="670" y="98" text-anchor="middle" class="muted" font-size="10">↔ Google Play (build time only)</text>
+<rect x="590" y="112" width="160" height="36" rx="8" style="fill:var(--surface);stroke:var(--line)"/>
+<text x="670" y="134" text-anchor="middle" font-size="11" font-weight="600">bun run localize --seed</text>
+<path d="M590 140 C 450 170, 300 190, 232 236" style="fill:none;stroke:var(--accent);stroke-dasharray:3 4" marker-end="url(#ar)"/>
+<text x="560" y="170" text-anchor="end" font-size="10" style="fill:var(--accent)">writes seed JSON</text>
+<path d="M700 148 L 700 218" style="fill:none;stroke:var(--muted);stroke-dasharray:3 4" marker-end="url(#ar)"/>
+</g></svg></div>
+<p class="note">No database, no accounts, and no production secrets. The only outside services are the user's chosen model provider and, at build time only, Google Play.</p>
+
+<h2>The journey through the system</h2>
+<div class="card">
+  <div class="steps" role="tablist" aria-label="Journey steps"></div>
+  <div id="stp" role="tabpanel" aria-live="polite"></div>
+</div>
+
+<h2>Stack</h2>
+<div class="card tablewrap"><table>
+<tr><th>Piece</th><th>Choice</th><th>Why</th></tr>
+<tr><td>Framework</td><td>Next.js 16.3.6 · React 19.2 · Bun</td><td>Already scaffolded; the author's daily stack</td></tr>
+<tr><td>UI</td><td>Tailwind 4 · shadcn/Radix · cmdk · motion</td><td>Matches the original app's patterns</td></tr>
+<tr><td>Validation</td><td>zod 4</td><td>Model output, seed files, route input</td></tr>
+<tr><td>Models</td><td>@google/genai · openai</td><td>Official SDKs; Gemini for seeds (free tier)</td></tr>
+<tr><td>Play data</td><td>google-play-scraper 10.1.3</td><td>Build-time script only, never deployed</td></tr>
+<tr><td>Hosting</td><td>Vercel → dev.getlocalised.com</td><td>Alongside the main app; no env vars needed</td></tr>
+</table></div>
+
+<h2>Where data lives</h2>
+<div class="card tablewrap"><table>
+<tr><th>Data</th><th>Lives in</th><th>After reload</th></tr>
+<tr><td>Listings, phrases, seeded results</td><td>JSON in repo</td><td>Unchanged</td></tr>
+<tr><td>Skill files</td><td>Markdown in repo</td><td>Unchanged</td></tr>
+<tr><td>Current field text, applied commands</td><td>React state</td><td>Reset to seed</td></tr>
+<tr><td>Model key + provider</td><td>sessionStorage</td><td>Kept for the tab; gone when it closes</td></tr>
+<tr><td>Pasted listing + result</td><td>React state</td><td>Gone</td></tr>
+</table></div>
+
+<h2>Details</h2>
+<details><summary><span class="tag t-now">FILES</span> File structure</summary><pre>app/            layout · globals.css (greyscale Slate) · page.tsx (landing)
+                playground/page.tsx · api/rewrite · api/localize
+components/     ui/ (shadcn) · landing/ · playground/
+lib/            engine/ (types, commands, prompt, localize, providers)
+                findings/ (limits, phrases, repetition, stopwords, tests)
+                examples.ts
+data/           examples/&lt;app&gt;/ listing.json · fr-FR/es-ES/de-DE.json · skills/*.md
+                default-skills/
+scripts/        capture.ts · localize.ts
+.github/assets/ banner-light.svg · banner-dark.svg
+.env.example    GEMINI_API_KEY · OPENAI_API_KEY (local run only)</pre></details>
+<details><summary><span class="tag t-cut">RISKS</span> Failure modes and fallbacks</summary><ul>
+<li><strong>Bad key / out of credit:</strong> a plain message in the menu; the field is unchanged and seeded mode still works</li>
+<li><strong>Malformed model output:</strong> zod rejects it, one retry, then a clear error. Over-limit output is labelled, and Fit the limit is suggested</li>
+<li><strong>Scraper breaks:</strong> only affects the build-time run. Hand-curated phrases are labelled “Curated by the author”</li>
+<li><strong>Gemini free-tier limits during the seed run:</strong> back off, stop cleanly, resume</li>
+</ul></details>
+<details><summary><span class="tag t-later">SIMPLIFIED</span> What was simplified and why</summary><ul>
+<li>JSON in the repo instead of a database</li><li>Build-time scraping instead of live fetch</li>
+<li>One preview per seeded command (~144 seed calls)</li><li>A Bun script instead of a published CLI</li>
+<li>Deterministic findings instead of model-judged ones</li><li>Read-only skills in the Playground</li>
+</ul></details>
+<details><summary><span class="tag t-now">CHECK</span> Verify early in the build</summary><ul>
+<li>Current Gemini and OpenAI model IDs and structured-output options</li>
+<li>google-play-scraper app() and suggest() still work</li>
+<li>Next 16 route handler conventions (bundled docs)</li>
+<li>The useful unknown, “will the key work?”: one live Simplify run in the deployed Playground, with the key absent from logs and responses</li>
+</ul></details>
+
+<footer><code>devpost/spec.md</code> is the canonical source of this plan. This page is a companion view.</footer>
+</main>
+<script>
+const S = [["Land", "The hero replays BellyClock → de-DE from seed data using motion.", "prd.md > Landing Page", "app/page.tsx · components/landing/hero-flow.tsx · data/examples/bellyclock/de-DE.json"], ["Open", "Open Playground goes to /playground?app=bellyclock&market=de-DE. The server component loads the bundled seed files, with no network call.", "prd.md > Example Apps and Seeded Data", "app/playground/page.tsx · lib/examples.ts"], ["Compare", "English left, native right, with character counts and the “Generated with … · date” label. lib/findings runs in the browser on the native text.", "prd.md > Native Listing and Compare View · Findings", "components/playground/compare-view.tsx · lib/findings/*"], ["/ command", "The cmdk menu: Punchier comes from seed data (commands.punchier.title). Picking it updates page state, and findings re-run.", "prd.md > Commands", "components/playground/command-menu.tsx · lib/engine/commands.ts"], ["Skills", "The Skills group in the / menu and the bottom-right panel show the app's skill files, read-only.", "prd.md > Skills", "components/playground/skills-panel.tsx · data/examples/*/skills/*.md"], ["Export", "Copy per field; Export downloads bellyclock-de-DE.json.", "prd.md > Copy and Export", "components/playground/export-button.tsx"], ["With a key", "The key sits in sessionStorage. Simplify → POST /api/rewrite with x-model-key → lib/engine → Gemini/OpenAI → zod-validated previews. The key is discarded and never logged.", "prd.md > Bring Your Own Key (Playground)", "app/api/rewrite/route.ts · lib/engine/providers/*"], ["Local run", "bun run localize --app bellyclock --to de-DE runs the same lib/engine in Bun with GEMINI_API_KEY from .env.local. --seed writes data/examples.", "prd.md > Local Run", "scripts/localize.ts · scripts/capture.ts"]];
+const bar = document.querySelector(".steps"), out = document.getElementById("stp");
+function el(t, x, c) { const e = document.createElement(t); if (x) e.textContent = x; if (c) e.className = c; return e; }
+function show(i) {
+  [...bar.children].forEach((b, j) => b.setAttribute("aria-selected", String(i === j)));
+  const [, desc, prd, files] = S[i];
+  out.replaceChildren();
+  out.append(el("div", `STEP ${i + 1} OF ${S.length}`, "n"));
+  const p = el("p", desc); p.style.marginTop = "8px"; out.append(p);
+  out.append(el("div", "Implements " + prd, "files"), el("div", files, "files"));
+}
+S.forEach(([n], i) => { const b = el("button", n); b.type = "button"; b.setAttribute("role", "tab"); b.onclick = () => show(i); bar.append(b); });
+show(0);
+</script>
+</body></html>

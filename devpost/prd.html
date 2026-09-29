@@ -1,0 +1,214 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>GetLocalised OS PRD</title>
+<style>
+  :root {
+    --bg: #f6f4ef; --surface: #ffffff; --ink: #1c1b19; --muted: #6b675f; --line: #e2ddd2;
+    --accent: #2f6b4f; --accent-soft: #e3efe8; --warn: #9a5b12; --warn-soft: #f7ecdc;
+    --cut: #8f2d2d; --cut-soft: #f5e2e2; --mono: ui-monospace, "Cascadia Code", Consolas, monospace;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) {
+      --bg: #151513; --surface: #1e1d1a; --ink: #ece9e2; --muted: #a09b90; --line: #33312c;
+      --accent: #7cc4a0; --accent-soft: #1f3129; --warn: #e0a95c; --warn-soft: #33281a;
+      --cut: #e28b8b; --cut-soft: #3a2222;
+    }
+  }
+  :root[data-theme="dark"] {
+    --bg: #151513; --surface: #1e1d1a; --ink: #ece9e2; --muted: #a09b90; --line: #33312c;
+    --accent: #7cc4a0; --accent-soft: #1f3129; --warn: #e0a95c; --warn-soft: #33281a;
+    --cut: #e28b8b; --cut-soft: #3a2222;
+  }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: var(--bg); color: var(--ink);
+    font: 16px/1.6 system-ui, -apple-system, "Segoe UI", sans-serif; }
+  main { max-width: 900px; margin: 0 auto; padding: 48px 16px 80px; }
+  .eyebrow { font: 600 12px/1 var(--mono); letter-spacing: .08em; text-transform: uppercase; color: var(--muted); }
+  h1 { font-size: clamp(28px, 5vw, 40px); line-height: 1.15; margin: 10px 0 12px; letter-spacing: -.02em; }
+  h2 { font-size: 20px; margin: 48px 0 12px; letter-spacing: -.01em; }
+  h3 { font-size: 15px; margin: 18px 0 6px; }
+  p { margin: 0 0 12px; }
+  .lede { color: var(--muted); font-size: 18px; max-width: 62ch; }
+  .status { display: inline-block; font: 600 12px/1 var(--mono); padding: 6px 10px; border-radius: 999px;
+    background: var(--warn-soft); color: var(--warn); }
+  .card { background: var(--surface); border: 1px solid var(--line); border-radius: 10px; padding: 20px 22px; }
+  .diagram { overflow-x: auto; }
+  .diagram svg { width: 100%; min-width: 640px; height: auto; display: block; }
+  .diagram text { font-family: system-ui, sans-serif; fill: var(--ink); }
+  .diagram .muted { fill: var(--muted); }
+  .note { color: var(--muted); margin-top: 10px; font-size: 14px; }
+  .steps { display: flex; gap: 8px; flex-wrap: wrap; margin-bottom: 16px; }
+  .steps button { font: inherit; font-size: 14px; border: 1px solid var(--line); background: var(--surface); color: var(--ink);
+    padding: 8px 14px; border-radius: 999px; cursor: pointer; }
+  .steps button[aria-selected="true"] { background: var(--ink); color: var(--bg); border-color: var(--ink); }
+  .n { font: 600 12px/1 var(--mono); color: var(--muted); }
+  .crit { list-style: none; padding: 0; margin: 6px 0 0; }
+  .crit li { padding-left: 26px; position: relative; margin-bottom: 6px; }
+  .crit li::before { content: "☐"; position: absolute; left: 0; color: var(--accent); }
+  .state { border-left: 3px solid var(--line); padding: 4px 0 4px 12px; margin-bottom: 10px; }
+  .state b { display: block; }
+  .exp { display: grid; grid-template-columns: 1fr 24px 1.3fr; gap: 10px; align-items: start; padding: 10px 0;
+    border-bottom: 1px solid var(--line); font-size: 15px; }
+  .exp:last-child { border-bottom: 0; }
+  .exp .from { color: var(--muted); } .exp .arrow { color: var(--muted); text-align: center; }
+  @media (max-width: 600px) { .exp { grid-template-columns: 1fr; gap: 2px; } .exp .arrow { display: none; } }
+  details { background: var(--surface); border: 1px solid var(--line); border-radius: 10px; margin-bottom: 10px; }
+  summary { cursor: pointer; padding: 14px 18px; font-weight: 600; list-style: none; display: flex; align-items: center; gap: 10px; }
+  summary::-webkit-details-marker { display: none; }
+  summary::before { content: "▸"; color: var(--muted); transition: transform .15s; }
+  details[open] summary::before { transform: rotate(90deg); }
+  .tag { font: 600 11px/1 var(--mono); padding: 4px 8px; border-radius: 999px; }
+  .t-now { background: var(--accent-soft); color: var(--accent); }
+  .t-later { background: var(--warn-soft); color: var(--warn); }
+  .t-cut { background: var(--cut-soft); color: var(--cut); }
+  details ul { margin: 0; padding: 0 18px 16px 40px; }
+  details li { margin-bottom: 6px; }
+  code { font-family: var(--mono); font-size: .9em; background: var(--line); padding: 1px 5px; border-radius: 4px; }
+  footer { margin-top: 56px; color: var(--muted); font-size: 14px; }
+</style>
+</head>
+<body>
+<main>
+  <div class="eyebrow">devpost / prd · companion to prd.md</div>
+  <h1>GetLocalised OS: Product Requirements</h1>
+  <p class="lede">An English Play listing becomes a native French, Spanish, or German one, in a hosted Playground and runnable locally, for a solo developer with several apps.</p>
+  <span class="status" id="status" style="background:var(--accent-soft);color:var(--accent)">status: approved</span>
+
+  <h2>The journey</h2>
+  <div class="card diagram" role="img" aria-label="Journey: landing, pick app, pick market, compare and findings, copy or export. A slash command on a field loops back into compare. Optionally paste a key to make all commands live. One engine in this repo powers seeded, live, and local runs.">
+    <svg viewBox="0 0 760 250" xmlns="http://www.w3.org/2000/svg">
+      <defs><marker id="ar" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10z" style="fill:var(--muted)"/></marker></defs>
+      <g font-size="12">
+        <rect x="10" y="30" width="120" height="56" rx="8" style="fill:var(--surface);stroke:var(--line)"/>
+        <text x="70" y="54" text-anchor="middle" font-weight="600">Landing</text>
+        <text x="70" y="72" text-anchor="middle" class="muted" font-size="10">animated hero</text>
+        <rect x="160" y="30" width="120" height="56" rx="8" style="fill:var(--surface);stroke:var(--line)"/>
+        <text x="220" y="54" text-anchor="middle" font-weight="600">Pick app</text>
+        <text x="220" y="72" text-anchor="middle" class="muted" font-size="10">3 example apps</text>
+        <rect x="310" y="30" width="120" height="56" rx="8" style="fill:var(--surface);stroke:var(--line)"/>
+        <text x="370" y="54" text-anchor="middle" font-weight="600">Pick market</text>
+        <text x="370" y="72" text-anchor="middle" class="muted" font-size="10">fr-FR · es-ES · de-DE</text>
+        <rect x="460" y="30" width="140" height="56" rx="8" style="fill:var(--accent-soft);stroke:var(--accent)"/>
+        <text x="530" y="54" text-anchor="middle" font-weight="700" style="fill:var(--accent)">Compare + findings</text>
+        <text x="530" y="72" text-anchor="middle" class="muted" font-size="10">EN left · native right</text>
+        <rect x="630" y="30" width="120" height="56" rx="8" style="fill:var(--surface);stroke:var(--line)"/>
+        <text x="690" y="62" text-anchor="middle" font-weight="600">Copy / export</text>
+        <line x1="130" y1="58" x2="156" y2="58" style="stroke:var(--muted)" marker-end="url(#ar)"/>
+        <line x1="280" y1="58" x2="306" y2="58" style="stroke:var(--muted)" marker-end="url(#ar)"/>
+        <line x1="430" y1="58" x2="456" y2="58" style="stroke:var(--muted)" marker-end="url(#ar)"/>
+        <line x1="600" y1="58" x2="626" y2="58" style="stroke:var(--muted)" marker-end="url(#ar)"/>
+        <rect x="440" y="140" width="180" height="50" rx="8" style="fill:var(--surface);stroke:var(--accent)"/>
+        <text x="530" y="161" text-anchor="middle" font-weight="600">/ command on a field</text>
+        <text x="530" y="178" text-anchor="middle" class="muted" font-size="10">previews → pick → findings update</text>
+        <path d="M500 86 C 482 108, 482 122, 496 137" style="fill:none;stroke:var(--accent)" marker-end="url(#ar)"/>
+        <path d="M566 138 C 580 120, 580 104, 562 90" style="fill:none;stroke:var(--accent);stroke-dasharray:3 4" marker-end="url(#ar)"/>
+        <rect x="160" y="140" width="220" height="50" rx="8" style="fill:var(--surface);stroke:var(--line);stroke-dasharray:5 4"/>
+        <text x="270" y="161" text-anchor="middle" font-weight="600">Optional: paste your key</text>
+        <text x="270" y="178" text-anchor="middle" class="muted" font-size="10">all commands live · paste own listing</text>
+        <line x1="380" y1="165" x2="436" y2="165" style="stroke:var(--muted);stroke-dasharray:4 4" marker-end="url(#ar)"/>
+        <rect x="10" y="208" width="740" height="34" rx="8" style="fill:none;stroke:var(--line)"/>
+        <text x="380" y="229" text-anchor="middle" class="muted" font-size="11">One engine in this repo: skills + command + listing + market → native text + findings  ·  seeded (no key) · live (key) · local run</text>
+      </g>
+    </svg>
+  </div>
+  <p class="note">Success: in under a minute, with no key, a judge sees English become native German, sees why the wording was chosen, and sees a command reshape a field.</p>
+
+  <h2>Screen by screen</h2>
+  <div class="card">
+    <div class="steps" role="tablist" aria-label="Screens"></div>
+    <div id="scr" role="tabpanel" aria-live="polite"></div>
+  </div>
+
+  <h2>From scope to PRD</h2>
+  <div class="card">
+    <div class="exp"><div class="from">Scope said “predefined category and search flow”</div><div class="arrow">→</div><div class="to">Local search phrases per market, captured once from Play suggestions, dated and visible</div></div>
+    <div class="exp"><div class="from">Scope said “basic quality checks”</div><div class="arrow">→</div><div class="to">Phrase usage per field, repetition counts, limits, and “why this term” notes, with no scores</div></div>
+    <div class="exp"><div class="from">Scope said “edit a skill, re-run”</div><div class="arrow">→</div><div class="to">A <code>/</code> command menu: 5 seeded commands work without a key, with previews before applying</div></div>
+    <div class="exp"><div class="from">Scope said “BYOK live mode”</div><div class="arrow">→</div><div class="to">An OpenAI or Gemini key calls this repo's own engine, is used once, and is never stored</div></div>
+    <div class="exp"><div class="from">Scope put the CLI in “Later”</div><div class="arrow">→</div><div class="to">A thin local run, which also generates the seeded data</div></div>
+  </div>
+
+  <h2>Decisions and boundaries</h2>
+  <details open><summary><span class="tag t-now">DECIDED</span> Product decisions</summary><ul>
+    <li>Your own apps as examples: AuraSage, BellyClock, LoveTest AI</li>
+    <li>fr-FR, es-ES, de-DE for all three</li>
+    <li>Keyword option (a): a transparent check, no scoring method</li>
+    <li>The scraper runs once at build time, not live</li>
+    <li>Five seeded commands, one field at a time, with previews</li>
+    <li>Keys go to this repo's engine only, never another service</li>
+    <li>Slate design and the original UI patterns, recoloured greyscale</li>
+    <li>The product never mentions another edition</li>
+    <li>Skills: a separate section in the / menu, plus a read-only Skills panel (bottom right) under Commands (top right)</li>
+    <li>Keys last for the browser session; OpenAI and Gemini; errors name the problem and keep the field</li>
+  </ul></details>
+  <details><summary><span class="tag t-later">DEFERRED</span> Not in the proof of concept</summary><ul>
+    <li>Screenshot localization</li>
+    <li>Live fetch by package ID or URL</li>
+    <li>Combining commands</li>
+    <li>Full CLI with <code>.getlocalised/</code> config</li>
+    <li>Docs, Skills, CLI, Examples, Self-hosting pages</li>
+    <li>iOS metadata</li>
+  </ul></details>
+  <details><summary><span class="tag t-cut">NON-GOALS</span> Will not do</summary><ul>
+    <li>Measured volume, keyword scoring, competitor or market intelligence</li>
+    <li>Store upload or Play Console connection</li>
+    <li>Calling any service other than the user's model provider</li>
+    <li>Storing keys, accounts, or saved projects</li>
+    <li>Mentioning another edition</li>
+  </ul></details>
+
+  <footer><code>devpost/prd.md</code> is the canonical source of this plan. This page is a companion view.</footer>
+</main>
+<script>
+  const S = [
+    ["Landing", "Docs-style layout like popular open-source projects. Hero: an animated mockup of the real flow using BellyClock → de-DE. CTA: Open Playground; secondary: GitHub.",
+      ["The hero plays the flow steps with real example data and replays", "Open Playground opens with an example app preselected", "GitHub links to the public repo"],
+      []],
+    ["Pick", "Top bar: app picker, market picker, and key control (“No key: seeded mode”). The search phrases panel shows the market's local phrases, with source and capture date.",
+      ["All 9 app × market combinations load a full native listing without a key", "The phrase panel shows its source and capture date"],
+      [["First visit", "An app and a market are preselected, so the view is never empty."]]],
+    ["Compare", "English on the left, native on the right, per field (title 30 · short 80 · full 4000), with character counts. A note says the wording comes from the model plus skills, not measured search volume.",
+      ["Fields are aligned side by side, with counts vs limits", "Over-limit fields carry a text label, not colour alone", "The model + skills note is visible"],
+      [["Over limit", "Labelled “over limit”; Fit the limit fixes it."]]],
+    ["Findings", "Phrase usage per field, repeated words with counts, limit breaches, and short “why this term” notes from the engine. Written fresh here, with no scores.",
+      ["Each phrase is marked as used in title / short / full / not used", "Repetition is flagged with a count", "Findings refresh after a command is applied"],
+      []],
+    ["Commands", "A / menu per field. Seeded: Sound native, Search terms, Punchier, Lead with the benefit, Fit the limit. With a key: Shorter, Simplify, More formal, More casual, Variants, and free-form.",
+      ["/ or the button opens the menu with descriptions", "A seeded command shows previews instantly without a key", "Picking applies it; dismissing changes nothing", "Non-seeded commands are marked “needs a key”"],
+      [["No key", "Seeded commands only; the others point to the key control."]]],
+    ["Skills", "A separate Skills section in the / menu, and a read-only Skills panel at the bottom right of the Playground (Commands sit top right) showing the selected app's skill files: brand, audience, store rules.",
+      ["The Skills panel shows the selected app's skill files and changes with the app", "The / menu lists skills separately from commands"],
+      []],
+    ["Your key", "OpenAI or Gemini. The key is sent per request to this project's own server, used once, and never stored or logged; the UI says so. It lasts only for the browser session. It unlocks all commands and paste-your-own-listing.",
+      ["A valid key returns fresh previews for a non-seeded command", "A pasted listing produces a native listing with findings"],
+      [["Invalid key / out of credit", "A plain message naming the problem; the field keeps its text and seeded mode still works."], ["Empty paste", "Blocked, naming the missing field."], ["Reload", "Returns to the seeded state; nothing is saved."]]],
+    ["Export & local run", "Copy per field; export the whole listing with its market code. Cloners run the same engine locally with their own key, and that run also generates the seeded data.",
+      ["Copy button on each native field", "The export file holds all three fields plus the market", "README steps produce a native listing locally"],
+      []]
+  ];
+  const bar = document.querySelector(".steps"), out = document.getElementById("scr");
+  function el(tag, text, cls) { const e = document.createElement(tag); if (text) e.textContent = text; if (cls) e.className = cls; return e; }
+  function show(i) {
+    [...bar.children].forEach((b, j) => b.setAttribute("aria-selected", String(i === j)));
+    const [, desc, crit, states] = S[i];
+    out.replaceChildren();
+    out.append(el("div", `SCREEN ${i + 1} OF ${S.length}`, "n"));
+    const p = el("p", desc); p.style.marginTop = "8px"; out.append(p);
+    out.append(el("h3", "Acceptance criteria"));
+    const ul = el("ul", "", "crit"); crit.forEach(c => ul.append(el("li", c))); out.append(ul);
+    if (states.length) {
+      out.append(el("h3", "States"));
+      states.forEach(([k, v]) => { const d = el("div", "", "state"); d.append(el("b", k), document.createTextNode(v)); out.append(d); });
+    }
+  }
+  S.forEach(([name], i) => {
+    const b = el("button", name); b.type = "button"; b.setAttribute("role", "tab");
+    b.onclick = () => show(i); bar.append(b);
+  });
+  show(0);
+</script>
+</body>
+</html>
