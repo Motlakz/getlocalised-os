@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Geist_Mono, Merriweather, Raleway, Source_Sans_3 } from "next/font/google";
 
 import { TooltipProvider } from "@/components/ui/tooltip";
+import { SITE_URL } from "@/lib/site";
 import "./globals.css";
 
 const raleway = Raleway({ variable: "--font-raleway", subsets: ["latin"] });
@@ -9,10 +10,15 @@ const sourceSans = Source_Sans_3({ variable: "--font-source-sans", subsets: ["la
 const merriweather = Merriweather({ variable: "--font-merriweather", subsets: ["latin"] });
 const geistMono = Geist_Mono({ variable: "--font-geist-mono", subsets: ["latin"] });
 
+const description =
+  "Open-source localization agent for mobile apps. Turn a Google Play listing into a native one for every market, shaped by skills you can read.";
+
 export const metadata: Metadata = {
-  title: { default: "GetLocalised OS", template: "%s · GetLocalised OS" },
-  description:
-    "Open-source localization agent for mobile apps. Turn a Play Store listing into a native one, shaped by skills you can read.",
+  metadataBase: new URL(SITE_URL),
+  title: { default: "GetLocalised OS · Native listings, not translations", template: "%s · GetLocalised OS" },
+  description,
+  openGraph: { title: "GetLocalised OS", description, url: SITE_URL, siteName: "GetLocalised OS", type: "website" },
+  twitter: { card: "summary_large_image", title: "GetLocalised OS", description },
 };
 
 /** Dark by default; a saved choice from the theme toggle wins. Runs before paint, so there is no flash. */

@@ -59,7 +59,7 @@ Build mode: fast
   Learner check: Paste your Gemini key, run *Simplify* on a field, then paste a listing of one of your other apps and generate German. Try a wrong key and read the message.
   Commit: `Add BYOK live commands and paste-your-own-listing`
 
-- [ ] **6. The landing page tells the story and leads into the Playground**
+- [x] **6. The landing page tells the story and leads into the Playground**
   Becomes usable: `/` is a docs-style page with an animated hero replaying BellyClock → de-DE, sections (What it does, Skills and commands, Run it locally, Project boundaries), a sticky section nav, **Open Playground** and **GitHub**.
   Why now: It presents a product that now fully works, and its hero reuses real seed data from slice 4.
   PRD ref: `prd.md > Landing Page`, `prd.md > Screens and Layout`, `prd.md > Look and Feel`
