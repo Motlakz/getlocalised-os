@@ -82,13 +82,16 @@ Build mode: fast
 ## Hands-on Checkpoints
 
 - [x] Early usable behavior explored: after slice 2 (the kernel on screen), where feedback on look and native quality can still shape slices 3–6
-- [ ] Final kick-the-tires exploration and feedback completed
+- [x] Final kick-the-tires exploration and feedback completed
 
 Early checkpoint feedback (after slice 2): the look is right and the listing is accurate and native, with its explanation. It is "more informative than usable" for now, which slice 3's commands address. Asked for dark mode as the default plus a theme toggle, which was done before slice 3.
 
 ## Final Review
 
-- [ ] Final review complete: feedback resolved and learner confirms ready to ship
+Final checkpoint feedback: the learner explored the running app ("this is fully available") and confirmed it is a valid proof of concept. OpenAI live mode stays untested for now by choice. One requested change: an MIT license, which the submission requires.
+
+- [x] Add an MIT license (LICENSE, package.json, README badge and section)
+- [x] Final review complete: feedback resolved and learner confirms ready to ship
 
 ## Code Tour and App Map
 

@@ -9,6 +9,7 @@
   <img alt="Next.js 16" src="https://img.shields.io/badge/next.js-16-3d3d3d?style=flat-square">
   <img alt="Bun" src="https://img.shields.io/badge/runtime-bun-3d3d3d?style=flat-square">
   <img alt="Bring your own key" src="https://img.shields.io/badge/models-gemini%20%7C%20openai%20(BYOK)-6e6e6e?style=flat-square">
+  <a href="LICENSE"><img alt="MIT license" src="https://img.shields.io/badge/license-MIT-6e6e6e?style=flat-square"></a>
 </p>
 
 **GetLocalised OS** is an open-source localization agent for mobile app store listings. Give it an English Google Play listing and a market, and it writes a **native** listing: the same meaning and promises, in the words people in that market actually search with. It is shaped by **skills**, plain Markdown files you can read, edit and version with your code.
@@ -27,6 +28,7 @@
 - [Project layout](#project-layout)
 - [Regenerating the example data](#regenerating-the-example-data)
 - [Prior work disclosure](#prior-work-disclosure)
+- [License](#license)
 
 ## What it does
 
@@ -144,3 +146,7 @@ This repository was created on **2026-09-27**, inside the submission period. Eve
 **Related work.** The author also builds GetLocalised, a separate commercial product for app store localization (started 2026-09-26). Apart from the design tokens and command names listed above, no source code, prompts, data or assets from it are included in this repository. Some UI patterns (side-by-side compare, a `/` command palette with previews, a timed hero replay) follow the same ideas but were implemented fresh here.
 
 Keep this section current: add a row whenever pre-existing code, assets or third-party work is incorporated.
+
+## License
+
+[MIT](LICENSE) © 2026 Motlakz. The example app listings and brand content in `data/examples/` describe the author's own apps and are included as examples.
