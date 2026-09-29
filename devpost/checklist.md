@@ -19,7 +19,7 @@ Build mode: fast
   Learner check: Read the generated German listing next to the English one in the terminal and say whether it reads native rather than translated. Also say whether the BellyClock skill files sound like your brand.
   Commit: `Add localization engine, capture and local run for BellyClock`
 
-- [ ] **2. The Playground shows English vs native German side by side, with findings**
+- [x] **2. The Playground shows English vs native German side by side, with findings**
   Becomes usable: `/playground` shows BellyClock's English listing left and the seeded German listing right, with character counts, the phrase panel, *Generated with … · date*, the model+skills note, and findings (phrase usage, repetition, limits, why-this-term notes).
   Why now: It makes the kernel visible to a judge, and it is the first thing worth your eyes. The greyscale Slate look gets established here, so later UI inherits it.
   PRD ref: `prd.md > Native Listing and Compare View`, `prd.md > Findings`, `prd.md > Look and Feel`, `prd.md > States and Boundaries`
@@ -104,3 +104,5 @@ Activity mode:
 
 - Gemini default model is `gemini-3.5-flash-lite`, not the spec's placeholder `gemini-2.5-flash`. The build found `gemini-2.5-flash` no longer accepts new users, and the newest Flash models (3.6–3.8) repeatedly returned 503 "high demand" on this key. The learner chose Flash-Lite because it stays available. The model is still one constant and overridable with `--model`.
 - Transient provider errors (5xx) are retried with backoff (20s/60s/120s), like rate limits. Capture and the single local run use the same retry, because the first real runs hit demand spikes.
+- The Playground uses static routes `/playground/<app>/<market>` (built with `generateStaticParams`) instead of `/playground?app=…&market=…`, and `/playground` redirects to BellyClock → de-DE. The build showed that query params would make the page dynamic and read seed files from disk on Vercel at request time; static routes read them only at build. Switching app or market navigates to another page, which gives the planned reset-on-switch for free.
+- `shadcn add` without an existing `lib/utils` rewrote imports to a bare `cn` package and installed it. Fixed by adding `lib/utils.ts`, restoring the imports, removing the package and installing the real dependencies (radix-ui, cva, clsx, tailwind-merge, hugeicons, tw-animate-css).

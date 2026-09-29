@@ -20,7 +20,7 @@ Why this shape: there's no database, no accounts, and no service except the user
 PRD ref: `prd.md > The Core Journey`.
 
 1. The visitor opens `/`. The hero reads `data/examples/bellyclock/de-DE.json` and animates the steps: app → market → fields appear → findings.
-2. **Open Playground** goes to `/playground?app=bellyclock&market=de-DE`.
+2. **Open Playground** goes to `/playground/bellyclock/de-DE` (one static page per app × market; `/playground` redirects there).
 3. The Playground loads `data/examples/bellyclock/listing.json` (English source, skills list) and `.../de-DE.json` (phrases, native listing, seeded command results). These files are bundled at build time, so there is no network call.
 4. The compare view renders English left and native right. `lib/findings` runs on the native fields and the findings panel renders.
 5. The visitor types `/` in the German title. The cmdk menu lists Commands (5 seeded, 5 live-only, free-form) and Skills. They pick **Punchier**; the preview comes straight from `de-DE.json → commands.punchier.title`. They pick the preview, the field text changes in page state, and findings re-run.
@@ -106,7 +106,7 @@ Carries forward `prd.md > Look and Feel` and `scope.md > Inspiration & Identity`
 - Docs-style sections with a sticky side nav: *What it does* · *Skills and commands* · *Run it locally* (code blocks) · *Project boundaries* (what it doesn't do) · footer.
 
 ### Playground
-`app/playground/page.tsx` (server: loads seed files) + `components/playground/` (client). Implements `prd.md > Screens and Layout > Playground`, `prd.md > States and Boundaries`.
+`app/playground/[app]/[market]/page.tsx` (static per app × market via `generateStaticParams`; loads seed files at build) and `app/playground/page.tsx` (redirect) + `components/playground/` (client). Implements `prd.md > Screens and Layout > Playground`, `prd.md > States and Boundaries`.
 - `TopBar`: `AppPicker`, `MarketPicker`, `KeyControl` (a popover with provider select + password input + "Used once per request, never stored" + clear; the badge reads *Seeded mode* / *Live · Gemini*).
 - `PhrasesPanel`: chips, plus source and date.
 - `CompareView` → `FieldRow` ×3: English text | native text (editable textarea), `CharCount`, copy button, `/` trigger. The header shows *Generated with {model} · {date}* (from `generatedWith`, or *Live · {provider}*) and the note "Wording comes from the model plus this app's skills, not measured search volume."
@@ -158,7 +158,8 @@ getlocalised-os/
 │   ├── layout.tsx                 # fonts, theme, metadata
 │   ├── globals.css                # greyscale Slate tokens
 │   ├── page.tsx                   # landing (docs-style)
-│   ├── playground/page.tsx        # loads seed files, renders Playground
+│   ├── playground/page.tsx        # redirects to /playground/bellyclock/de-DE
+│   ├── playground/[app]/[market]/page.tsx  # static per app × market, loads seed files at build
 │   └── api/
 │       ├── rewrite/route.ts       # BYOK: one field + command → previews
 │       └── localize/route.ts      # BYOK: pasted listing → native listing
