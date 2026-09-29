@@ -1,0 +1,148 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>GetLocalised OS App Map</title>
+<style>
+  :root {
+    --bg: #f5f5f5; --surface: #ffffff; --ink: #0a0a0a; --muted: #5c5c5c; --line: #dcdcdc; --code: #ebebeb;
+    --mono: ui-monospace, "Cascadia Code", Consolas, monospace;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) { --bg: #080808; --surface: #101010; --ink: #ededed; --muted: #979797; --line: #2a2a2a; --code: #1c1c1c; }
+  }
+  :root[data-theme="dark"] { --bg: #080808; --surface: #101010; --ink: #ededed; --muted: #979797; --line: #2a2a2a; --code: #1c1c1c; }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: var(--bg); color: var(--ink); font: 16px/1.6 system-ui, -apple-system, "Segoe UI", sans-serif; }
+  main { max-width: 900px; margin: 0 auto; padding: 48px 16px 80px; }
+  .eyebrow { font: 600 12px/1 var(--mono); letter-spacing: .12em; text-transform: uppercase; color: var(--muted); }
+  h1 { font-size: clamp(28px, 5vw, 40px); line-height: 1.1; margin: 10px 0 12px; letter-spacing: -.02em; text-transform: uppercase; font-weight: 900; }
+  h2 { font-size: 20px; margin: 44px 0 12px; }
+  p { margin: 0 0 12px; }
+  .lede { color: var(--muted); font-size: 18px; max-width: 64ch; }
+  .card { background: var(--surface); border: 1px solid var(--line); padding: 20px 22px; }
+  code { font-family: var(--mono); font-size: .88em; background: var(--code); padding: 1px 5px; }
+  .diagram { overflow-x: auto; }
+  .diagram svg { width: 100%; min-width: 640px; height: auto; display: block; }
+  .diagram text { font-family: system-ui, sans-serif; fill: var(--ink); }
+  .diagram .muted { fill: var(--muted); }
+  ol.route { list-style: none; padding: 0; margin: 0; counter-reset: stop; }
+  ol.route li { border: 1px solid var(--line); border-top: 0; background: var(--surface); padding: 16px 18px 16px 58px; position: relative; }
+  ol.route li:first-child { border-top: 1px solid var(--line); }
+  ol.route li::before { counter-increment: stop; content: "0" counter(stop); position: absolute; left: 18px; top: 16px; font: 600 13px var(--mono); color: var(--muted); }
+  .path { font-family: var(--mono); font-size: 13px; }
+  table { width: 100%; border-collapse: collapse; font-size: 15px; }
+  th, td { text-align: left; padding: 9px 10px; border-bottom: 1px solid var(--line); vertical-align: top; }
+  th { font: 600 12px var(--mono); text-transform: uppercase; letter-spacing: .06em; color: var(--muted); }
+  .tablewrap { overflow-x: auto; }
+  pre { font-family: var(--mono); font-size: 13px; background: var(--code); padding: 14px; overflow-x: auto; margin: 0; }
+  details { border: 1px solid var(--line); background: var(--surface); margin-top: 10px; }
+  summary { cursor: pointer; padding: 12px 16px; font-weight: 600; }
+  details > div { padding: 0 16px 14px; }
+  footer { margin-top: 56px; color: var(--muted); font-size: 14px; }
+</style>
+</head>
+<body>
+<main>
+  <div class="eyebrow">devpost / app map · a take-home guide</div>
+  <h1>GetLocalised OS</h1>
+  <p class="lede">An open-source localization agent: an English Google Play listing goes in, and a native listing for French, Spanish or German comes out, shaped by skill files and checked against the store. One Next.js app with two pages (landing and Playground), one engine, and committed example data.</p>
+
+  <h2>The main pieces</h2>
+  <div class="card tablewrap">
+    <table>
+      <tr><th>Piece</th><th>Where</th><th>What it does</th></tr>
+      <tr><td>Engine</td><td class="path">lib/engine/</td><td>Builds the prompt from skills, phrases and a command; calls Gemini or OpenAI; validates the answer; retries once on over-limit fields or demand claims.</td></tr>
+      <tr><td>Findings</td><td class="path">lib/findings/</td><td>Deterministic checks in the browser: character limits, phrase usage per field, repeated words.</td></tr>
+      <tr><td>Playground</td><td class="path">components/playground/</td><td>Compare view, <code>/</code> command menu, commands rail, skills panel, key control, export.</td></tr>
+      <tr><td>Live routes</td><td class="path">app/api/rewrite, app/api/localize</td><td>Run the engine with the visitor's key, taken from the <code>x-model-key</code> header.</td></tr>
+      <tr><td>Example data</td><td class="path">data/examples/</td><td>Real listings, captured Play phrases, skills, and prepared results for 3 apps × 3 markets.</td></tr>
+      <tr><td>Scripts</td><td class="path">scripts/</td><td><code>capture</code> (build-time Play data), <code>localize</code> (local run and seeding), <code>validate</code>.</td></tr>
+    </table>
+  </div>
+
+  <h2>One action through the code: <code>/</code> → Punchier → Apply</h2>
+  <div class="card diagram" role="img" aria-label="Typing slash in a field opens CommandMenu. A prepared command resolves from seed data through simulateRun; a live command goes through runRewrite to the rewrite route, which calls rewriteField in the engine and then the model. Applying a preview dispatches to playgroundReducer, and analyze recomputes the findings shown on screen.">
+    <svg viewBox="0 0 760 250" xmlns="http://www.w3.org/2000/svg">
+      <defs><marker id="ar" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10z" style="fill:var(--muted)"/></marker></defs>
+      <g font-size="12">
+        <rect x="10" y="20" width="150" height="50" style="fill:var(--surface);stroke:var(--line)"/>
+        <text x="85" y="42" text-anchor="middle" font-weight="600">Type / in a field</text>
+        <text x="85" y="59" text-anchor="middle" class="muted" font-size="10">field-row.tsx · onSlash</text>
+        <rect x="200" y="20" width="170" height="50" style="fill:var(--surface);stroke:var(--ink)"/>
+        <text x="285" y="42" text-anchor="middle" font-weight="700">CommandMenu</text>
+        <text x="285" y="59" text-anchor="middle" class="muted" font-size="10">command-menu.tsx</text>
+        <line x1="160" y1="45" x2="196" y2="45" style="stroke:var(--muted)" marker-end="url(#ar)"/>
+        <rect x="410" y="10" width="160" height="40" style="fill:var(--surface);stroke:var(--line)"/>
+        <text x="490" y="28" text-anchor="middle" font-weight="600">prepared: simulateRun</text>
+        <text x="490" y="43" text-anchor="middle" class="muted" font-size="10">data/examples/*.json</text>
+        <rect x="410" y="60" width="160" height="40" style="fill:var(--surface);stroke:var(--line);stroke-dasharray:4 4"/>
+        <text x="490" y="78" text-anchor="middle" font-weight="600">live: runRewrite</text>
+        <text x="490" y="93" text-anchor="middle" class="muted" font-size="10">lib/live-client.ts</text>
+        <line x1="370" y1="38" x2="406" y2="30" style="stroke:var(--muted)" marker-end="url(#ar)"/>
+        <line x1="370" y1="52" x2="406" y2="78" style="stroke:var(--muted);stroke-dasharray:4 4" marker-end="url(#ar)"/>
+        <rect x="600" y="60" width="150" height="40" style="fill:var(--surface);stroke:var(--line);stroke-dasharray:4 4"/>
+        <text x="675" y="78" text-anchor="middle" font-weight="600">POST /api/rewrite</text>
+        <text x="675" y="93" text-anchor="middle" class="muted" font-size="10">→ rewriteField → model</text>
+        <line x1="570" y1="80" x2="596" y2="80" style="stroke:var(--muted);stroke-dasharray:4 4" marker-end="url(#ar)"/>
+        <rect x="200" y="150" width="170" height="50" style="fill:var(--surface);stroke:var(--line)"/>
+        <text x="285" y="172" text-anchor="middle" font-weight="600">Apply → playgroundReducer</text>
+        <text x="285" y="189" text-anchor="middle" class="muted" font-size="10">state.ts · "apply"</text>
+        <path d="M285 70 L285 146" style="stroke:var(--muted)" marker-end="url(#ar)"/>
+        <text x="292" y="115" class="muted" font-size="10">preview picked</text>
+        <rect x="410" y="150" width="190" height="50" style="fill:var(--surface);stroke:var(--line)"/>
+        <text x="505" y="172" text-anchor="middle" font-weight="600">analyze → findings on screen</text>
+        <text x="505" y="189" text-anchor="middle" class="muted" font-size="10">lib/findings/index.ts</text>
+        <line x1="370" y1="175" x2="406" y2="175" style="stroke:var(--muted)" marker-end="url(#ar)"/>
+        <text x="10" y="236" class="muted" font-size="11">Solid: prepared path (no key). Dashed: live path (visitor's key).</text>
+      </g>
+    </svg>
+  </div>
+
+  <h2>A reference route (three stops)</h2>
+  <p style="color:var(--muted)">Search for the anchor in each file. This route is for reference; it wasn't toured live.</p>
+  <ol class="route">
+    <li><span class="path">components/playground/command-menu.tsx</span> · search <code>export function CommandMenu</code><br>
+      The <code>/</code> palette. A picked command renders <code>PreviewView</code>, which calls <code>load()</code>: <code>simulateRun</code> for a prepared result (with the short running state you asked for) or <code>runLive</code> with a key. Nothing is applied until <em>Apply</em>.</li>
+    <li><span class="path">lib/engine/localize.ts</span> · search <code>export async function rewriteField</code> and <code>const DEMAND_CLAIM</code><br>
+      The engine: builds the prompt, validates the JSON with zod, then does one corrective retry if a preview breaks the limit or a note claims search demand. Any claim still left is dropped.</li>
+    <li><span class="path">components/playground/state.ts</span> · search <code>export function playgroundReducer</code><br>
+      Applying a preview is one <code>"apply"</code> action: it replaces that field, records the command, and keeps the preview's notes. The findings then recompute from the new text. Covered by <code>state.test.ts</code>.</li>
+  </ol>
+
+  <h2>To change this, start here</h2>
+  <div class="card tablewrap">
+    <table>
+      <tr><th>To…</th><th>Start at</th></tr>
+      <tr><td>Add or reword a command</td><td class="path">lib/engine/commands.ts · COMMANDS (set <code>seeded</code> to prepare it, then re-seed)</td></tr>
+      <tr><td>Change what the model is told</td><td class="path">lib/engine/prompt.ts · function system(</td></tr>
+      <tr><td>Add an example app</td><td class="path">lib/examples.ts · EXAMPLE_APPS, add skills, then <code>bun run capture</code> and <code>bun run localize --seed</code></td></tr>
+      <tr><td>Teach an app's brand or audience</td><td class="path">data/examples/&lt;app&gt;/skills/*.md</td></tr>
+      <tr><td>Change the look</td><td class="path">app/globals.css (greyscale Slate tokens)</td></tr>
+      <tr><td>Change the hero replay</td><td class="path">components/landing/hero-flow.tsx · SCENES</td></tr>
+    </table>
+  </div>
+
+  <h2>A practice to reuse: turn a rule into a check that fails</h2>
+  <div class="card">
+    <p><strong>What happened.</strong> The PRD required a note saying the wording is <em>"not measured search volume"</em> (<code>prd.md &gt; Native Listing and Compare View</code>). During slice 5's live check, the model wrote "a high-volume search term", and 38 prepared notes made similar claims. A prompt rule alone brought that down to 17, not zero.</p>
+    <p><strong>What fixed it.</strong> The rule became code: <code>DEMAND_CLAIM</code> in <code>lib/engine/localize.ts</code> triggers a corrective retry and drops what's left, and <code>scripts/validate.ts</code> fails on any claim. <code>bun run validate</code> now reports 9 of 9 seed files clean. The same pattern caught over-limit descriptions and an unaccented French title ("Jeune" for "Jeûne").</p>
+    <p><strong>Reuse it.</strong> When an agent's output has to satisfy a rule (truthfulness, a length, a format), don't rely on the instruction alone. Write the rule as a check that runs every time and fails loudly, then let the agent retry against it.</p>
+  </div>
+
+  <h2>Run it again</h2>
+  <pre>bun install
+bun dev --port 3100          # landing: http://localhost:3100 · Playground: /playground
+bun test && bun run validate  # findings + reducer tests, seed data checks
+bun run localize --app bellyclock --to de-DE   # local run (needs GEMINI_API_KEY in .env.local)</pre>
+
+  <details>
+    <summary>About this map</summary>
+    <div><p>A snapshot of the code at commit <code>65372de</code> ("Add MIT license"). Paths and anchors can drift as the project changes. The canonical plans are <code>devpost/scope.md</code>, <code>prd.md</code>, <code>spec.md</code> and <code>checklist.md</code>.</p></div>
+  </details>
+
+  <footer>GetLocalised OS · MIT · devpost/app-map.html</footer>
+</main>
+</body>
+</html>

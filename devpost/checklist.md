@@ -95,15 +95,15 @@ Final checkpoint feedback: the learner explored the running app ("this is fully 
 
 ## Code Tour and App Map
 
-- [ ] Learning activity complete: guided route, focused alternative, prior practice connected, or brief recap
-- [ ] Optional edit and transfer reflection addressed: offered/declined/already covered/not applicable as appropriate
-- [ ] `devpost/app-map.html` generated from finished code, checked, and shown, including a project-grounded practice to reuse
+- [x] Learning activity complete: guided route, focused alternative, prior practice connected, or brief recap
+- [x] Optional edit and transfer reflection addressed: offered/declined/already covered/not applicable as appropriate
+- [x] `devpost/app-map.html` generated from finished code, checked, and shown, including a project-grounded practice to reuse
 
-Activity and evidence:
-Route and stops:
-Edit outcome:
-Reflection:
-Activity mode:
+Activity and evidence: Prior practice connected, as a recap. The learner's goal is working with agents. The build already practised turning a rule the agent kept breaking into an enforced check: demand claims went from 38 notes, to 17 with a prompt rule only, to 0 with `DEMAND_CLAIM` in `lib/engine/localize.ts` plus `scripts/validate.ts` (9/9 seed files clean). The same approach caught over-limit descriptions and an unaccented French title.
+Route and stops: Reference route only (not toured): `components/playground/command-menu.tsx` (CommandMenu), `lib/engine/localize.ts` (rewriteField, DEMAND_CLAIM), `components/playground/state.ts` (playgroundReducer).
+Edit outcome: Not applicable (recap).
+Reflection: Offered as one optional question.
+Activity mode: Prior practice recap, plus the app map.
 
 ## Revisions
 
