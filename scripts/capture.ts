@@ -61,28 +61,37 @@ async function capturePhrases(app: string, market: Market) {
   const skills = loadSkills(app);
   const { language, country, lang, gl } = MARKET_INFO[market];
 
-  const { terms } = await withBackoff(`${app} ${market} seed terms`, () =>
-    provider.generateJson({
-      system: `You know how people in ${country} search the Google Play Store in ${language}.`,
-      user: `App: ${listing.fields.title}\nCategory: ${listing.category}\nWhat it does: ${listing.fields.short}\n\nBrand notes:\n${skills
-        .map((s) => s.body)
-        .join("\n")}\n\nList 5 short search terms (1 to 3 words, lowercase, in ${language}) that people in ${country} would type into Google Play to find an app like this. Use the words locals really use, not literal translations of the English.`,
-      schema: SeedTerms,
-    }),
-  );
+  const askTerms = (tried: string[]) =>
+    withBackoff(`${app} ${market} seed terms`, () =>
+      provider.generateJson({
+        system: `You know how people in ${country} search the Google Play Store in ${language}.`,
+        user: `App: ${listing.fields.title}\nCategory: ${listing.category}\nWhat it does: ${listing.fields.short}\n\nBrand notes:\n${skills
+          .map((s) => s.body)
+          .join("\n")}\n\nList 5 short search terms (1 to 3 words, lowercase, in ${language}, spelled correctly with all accents and special characters) that people in ${country} would type into Google Play to find an app like this. Use the words locals really use, not literal translations of the English.${
+          tried.length ? ` Google Play had few suggestions for these, so use different, broader terms: ${tried.join(", ")}.` : ""
+        }`,
+        schema: SeedTerms,
+      }),
+    );
 
   const seen = new Set<string>();
   const items: string[] = [];
-  for (const term of terms) {
-    const suggestions = await gplay.suggest({ term, lang, country: gl }).catch(() => [] as string[]);
-    for (const s of suggestions) {
-      const key = s.toLocaleLowerCase(lang).trim();
-      if (!seen.has(key) && items.length < MAX_PHRASES) {
-        seen.add(key);
-        items.push(s.trim());
+  const terms: string[] = [];
+  // Up to two rounds: niche seed terms can return few suggestions, so a thin first round asks for broader ones.
+  for (let round = 0; round < 2 && items.length < 8; round++) {
+    const batch = (await askTerms(terms)).terms.filter((t) => !terms.includes(t));
+    terms.push(...batch);
+    for (const term of batch) {
+      const suggestions = await gplay.suggest({ term, lang, country: gl }).catch(() => [] as string[]);
+      for (const s of suggestions) {
+        const key = s.toLocaleLowerCase(lang).trim();
+        if (!seen.has(key) && items.length < MAX_PHRASES) {
+          seen.add(key);
+          items.push(s.trim());
+        }
       }
+      await sleep(1200);
     }
-    await sleep(1200);
   }
   if (items.length === 0) fail(`No Play suggestions came back for ${app} ${market}. Try again later.`);
 

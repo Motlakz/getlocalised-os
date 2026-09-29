@@ -2,7 +2,7 @@
 
 import { ArrowLeft01Icon, Key01Icon } from "@hugeicons/core-free-icons";
 import { HugeiconsIcon } from "@hugeicons/react";
-import { useState } from "react";
+import { useEffect, useRef, useState } from "react";
 
 import { Button } from "@/components/ui/button";
 import { Command, CommandEmpty, CommandGroup, CommandInput, CommandItem, CommandList } from "@/components/ui/command";
@@ -25,6 +25,7 @@ export function CommandMenu({
   onOpenChange,
   onApply,
   onOpenSkill,
+  resultLabel,
 }: {
   field: Field;
   text: string;
@@ -35,6 +36,8 @@ export function CommandMenu({
   onOpenChange: (open: boolean) => void;
   onApply: (command: CommandId, preview: Preview) => void;
   onOpenSkill: (name: string) => void;
+  /** Where the preview comes from, e.g. "Prepared result · gemini-3.5-flash-lite". */
+  resultLabel: string;
 }) {
   const [picked, setPicked] = useState<CommandId | null>(null);
   const active = picked ?? initialCommand ?? null;
@@ -65,6 +68,8 @@ export function CommandMenu({
       <PopoverContent align="end" className="w-[min(92vw,26rem)] p-0">
         {command && preview ? (
           <PreviewView
+            key={command.id}
+            label={resultLabel}
             field={field}
             command={command}
             before={text}
@@ -126,7 +131,11 @@ function CommandRow({ label, description, mono }: { label: string; description: 
   );
 }
 
+/** How long the menu shows the running state before a prepared preview appears. */
+const runningDelay = () => 650 + Math.round(Math.random() * 550);
+
 function PreviewView({
+  label,
   field,
   command,
   before,
@@ -134,6 +143,7 @@ function PreviewView({
   onBack,
   onApply,
 }: {
+  label: string;
   field: Field;
   command: EngineCommand;
   before: string;
@@ -141,11 +151,21 @@ function PreviewView({
   onBack: () => void;
   onApply: () => void;
 }) {
+  const [running, setRunning] = useState(true);
+  const applyRef = useRef<HTMLButtonElement>(null);
+  useEffect(() => {
+    const t = setTimeout(() => setRunning(false), runningDelay());
+    return () => clearTimeout(t);
+  }, []);
+  useEffect(() => {
+    if (!running) applyRef.current?.focus();
+  }, [running]);
+
   return (
     <div
       className="flex max-h-[70vh] flex-col"
       onKeyDown={(e) => {
-        if (e.key === "Enter" && !e.shiftKey) {
+        if (e.key === "Enter" && !e.shiftKey && !running) {
           e.preventDefault();
           onApply();
         }
@@ -166,14 +186,22 @@ function PreviewView({
           </div>
           <p className="line-clamp-4 whitespace-pre-wrap text-muted-foreground">{before}</p>
         </div>
-        <div className="border-l-2 border-foreground pl-3">
+        <div className="border-l-2 border-foreground pl-3" aria-live="polite" aria-busy={running}>
           <div className="mb-1 flex justify-between text-xs">
-            <span className="font-medium">Preview</span>
-            <CharCount count={preview.text.length} limit={LIMITS[field]} />
+            <span className="font-medium">{running ? `Running ${command.label.toLowerCase()}…` : "Preview"}</span>
+            {!running && <CharCount count={preview.text.length} limit={LIMITS[field]} />}
           </div>
-          <p className="whitespace-pre-wrap">{preview.text}</p>
+          {running ? (
+            <div className="space-y-2 py-1" aria-hidden>
+              {[92, 78, field === "title" ? 0 : 64].filter(Boolean).map((w) => (
+                <div key={w} className="h-3 animate-pulse bg-muted" style={{ width: `${w}%` }} />
+              ))}
+            </div>
+          ) : (
+            <p className="animate-in whitespace-pre-wrap duration-300 fade-in slide-in-from-bottom-1">{preview.text}</p>
+          )}
         </div>
-        {preview.notes.length > 0 && (
+        {!running && preview.notes.length > 0 && (
           <ul className="space-y-1 text-xs text-muted-foreground">
             {preview.notes.map((n) => (
               <li key={n.term}>
@@ -183,11 +211,12 @@ function PreviewView({
           </ul>
         )}
       </div>
-      <div className="flex justify-end gap-2 border-t p-2">
+      <div className="flex items-center justify-end gap-2 border-t p-2">
+        <span className="mr-auto pl-1 font-mono text-[10px] text-muted-foreground">{label}</span>
         <Button variant="ghost" size="sm" onClick={onBack}>
           Back
         </Button>
-        <Button size="sm" onClick={onApply} autoFocus>
+        <Button ref={applyRef} size="sm" onClick={onApply} disabled={running}>
           Apply
         </Button>
       </div>

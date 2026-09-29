@@ -1,0 +1,248 @@
+{
+  "market": "de-DE",
+  "phrases": {
+    "items": [
+      "tägliche affirmationen deutsch",
+      "positive gedanken kostenlos deutsch",
+      "positive gedanken",
+      "achtsamkeit app kostenlos deutsch",
+      "achtsamkeit app",
+      "selbstliebe lernen kostenlos"
+    ],
+    "source": "Google Play search suggestions",
+    "capturedAt": "2026-09-29T10:25:10.525Z"
+  },
+  "native": {
+    "fields": {
+      "title": "AuraSage Affirmationen",
+      "short": "Glaubwürdige tägliche Affirmationen ohne Druck und ohne endlose Feeds.",
+      "full": "Stärke deine innere Stimme mit tägliche Affirmationen deutsch, die zu deinem echten Leben passen – ganz ohne aufgesetzte Positivität oder endlose Feeds.\n\nAuraSage schenkt dir jeden Tag sieben bewusste Affirmationen. Wähle aus, was sich für dich richtig anfühlt, nimm einen Gedanken mit und komm einfach zurück, wenn dir danach ist. Es gibt keine Serie zu verteidigen und keinen Leistungsdruck bei der Achtsamkeit.\n\nEINE KLEINE TÄGLICHE PRAXIS\n\n• Lies ein überschaubares tägliches Set anstelle von endlosem Scrollen\n• Verrate AuraSage, was sich für dich stimmig anfühlt, damit künftige Worte besser passen\n• Nimm eine Affirmation mit in deinen Tag\n• Speichere Favoriten und schreibe eigene Affirmationen\n• Nutze den 90-Sekunden-Kurzreset für einen ruhigen Moment\n\nGESTALTE DEINE PRAXIS\n\nWiederhole positive Gedanken schweigend, mit Sprachausgabe oder in deiner eigenen aufgenommenen Stimme. Wähle kostenlos Regen, Ozean, Nacht, braunes Rauschen oder Stille. Die Premium-Version bietet zusätzlich reichhaltige Klangwelten wie Kaminfeuer, Wald, Morgenstimmen, einen sanften Bach, weiches Klavier und Windspiele.\n\nERINNERUNGEN OHNE SCHULDGEFÜHLE\n\nStelle sanfte Erinnerungen für deine positiven gedanken ein, die zu deinem Alltag passen. Wenn du einen Tag auslässt, verlierst du keinen Fortschritt. AuraSage bemerkt einfach, dass du wieder da bist, und macht aus deinem Wohlbefinden keine Tabelle.\n\nWORTE, DIE ZU DIR PASSEN\n\nWähle Fokusbereiche, den Tonfall und Themen, die du lieber vermeiden möchtest. Speichere selbstliebe lernen kostenlos als Inspiration, Selbstvertrauen-Affirmationen, beruhigende Worte und persönliche Notizen, die dir im Alltag helfen. Blende aus, was nicht passt. Dein Feedback formt eine passendere tägliche Praxis.\n\nPRIVATSPHÄRE VON ANFANG AN\n\nDeine Affirmationstexte, Gedanken, Einstellungen und Sprachaufnahmen bleiben auf deinem Gerät. Die Kern-App funktioniert offline, und Erinnerungen werden lokal geplant. Für die Kernpraxis benötigt AuraSage weder deinen Namen noch E-Mail, Kontakte, Standort oder Gesundheitsdaten.\n\nKOSTENLOSE BASIS, OPTIONALE TIEFE\n\nDas tägliche Set, Favoriten, eigene Affirmationen, die Grundpraxis, Erinnerungen, der Kurzreset und die wichtigsten Klänge sind in der kostenlosen Version wirklich nützlich. AuraSage Premium schaltet weitere Sammlungen, eine tiefere Personalisierung, deine eigene Stimme in Sitzungen, zusätzliche Materialien und weitere Klangwelten frei. Verfügbare Pläne und Testangebote werden in der App vor dem Kauf transparent angezeigt.\n\nBeginne heute mit sieben glaubwürdigen Worten. Behalte den Gedanken, den du wirklich fühlen kannst.\n\nAuraSage bietet allgemeine Wohlfühlinhalte und keine medizinische oder psychologische Behandlung, Diagnose oder Krisenhilfe."
+    },
+    "notes": [
+      {
+        "term": "AuraSage Affirmationen",
+        "why": "This title fits strictly within the 30-character limit while retaining the core brand and search intent."
+      },
+      {
+        "term": "Glaubwürdige",
+        "why": "This translates believable accurately while sounding natural and grounded for the German wellness audience."
+      },
+      {
+        "term": "Ohne Leistungsdruck",
+        "why": "This phrasing addresses the anti-streak and anti-pressure stance clearly in idiomatic German."
+      },
+      {
+        "term": "Klangwelten",
+        "why": "This is a natural and appealing term in Germany for ambient audio scenes like rain or brown noise."
+      }
+    ]
+  },
+  "commands": {
+    "native": {
+      "title": {
+        "text": "AuraSage Affirmationen",
+        "notes": [
+          {
+            "term": "Affirmationen",
+            "why": "This fits well within the 30-character limit while remaining natural and clear for German users."
+          }
+        ]
+      },
+      "short": {
+        "text": "Tägliche Affirmationen und ruhige Achtsamkeit ohne Druck und endlose Feeds.",
+        "notes": [
+          {
+            "term": "Tägliche Affirmationen",
+            "why": "This is the primary high-volume search phrase used by German users looking for daily affirmation apps."
+          },
+          {
+            "term": "Achtsamkeit",
+            "why": "It naturally incorporates the broader mindfulness category searched in this market without keyword stuffing."
+          },
+          {
+            "term": "ohne Druck",
+            "why": "It reassures the audience by highlighting the absence of streak pressure and toxic positivity."
+          }
+        ]
+      },
+      "full": {
+        "text": "Stärke deine innere Stimme mit täglichen Affirmationen, die zu deinem echten Leben passen – ganz ohne aufgesetzte Positivität oder endlose Feeds.\n\nAuraSage schenkt dir jeden Tag sieben bewusste Affirmationen. Wähle aus, was sich für dich stimmig anfühlt, nimm einen Gedanken mit und komm einfach zurück, wenn dir danach ist. Es gibt keine Serie zu verteidigen und keinen Leistungsdruck.\n\nEINE KLEINE TÄGLICHE PRAXIS\n\n• Lies ein überschaubares Set anstelle von endlosem Scrollen\n• Verrate AuraSage, was sich für dich richtig anfühlt, damit künftige Worte besser passen\n• Nimm eine Affirmation mit in deinen Tag\n• Speichere Favoriten und schreibe eigene Affirmationen\n• Nutze den 90-Sekunden-Kurzreset für einen ruhigen Moment\n\nGESTALTE DEINE PRAXIS\n\nWiederhole positive Gedanken schweigend, mit Sprachausgabe oder in deiner eigenen aufgenommenen Stimme. Wähle kostenlos Regen, Ozean, Nacht, braunes Rauschen oder Stille. Die Premium-Version bietet zusätzlich reichhaltige Klangwelten wie Kaminfeuer, Wald, Vormittagsgesang, einen sanften Bach, weiches Klavier und Windspiele.\n\nERINNERUNGEN OHNE SCHULDGEFÜHLE\n\nStelle sanfte Erinnerungen ein, die zu deinem Alltag passen. Wenn du einen Tag auslässt, verlierst du keinen Fortschritt. AuraSage bemerkt einfach, dass du wieder da bist, und macht aus deinem Wohlbefinden keine Tabelle.\n\nWORTE, DIE ZU DIR PASSEN\n\nWähle Fokusbereiche, den Tonfall und Themen, die du lieber vermeiden möchtest. Speichere Impulse für Selbstliebe, Selbstvertrauen, beruhigende Worte und persönliche Notizen, die dir im Alltag helfen. Blende aus, was gerade nicht passt. Dein Feedback formt eine passendere tägliche Praxis.\n\nPRIVATSPHÄRE VON ANFANG AN\n\nDeine Affirmationstexte, Gedanken, Einstellungen und Sprachaufnahmen bleiben auf deinem Gerät. Die Kern-App funktioniert offline, und Erinnerungen werden lokal geplant. Für die Kernpraxis benötigt AuraSage weder deinen Namen noch E-Mail, Kontakte, Standort oder Gesundheitsdaten.\n\nKOSTENLOSE BASIS, OPTIONALE TIEFE\n\nDas tägliche Set, Favoriten, eigene Affirmationen, die Grundpraxis, Erinnerungen, der Kurzreset und die wichtigsten Klänge sind in der kostenlosen Version wirklich nützlich. AuraSage Premium schaltet weitere Sammlungen, eine tiefere Personalisierung, deine eigene Stimme in Sitzungen, zusätzliche Materialien und weitere Klangwelten frei. Verfügbare Pläne und Testangebote werden in der App vor dem Kauf transparent angezeigt.\n\nBeginne heute mit sieben glaubwürdigen Worten. Behalte den Gedanken, den du wirklich fühlen kannst.\n\nAuraSage bietet allgemeine Wohlfühlinhalte und keine medizinische oder psychologische Behandlung, Diagnose oder Krisenhilfe.",
+        "notes": [
+          {
+            "term": "täglichen Affirmationen",
+            "why": "Natural phrasing without keyword stuffing sounds much more appealing to German users."
+          },
+          {
+            "term": "stimmig anfühlt",
+            "why": "This phrase perfectly captures the grounded, believable tone expected by the audience."
+          },
+          {
+            "term": "Impulse für Selbstliebe",
+            "why": "Replacing clunky search strings with natural German phrasing improves readability while keeping the intent."
+          }
+        ]
+      }
+    },
+    "aso": {
+      "title": {
+        "text": "AuraSage Tägliche Affirmation",
+        "notes": [
+          {
+            "term": "Tägliche Affirmation",
+            "why": "This fits the exact search phrase while staying strictly under the thirty character limit."
+          }
+        ]
+      },
+      "short": {
+        "text": "Tägliche Affirmationen und positive Gedanken ganz ohne Druck und Feeds.",
+        "notes": [
+          {
+            "term": "Tägliche Affirmationen",
+            "why": "This is the primary exact search phrase users in Germany type into Google Play for this category."
+          },
+          {
+            "term": "positive Gedanken",
+            "why": "This secondary search phrase fits naturally and targets users looking for mindset support without hype."
+          }
+        ]
+      },
+      "full": {
+        "text": "Stärke deine innere Stimme mit tägliche Affirmationen, die zu deinem echten Leben passen – ganz ohne aufgesetzte Positivität oder endlose Feeds.\n\nAuraSage schenkt dir jeden Tag sieben bewusste Affirmationen. Wähle aus, was sich für dich richtig anfühlt, nimm einen Gedanken mit und komm einfach zurück, wenn dir danach ist. Es gibt keine Serie zu verteidigen und keinen Leistungsdruck bei der Achtsamkeit.\n\nEINE KLEINE TÄGLICHE PRAXIS\n\n• Lies ein überschaubares tägliches Set anstelle von endlosem Scrollen\n• Verrate AuraSage, was sich für dich stimmig anfühlt, damit künftige Worte besser passen\n• Nimm eine Affirmation mit in deinen Tag\n• Speichere Favoriten und schreibe eigene Affirmationen\n• Nutze den 90-Sekunden-Kurzreset für einen ruhigen Moment\n\nGESTALTE DEINE PRAXIS\n\nWiederhole positive Gedanken schweigend, mit Sprachausgabe oder in deiner eigenen aufgenommenen Stimme. Wähle kostenlos Regen, Ozean, Nacht, braunes Rauschen oder Stille. Die Premium-Version bietet zusätzlich reichhaltige Klangwelten wie Kaminfeuer, Wald, Morgenstimmen, einen sanften Bach, weiches Klavier und Windspiele.\n\nERINNERUNGEN OHNE SCHULDGEFÜHLE\n\nStelle sanfte Erinnerungen für deine positive gedanken ein, die zu deinem Alltag passen. Wenn du einen Tag auslässt, verlierst du keinen Fortschritt. AuraSage bemerkt einfach, dass du wieder da bist, und macht aus deinem Wohlbefinden keine Tabelle.\n\nWORTE, DIE ZU DIR PASSEN\n\nWähle Fokusbereiche, den Tonfall und Themen, die du lieber vermeiden möchtest. Speichere selbstliebe lernen als sanfte Inspiration, Selbstvertrauen-Affirmationen, beruhigende Worte und persönliche Notizen, die dir im Alltag helfen. Blende aus, was nicht passt. Dein Feedback formt eine passendere tägliche Praxis.\n\nPRIVATSPHÄRE VON ANFANG AN\n\nDeine Affirmationstexte, Gedanken, Einstellungen und Sprachaufnahmen bleiben auf deinem Gerät. Die achtsamkeit app funktioniert offline, und Erinnerungen werden lokal geplant. Für die Kernpraxis benötigt AuraSage weder deinen Namen noch E-Mail, Kontakte, Standort oder Gesundheitsdaten.\n\nKOSTENLOSE BASIS, OPTIONALE TIEFE\n\nDas tägliche Set, Favoriten, eigene Affirmationen, die Grundpraxis, Erinnerungen, der Kurzreset und die wichtigsten Klänge sind in der kostenlosen Version wirklich nützlich. AuraSage Premium schaltet weitere Sammlungen, eine tiefere Personalisierung, deine eigene Stimme in Sitzungen, zusätzliche Materialien und weitere Klangwelten frei. Verfügbare Pläne und Testangebote werden in der App vor dem Kauf transparent angezeigt.\n\nBeginne heute mit sieben glaubwürdigen Worten. Behalte den Gedanken, den du wirklich fühlen kannst.\n\nAuraSage bietet allgemeine Wohlfühlinhalte und keine medizinische oder psychologische Behandlung, Diagnose oder Krisenhilfe.",
+        "notes": [
+          {
+            "term": "tägliche Affirmationen",
+            "why": "This integrates the primary search phrase naturally into the opening sentence without sounding forced or ungrammatical."
+          },
+          {
+            "term": "positive gedanken",
+            "why": "This weaves the user search term cleanly into the reminders section while matching the calm tone."
+          },
+          {
+            "term": "achtsamkeit app",
+            "why": "This places the search phrase smoothly into the privacy section to reflect how users discover mindfulness tools in Germany."
+          }
+        ]
+      }
+    },
+    "punchier": {
+      "title": {
+        "text": "AuraSage Tägliche Affirmation",
+        "notes": [
+          {
+            "term": "Tägliche Affirmation",
+            "why": "This phrase captures the core search intent while staying strictly within the thirty character limit."
+          }
+        ]
+      },
+      "short": {
+        "text": "Sieben tägliche Affirmationen, eigene Aufnahmen und ruhige Achtsamkeit.",
+        "notes": [
+          {
+            "term": "tägliche Affirmationen",
+            "why": "This is the exact high-intent search phrase used by German users on Google Play."
+          },
+          {
+            "term": "Achtsamkeit",
+            "why": "This captures the calm practice aspect while aligning with popular local search habits."
+          }
+        ]
+      },
+      "full": {
+        "text": "Stärke deine innere Stimme mit tägliche Affirmationen deutsch, die zu deinem echten Leben passen – ganz ohne aufgesetzte Positivität oder endlose Feeds.\n\nAuraSage schenkt dir jeden Tag sieben bewusste Affirmationen. Wähle aus, was sich für dich richtig anfühlt, nimm einen Gedanken mit und komm einfach zurück, wenn dir danach ist. Es gibt keine Serie zu verteidigen und keinen Leistungsdruck bei der Achtsamkeit.\n\nEINE KLEINE TÄGLICHE PRAXIS\n\n• Lies ein überschaubares tägliches Set anstelle von endlosem Scrollen\n• Verrate AuraSage, was sich für dich stimmig anfühlt, damit künftige Worte besser passen\n• Nimm eine Affirmation mit in deinen Tag\n• Speichere Favoriten und schreibe eigene Affirmationen\n• Nutze den 90-Sekunden-Kurzreset für einen ruhigen Moment\n\nGESTALTE DEINE PRAXIS\n\nWiederhole positive Gedanken schweigend, mit Sprachausgabe oder in deiner eigenen aufgenommenen Stimme. Wähle kostenlos Regen, Ozean, Nacht, braunes Rauschen oder Stille. Die Premium-Version bietet zusätzlich reichhaltige Klangwelten wie Kaminfeuer, Wald, Morgenstimmen, einen sanften Bach, weiches Klavier und Windspiele.\n\nERINNERUNGEN OHNE SCHULDGEFÜHLE\n\nStelle sanfte Erinnerungen für deine positiven gedanken ein, die zu deinem Alltag passen. Wenn du einen Tag auslässt, verlierst du keinen Fortschritt. AuraSage bemerkt einfach, dass du wieder da bist, und macht aus deinem Wohlbefinden keine Tabelle.\n\nWORTE, DIE ZU DIR PASSEN\n\nWähle Fokusbereiche, den Tonfall und Themen, die du lieber vermeiden möchtest. Speichere selbstliebe lernen kostenlos als Inspiration, Selbstvertrauen-Affirmationen, beruhigende Worte und persönliche Notizen, die dir im Alltag helfen. Blende aus, was nicht passt. Dein Feedback formt eine passendere tägliche Praxis.\n\nPRIVATSPHÄRE VON ANFANG AN\n\nDeine Affirmationstexte, Gedanken, Einstellungen und Sprachaufnahmen bleiben auf deinem Gerät. Die Kern-App funktioniert offline, und Erinnerungen werden lokal geplant. Für die Kernpraxis benötigt AuraSage weder deinen Namen noch E-Mail, Kontakte, Standort oder Gesundheitsdaten.\n\nKOSTENLOSE BASIS, OPTIONALE TIEFE\n\nDas tägliche Set, Favoriten, eigene Affirmationen, die Grundpraxis, Erinnerungen, der Kurzreset und die wichtigsten Klänge sind in der kostenlosen Version wirklich nützlich. AuraSage Premium schaltet weitere Sammlungen, eine tiefere Personalisierung, deine eigene Stimme in Sitzungen, zusätzliche Materialien und weitere Klangwelten frei. Verfügbare Pläne und Testangebote werden in der App vor dem Kauf transparent angezeigt.\n\nBeginne heute mit sieben glaubwürdigen Worten. Behalte den Gedanken, den du wirklich fühlen kannst.\n\nAuraSage bietet allgemeine Wohlfühlinhalte und keine medizinische oder psychologische Behandlung, Diagnose oder Krisenhilfe.",
+        "notes": [
+          {
+            "term": "überschaubares tägliches Set",
+            "why": "It captures the finite and calm nature of the practice without sounding clinical."
+          },
+          {
+            "term": "ohne Schuldgefühle",
+            "why": "This translates the brand's anti-streak and pressure-free ethos into natural German."
+          }
+        ]
+      }
+    },
+    "benefit": {
+      "title": {
+        "text": "AuraSage: Tägliche Affirmation",
+        "notes": [
+          {
+            "term": "Tägliche Affirmation",
+            "why": "This exact variation captures the main search intent while staying within the strict thirty character limit."
+          }
+        ]
+      },
+      "short": {
+        "text": "Tägliche Affirmationen ohne Druck: Sieben echte Sätze für mehr innere Ruhe.",
+        "notes": [
+          {
+            "term": "Tägliche Affirmationen",
+            "why": "This is the primary search phrase used by the target audience in Germany."
+          },
+          {
+            "term": "ohne Druck",
+            "why": "This addresses the user's desire to avoid streak pressure and toxic positivity."
+          }
+        ]
+      },
+      "full": {
+        "text": "Stärke deine innere Stimme mit tägliche Affirmationen deutsch, die zu deinem echten Leben passen – ganz ohne aufgesetzte Positivität oder endlose Feeds.\n\nAuraSage schenkt dir jeden Tag sieben bewusste Affirmationen. Wähle aus, was sich für dich richtig anfühlt, nimm einen Gedanken mit und komm einfach zurück, wenn dir danach ist. Es gibt keine Serie zu verteidigen und keinen Leistungsdruck bei der Achtsamkeit.\n\nFÜR MEHR RUHE UND KLARHEIT\n\n• Nimm eine Affirmation mit in deinen Tag, indem du ein überschaubares tägliches Set anstelle von endlosem Scrollen liest\n• Verrate AuraSage, was sich für dich stimmig anfühlt, damit künftige Worte besser passen\n• Speichere Favoriten und schreibe eigene Affirmationen\n• Nutze den 90-Sekunden-Kurzreset für einen ruhigen Moment\n\nFÜR DEINE PERSÖNLICHE PRAXIS\n\n• Wiederhole positive Gedanken schweigend, mit Sprachausgabe oder in deiner eigenen aufgenommenen Stimme, indem du kostenlos Regen, Ozean, Nacht, braunes Rauschen oder Stille wählst (die Premium-Version bietet zusätzlich reichhaltige Klangwelten wie Kaminfeuer, Wald, Morgenstimmen, einen sanften Bach, weiches Klavier und Windspiele)\n• Stelle sanfte Erinnerungen für deine positiven gedanken ein, die zu deinem Alltag passen, ohne dass du bei einem verpassten Tag deinen Fortschritt verlierst\n• Wähle Fokusbereiche, den Tonfall und Themen, die du lieber vermeiden möchtest, um selbstliebe lernen kostenlos als Inspiration, Selbstvertrauen-Affirmationen und beruhigende Worte zu nutzen, die dir im Alltag helfen\n\nPRIVATSPHÄRE VON ANFANG AN\n\nDeine Affirmationstexte, Gedanken, Einstellungen und Sprachaufnahmen bleiben auf deinem Gerät. Die Kern-App funktioniert offline, und Erinnerungen werden lokal geplant. Für die Kernpraxis benötigt AuraSage weder deinen Namen noch E-Mail, Kontakte, Standort oder Gesundheitsdaten.\n\nKOSTENLOSE BASIS, OPTIONALE TIEFE\n\nDas tägliche Set, Favoriten, eigene Affirmationen, die Grundpraxis, Erinnerungen, der Kurzreset und die wichtigsten Klänge sind in der kostenlosen Version wirklich nützlich. AuraSage Premium schaltet weitere Sammlungen, eine tiefere Personalisierung, deine eigene Stimme in Sitzungen, zusätzliche Materialien und weitere Klangwelten frei. Verfügbare Pläne und Testangebote werden in der App vor dem Kauf transparent angezeigt.\n\nBeginne heute mit sieben glaubwürdigen Worten. Behalte den Gedanken, den du wirklich fühlen kannst.\n\nAuraSage bietet allgemeine Wohlfühlinhalte und keine medizinische oder psychologische Behandlung, Diagnose oder Krisenhilfe.",
+        "notes": [
+          {
+            "term": "überschaubares tägliches Set",
+            "why": "This phrase highlights the restrained nature of the app, appealing to users tired of endless scrolls."
+          },
+          {
+            "term": "ohne Leistungsdruck",
+            "why": "This directly addresses the audience's aversion to streak pressure and toxic positivity."
+          }
+        ]
+      }
+    },
+    "fit": {
+      "title": {
+        "text": "AuraSage Tägliche Affirmation",
+        "notes": [
+          {
+            "term": "Tägliche Affirmation",
+            "why": "This fits the exact search phrase people use on Google Play while staying within the character limit."
+          }
+        ]
+      },
+      "short": {
+        "text": "Tägliche Affirmationen und Ruhe: sanft, echt und ganz ohne Druck.",
+        "notes": [
+          {
+            "term": "Tägliche Affirmationen",
+            "why": "This is the primary search phrase used by German users looking for daily affirmation apps."
+          },
+          {
+            "term": "ohne Druck",
+            "why": "This highlights the core differentiator of avoiding streak pressure and toxic positivity."
+          }
+        ]
+      },
+      "full": {
+        "text": "Stärke deine innere Stimme mit tägliche Affirmationen deutsch, die zu deinem echten Leben passen – ganz ohne aufgesetzte Positivität oder endlose Feeds.\n\nAuraSage schenkt dir jeden Tag sieben bewusste Affirmationen. Wähle aus, was sich für dich richtig anfühlt, nimm einen Gedanken mit und komm einfach zurück, wenn dir danach ist. Es gibt keine Serie zu verteidigen und keinen Leistungsdruck bei der Achtsamkeit.\n\nEINE KLEINE TÄGLICHE PRAXIS\n\n• Lies ein überschaubares tägliches Set anstelle von endlosem Scrollen\n• Verrate AuraSage, was sich für dich stimmig anfühlt, damit künftige Worte besser passen\n• Nimm eine Affirmation mit in deinen Tag\n• Speichere Favoriten und schreibe eigene Affirmationen\n• Nutze den 90-Sekunden-Kurzreset für einen ruhigen Moment\n\nGESTALTE DEINE PRAXIS\n\nWiederhole positive Gedanken schweigend, mit Sprachausgabe oder in deiner eigenen aufgenommenen Stimme. Wähle kostenlos Regen, Ozean, Nacht, braunes Rauschen oder Stille. Die Premium-Version bietet zusätzlich reichhaltige Klangwelten wie Kaminfeuer, Wald, Morgenstimmen, einen sanften Bach, weiches Klavier und Windspiele.\n\nERINNERUNGEN OHNE SCHULDGEFÜHLE\n\nStelle sanfte Erinnerungen für deine positiven gedanken ein, die zu deinem Alltag passen. Wenn du einen Tag auslässt, verlierst du keinen Fortschritt. AuraSage bemerkt einfach, dass du wieder da bist, und macht aus deinem Wohlbefinden keine Tabelle.\n\nWORTE, DIE ZU DIR PASSEN\n\nWähle Fokusbereiche, den Tonfall und Themen, die du lieber vermeiden möchtest. Speichere selbstliebe lernen kostenlos als Inspiration, Selbstvertrauen-Affirmationen, beruhigende Worte und persönliche Notizen, die dir im Alltag helfen. Blende aus, was nicht passt. Dein Feedback formt eine passendere tägliche Praxis.\n\nPRIVATSPHÄRE VON ANFANG AN\n\nDeine Affirmationstexte, Gedanken, Einstellungen und Sprachaufnahmen bleiben auf deinem Gerät. Die Kern-App funktioniert offline, und Erinnerungen werden lokal geplant. Für die Kernpraxis benötigt AuraSage weder deinen Namen noch E-Mail, Kontakte, Standort oder Gesundheitsdaten.\n\nKOSTENLOSE BASIS, OPTIONALE TIEFE\n\nDas tägliche Set, Favoriten, eigene Affirmationen, die Grundpraxis, Erinnerungen, der Kurzreset und die wichtigsten Klänge sind in der kostenlosen Version wirklich nützlich. AuraSage Premium schaltet weitere Sammlungen, eine tiefere Personalisierung, deine eigene Stimme in Sitzungen, zusätzliche Materialien und weitere Klangwelten frei. Verfügbare Pläne und Testangebote werden in der App vor dem Kauf transparent angezeigt.\n\nBeginne heute mit sieben glaubwürdigen Worten. Behalte den Gedanken, den du wirklich fühlen kannst.\n\nAuraSage bietet allgemeine Wohlfühlinhalte und keine medizinische oder psychologische Behandlung, Diagnose oder Krisenhilfe.",
+        "notes": [
+          {
+            "term": "tägliche Affirmationen deutsch",
+            "why": "Integrated the exact keyword phrase naturally to match regional search intent."
+          },
+          {
+            "term": "selbstliebe lernen kostenlos",
+            "why": "Included the requested search phrase smoothly into the context of saving personal inspirations."
+          },
+          {
+            "term": "keine Serie zu verteidigen",
+            "why": "Captures the anti-streak positioning in a grounded, idiomatic German phrasing."
+          }
+        ]
+      }
+    }
+  },
+  "generatedWith": {
+    "provider": "gemini",
+    "model": "gemini-3.5-flash-lite",
+    "at": "2026-09-29T10:25:42.168Z"
+  }
+}

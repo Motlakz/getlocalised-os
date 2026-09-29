@@ -10,7 +10,8 @@
     "typecheck": "tsc --noEmit",
     "test": "bun test",
     "capture": "bun scripts/capture.ts",
-    "localize": "bun scripts/localize.ts"
+    "localize": "bun scripts/localize.ts",
+    "validate": "bun scripts/validate.ts"
   },
   "dependencies": {
     "@google/genai": "^2.24.0",

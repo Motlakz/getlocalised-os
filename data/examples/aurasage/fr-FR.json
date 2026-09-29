@@ -1,0 +1,246 @@
+{
+  "market": "fr-FR",
+  "phrases": {
+    "items": [
+      "affirmations quotidiennes pour femmes",
+      "i am affirmations quotidiennes",
+      "pensee positive du jour gratuit",
+      "pensee positive",
+      "pensee positive en français",
+      "confiance en soi",
+      "confiance en soi gratuit",
+      "confiance en soi livre",
+      "confiance en soi exercice",
+      "livre pouvoir confiance en soi",
+      "developpement personnel",
+      "developpement personnel gratuit sans internet"
+    ],
+    "source": "Google Play search suggestions",
+    "capturedAt": "2026-09-29T10:09:23.059Z"
+  },
+  "commands": {
+    "native": {
+      "title": {
+        "text": "AuraSage: Affirmations du jour",
+        "notes": [
+          {
+            "term": "Affirmations du jour",
+            "why": "This natural French phrase directly captures the core search intent for daily practice without sounding like a literal translation."
+          }
+        ]
+      },
+      "short": {
+        "text": "Sept affirmations quotidiennes pour une pratique sereine et sans pression.",
+        "notes": [
+          {
+            "term": "affirmations quotidiennes",
+            "why": "This is a high-volume search phrase in France that captures the core daily practice naturally."
+          },
+          {
+            "term": "sans pression",
+            "why": "This addresses the target audience's aversion to streak anxiety and forced wellness routines."
+          }
+        ]
+      },
+      "full": {
+        "text": "Développez une voix intérieure plus crédible grâce à des affirmations quotidiennes conçues pour la vraie vie, loin des flux sans fin de positivité empruntée.\n\nAuraSage vous propose sept affirmations réfléchies chaque jour. Choisissez ce qui résonne, gardez-en une près de vous et revenez quand c'est utile. Il n'y a pas de série à protéger ni de pression liée au bien-être.\n\nUNE PETITE PRATIQUE QUOTIDIENNE\n\n• Lisez un jeu quotidien limité au lieu de faire défiler l'écran indéfiniment\n• Indiquez à AuraSage ce qui vous semble crédible pour affiner les mots suivants\n• Emportez une affirmation avec vous dans votre journée\n• Enregistrez vos favoris et écrivez vos propres affirmations\n• Utilisez une réinitialisation rapide de 90 secondes pour un moment de calme\n\nEXERCEZ-VOUS À VOTRE RYTHME\n\nRépétez vos affirmations quotidiennes en silence, avec la narration ou avec votre propre voix enregistrée. Profitez de la pluie, de l'océan, de la nuit, du bruit brun ou du silence gratuitement. La version premium ajoute des ambiances plus riches comme le feu de cheminée, la forêt, les oiseaux du matin, un doux ruisseau, un piano apaisant et les carillons éoliens.\n\nRAPPELS SANS CULPABILITÉ\n\nDéfinissez des rappels d'affirmations doux autour de votre rythme réel. Manquer un jour n'efface pas vos progrès. AuraSage remarque que vous êtes de retour et ne transforme pas votre bien-être en tableau de scores.\n\nDES MOTS QUI VOUS CORRESPONDENT\n\nChoisissez des domaines d'intérêt, un ton et des sujets que vous préférez éviter. Enregistrez des affirmations d'amour de soi, des phrases de confiance en soi, des mots apaisants et des rappels personnels qui vous semblent utiles. Masquez tout ce qui ne convient pas. Vos retours aident à façonner une pratique quotidienne plus pertinente.\n\nPRIVÉ PAR CONCEPTION\n\nLe texte de vos affirmations, vos réflexions, vos préférences et vos enregistrements vocaux restent sur votre appareil. L'application d'affirmations de base fonctionne hors ligne et les rappels sont programmés localement. AuraSage n'a pas besoin de votre nom, de votre e-mail, de vos contacts, de votre position ou de vos dossiers de santé pour la pratique principale.\n\nL'ESSENTIEL GRATUIT, LA PROFONDEUR EN OPTION\n\nLe jeu quotidien, les favoris, les affirmations personnalisées, la pratique de base, les rappels, la réinitialisation rapide et les sons ambiants principaux sont vraiment utiles gratuitement. AuraSage Premium débloque plus de collections, une personnalisation plus poussée, votre voix enregistrée lors des sessions, du matériel additionnel et des scènes d'ambiance supplémentaires. Les abonnements disponibles et l'éligibilité aux essais s'affichent clairement dans l'application avant l'achat.\n\nCommencez avec sept mots crédibles pour aujourd'hui. Gardez celui que vous pouvez réellement penser.\n\nAuraSage propose du contenu de bien-être général et ne constitue ni un traitement médical ou psychologique, ni un diagnostic, ni un soutien en cas de crise.",
+        "notes": [
+          {
+            "term": "voix intérieure",
+            "why": "This natural French phrase captures the concept of inner dialogue without sounding overly clinical or literal."
+          },
+          {
+            "term": "confiance en soi",
+            "why": "This is the exact search phrase used in France for self-confidence topics, fitting naturally within the text."
+          },
+          {
+            "term": "sans culpabilité",
+            "why": "This phrasing avoids streak pressure language while perfectly translating the brand tone into idiomatic French."
+          }
+        ]
+      }
+    },
+    "aso": {
+      "title": {
+        "text": "AuraSage: Affirmations du jour",
+        "notes": [
+          {
+            "term": "Affirmations du jour",
+            "why": "This phrase captures the essence of daily affirmations in natural French while respecting the 30-character limit."
+          }
+        ]
+      },
+      "short": {
+        "text": "Sept affirmations quotidiennes pour nourrir votre confiance en soi au quotidien.",
+        "notes": [
+          {
+            "term": "affirmations quotidiennes",
+            "why": "This is a high-volume search phrase that directly matches the core seven-a-day practice."
+          },
+          {
+            "term": "confiance en soi",
+            "why": "This natural keyword reflects what users in France frequently look for to support their self-worth."
+          }
+        ]
+      },
+      "full": {
+        "text": "Développez une voix intérieure plus crédible grâce à des affirmations quotidiennes conçues pour la vraie vie, loin des flux sans fin de positivité empruntée.\n\nAuraSage vous propose sept affirmations réfléchies chaque jour. Choisissez ce qui résonne, gardez-en une près de vous et revenez quand c'est utile. Il n'y à pas de série à protéger ni de pression liée au bien-être.\n\nUNE PETITE PRATIQUE QUOTIDIENNE\n\n• Lisez un jeu quotidien limité au lieu de faire défiler l'écran indéfiniment\n• Indiquez à AuraSage ce qui vous semble crédible pour affiner les mots suivants\n• Emportez une affirmation avec vous dans votre journée\n• Enregistrez vos favoris et écrivez vos propres affirmations\n• Utilisez une réinitialisation rapide de 90 secondes pour un moment de calme\n\nEXERCEZ-VOUS À VOTRE RYTHME\n\nRépétez vos affirmations quotidiennes en silence, avec la narration ou avec votre propre voix enregistrée. Profitez de la pluie, de l'océan, de la nuit, du bruit brun ou du silence gratuitement. La version premium ajoute des ambiances plus riches comme le feu de cheminée, la forêt, les oiseaux du matin, un doux ruisseau, un piano apaisant et les carillons éoliens.\n\nRAPPELS SANS CULPABILITÉ\n\nDéfinissez des rappels d'affirmations doux autour de votre rythme réel. Manquer un jour n'efface pas vos progrès. AuraSage remarque que vous êtes de retour et ne transforme pas votre bien-être en tableau de scores.\n\nDES MOTS QUI VOUS CORRESPONDENT\n\nChoisissez des domaines d'intérêt, un ton et des sujets que vous préférez éviter. Enregistrez des affirmations pour la confiance en soi, des phrases d'amour de soi, des mots apaisants et des rappels personnels qui vous semblent utiles. Masquez tout ce qui ne convient pas. Vos retours aident à façonner une pratique quotidienne plus pertinente.\n\nPRIVÉ PAR CONCEPTION\n\nLe texte de vos affirmations, vos réflexions, vos préférences et vos enregistrements vocaux restent sur votre appareil. L'application d'affirmations de base fonctionne hors ligne et les rappels sont programmés localement. AuraSage n'a pas besoin de votre nom, de votre e-mail, de vos contacts, de votre position ou de vos dossiers de santé pour la pratique principale.\n\nL'ESSENTIEL GRATUIT, LA PROFONDEUR EN OPTION\n\nLe jeu quotidien, les favoris, les affirmations personnalisées, la pratique de base, les rappels, la réinitialisation rapide et les sons ambiants principaux sont vraiment utiles gratuitement. AuraSage Premium débloque plus de collections, une personnalisation plus poussée, votre voix enregistrée lors des sessions, du matériel additionnel et des scènes d'ambiance supplémentaires. Les abonnements disponibles et l'éligibilité aux essais s'affichent clairement dans l'application avant l'achat.\n\nCommencez avec sept mots crédibles pour aujourd'hui. Gardez celui que vous pouvez réellement penser.\n\nAuraSage propose du contenu de bien-être général et ne constitue ni un traitement médical ou psychologique, ni un diagnostic, ni un soutien en cas de crise.",
+        "notes": [
+          {
+            "term": "affirmations quotidiennes",
+            "why": "This natural keyword matches what French users search for daily self-care tools."
+          },
+          {
+            "term": "confiance en soi",
+            "why": "This integration fits seamlessly into the text to reflect common self-assurance search intent."
+          }
+        ]
+      }
+    },
+    "punchier": {
+      "title": {
+        "text": "AuraSage: Affirmations du jour",
+        "notes": [
+          {
+            "term": "Affirmations du jour",
+            "why": "This phrase directly captures the high-volume search for daily affirmations while matching the character limit."
+          }
+        ]
+      },
+      "short": {
+        "text": "Sept affirmations quotidiennes pour ancrer votre sérénité au quotidien.",
+        "notes": [
+          {
+            "term": "affirmations quotidiennes",
+            "why": "This is a high-volume search phrase used by French users looking for daily affirmation apps."
+          },
+          {
+            "term": "ancrer",
+            "why": "This verb provides a grounded and active feel without resorting to hype or exaggerated promises."
+          }
+        ]
+      },
+      "full": {
+        "text": "Construisez une voix intérieure plus crédible grâce à des affirmations quotidiennes pensées pour le quotidien, loin des flux incessants de positivité artificielle.\n\nAuraSage vous offre sept affirmations réfléchies chaque jour. Choisissez ce qui résonne, gardez-en une près de vous et revenez quand vous en avez besoin. Pas de série à protéger, aucune pression de performance.\n\nUNE PETITE PRATIQUE QUOTIDIENNE\n\n• Parcourez un deck quotidien limité au lieu de scroller sans fin\n• Indiquez à AuraSage ce qui vous paraît crédible pour affiner les mots suivants\n• Emportez une pensée positive avec vous\n• Sauvegardez vos favoris et écrivez vos propres affirmations\n• Utilisez un retour au calme de 90 secondes en cas de besoin\n\nEXERCEZ-VOUS À VOTRE RYTHME\n\nRépétez vos affirmations en silence, avec la narration ou avec votre propre voix enregistrée. Profitez de la pluie, de l'océan, de la nuit, du bruit brun ou du silence gratuitement. La version premium ajoute des ambiances plus riches comme le feu de cheminée, la forêt, les oiseaux du matin, un ruisseau, un piano discret et les carillons.\n\nRAPPELS SANS CULPABILITÉ\n\nProgrammez des rappels doux adaptés à votre rythme. Manquer un jour n'efface rien. AuraSage accueille votre retour sans transformer votre bien-être en tableau de scores.\n\nDES MOTS SUR MESURE\n\nSélectionnez vos thèmes, votre ton et ce que vous préférez écarter. Enregistrez des affirmations de confiance en soi, des messages d'amour de soi et des rappels utiles. Masquez le reste. Vos retours affinent une pratique quotidienne toujours plus pertinente.\n\nCONFIDENTIEL PAR CONCEPTION\n\nVos textes, préférences et enregistrements vocaux restent sur votre appareil. L'application fonctionne hors ligne et les rappels sont gérés localement. AuraSage n'exige ni nom, ni e-mail, ni contacts, ni données de santé.\n\nL'ESSENTIEL GRATUIT, LA PROFONDEUR EN OPTION\n\nLe deck quotidien, les favoris, les affirmations personnalisées, les rappels et les sons de base sont entièrement gratuits et utiles. AuraSage Premium débloque davantage de collections, une personnalisation poussée, votre voix en session et des ambiances additionnelles. Les abonnements et essais sont détaillés dans l'application.\n\nCommencez avec sept mots crédibles pour aujourd'hui. Gardez celui qui compte vraiment.\n\nAuraSage propose du contenu de bien-être général et ne se substitue en aucun cas à un suivi médical ou psychologique.",
+        "notes": [
+          {
+            "term": "pensée positive",
+            "why": "Integrates a high-volume search phrase naturally into the description."
+          },
+          {
+            "term": "confiance en soi",
+            "why": "Uses the exact keyword parents search for regarding personal growth."
+          }
+        ]
+      }
+    },
+    "benefit": {
+      "title": {
+        "text": "AuraSage: Affirmations du jour",
+        "notes": [
+          {
+            "term": "Affirmations du jour",
+            "why": "This phrase captures the exact search intent for daily practice without breaking the character limit."
+          }
+        ]
+      },
+      "short": {
+        "text": "Pratique sereine et sept affirmations quotidiennes sans pression ni série.",
+        "notes": [
+          {
+            "term": "sept affirmations quotidiennes",
+            "why": "This incorporates a top local search phrase while preserving the core finite practice of the brand."
+          },
+          {
+            "term": "sans série",
+            "why": "This naturally addresses the user desire to avoid streak pressure without using clunky phrasing."
+          }
+        ]
+      },
+      "full": {
+        "text": "Cultivez une voix intérieure plus sereine et authentique grâce à des affirmations quotidiennes conçues pour la vraie vie, loin des flux interminables de positivité forcée.\n\nAuraSage vous offre chaque jour sept affirmations mesurées. Choisissez celles qui résonnent, gardez-en une près de vous et revenez quand vous en ressentez le besoin. Pas de série de jours à tenir ni de pression autour du bien-être.\n\nUNE PETITE PRATIQUE QUOTIDIENNE\n\n• Avancez avec un jeu limité de pensées positives du jour au lieu de faire défiler l'écran sans fin\n• Ajustez l'application en signalant ce qui vous semble crédible pour personnaliser vos futures affirmations quotidiennes\n• Emportez un mot apaisant avec vous dans votre journée\n• Sauvegardez vos favoris et écrivez vos propres phrases\n• Profitez d'une pause rapide de 90 secondes dès que le besoin de calme se fait sentir\n\nEXERCEZ-VOUS À VOTRE RYTHME\n\n• Répétez vos phrases en silence, avec une voix de narration ou avec votre propre voix enregistrée\n• Accédez gratuitement aux bruits de pluie, de l'océan, de la nuit, au bruit brun ou au silence\n• Enrichissez vos sessions avec la version premium (feu de cheminée, forêt, oiseaux du matin, ruisseau, piano ou carillons)\n\nRAPPELS SANS CULPABILITÉ\n\n• Planifiez des rappels discrets selon vos journées\n• Manquer un jour n'annule rien, car AuraSage ne transforme pas votre équilibre en compétition\n\nDES MOTS QUI VOUS CORRESPONDENT\n\n• Sélectionnez vos thématiques de confiance en soi et écartez ce qui ne vous convient pas\n• Façonnez une pratique adaptée à vos besoins en développement personnel grâce à vos retours\n\nPRIVÉ PAR CONCEPTION\n\n• Gardez vos enregistrements vocaux, vos préférences et vos textes sur votre appareil\n• Utilisez les fonctions essentielles hors ligne, sans partage d'e-mail, de contacts ou de données de santé\n\nL'ESSENTIEL GRATUIT, LA PROFONDEUR EN OPTION\n\n• Retrouvez gratuitement les sept phrases du jour, les favoris, les rappels et les sons principaux\n• Débloquez en option avec AuraSage Premium des collections enrichies, l'usage de votre voix et des ambiances sonores supplémentaires.\n\nCommencez avec sept mots crédibles pour aujourd'hui. Gardez celui que vous pouvez réellement penser.\n\nAuraSage propose du contenu de bien-être général et ne constitue ni un traitement médical ou psychologique, ni un diagnostic, ni un soutien en cas de crise.",
+        "notes": [
+          {
+            "term": "pensées positives du jour",
+            "why": "This natural French search phrase captures the user intent for daily positive thoughts without sounding like forced manifestation."
+          },
+          {
+            "term": "confiance en soi",
+            "why": "This is a high-volume local search phrase for self-assurance that fits seamlessly into the thematic preferences section."
+          },
+          {
+            "term": "développement personnel",
+            "why": "Including this recognized local term helps position the practice accurately for people seeking inner growth without pressure."
+          }
+        ]
+      }
+    },
+    "fit": {
+      "title": {
+        "text": "AuraSage: Affirmations du jour",
+        "notes": [
+          {
+            "term": "Affirmations du jour",
+            "why": "This phrase captures the essential search intent for daily affirmations while respecting the strict character limit."
+          }
+        ]
+      },
+      "short": {
+        "text": "Sept affirmations quotidiennes pour une pratique sereine et sans pression.",
+        "notes": [
+          {
+            "term": "affirmations quotidiennes",
+            "why": "This is a high-volume search phrase in France that matches user intent precisely."
+          },
+          {
+            "term": "sans pression",
+            "why": "This reassures the audience by highlighting the absence of streak pressure and guilt."
+          }
+        ]
+      },
+      "full": {
+        "text": "Développez une voix intérieure plus crédible grâce à des affirmations quotidiennes conçues pour la vraie vie, loin des flux sans fin de positivité empruntée.\n\nAuraSage vous propose sept affirmations réfléchies chaque jour. Choisissez ce qui résonne, gardez-en une près de vous et revenez quand c'est utile. Il n'y a pas de série à protéger ni de pression liée au bien-être.\n\nUNE PETITE PRATIQUE QUOTIDIENNE\n\n• Lisez un jeu quotidien limité au lieu de faire défiler l'écran indéfiniment\n• Indiquez à AuraSage ce qui vous semble crédible pour affiner les mots suivants\n• Emportez une affirmation avec vous dans votre journée\n• Enregistrez vos favoris et écrivez vos propres affirmations\n• Utilisez une réinitialisation rapide de 90 secondes pour un moment de calme\n\nEXERCEZ-VOUS À VOTRE RYTHME\n\nRépétez vos affirmations quotidiennes en silence, avec la narration ou avec votre propre voix enregistrée. Profitez de la pluie, de l'océan, de la nuit, du bruit brun ou du silence gratuitement. La version premium ajoute des ambiances plus riches comme le feu de cheminée, la forêt, les oiseaux du matin, un doux ruisseau, un piano apaisant et les carillons éoliens.\n\nRAPPELS SANS CULPABILITÉ\n\nDéfinissez des rappels d'affirmations doux autour de votre rythme réel. Manquer un jour n'efface pas vos progrès. AuraSage remarque que vous êtes de retour et ne transforme pas votre bien-être en tableau de scores.\n\nDES MOTS QUI VOUS CORRESPONDENT\n\nChoisissez des domaines d'intérêt, un ton et des sujets que vous préférez éviter. Enregistrez des affirmations d'amour de soi, des phrases de confiance en soi, des mots apaisants et des rappels personnels qui vous semblent utiles. Masquez tout ce qui ne convient pas. Vos retours aident à façonner une pratique quotidienne plus pertinente.\n\nPRIVÉ PAR CONCEPTION\n\nLe texte de vos affirmations, vos réflexions, vos préférences et vos enregistrements vocaux restent sur votre appareil. L'application d'affirmations de base fonctionne hors ligne et les rappels sont programmés localement. AuraSage n'a pas besoin de votre nom, de votre e-mail, de vos contacts, de votre position ou de vos dossiers de santé pour la pratique principale.\n\nL'ESSENTIEL GRATUIT, LA PROFONDEUR EN OPTION\n\nLe jeu quotidien, les favoris, les affirmations personnalisées, la pratique de base, les rappels, la réinitialisation rapide et les sons ambiants principaux sont vraiment utiles gratuitement. AuraSage Premium débloque plus de collections, une personnalisation plus poussée, votre voix enregistrée lors des sessions, du matériel additionnel et des scènes d'ambiance supplémentaires. Les abonnements disponibles et l'éligibilité aux essais s'affichent clairement dans l'application avant l'achat.\n\nCommencez avec sept mots crédibles pour aujourd'hui. Gardez celui que vous pouvez réellement penser.\n\nAuraSage propose du contenu de bien-être général et ne constitue ni un traitement médical ou psychologique, ni un diagnostic, ni un soutien en cas de crise.",
+        "notes": [
+          {
+            "term": "affirmations quotidiennes",
+            "why": "This is the primary search phrase used by French users looking for a steady daily habit without hype."
+          },
+          {
+            "term": "confiance en soi",
+            "why": "This natural search term connects directly with users seeking personal reassurance and self-assurance."
+          }
+        ]
+      }
+    }
+  },
+  "native": {
+    "fields": {
+      "title": "AuraSage: Affirmations du jour",
+      "short": "Sept affirmations quotidiennes pour une pratique sereine et sans pression.",
+      "full": "Développez une voix intérieure plus crédible grâce à des affirmations quotidiennes conçues pour la vraie vie, loin des flux sans fin de positivité empruntée.\n\nAuraSage vous propose sept affirmations réfléchies chaque jour. Choisissez ce qui résonne, gardez-en une près de vous et revenez quand c'est utile. Il n'y a pas de série à protéger ni de pression liée au bien-être.\n\nUNE PETITE PRATIQUE QUOTIDIENNE\n\n• Lisez un jeu quotidien limité au lieu de faire défiler l'écran indéfiniment\n• Indiquez à AuraSage ce qui vous semble crédible pour affiner les mots suivants\n• Emportez une affirmation avec vous dans votre journée\n• Enregistrez vos favoris et écrivez vos propres affirmations\n• Utilisez une réinitialisation rapide de 90 secondes pour un moment de calme\n\nEXERCEZ-VOUS À VOTRE RYTHME\n\nRépétez vos affirmations quotidiennes en silence, avec la narration ou avec votre propre voix enregistrée. Profitez de la pluie, de l'océan, de la nuit, du bruit brun ou du silence gratuitement. La version premium ajoute des ambiances plus riches comme le feu de cheminée, la forêt, les oiseaux du matin, un doux ruisseau, un piano apaisant et les carillons éoliens.\n\nRAPPELS SANS CULPABILITÉ\n\nDéfinissez des rappels d'affirmations doux autour de votre rythme réel. Manquer un jour n'efface pas vos progrès. AuraSage remarque que vous êtes de retour et ne transforme pas votre bien-être en tableau de scores.\n\nDES MOTS QUI VOUS CORRESPONDENT\n\nChoisissez des domaines d'intérêt, un ton et des sujets que vous préférez éviter. Enregistrez des affirmations d'amour de soi, des phrases de confiance en soi, des mots apaisants et des rappels personnels qui vous semblent utiles. Masquez tout ce qui ne convient pas. Vos retours aident à façonner une pratique quotidienne plus pertinente.\n\nPRIVÉ PAR CONCEPTION\n\nLe texte de vos affirmations, vos réflexions, vos préférences et vos enregistrements vocaux restent sur votre appareil. L'application d'affirmations de base fonctionne hors ligne et les rappels sont programmés localement. AuraSage n'a pas besoin de votre nom, de votre e-mail, de vos contacts, de votre position ou de vos dossiers de santé pour la pratique principale.\n\nL'ESSENTIEL GRATUIT, LA PROFONDEUR EN OPTION\n\nLe jeu quotidien, les favoris, les affirmations personnalisées, la pratique de base, les rappels, la réinitialisation rapide et les sons ambiants principaux sont vraiment utiles gratuitement. AuraSage Premium débloque plus de collections, une personnalisation plus poussée, votre voix enregistrée lors des sessions, du matériel additionnel et des scènes d'ambiance supplémentaires. Les abonnements disponibles et l'éligibilité aux essais s'affichent clairement dans l'application avant l'achat.\n\nCommencez avec sept mots crédibles pour aujourd'hui. Gardez celui que vous pouvez réellement penser.\n\nAuraSage propose du contenu de bien-être général et ne constitue ni un traitement médical ou psychologique, ni un diagnostic, ni un soutien en cas de crise."
+    },
+    "notes": [
+      {
+        "term": "Affirmations du jour",
+        "why": "This natural phrasing matches high-volume search intent for daily practices in France while staying within the character limit."
+      },
+      {
+        "term": "confiance en soi",
+        "why": "Integrating core search terms smoothly into the feature descriptions helps with discoverability without resorting to keyword stuffing."
+      },
+      {
+        "term": "sans pression",
+        "why": "This translates the brand requirement of avoiding streak pressure and guilt into idiomatic French wellness terminology."
+      },
+      {
+        "term": "vraie vie",
+        "why": "Using real life rather than literal translations keeps the brand voice grounded, warm, and approachable for adults in France."
+      }
+    ]
+  },
+  "generatedWith": {
+    "provider": "gemini",
+    "model": "gemini-3.5-flash-lite",
+    "at": "2026-09-29T10:10:37.700Z"
+  }
+}

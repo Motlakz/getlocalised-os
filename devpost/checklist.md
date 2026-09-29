@@ -39,7 +39,7 @@ Build mode: fast
   Learner check: On the German title, type `/`, pick *Punchier*, and apply it. Did the text and findings change? Open a skill from the menu and check it shows bottom right.
   Commit: `Add slash command menu, commands rail and skills panel`
 
-- [ ] **4. All three apps in fr-FR, es-ES, de-DE are seeded and switchable, with export**
+- [x] **4. All three apps in fr-FR, es-ES, de-DE are seeded and switchable, with export**
   Becomes usable: The app and market pickers switch between AuraSage, BellyClock and LoveTest AI across all three markets, each fully seeded. Export downloads the listing JSON.
   Why now: Once the one-app flow is proven, widening is mostly data. Doing it before live mode keeps the no-key demo complete first.
   PRD ref: `prd.md > Example Apps and Seeded Data`, `prd.md > Copy and Export`, `prd.md > States and Boundaries`
@@ -109,3 +109,7 @@ Activity mode:
 - The Playground uses static routes `/playground/<app>/<market>` (built with `generateStaticParams`) instead of `/playground?app=…&market=…`, and `/playground` redirects to BellyClock → de-DE. The build showed that query params would make the page dynamic and read seed files from disk on Vercel at request time; static routes read them only at build. Switching app or market navigates to another page, which gives the planned reset-on-switch for free.
 - `shadcn add` without an existing `lib/utils` rewrote imports to a bare `cn` package and installed it. Fixed by adding `lib/utils.ts`, restoring the imports, removing the package and installing the real dependencies (radix-ui, cva, clsx, tailwind-merge, hugeicons, tw-animate-css).
 - Dark mode is now the default with a light/dark toggle, instead of following the system. Learner feedback at the slice 2 checkpoint.
+- Seeded command previews show a short simulated running state (650–1200 ms) before the prepared result, which is labelled "Prepared result · <model>". Learner request: instant results looked as if they had always been there. The label keeps it honest that no live call happened.
+- Capture asks for a second, broader round of seed terms when the first returns fewer than 8 phrases, and requires correct accents. AuraSage de-DE (4) and BellyClock fr-FR (3) came back thin: niche terms, and Flash-Lite dropped French accents ("jeune" instead of "jeûne").
+- The engine prompt now says search phrases may be typed without accents but the listing must be spelled correctly. The first French BellyClock title copied "Jeune intermittent" (which means "young"), and was regenerated as "Compteur de jeûne".
+- LoveTest AI de-DE's first full description was 4177/4000 even after the corrective retry, so it was regenerated. `bun run validate` now catches over-limit seed listings.

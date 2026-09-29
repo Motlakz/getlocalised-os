@@ -26,6 +26,7 @@ Rules:
 - Never invent features, prices, numbers or claims that the source does not make. No medical, financial or guaranteed-result claims beyond the source.
 - No superlatives ("best", "#1", "top") and no calls to action in the title.
 - Use the market's search phrases where they fit naturally, especially in the title and short description. Never stuff or list them.
+- Search phrases are typed by users and are often missing accents or capitals. Always write them with correct spelling, accents and capitalisation in the listing (for example \"jeune intermittent\" is written \"jeûne intermittent\").
 - Stay strictly within each field's character limit. Count characters, including spaces.
 - Keep the source's line breaks and bullet structure in the full description where it helps.
 - Follow the developer's skills below. They describe the brand, the audience and the store rules, and they override your defaults.

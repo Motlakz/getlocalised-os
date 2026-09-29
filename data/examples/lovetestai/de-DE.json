@@ -1,0 +1,251 @@
+{
+  "market": "de-DE",
+  "phrases": {
+    "items": [
+      "liebestest",
+      "liebestester",
+      "liebestest kostenlos",
+      "liebestest deutsch",
+      "liebestest app",
+      "beziehungstest",
+      "liebesrechner",
+      "liebesrechner deutsch",
+      "partner check"
+    ],
+    "source": "Google Play search suggestions",
+    "capturedAt": "2026-09-29T10:10:13.627Z"
+  },
+  "native": {
+    "fields": {
+      "title": "Love Tester AI Liebestest",
+      "short": "Dein Liebestest: KI Liebesrechner, Kompatibilität und süße Liebesbriefe.",
+      "full": "Love Tester AI hilft dir, Kompatibilität zu entdecken, romantische Einblicke zu erkunden und bedeutungsvolle Momente zu schaffen mit KI-Liebestests, Beziehungstests, Partnervorschlägen und romantischen Generatoren.\n\nEgal ob du deinen Schwarm testest, Persönlichkeiten vergleichst, Sternzeichen-Liebesmatches erkundest oder herzerwärmende Liebesbriefe schreibst – Love Tester AI verbindet klassische Liebestest-Erlebnisse mit smarteren, KI-gestützten Werkzeugen, die interaktiv, unterhaltsam und persönlich wirken. Die Ergebnisse dienen der Unterhaltung.\n\nErkunde eure Verbindung durch KI-Kompatibilitätstests, Pärchen-Quizze, Beziehungseinblicke und personalisierte romantische Kreationen in einer App.\n\nFUNKTIONEN\n\nKI-Liebestests & Kompatibilität\n• Entdecke eure Kompatibilität mit Liebestests und Beziehungsanalysen\n• Erlebe unterhaltsame Liebestester-Momente und Kompatibilitätswerte\n• Probiere verschiedene Beziehungstests und Pärchen-Quizze aus\n• Vergleiche Namen, Persönlichkeiten und Beziehungsdynamiken sofort\n• Generiere unterhaltsame Ergebnisse mit einem modernen KI-Liebesrechner\n\nLiebesrechner & Partner Check\n• Nutze einen Liebesrechner, um Kompatibilität und romantische Chemie zu erkunden\n• Probiere klassische Liebestest-Erlebnisse mit smarten Einblicken aus\n• Entdecke euer romantisches Match mit interaktiven Werkzeugen\n• Erforsche Kompatibilität durch Namen und Beziehungsstile\n• Genieße eine moderne Version des klassischen Partner-Checks\n\nLiebessprache-Tests & Beziehungseinblicke\n• Entdecke deine Liebessprache und deinen Beziehungsstil\n• Mache ein Liebessprachen-Quiz für tiefere emotionale Verbindungen\n• Erkunde Kompatibilität durch Kommunikationspräferenzen\n• Lerne, wie ihr Liebe und Verbundenheit ausdrückt\n• Genieße unterhaltsame, beziehungsorientierte KI-Kompatibilitätstests\n\nSternzeichen & Numerologie\n• Erkunde Sternzeichen-Liebesrechner und astrologische Kompatibilität\n• Entdecke romantische Einblicke für beliebte Tierkreis-Paarungen\n• Vergleiche Dynamiken und Persönlichkeitschemie\n• Probiere Kompatibilität nach Geburtsdatum aus\n• Erkunde Numerologie-Liebesrechner und romantische Einblicke\n\nPartner-Modus\n• Lade deinen Partner ein, euch privat zu verbinden\n• Beantwortet gemeinsam geteilte Pärchen-Prompts\n• Baut gemeinsame Streaks auf und schaltet Erfolge frei\n• Erkundet Kompatibilitätseinblicke auf interaktive Weise\n\nKI-Liebesgeschichten-Generatoren\n• Generiere personalisierte Liebesbriefe im Handumdrehen\n• Erstelle süße romantische Notizen und herzerwärmende Nachrichten\n• Nutze den KI-Liebesbrief-Generator für bedeutungsvolle Texte\n• Erstelle Gedichte, romantische Bildunterschriften und Inhalte\n• Generiere schöne Nachrichten mit dem Zitate-Generator\n\nSpeichern, Teilen & Wiederholen\n• Speichere deine Lieblings-Kompatibilitätsergebnisse\n• Teile Liebestest-Ergebnisse und Karten mit Freunden oder Partner\n• Rufe vorherige Ergebnisse und Nachrichten jederzeit wieder auf\n\nWarum Menschen Love Tester AI lieben\n• Smarte Kompatibilitätseinblicke\n• Unterhaltsame Pärchen-Kompatibilitätstests\n• Moderne Liebesrechner-Erlebnisse\n• Romantische Generatoren und KI-Liebesbriefe\n• Interaktiver Partner-Modus\n• Sternzeichen-Kompatibilität und Numerologie\n• Personalisierte Erlebnisse\n\nPerfekt Für\n• Paare\n• Schwärme\n• Fernbeziehungen\n• Romantische Gespräche\n• Unterhaltsame Liebestests\n• Sternzeichen-Erkundung\n• Liebessprachen-Entdeckung\n• Romantische Nachrichten\n\nEgal ob du nach einem Online-Liebestester, einem Kompatibilitätstest für Paare oder einem Liebesbrief-Generator suchst – Love Tester AI bringt alles in einer App zusammen.\n\nLade Love Tester AI herunter, um jede Verbindung bedeutungsvoller zu machen."
+    },
+    "notes": [
+      {
+        "term": "Liebestest",
+        "why": "This is the exact high-volume search phrase used by the target audience in Germany."
+      },
+      {
+        "term": "Liebesrechner",
+        "why": "Matches the natural local search query for calculator-style compatibility features."
+      },
+      {
+        "term": "Partner Check",
+        "why": "A widely understood and natural German expression for playful partner compatibility tools."
+      },
+      {
+        "term": "Schwarm",
+        "why": "The authentic colloquial term used by teens and young adults in Germany for a crush."
+      }
+    ]
+  },
+  "commands": {
+    "native": {
+      "title": {
+        "text": "Love Tester AI Liebestest",
+        "notes": [
+          {
+            "term": "Liebestest",
+            "why": "This is the most searched local term for a love test on the German Google Play store."
+          }
+        ]
+      },
+      "short": {
+        "text": "Dein Liebestest: KI Liebesrechner, Kompatibilität und süße Liebesbriefe.",
+        "notes": [
+          {
+            "term": "Liebestest",
+            "why": "This is the most direct and heavily searched keyword for love tests in Germany."
+          },
+          {
+            "term": "Liebesrechner",
+            "why": "It is the natural local term for a love calculator used by young people and couples."
+          }
+        ]
+      },
+      "full": {
+        "text": "Love Tester AI hilft dir, Kompatibilität zu entdecken, romantische Einblicke zu erkunden und bedeutungsvolle Momente zu schaffen mit KI-Liebestests, Beziehungstests, Partnervorschlägen und romantischen Generatoren.\n\nEgal ob du deinen Schwarm testest, Persönlichkeiten vergleichst, Sternzeichen-Liebesmatches erkundest oder herzerwärmende Liebesbriefe schreibst – Love Tester AI verbindet klassische Liebestest-Erlebnisse mit smarteren, KI-gestützten Werkzeugen, die interaktiv, unterhaltsam und persönlich wirken. Die Ergebnisse dienen der Unterhaltung.\n\nErkunde eure Verbindung durch KI-Kompatibilitätstests, Pärchen-Quizze, Beziehungseinblicke und personalisierte romantische Kreationen in einer App.\n\nFUNKTIONEN\n\nKI-Liebestests & Kompatibilität\n• Entdecke eure Kompatibilität mit Liebestests und Beziehungsanalysen\n• Erlebe unterhaltsame Liebestester-Momente und Kompatibilitätswerte\n• Probiere verschiedene Beziehungstests und Pärchen-Quizze aus\n• Vergleiche Namen, Persönlichkeiten und Beziehungsdynamiken sofort\n• Generiere unterhaltsame Ergebnisse mit einem modernen KI-Liebesrechner\n\nLiebesrechner & Partner Check\n• Nutze einen Liebesrechner, um Kompatibilität und romantische Chemie zu erkunden\n• Probiere klassische Liebestest-Erlebnisse mit smarten Einblicken aus\n• Entdecke euer romantisches Match mit interaktiven Werkzeugen\n• Erforsche Kompatibilität durch Namen und Beziehungsstile\n• Genieße eine moderne Version des klassischen Partner-Checks\n\nLiebessprache-Tests & Beziehungseinblicke\n• Entdecke deine Liebessprache und deinen Beziehungsstil\n• Mache ein Liebessprachen-Quiz für tiefere emotionale Verbindungen\n• Erkunde Kompatibilität durch Kommunikationspräferenzen\n• Lerne, wie ihr Liebe und Verbundenheit ausdrückt\n• Genieße unterhaltsame, beziehungsorientierte KI-Kompatibilitätstests\n\nSternzeichen & Numerologie\n• Erkunde Sternzeichen-Liebesrechner und astrologische Kompatibilität\n• Entdecke romantische Einblicke für beliebte Tierkreis-Paarungen\n• Vergleiche Dynamiken und Persönlichkeitschemie\n• Probiere Kompatibilität nach Geburtsdatum aus\n• Erkunde Numerologie-Liebesrechner und romantische Einblicke\n\nPartner-Modus\n• Lade deinen Partner ein, euch privat zu verbinden\n• Beantwortet gemeinsam geteilte Pärchen-Prompts\n• Baut gemeinsame Streaks auf und schaltet Erfolge frei\n• Erkundet Kompatibilitätseinblicke auf interaktive Weise\n\nKI-Liebesgeschichten-Generatoren\n• Generiere personalisierte Liebesbriefe im Handumdrehen\n• Erstelle süße romantische Notizen und herzerwärmende Nachrichten\n• Nutze den KI-Liebesbrief-Generator für bedeutungsvolle Texte\n• Erstelle Gedichte, romantische Bildunterschriften und Inhalte\n• Generiere schöne Nachrichten mit dem Zitate-Generator\n\nSpeichern, Teilen & Wiederholen\n• Speichere deine Lieblings-Kompatibilitätsergebnisse\n• Teile Liebestest-Ergebnisse und Karten mit Freunden oder Partner\n• Rufe vorherige Ergebnisse und Nachrichten jederzeit wieder auf\n\nWarum Menschen Love Tester AI lieben\n• Smarte Kompatibilitätseinblicke\n• Unterhaltsame Pärchen-Kompatibilitätstests\n• Moderne Liebesrechner-Erlebnisse\n• Romantische Generatoren und KI-Liebesbriefe\n• Interaktiver Partner-Modus\n• Sternzeichen-Kompatibilität und Numerologie\n• Personalisierte Erlebnisse\n\nPerfekt Für\n• Paare\n• Schwärme\n• Fernbeziehungen\n• Romantische Gespräche\n• Unterhaltsame Liebestests\n• Sternzeichen-Erkundung\n• Liebessprachen-Entdeckung\n• Romantische Nachrichten\n\nEgal ob du nach einem Online-Liebestester, einem Kompatibilitätstest für Paare oder einem Liebesbrief-Generator suchst – Love Tester AI bringt alles in einer App zusammen.\n\nLade Love Tester AI herunter, um jede Verbindung bedeutungsvoller zu machen.",
+        "notes": [
+          {
+            "term": "Liebestests",
+            "why": "This is the primary search phrase used by the target audience for this category in Germany."
+          },
+          {
+            "term": "Liebesrechner",
+            "why": "A standard and natural German term for compatibility calculators in this context."
+          },
+          {
+            "term": "Unterhaltung",
+            "why": "Explicitly clarifies the entertainment nature as requested by store and brand guidelines."
+          }
+        ]
+      }
+    },
+    "aso": {
+      "title": {
+        "text": "Love Tester AI Liebestest",
+        "notes": [
+          {
+            "term": "Liebestest",
+            "why": "This is the most searched local phrase for love tests in Germany and fits the character limit perfectly."
+          }
+        ]
+      },
+      "short": {
+        "text": "Dein Liebestest mit dem Liebesrechner, Beziehungstest und süßen Ideen.",
+        "notes": [
+          {
+            "term": "Liebestest",
+            "why": "This is the primary high-volume search term in Germany for casual romance quizzes."
+          },
+          {
+            "term": "Liebesrechner",
+            "why": "It captures the exact calculator functionality while matching common user search habits."
+          }
+        ]
+      },
+      "full": {
+        "text": "Love Tester AI hilft dir, Kompatibilität zu entdecken, romantische Einblicke zu erkunden und bedeutungsvolle Momente zu schaffen mit KI-Liebestests, Beziehungstests, Partnervorschlägen und romantischen Generatoren.\n\nEgal ob du deinen Schwarm testest, Persönlichkeiten vergleichst, Sternzeichen-Liebesmatches erkundest oder herzerwärmende Liebesbriefe schreibst – Love Tester AI verbindet klassische Liebestest-Erlebnisse mit smarteren, KI-gestützten Werkzeugen, die interaktiv, unterhaltsam und persönlich wirken. Die Ergebnisse dienen der Unterhaltung.\n\nErkunde eure Verbindung durch KI-Kompatibilitätstests, Pärchen-Quizze, Beziehungseinblicke und personalisierte romantische Kreationen in einer App.\n\nFUNKTIONEN\n\nKI-Liebestests & Kompatibilität\n• Entdecke eure Kompatibilität mit einem Liebestest und Beziehungsanalysen\n• Erlebe unterhaltsame Liebestester-Momente und Kompatibilitätswerte\n• Probiere verschiedene Beziehungstests und Pärchen-Quizze aus\n• Vergleiche Namen, Persönlichkeiten und Beziehungsdynamiken sofort\n• Generiere unterhaltsame Ergebnisse mit einem modernen Liebesrechner\n\nLiebesrechner & Partner Check\n• Nutze einen Liebesrechner, um Kompatibilität und romantische Chemie zu erkunden\n• Probiere klassische Liebestest-Erlebnisse mit smarten Einblicken aus\n• Entdecke euer romantisches Match mit interaktiven Werkzeugen\n• Erforsche Kompatibilität durch Namen und Beziehungsstile\n• Genieße eine moderne Version des klassischen Partner-Checks\n\nLiebessprache-Tests & Beziehungseinblicke\n• Entdecke deine Liebessprache und deinen Beziehungsstil\n• Mache ein Liebessprachen-Quiz für tiefere emotionale Verbindungen\n• Erkunde Kompatibilität durch Kommunikationspräferenzen\n• Lerne, wie ihr Liebe und Verbundenheit ausdrückt\n• Genieße unterhaltsame, beziehungsorientierte KI-Kompatibilitätstests\n\nSternzeichen & Numerologie\n• Erkunde Sternzeichen-Liebesrechner und astrologische Kompatibilität\n• Entdecke romantische Einblicke für beliebte Tierkreis-Paarungen\n• Vergleiche Dynamiken und Persönlichkeitschemie\n• Probiere Kompatibilität nach Geburtsdatum aus\n• Erkunde Numerologie-Liebesrechner und romantische Einblicke\n\nPartner-Modus\n• Lade deinen Partner ein, euch privat zu verbinden\n• Beantwortet gemeinsam geteilte Pärchen-Prompts\n• Baut gemeinsame Streaks auf und schaltet Erfolge frei\n• Erkundet Kompatibilitätseinblicke auf interaktive Weise\n\nKI-Liebesgeschichten-Generatoren\n• Generiere personalisierte Liebesbriefe im Handumdrehen\n• Erstelle süße romantische Notizen und herzerwärmende Nachrichten\n• Nutze den KI-Liebesbrief-Generator für bedeutungsvolle Texte\n• Erstelle Gedichte, romantische Bildunterschriften und Inhalte\n• Generiere schöne Nachrichten mit dem Zitate-Generator\n\nSpeichern, Teilen & Wiederholen\n• Speichere deine Lieblings-Kompatibilitätsergebnisse\n• Teile Liebestest-Ergebnisse und Karten mit Freunden oder Partner\n• Rufe vorherige Ergebnisse und Nachrichten jederzeit wieder auf\n\nWarum Menschen Love Tester AI lieben\n• Smarte Kompatibilitätseinblicke\n• Unterhaltsame Pärchen-Kompatibilitätstests\n• Moderne Liebesrechner-Erlebnisse\n• Romantische Generatoren und KI-Liebesbriefe\n• Interaktiver Partner-Modus\n• Sternzeichen-Kompatibilität und Numerologie\n• Personalisierte Erlebnisse\n\nPerfekt Für\n• Paare\n• Schwärme\n• Fernbeziehungen\n• Romantische Gespräche\n• Unterhaltsame Liebestests\n• Sternzeichen-Erkundung\n• Liebessprachen-Entdeckung\n• Romantische Nachrichten\n\nEgal ob du nach einer Liebestest App, einem Kompatibilitätstest für Paare oder einem Liebesbrief-Generator suchst – Love Tester AI bringt alles in einer App zusammen.\n\nLade Love Tester AI herunter, um jede Verbindung bedeutungsvoller zu machen.",
+        "notes": [
+          {
+            "term": "Liebestest",
+            "why": "Integrating the exact search phrase naturally makes the copy relevant for local store searches without keyword stuffing."
+          },
+          {
+            "term": "Liebesrechner",
+            "why": "Using this common German term for compatibility calculators feels authentic and fits the playful entertainment context."
+          },
+          {
+            "term": "Liebestest App",
+            "why": "This high-intent search phrase flows smoothly in the conclusion to capture users looking specifically for mobile applications in this category."
+          }
+        ]
+      }
+    },
+    "punchier": {
+      "title": {
+        "text": "Love Tester AI Liebestest",
+        "notes": [
+          {
+            "term": "Liebestest",
+            "why": "This is the most direct and heavily searched keyword for love tests in Germany."
+          }
+        ]
+      },
+      "short": {
+        "text": "Teste deinen Crush: Liebestest, KI Liebesrechner und süße Liebesbriefe.",
+        "notes": [
+          {
+            "term": "Crush",
+            "why": "This is the exact everyday term used by German teens and young adults for the person they fancy."
+          },
+          {
+            "term": "Liebestest",
+            "why": "It is the primary search phrase used on Google Play in Germany for this category."
+          },
+          {
+            "term": "Liebesrechner",
+            "why": "This natural secondary keyword fits the playful calculation feature of the app."
+          }
+        ]
+      },
+      "full": {
+        "text": "Love Tester AI hilft dir, Kompatibilität zu entdecken, romantische Einblicke zu erkunden und bedeutungsvolle Momente zu schaffen mit KI-Liebestests, Beziehungstests, Partnervorschlägen und romantischen Generatoren.\n\nEgal ob du deinen Schwarm testest, Persönlichkeiten vergleichst, Sternzeichen-Liebesmatches erkundest oder herzerwärmende Liebesbriefe schreibst – Love Tester AI verbindet klassische Liebestest-Erlebnisse mit smarteren, KI-gestützten Werkzeugen, die interaktiv, unterhaltsam und persönlich wirken. Die Ergebnisse dienen der Unterhaltung.\n\nErkunde eure Verbindung durch KI-Kompatibilitätstests, Pärchen-Quizze, Beziehungseinblicke und personalisierte romantische Kreationen in einer App.\n\nFUNKTIONEN\n\nKI-Liebestests & Kompatibilität\n• Entdecke eure Kompatibilität mit Liebestests und Beziehungsanalysen\n• Erlebe unterhaltsame Liebestester-Momente und Kompatibilitätswerte\n• Probiere verschiedene Beziehungstests und Pärchen-Quizze aus\n• Vergleiche Namen, Persönlichkeiten und Beziehungsdynamiken sofort\n• Generiere unterhaltsame Ergebnisse mit einem modernen KI-Liebesrechner\n\nLiebesrechner & Partner Check\n• Nutze einen Liebesrechner, um Kompatibilität und romantische Chemie zu erkunden\n• Probiere klassische Liebestest-Erlebnisse mit smarten Einblicken aus\n• Entdecke euer romantisches Match mit interaktiven Werkzeugen\n• Erforsche Kompatibilität durch Namen und Beziehungsstile\n• Genieße eine moderne Version des klassischen Partner-Checks\n\nLiebessprache-Tests & Beziehungseinblicke\n• Entdecke deine Liebessprache und deinen Beziehungsstil\n• Mache ein Liebessprachen-Quiz für tiefere emotionale Verbindungen\n• Erkunde Kompatibilität durch Kommunikationspräferenzen\n• Lerne, wie ihr Liebe und Verbundenheit ausdrückt\n• Genieße unterhaltsame, beziehungsorientierte KI-Kompatibilitätstests\n\nSternzeichen & Numerologie\n• Erkunde Sternzeichen-Liebesrechner und astrologische Kompatibilität\n• Entdecke romantische Einblicke für beliebte Tierkreis-Paarungen\n• Vergleiche Dynamiken und Persönlichkeitschemie\n• Probiere Kompatibilität nach Geburtsdatum aus\n• Erkunde Numerologie-Liebesrechner und romantische Einblicke\n\nPartner-Modus\n• Lade deinen Partner ein, euch privat zu verbinden\n• Beantwortet gemeinsam geteilte Pärchen-Prompts\n• Baut gemeinsame Streaks auf und schaltet Erfolge frei\n• Erkundet Kompatibilitätseinblicke auf interaktive Weise\n\nKI-Liebesgeschichten-Generatoren\n• Generiere personalisierte Liebesbriefe im Handumdrehen\n• Erstelle süße romantische Notizen und herzerwärmende Nachrichten\n• Nutze den KI-Liebesbrief-Generator für bedeutungsvolle Texte\n• Erstelle Gedichte, romantische Bildunterschriften und Inhalte\n• Generiere schöne Nachrichten mit dem Zitate-Generator\n\nSpeichern, Teilen & Wiederholen\n• Speichere deine Lieblings-Kompatibilitätsergebnisse\n• Teile Liebestest-Ergebnisse und Karten mit Freunden oder Partner\n• Rufe vorherige Ergebnisse und Nachrichten jederzeit wieder auf\n\nWarum Menschen Love Tester AI lieben\n• Smarte Kompatibilitätseinblicke\n• Unterhaltsame Pärchen-Kompatibilitätstests\n• Moderne Liebesrechner-Erlebnisse\n• Romantische Generatoren und KI-Liebesbriefe\n• Interaktiver Partner-Modus\n• Sternzeichen-Kompatibilität und Numerologie\n• Personalisierte Erlebnisse\n\nPerfekt Für\n• Paare\n• Schwärme\n• Fernbeziehungen\n• Romantische Gespräche\n• Unterhaltsame Liebestests\n• Sternzeichen-Erkundung\n• Liebessprachen-Entdeckung\n• Romantische Nachrichten\n\nEgal ob du nach einem Online-Liebestester, einem Kompatibilitätstest für Paare oder einem Liebesbrief-Generator suchst – Love Tester AI bringt alles in einer App zusammen.\n\nLade Love Tester AI herunter, um jede Verbindung bedeutungsvoller zu machen.",
+        "notes": [
+          {
+            "term": "Schwarm",
+            "why": "This is the natural, everyday German term for a crush."
+          },
+          {
+            "term": "Liebestests",
+            "why": "Using this core keyword improves local search relevance organically."
+          }
+        ]
+      }
+    },
+    "benefit": {
+      "title": {
+        "text": "Liebestest: Love Tester AI",
+        "notes": [
+          {
+            "term": "Liebestest",
+            "why": "This is the most natural search phrase for a love test on the German Google Play store."
+          }
+        ]
+      },
+      "short": {
+        "text": "Teste deinen Crush mit dem Liebestest: KI Liebesrechner und Kompatibilität.",
+        "notes": [
+          {
+            "term": "Liebestest",
+            "why": "This is the most direct and heavily searched keyword on Google Play for this category in Germany."
+          },
+          {
+            "term": "Liebesrechner",
+            "why": "It naturally includes the second most popular local search term for the calculation feature."
+          }
+        ]
+      },
+      "full": {
+        "text": "Love Tester AI hilft dir, Kompatibilität zu entdecken, romantische Einblicke zu erkunden und bedeutungsvolle Momente zu schaffen mit KI-Liebestests, Beziehungstests und romantischen Generatoren. Die Ergebnisse dienen der Unterhaltung. Egal ob du deinen Schwarm testest, Persönlichkeiten vergleichst oder herzerwärmende Liebesbriefe schreibst – Love Tester AI verbindet klassische Liebestest-Erlebnisse mit smarteren, KI-gestützten Werkzeugen. Erkunde eure Verbindung durch KI-Kompatibilitätstests und Pärchen-Quizze in einer App.\n\nFUNKTIONEN\n\nLiebesrechner & Partner Check\n• Nutze einen Liebesrechner für sofort unterhaltsame Kompatibilität\n• Probiere klassische Liebestest-Erlebnisse mit smarten Einblicken aus\n• Entdecke euer romantisches Match durch interaktive Werkzeuge\n• Erforsche Kompatibilität durch Namen und Beziehungsstile\n• Genieße eine moderne Version des klassischen Liebestesters\n\nKI-Liebestests & Kompatibilität\n• Entdecke eure Kompatibilität mit abwechslungsreichen Liebestests\n• Erlebe unterhaltsame Liebestester-Momente und Kompatibilitätswerte\n• Probiere verschiedene Beziehungstests und Pärchen-Quizze aus\n• Vergleiche Namen, Persönlichkeiten und Beziehungsdynamiken\n• Generiere unterhaltsame Ergebnisse mit dem KI-Liebesrechner\n\nLiebessprache-Tests & Beziehungseinblicke\n• Entdecke deine Liebessprache und deinen Beziehungsstil\n• Mache ein Liebessprachen-Quiz für emotionale Verbindungen\n• Erkunde Kompatibilität durch Kommunikationspräferenzen\n• Lerne, wie ihr Liebe und Verbundenheit ausdrückt\n• Genieße unterhaltsame KI-Kompatibilitätstests\n\nSternzeichen & Numerologie\n• Erkunde Sternzeichen-Liebesrechner und astrologische Kompatibilität\n• Entdecke romantische Einblicke für beliebte Tierkreis-Paarungen\n• Vergleiche Dynamiken und Persönlichkeitschemie\n• Probiere Kompatibilität nach Geburtsdatum aus\n• Erkunde Numerologie-Liebesrechner\n\nPartner-Modus\n• Lade deinen Partner ein, euch privat zu verbinden\n• Beantwortet gemeinsam geteilte Pärchen-Prompts\n• Baut gemeinsame Streaks auf und schaltet Erfolge frei\n• Erkundet Kompatibilitätseinblicke auf interaktive Weise\n\nKI-Liebesgeschichten-Generatoren\n• Generiere personalisierte Liebesbriefe im Handumdrehen\n• Erstelle süße romantische Notizen und Nachrichten\n• Nutze den KI-Liebesbrief-Generator für bedeutungsvolle Texte\n• Erstelle Gedichte und romantische Bildunterschriften\n• Generiere schöne Nachrichten mit dem Zitate-Generator\n\nSpeichern, Teilen & Wiederholen\n• Speichere deine Lieblings-Kompatibilitätsergebnisse ab\n• Teile Liebestest-Ergebnisse und Karten mit Freunden\n• Rufe vorherige Ergebnisse und Nachrichten wieder auf\n\nWarum Menschen Love Tester AI lieben\n• Smarte Kompatibilitätseinblicke\n• Unterhaltsame Pärchen-Kompatibilitätstests\n• Moderne Liebesrechner-Erlebnisse\n• Romantische Generatoren und KI-Liebesbriefe\n• Interaktiver Partner-Modus\n• Sternzeichen-Kompatibilität\n• Personalisierte Erlebnisse\n\nPerfekt Für\n• Paare\n• Schwärme\n• Fernbeziehungen\n• Romantische Gespräche\n• Unterhaltsame Liebestests\n• Sternzeichen-Erkundung\n• Liebessprachen-Entdeckung\n• Romantische Nachrichten\n\nEgal ob du nach einem Online-Liebestester, einem Kompatibilitätstest für Paare oder einem Liebesbrief-Generator suchst – Love Tester AI bringt alles in einer App zusammen.\n\nLade Love Tester AI herunter, um jede Verbindung bedeutungsvoller zu machen.",
+        "notes": [
+          {
+            "term": "Liebesrechner & Partner Check",
+            "why": "This brings the core calculator and partner check features to the top as requested."
+          },
+          {
+            "term": "Liebestester",
+            "why": "Using this high-volume local search term naturally fits the entertainment tone of the app."
+          }
+        ]
+      }
+    },
+    "fit": {
+      "title": {
+        "text": "Love Tester AI Liebestest",
+        "notes": [
+          {
+            "term": "Liebestest",
+            "why": "This is the most searched local term for love tests in the German market."
+          }
+        ]
+      },
+      "short": {
+        "text": "Liebestest mit KI: Liebesrechner, Kompatibilität und süße Liebesbriefe.",
+        "notes": [
+          {
+            "term": "Liebestest",
+            "why": "This is the most searched local phrase for a love test on Google Play."
+          },
+          {
+            "term": "Liebesrechner",
+            "why": "It captures the core functionality of the love calculator using natural German vocabulary."
+          }
+        ]
+      },
+      "full": {
+        "text": "Love Tester AI hilft dir, Kompatibilität zu entdecken und romantische Momente zu schaffen mit KI-Liebestests, Beziehungstests und romantischen Generatoren. Egal ob du deinen Schwarm testest, Sternzeichen-Liebesmatches erkundest oder Liebesbriefe schreibst – Love Tester AI verbindet klassische Liebestest-Erlebnisse mit smarteren, KI-gestützten Werkzeugen. Die Ergebnisse dienen der Unterhaltung.\n\nFUNKTIONEN\n\nKI-Liebestests & Kompatibilität\n• Entdecke eure Kompatibilität mit Liebestests und Beziehungsanalysen\n• Erlebe unterhaltsame Liebestester-Momente und Kompatibilitätswerte\n• Probiere verschiedene Beziehungstests und Pärchen-Quizze aus\n• Vergleiche Namen, Persönlichkeiten und Beziehungsdynamiken sofort\n• Generiere unterhaltsame Ergebnisse mit einem modernen Liebesrechner\n\nLiebesrechner & Partner Check\n• Nutze einen Liebesrechner, um Kompatibilität und romantische Chemie zu erkunden\n• Probiere klassische Liebestest-Erlebnisse mit smarten Einblicken aus\n• Entdecke euer romantisches Match mit interaktiven Werkzeugen\n• Erforsche Kompatibilität durch Namen und Beziehungsstile\n• Genieße eine moderne Version des klassischen Partner-Checks\n\nLiebessprache-Tests & Beziehungseinblicke\n• Entdecke deine Liebessprache und deinen Beziehungsstil\n• Mache ein Liebessprachen-Quiz für tiefere emotionale Verbindungen\n• Erkunde Kompatibilität durch Kommunikationspräferenzen\n• Lerne, wie ihr Liebe und Verbundenheit ausdrückt\n\nSternzeichen & Numerologie\n• Erkunde Sternzeichen-Liebesrechner und astrologische Kompatibilität\n• Entdecke romantische Einblicke für beliebte Tierkreis-Paarungen\n• Vergleiche Dynamiken und Persönlichkeitschemie\n• Probiere Kompatibilität nach Geburtsdatum aus\n\nPartner-Modus\n• Lade deinen Partner ein, euch privat zu verbinden\n• Beantwortet gemeinsam geteilte Pärchen-Prompts\n• Baut gemeinsame Streaks auf und schaltet Erfolge frei\n\nKI-Liebesbrief-Generator\n• Generiere personalisierte Liebesbriefe im Handumdrehen\n• Erstelle süße romantische Notizen und herzerwärmende Nachrichten\n• Nutze den Generator für bedeutungsvolle Texte und Gedichte\n\nSpeichern, Teilen & Wiederholen\n• Speichere deine Lieblingsergebnisse\n• Teile Liebestest-Ergebnisse mit Freunden oder Partner\n• Rufe vorherige Ergebnisse und Nachrichten jederzeit wieder auf\n\nPerfekt Für\n• Paare\n• Schwärme\n• Fernbeziehungen\n• Romantische Gespräche\n• Unterhaltsame Liebestests\n• Sternzeichen-Erkundung\n\nLade Love Tester AI herunter, um jede Verbindung zu bereichern.",
+        "notes": [
+          {
+            "term": "Liebestests",
+            "why": "This natural keyword matches what German users frequently search for in this app category."
+          },
+          {
+            "term": "Liebesrechner",
+            "why": "The term accurately captures the classic calculator feature using everyday local phrasing."
+          },
+          {
+            "term": "Partner Check",
+            "why": "This local expression reflects casual compatibility checks between partners or crushes."
+          }
+        ]
+      }
+    }
+  },
+  "generatedWith": {
+    "provider": "gemini",
+    "model": "gemini-3.5-flash-lite",
+    "at": "2026-09-29T10:29:05.071Z"
+  }
+}

@@ -10,9 +10,11 @@ import type { PlaygroundData } from "@/lib/playground-data";
 
 import { CommandMenu, type FieldPreviews } from "./command-menu";
 import { CommandsRail } from "./commands-rail";
+import { ExportButton } from "./export-button";
 import { FieldRow } from "./field-row";
 import { FindingsPanel } from "./findings-panel";
 import { PhrasesPanel } from "./phrases-panel";
+import { Pickers } from "./pickers";
 import { SectionLabel } from "./section-label";
 import { SkillsPanel } from "./skills-panel";
 import { initialState, playgroundReducer } from "./state";
@@ -60,7 +62,12 @@ export function Playground({ data }: { data: PlaygroundData }) {
 
   return (
     <div className="flex min-h-screen flex-col">
-      <TopBar appName={data.name} market={data.market} right={<Badge variant="outline">Seeded mode</Badge>} />
+      <TopBar
+        appName={data.name}
+        market={data.market}
+        pickers={<Pickers data={data} />}
+        right={<Badge variant="outline">Seeded mode</Badge>}
+      />
 
       <div className="mx-auto grid w-full max-w-[1440px] flex-1 lg:grid-cols-[minmax(0,1fr)_380px]">
         <main className="min-w-0 lg:border-r">
@@ -73,12 +80,21 @@ export function Playground({ data }: { data: PlaygroundData }) {
                 {data.name} in {info.language}
               </h1>
             </div>
+            <div className="flex items-end gap-4">
             <div className="text-right text-xs text-muted-foreground">
               <p>
                 Generated with <span className="font-mono text-foreground">{data.generatedWith.model}</span> ·{" "}
                 {formatDate(data.generatedWith.at)}
               </p>
               <p className="mt-0.5">Wording comes from the model plus this app&apos;s skills, not measured search volume.</p>
+            </div>
+            <ExportButton
+              app={data.app}
+              appId={data.appId}
+              market={data.market}
+              fields={state.fields}
+              generatedWith={data.generatedWith}
+            />
             </div>
           </div>
 
@@ -107,6 +123,7 @@ export function Playground({ data }: { data: PlaygroundData }) {
                     dispatch({ type: "apply", field, command, text: preview.text, notes: preview.notes })
                   }
                   onOpenSkill={openSkill}
+                  resultLabel={`Prepared result · ${data.generatedWith.model}`}
                 />
               }
             />

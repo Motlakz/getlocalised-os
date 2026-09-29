@@ -81,7 +81,7 @@ Develops the "oh, that's cool" beat in `scope.md > What "Working" Looks Like`.
 - With a key, the remaining commands are also live: **Shorter**, **Simplify**, **More formal**, **More casual**, **Variants**, plus a free-form command.
 - Commands apply to one field at a time and show previews first. Nothing changes until the user picks one.
 - [ ] Typing `/` in a field, or clicking its command button, opens the menu with each command's one-line description.
-- [ ] A seeded command shows its prepared result(s) instantly without a key.
+- [ ] A seeded command shows a brief running state (about a second), then its prepared result, labelled "Prepared result · <model>", without a key. *(Learner request during slice 4: results shouldn't appear as if they'd always been there, but they're still labelled honestly.)*
 - [ ] Picking a preview replaces the field and updates character count and findings. Dismissing leaves the field unchanged.
 - [ ] Without a key, non-seeded commands are visible but marked "needs a key" and point to the key control.
 
