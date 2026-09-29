@@ -18,229 +18,213 @@
     "source": "Google Play search suggestions",
     "capturedAt": "2026-09-29T10:09:34.115Z"
   },
+  "native": {
+    "fields": {
+      "title": "AuraSage - Afirmaciones",
+      "short": "Siete afirmaciones al dia, con voz y calma, sin presion por rachas.",
+      "full": "Construye una voz interior mas creible con afirmaciones diarias pensadas para la vida real, lejos de las frases vacias y el positivismo toxico.\n\nAuraSage te ofrece siete afirmaciones meditadas cada dia. Elige las que resuenen contigo, quedate con una y vuelve cuando te sea util. No hay rachas que proteger ni obligaciones con tu bienestar.\n\nUNA PEQUEÑA PRACTICA DIARIA\n\n• Lee una baraja diaria limitada en vez de pasar horas deslizando la pantalla\n• Indica a AuraSage que te resulta creible para que las siguientes palabras encajen mejor\n• Lleva una afirmacion contigo a lo largo del dia\n• Guarda tus favoritas y escribe tus propias afirmaciones\n• Usa una pausa breve de 90 segundos cuando necesites un momento de calma\n\nPRACTICA A TU MANERA\n\nRepite afirmaciones positivas diarias de forma silenciosa, con narracion o con tu propia voz grabada. Elige lluvia, oceano, noche, ruido marron o silencio gratis. La version Premium incluye ambientes mas ricos como chimenea, bosque, aves matutinas, un arroyo suave, piano y carillones de viento.\n\nRECORDATORIOS SIN CULPA\n\nConfigura recordatorios suaves adaptados a tu dia a dia. Si te saltas un dia, no pierdes ningun progreso. AuraSage se alegra de que vuelvas; no convierte tu bienestar en un marcador.\n\nPALABRAS QUE ENCAJAN CONTIGO\n\nElige areas de enfoque, tonos y temas que prefieras evitar. Guarda afirmaciones de amor propio, frases de confianza, palabras de calma y recordatorios personales que te resulten utiles. Oculta lo que no encaje. Tus comentarios ayudan a dar forma a una practica diaria mas relevante.\n\nPRIVADAS POR DISEÑO\n\nTus textos, reflexiones, preferencias y grabaciones de voz se quedan en tu dispositivo. La aplicacion principal funciona sin conexion y los recordatorios se programan localmente. AuraSage no necesita tu nombre, correo, contactos, ubicacion ni datos de salud para la practica esencial.\n\nLO ESENCIAL GRATIS, PROFUNDIDAD OPCIONAL\n\nLa baraja diaria, los favoritos, las afirmaciones personalizadas, la practica basica, los recordatorios, la pausa breve y los sonidos esenciales son totalmente utiles de forma gratuita. AuraSage Premium desbloquea mas colecciones, mayor personalizacion, tu voz grabada en las sesiones, materiales adicionales y mas sonidos ambientales. Los planes disponibles y la elegibilidad para pruebas se muestran claramente en la app antes de comprar.\n\nEmpieza hoy con siete palabras creibles. Quedate con la que de verdad puedas sentir.\n\nAuraSage ofrece contenido de bienestar general, no tratamiento medico o psicologico, diagnostico ni apoyo en crisis."
+    },
+    "notes": [
+      {
+        "term": "Afirmaciones",
+        "why": "It matches the core search phrase on Google Play while keeping the title clean and within character limits."
+      },
+      {
+        "term": "Afirmaciones diarias",
+        "why": "This exact match appears naturally in the text to capture relevant search traffic without looking spammy."
+      },
+      {
+        "term": "Afirmaciones de amor propio",
+        "why": "It integrates a natural search term used by people looking for self-confidence and personal reflection in Spain."
+      },
+      {
+        "term": "Sin presion por rachas",
+        "why": "This avoids streak anxiety while communicating the brand's core stance in a natural, conversational way."
+      }
+    ]
+  },
   "commands": {
     "native": {
       "title": {
-        "text": "AuraSage: afirmaciones diarias",
+        "text": "AuraSage: Afirmaciones diarias",
         "notes": [
           {
-            "term": "afirmaciones diarias",
-            "why": "This is the primary search phrase used by Spanish users looking for daily affirmation apps."
+            "term": "Afirmaciones diarias",
+            "why": "This phrase matches one of the Play search suggestions provided for this market."
           }
         ]
       },
       "short": {
-        "text": "Siete afirmaciones diarias sin presión por rachas. Calma en tu día a día.",
+        "text": "Siete afirmaciones diarias al día, con voz y calma, sin presión por rachas.",
         "notes": [
           {
             "term": "afirmaciones diarias",
-            "why": "This is the primary search phrase used by Spanish users looking for this type of content."
+            "why": "This term directly incorporates a primary search phrase used by the local audience."
           },
           {
             "term": "sin presión por rachas",
-            "why": "This directly addresses the audience's aversion to streak pressure in a natural sounding way."
+            "why": "This phrasing captures the brand value of avoiding streak anxiety in natural Spanish."
           }
         ]
       },
       "full": {
-        "text": "Construye una voz interior más creíble con afirmaciones diarias pensadas para la vida real, huyendo de la positividad vacía y los feeds infinitos.\n\nAuraSage te ofrece siete frases positivas diarias muy cuidadas. Quédate con lo que te resuene, lleva una cerca y vuelve cuando te haga falta. No hay rachas que proteger ni presión por cumplir.\n\nUNA PEQUEÑA PRÁCTICA DIARIA\n\n• Lee una baraja diaria limitada en lugar de hacer scroll sin fin\n• Dile a AuraSage qué te resulta creíble para afinar futuras palabras\n• Llévate una afirmación a lo largo de tu día\n• Guarda favoritas y escribe tus propias palabras\n• Usa un reseteo rápido de 90 segundos cuando necesites calma\n\nPRACTICA A TU MANERA\n\nRepite las afirmaciones positivas diarias en silencio, con narración o con tu propia voz grabada. Elige lluvia, mar, noche, ruido marrón o silencio gratis. La versión premium añade ambientes más ricos como chimenea, bosque, pájaros de mañana, un arroyo suave, piano y carillones.\n\nRECORDATORIOS SIN CULPA\n\nConfigura recordatorios amables acordes a tu día real. Perderse un día no borra tus avances. AuraSage nota que has vuelto; no convierte tu bienestar en un marcador.\n\nPALABRAS HECHAS A TU MEDIDA\n\nElige áreas de enfoque, tono y temas que prefieras evitar. Guarda afirmaciones de amor propio, confianza, calma y notas personales que te resulten útiles. Oculta lo que no encaje. Tus opiniones ayudan a dar forma a una práctica diaria más relevante.\n\nPRIVADO POR DISEÑO\n\nTus textos, reflexiones, preferencias y grabaciones de voz se quedan en tu dispositivo. La app principal funciona sin conexión y los recordatorios se programan localmente. AuraSage no necesita tu nombre, correo, contactos, ubicación ni historial de salud.\n\nLO ESENCIAL GRATIS, PROFUNDIDAD OPCIONAL\n\nLa baraja diaria, los favoritos, las frases personalizadas, la práctica básica, los recordatorios, el reseteo rápido y los sonidos ambiente principales son gratuitos y muy útiles. AuraSage Premium desbloquea más colecciones, mayor personalización, tu voz grabada en las sesiones, materiales adicionales y más sonidos ambiente. Los planes disponibles y las pruebas se muestran con claridad en la app antes de comprar.\n\nEmpieza hoy con siete palabras creíbles. Quédate con la que de verdad puedas sentir.\n\nAuraSage ofrece contenido de bienestar general, no tratamiento médico o psicológico, diagnóstico ni apoyo en crisis.",
+        "text": "Construye una voz interior más creíble con afirmaciones diarias pensadas para la vida real, lejos de las frases vacías y el positivismo tóxico.\n\nAuraSage te ofrece siete afirmaciones meditadas cada día. Elige las que resuenen contigo, quédate con una y vuelve cuando te sea útil. No hay rachas que proteger ni obligaciones con tu bienestar.\n\nUNA PEQUEÑA PRÁCTICA DIARIA\n\n• Lee una baraja diaria limitada en vez de pasar horas deslizando la pantalla\n• Indica a AuraSage qué te resulta creíble para que las siguientes palabras encajen mejor\n• Lleva una afirmación contigo a lo largo del día\n• Guarda tus favoritas y escribe tus propias afirmaciones\n• Usa una pausa breve de 90 segundos cuando necesites un momento de calma\n\nPRÁCTICA A TU MANERA\n\nRepite afirmaciones positivas diarias de forma silenciosa, con narración o con tu propia voz grabada. Elige lluvia, océano, noche, ruido marrón o silencio gratis. La versión Premium incluye ambientes más ricos como chimenea, bosque, aves matutinas, un arroyo suave, piano y carillones de viento.\n\nRECORDATORIOS SIN CULPA\n\nConfigura recordatorios suaves adaptados a tu día a día. Si te saltas un día, no pierdes ningún progreso. AuraSage se alegra de que vuelvas; no convierte tu bienestar en un marcador.\n\nPALABRAS QUE ENCAJAN CONTIGO\n\nElige áreas de enfoque, tonos y temas que prefieras evitar. Guarda afirmaciones de amor propio, frases de confianza, palabras de calma y recordatorios personales que te resulten útiles. Oculta lo que no encaje. Tus comentarios ayudan a dar forma a una práctica diaria más relevante.\n\nPRIVADAS POR DISEÑO\n\nTus textos, reflexiones, preferencias y grabaciones de voz se quedan en tu dispositivo. La aplicación principal funciona sin conexión y los recordatorios se programan localmente. AuraSage no necesita tu nombre, correo, contactos, ubicación ni datos de salud para la práctica esencial.\n\nLO ESENCIAL GRATIS, PROFUNDIDAD OPCIONAL\n\nLa baraja diaria, los favoritos, las afirmaciones personalizadas, la práctica básica, los recordatorios, la pausa breve y los sonidos esenciales son totalmente útiles de forma gratuita. AuraSage Premium desbloquea más colecciones, mayor personalización, tu voz grabada en las sesiones, materiales adicionales y más sonidos ambientales. Los planes disponibles y la elegibilidad para pruebas se muestran claramente en la app antes de comprar.\n\nEmpieza hoy con siete palabras creíbles. Quédate con la que de verdad puedas sentir.\n\nAuraSage ofrece contenido de bienestar general, no tratamiento médico o psicológico, diagnóstico ni apoyo en crisis.",
         "notes": [
           {
-            "term": "frases positivas diarias",
-            "why": "This search phrase matches local patterns while keeping the text sounding natural for everyday users."
+            "term": "afirmaciones positivas diarias",
+            "why": "This phrase matches one of the Play search suggestions naturally within the sentence."
           },
           {
-            "term": "huyendo de la positividad vacía",
-            "why": "This idiom captures the brand's rejection of toxic positivity without sounding translated."
-          },
-          {
-            "term": "reseteo rápido",
-            "why": "This natural phrasing fits the relaxing, low-pressure tone preferred by the Spanish audience."
+            "term": "amor propio",
+            "why": "This term matches the audience's vocabulary for self-love practices in Spain."
           }
         ]
       }
     },
     "aso": {
       "title": {
-        "text": "AuraSage: afirmaciones diarias",
+        "text": "AuraSage: Afirmaciones diarias",
         "notes": [
           {
-            "term": "afirmaciones diarias",
-            "why": "This is the exact high-volume search phrase used on Google Play in Spain."
+            "term": "Afirmaciones diarias",
+            "why": "This exact phrase matches the core search term for daily affirmations while staying strictly within the thirty-character limit."
           }
         ]
       },
       "short": {
-        "text": "Siete afirmaciones positivas diarias y calma sin presión por las rachas.",
+        "text": "Siete afirmaciones diarias con voz, calma y sin presión por rachas.",
         "notes": [
           {
-            "term": "afirmaciones positivas diarias",
-            "why": "This exact search phrase fits naturally into the opening without feeling stuffed."
-          },
-          {
-            "term": "sin presión por las rachas",
-            "why": "This respects the brand constraint of avoiding streak pressure while sounding natural in Spanish."
+            "term": "afirmaciones diarias",
+            "why": "This core search phrase fits naturally into the short description without feeling forced."
           }
         ]
       },
       "full": {
-        "text": "Construye una voz interior más creíble con afirmaciones diarias pensadas para la vida real, huyendo de la positividad vacía y los feeds infinitos.\n\nAuraSage te ofrece siete frases positivas diarias muy cuidadas. Quédate con lo que te resuene, lleva una cerca y vuelve cuando te haga falta. No hay rachas que proteger ni presión por cumplir.\n\nUNA PEQUEÑA PRÁCTICA DIARIA\n\n• Lee una baraja diaria limitada en lugar de hacer scroll sin fin\n• Dile a AuraSage qué te resulta creíble para afinar futuras palabras\n• Llévate una afirmación a lo largo de tu día\n• Guarda favoritas y escribe tus propias palabras\n• Usa un reseteo rápido de 90 segundos cuando necesites calma\n\nPRACTICA A TU MANERA\n\nRepite las afirmaciones positivas diarias en silencio, con narración o con tu propia voz grabada. Elige lluvia, mar, noche, ruido marrón o silencio gratis. La versión premium añade ambientes más ricos como chimenea, bosque, pájaros de mañana, un arroyo suave, piano y carillones.\n\nRECORDATORIOS SIN CULPA\n\nConfigura recordatorios amables acordes a tu día real. Perderse un día no borra tus avances. AuraSage nota que has vuelto; no convierte tu bienestar mental en un marcador.\n\nPALABRAS HECHAS A TU MEDIDA\n\nElige áreas de enfoque, tono y temas que prefieras evitar. Guarda afirmaciones de amor propio, confianza, calma y notas personales que te resulten útiles. Oculta lo que no encaje. Tus opiniones ayudan a dar forma a una práctica diaria más relevante.\n\nPRIVADO POR DISEÑO\n\nTus textos, reflexiones, preferencias y grabaciones de voz se quedan en tu dispositivo. La app principal funciona sin conexión y los recordatorios se programan localmente. AuraSage no necesita tu nombre, correo, contactos, ubicación ni historial de salud.\n\nLO ESENCIAL GRATIS, PROFUNDIDAD OPCIONAL\n\nLa baraja diaria, los favoritos, las frases personalizadas, la práctica básica, los recordatorios, el reseteo rápido y los sonidos ambiente principales son gratuitos y muy útiles. AuraSage Premium desbloquea más colecciones, mayor personalización, tu voz grabada en las sesiones, materiales adicionales y más sonidos ambiente. Los planes disponibles y las pruebas se muestran con claridad en la app antes de comprar.\n\nEmpieza hoy con siete palabras creíbles. Quédate con la que de verdad puedas sentir.\n\nAuraSage ofrece contenido de bienestar mental general, no tratamiento médico o psicológico, diagnóstico ni apoyo en crisis.",
+        "text": "Construye una voz interior mas creible con afirmaciones diarias pensadas para la vida real, lejos de las frases vacias y el positivismo toxico.\n\nAuraSage te ofrece siete afirmaciones meditadas cada dia. Elige las que resuenen contigo, quedate con una y vuelve cuando te sea util. No hay rachas que proteger ni obligaciones con tu bienestar.\n\nUNA PEQUEÑA PRACTICA DIARIA\n\n• Lee una baraja diaria limitada en vez de pasar horas deslizando la pantalla\n• Indica a AuraSage que te resulta creible para que las siguientes palabras encajen mejor\n• Lleva una afirmacion contigo a lo largo del dia\n• Guarda tus favoritas y escribe tus propias afirmaciones\n• Usa una pausa breve de 90 segundos cuando necesites un momento de calma\n\nPRACTICA A TU MANERA\n\nRepite afirmaciones positivas diarias de forma silenciosa, con narracion o con tu propia voz grabada. Elige lluvia, oceano, noche, ruido marron o silencio gratis. La version Premium incluye ambientes mas ricos como chimenea, bosque, aves matutinas, un arroyo suave, piano y carillones de viento.\n\nRECORDATORIOS SIN CULPA\n\nConfigura recordatorios suaves adaptados a tu dia a dia. Si te saltas un dia, no pierdes ningun progreso. AuraSage se alegra de que vuelvas; no convierte tu bienestar en un marcador.\n\nPALABRAS QUE ENCAJAN CONTIGO\n\nElige areas de enfoque, tonos y temas que prefieras evitar. Guarda afirmaciones de amor propio, frases de confianza, palabras de calma y recordatorios personales que te resulten utiles. Oculta lo que no encaje. Tus comentarios ayudan a dar forma a una practica diaria mas relevante.\n\nPRIVADAS POR DISEÑO\n\nTus textos, reflexiones, preferencias y grabaciones de voz se quedan en tu dispositivo. La aplicacion principal funciona sin conexion y los recordatorios se programan localmente. AuraSage no necesita tu nombre, correo, contactos, ubicacion ni datos de salud para la practica esencial.\n\nLO ESENCIAL GRATIS, PROFUNDIDAD OPCIONAL\n\nLa baraja diaria, los favoritos, las afirmaciones personalizadas, la practica basica, los recordatorios, la pausa breve y los sonidos esenciales son totalmente utiles de forma gratuita. AuraSage Premium desbloquea mas colecciones, mayor personalizacion, tu voz grabada en las sesiones, materiales adicionales y mas sonidos ambientales. Los planes disponibles y la elegibilidad para pruebas se muestran claramente en la app antes de comprar.\n\nEmpieza hoy con siete palabras creibles. Quedate con la que de verdad puedas sentir.\n\nAuraSage ofrece contenido de bienestar mental, no tratamiento medico o psicologico, diagnostico ni apoyo en crisis.",
         "notes": [
           {
-            "term": "frases positivas diarias",
-            "why": "This search phrase matches user search intent naturally within the daily deck context."
+            "term": "afirmaciones diarias",
+            "why": "This term matches one of the Play search suggestions and introduces the core feature naturally."
           },
           {
             "term": "bienestar mental",
-            "why": "This term fits the local search phrase neatly while maintaining the gentle tone of the brand."
+            "why": "This term matches one of the Play search suggestions and fits the app's gentle focus without making medical claims."
           }
         ]
       }
     },
     "punchier": {
       "title": {
-        "text": "AuraSage: Afirmaciones diarias",
+        "text": "AuraSage: Afirmaciones",
         "notes": [
           {
-            "term": "Afirmaciones diarias",
-            "why": "This is the primary exact-match search phrase used by the Spanish audience for this app category."
+            "term": "Afirmaciones",
+            "why": "This fits the 30-character limit while keeping the core category name in Spanish."
           }
         ]
       },
       "short": {
-        "text": "Siete afirmaciones diarias clave, voz propia y calma sin rachas que cuidar.",
+        "text": "Siete afirmaciones diarias con voz, calma y sin presión por rachas.",
         "notes": [
           {
             "term": "afirmaciones diarias",
-            "why": "This is the primary search phrase used by the target audience in Spain."
-          },
-          {
-            "term": "sin rachas que cuidar",
-            "why": "This phrasing directly addresses the brand rule of having no streak pressure in a natural way."
+            "why": "This exact search phrase fits the user's intent while matching the requested update for better rhythm."
           }
         ]
       },
       "full": {
-        "text": "Construye una voz interior más creíble con afirmaciones diarias pensadas para la vida real, huyendo de la positividad vacía y los feeds infinitos.\n\nAuraSage te ofrece siete frases positivas diarias muy cuidadas. Quédate con lo que te resuene, lleva una cerca y vuelve cuando te haga falta. No hay rachas que proteger ni presión por cumplir.\n\nUNA PEQUEÑA PRÁCTICA DIARIA\n\n• Lee una baraja diaria limitada en lugar de hacer scroll sin fin\n• Dile a AuraSage qué te resulta creíble para afinar futuras palabras\n• Llévate una afirmación a lo largo de tu día\n• Guarda favoritas y escribe tus propias palabras\n• Usa un reseteo rápido de 90 segundos cuando necesites calma\n\nPRACTICA A TU MANERA\n\nRepite las afirmaciones positivas diarias en silencio, con narración o con tu propia voz grabada. Elige lluvia, mar, noche, ruido marrón o silencio gratis. La versión premium añade ambientes más ricos como chimenea, bosque, pájaros de mañana, un arroyo suave, piano y carillones.\n\nRECORDATORIOS SIN CULPA\n\nConfigura recordatorios amables acordes a tu día real. Perderse un día no borra tus avances. AuraSage nota que has vuelto; no convierte tu bienestar en un marcador.\n\nPALABRAS HECHAS A TU MEDIDA\n\nElige áreas de enfoque, tono y temas que prefieras evitar. Guarda afirmaciones de amor propio, confianza, calma y notas personales que te resulten útiles. Oculta lo que no encaje. Tus opiniones ayudan a dar forma a una práctica diaria más relevante.\n\nPRIVADO POR DISEÑO\n\nTus textos, reflexiones, preferencias y grabaciones de voz se quedan en tu dispositivo. La app principal funciona sin conexión y los recordatorios se programan localmente. AuraSage no necesita tu nombre, correo, contactos, ubicación ni historial de salud.\n\nLO ESENCIAL GRATIS, PROFUNDIDAD OPCIONAL\n\nLa baraja diaria, los favoritos, las frases personalizadas, la práctica básica, los recordatorios, el reseteo rápido y los sonidos ambiente principales son gratuitos y muy útiles. AuraSage Premium desbloquea más colecciones, mayor personalización, tu voz grabada en las sesiones, materiales adicionales y más sonidos ambiente. Los planes disponibles y las pruebas se muestran con claridad en la app antes de comprar.\n\nEmpieza hoy con siete palabras creíbles. Quédate con la que de verdad puedas sentir.\n\nAuraSage ofrece contenido de bienestar general, no tratamiento médico o psicológico, diagnóstico ni apoyo en crisis.",
+        "text": "Construye una voz interior mas creible con afirmaciones diarias pensadas para la vida real, lejos de las frases vacias y el positivismo toxico.\n\nAuraSage te ofrece siete afirmaciones meditadas cada dia. Elige las que resuenen contigo, quedate con una y vuelve cuando te sea util. No hay rachas que proteger ni obligaciones con tu bienestar.\n\nUNA PEQUEÑA PRACTICA DIARIA\n\n• Lee una baraja diaria limitada en vez de pasar horas deslizando la pantalla\n• Indica a AuraSage que te resulta creible para que las siguientes palabras encajen mejor\n• Lleva una afirmacion contigo a lo largo del dia\n• Guarda tus favoritas y escribe tus propias afirmaciones\n• Usa una pausa breve de 90 segundos cuando necesites un momento de calma\n\nPRACTICA A TU MANERA\n\nRepite afirmaciones positivas diarias de forma silenciosa, con narracion o con tu propia voz grabada. Elige lluvia, oceano, noche, ruido marron o silencio gratis. La version Premium incluye ambientes mas ricos como chimenea, bosque, aves matutinas, un arroyo suave, piano y carillones de viento.\n\nRECORDATORIOS SIN CULPA\n\nConfigura recordatorios suaves adaptados a tu dia a dia. Si te saltas un dia, no pierdes ningun progreso. AuraSage se alegra de que vuelvas; no convierte tu bienestar en un marcador.\n\nPALABRAS QUE ENCAJAN CONTIGO\n\nElige areas de enfoque, tonos y temas que prefieras evitar. Guarda afirmaciones de amor propio, frases de confianza, palabras de calma y recordatorios personales que te resulten utiles. Oculta lo que no encaje. Tus comentarios ayudan a dar forma a una practica diaria mas relevante.\n\nPRIVADAS POR DISEÑO\n\nTus textos, reflexiones, preferencias y grabaciones de voz se quedan en tu dispositivo. La aplicacion principal funciona sin conexion y los recordatorios se programan localmente. AuraSage no necesita tu nombre, correo, contactos, ubicacion ni datos de salud para la practica esencial.\n\nLO ESENCIAL GRATIS, PROFUNDIDAD OPCIONAL\n\nLa baraja diaria, los favoritos, las afirmaciones personalizadas, la practica basica, los recordatorios, la pausa breve y los sonidos esenciales son totalmente utiles de forma gratuita. AuraSage Premium desbloquea mas colecciones, mayor personalizacion, tu voz grabada en las sesiones, materiales adicionales y mas sonidos ambientales. Los planes disponibles y la elegibilidad para pruebas se muestran claramente en la app antes de comprar.\n\nEmpieza hoy con siete palabras creibles. Quedate con la que de verdad puedas sentir.\n\nAuraSage ofrece contenido de bienestar general, no tratamiento medico o psicologico, diagnostico ni apoyo en crisis.",
         "notes": [
           {
             "term": "afirmaciones positivas diarias",
-            "why": "This exact search phrase fits the natural phrasing used by Spanish users looking for daily reflection content."
+            "why": "This matches one of the Play search suggestions naturally."
           },
           {
-            "term": "amor propio",
-            "why": "This is the standard, widely searched term in Spain for self-love practices."
+            "term": "frases de confianza",
+            "why": "This is a natural phrasing in Spain for self-assurance concepts."
           }
         ]
       }
     },
     "benefit": {
       "title": {
-        "text": "Afirmaciones diarias AuraSage",
+        "text": "AuraSage: Afirmaciones diarias",
         "notes": [
           {
             "term": "Afirmaciones diarias",
-            "why": "This core search phrase is placed first to match user intent and the restructuring rule."
-          },
-          {
-            "term": "AuraSage",
-            "why": "The brand name remains unchanged and concludes the title naturally."
+            "why": "This phrase matches the local search habits while fitting the strict character limit."
           }
         ]
       },
       "short": {
-        "text": "Afirmaciones diarias creíbles sin presión de rachas ni listas infinitas.",
+        "text": "Afirmaciones diarias creíbles sin presión por rachas y con calma.",
         "notes": [
           {
-            "term": "Afirmaciones diarias",
-            "why": "This is the primary search phrase used by Spanish users looking for daily affirmation content."
+            "term": "afirmaciones diarias",
+            "why": "This core search phrase matches user intent for daily practice in Spain."
           },
           {
             "term": "creíbles",
-            "why": "This highlights the brand pillar of believable language rather than toxic positivity."
+            "why": "This reflects the brand's focus on believable words rather than toxic positivity."
+          },
+          {
+            "term": "sin presión por rachas",
+            "why": "This reassures users that there is no guilt or streak tracking in the app."
           }
         ]
       },
       "full": {
-        "text": "Construye una voz interior más creíble con afirmaciones diarias pensadas para la vida real, huyendo de la positividad vacía y los feeds infinitos.\n\nAuraSage te ofrece siete frases positivas diarias muy cuidadas. Quédate con lo que te resuene, lleva una cerca y vuelve cuando te haga falta. No hay rachas que proteger ni presión por cumplir.\n\nUNA PEQUEÑA PRÁCTICA DIARIA\n\n• Evita el scroll sin fin leyendo una baraja diaria limitada\n• Afina tus futuras palabras indicando a AuraSage qué te resulta creíble\n• Llévate una afirmación a lo largo de tu día\n• Guarda favoritas y escribe tus propias palabras\n• Encuentra calma en 90 segundos usando un reseteo rápido\n\nPRACTICA A TU MANERA\n\n• Repite las afirmaciones positivas diarias en silencio, con narración o con tu propia voz grabada\n• Disfruta gratis de lluvia, mar, noche, ruido marrón o silencio\n• Añade ambientes más ricos como chimenea, bosque, pájaros de mañana, un arroyo suave, piano y carillones con la versión premium\n\nRECORDATORIOS SIN CULPA\n\n• Adapta los recordatorios amables a tu día real\n• Retoma tu hábito sin temor, ya que perderse un día no borra tus avances\n• Disfruta de un espacio que no convierte tu bienestar en un marcador y nota que has vuelto\n\nPALABRAS HECHAS A TU MEDIDA\n\n• Personaliza áreas de enfoque, tono y temas que prefieras evitar\n• Encuentra utilidad guardando afirmaciones de amor propio, confianza, calma y notas personales\n• Da forma a una práctica más relevante ocultando lo que no encaje y compartiendo tus opiniones\n\nPRIVADO POR DISEÑO\n\n• Mantén tus textos, reflexiones, preferencias y grabaciones de voz seguros en tu dispositivo\n• Utiliza la app principal sin conexión y programa los recordatorios localmente\n• Disfruta de una herramienta que no necesita tu nombre, correo, contactos, ubicación ni historial de salud\n\nLO ESENCIAL GRATIS, PROFUNDIDAD OPCIONAL\n\n• Aprovecha gratis la baraja diaria, los favoritos, las frases personalizadas, la práctica básica, los recordatorios, el reseteo rápido y los sonidos ambiente principales\n• Desbloquea más colecciones, mayor personalización, tu voz grabada en las sesiones, materiales adicionales y más sonidos ambiente con AuraSage Premium\n• Consulta con claridad los planes disponibles y las pruebas en la app antes de comprar\n\nEmpieza hoy con siete palabras creíbles. Quédate con la que de verdad puedas sentir.\n\nAuraSage ofrece contenido de bienestar general, no tratamiento médico o psicológico, diagnóstico ni apoyo en crisis.",
+        "text": "Construye una voz interior mas creible con afirmaciones diarias pensadas para la vida real, lejos de las frases vacias y el positivismo toxico.\n\nAuraSage te ofrece siete afirmaciones meditadas cada dia. Elige las que resuenen contigo, quedate con una y vuelve cuando te sea util. No hay rachas que proteger ni obligaciones con tu bienestar.\n\nUNA PEQUEÑA PRACTICA DIARIA\n\n• Lee una baraja diaria limitada en vez de pasar horas deslizando la pantalla para disfrutar de momentos de bienestar mental\n• Indica a AuraSage que te resulta creible para que las siguientes palabras encajen mejor\n• Lleva una afirmacion contigo a lo largo del dia tras inspirarte con frases positivas\n• Guarda tus favoritas y escribe tus propias afirmaciones\n• Usa una pausa breve de 90 segundos cuando necesites un momento de calma\n\nPRACTICA A TU MANERA\n\nRepite afirmaciones positivas diarias de forma silenciosa, con narracion o con tu propia voz grabada. Elige lluvia, oceano, noche, ruido marron o silencio gratis. La version Premium incluye ambientes mas ricos como chimenea, bosque, aves matutinas, un arroyo suave, piano y carillones de viento.\n\nRECORDATORIOS SIN CULPA\n\nConfigura recordatorios suaves adaptados a tu dia a dia. Si te saltas un dia, no pierdes ningun progreso. AuraSage se alegra de que vuelvas; no convierte tu bienestar en un marcador.\n\nPALABRAS QUE ENCAJAN CONTIGO\n\nElige areas de enfoque, tonos y temas que prefieras evitar. Guarda afirmaciones de amor propio, frases de confianza, palabras de calma y recordatorios personales que te resulten utiles. Oculta lo que no encaje. Tus comentarios ayudan a dar forma a una practica diaria mas relevante.\n\nPRIVADAS POR DISEÑO\n\nTus textos, reflexiones, preferencias y grabaciones de voz se quedan en tu dispositivo. La aplicacion principal funciona sin conexion y los recordatorios se programan localmente. AuraSage no necesita tu nombre, correo, contactos, ubicacion ni datos de salud para la practica esencial.\n\nLO ESENCIAL GRATIS, PROFUNDIDAD OPCIONAL\n\nLa baraja diaria, los favoritos, las afirmaciones personalizadas, la practica basica, los recordatorios, la pausa breve y los sonidos esenciales son totalmente utiles de forma gratuita. AuraSage Premium desbloquea mas colecciones, mayor personalizacion, tu voz grabada en las sesiones, materiales adicionales y mas sonidos ambientales. Los planes disponibles y la elegibilidad para pruebas se muestran claramente en la app antes de comprar.\n\nEmpieza hoy con siete palabras creibles. Quedate con la que de verdad puedas sentir.\n\nAuraSage ofrece contenido de bienestar mental general, no tratamiento medico o psicologico, diagnostico ni apoyo en crisis.",
         "notes": [
           {
-            "term": "Evita el scroll sin fin",
-            "why": "This formulation places the user benefit of avoiding endless scrolling right at the start of the bullet point."
+            "term": "bienestar mental",
+            "why": "It matches one of the Play search suggestions naturally without stuffing."
           },
           {
-            "term": "Encuentra calma en 90 segundos",
-            "why": "Structuring the sentence around the outcome of finding calm highlights the practical benefit before naming the timer tool."
+            "term": "frases positivas",
+            "why": "It incorporates a common user search phrase organically inside the bullet point."
           }
         ]
       }
     },
     "fit": {
       "title": {
-        "text": "AuraSage: afirmaciones diarias",
+        "text": "AuraSage: Afirmaciones diarias",
         "notes": [
           {
-            "term": "afirmaciones diarias",
-            "why": "This core search phrase is widely used in Spain and fits the brand's understated tone."
+            "term": "Afirmaciones diarias",
+            "why": "This exact phrase matches one of the top Play search suggestions for this market and fits the strict character limit."
           }
         ]
       },
       "short": {
-        "text": "Afirmaciones diarias y calma sin presión por rachas.",
+        "text": "Siete afirmaciones diarias con voz y calma, sin presión por rachas.",
         "notes": [
           {
-            "term": "Afirmaciones diarias",
-            "why": "This is the primary search phrase used by the target audience in Spain."
-          },
-          {
-            "term": "sin presión por rachas",
-            "why": "This captures the brand's key promise of a guilt-free practice without streak pressure."
+            "term": "afirmaciones diarias",
+            "why": "This core search phrase matches user intent in Spain while fitting the character limit."
           }
         ]
       },
       "full": {
-        "text": "Construye una voz interior más creíble con afirmaciones diarias pensadas para la vida real, huyendo de la positividad vacía y los feeds infinitos.\n\nAuraSage te ofrece siete frases positivas diarias muy cuidadas. Quédate con lo que te resuene, lleva una cerca y vuelve cuando te haga falta. No hay rachas que proteger ni presión por cumplir.\n\nUNA PEQUEÑA PRÁCTICA DIARIA\n\n• Lee una baraja diaria limitada en lugar de hacer scroll sin fin\n• Dile a AuraSage qué te resulta creíble para afinar futuras palabras\n• Llévate una afirmación a lo largo de tu día\n• Guarda favoritas y escribe tus propias palabras\n• Usa un reseteo rápido de 90 segundos cuando necesites calma\n\nPRACTICA A TU MANERA\n\nRepite las afirmaciones positivas diarias en silencio, con narración o con tu propia voz grabada. Elige lluvia, mar, noche, ruido marrón o silencio gratis. La versión premium añade ambientes más ricos como chimenea, bosque, pájaros de mañana, un arroyo suave, piano y carillones.\n\nRECORDATORIOS SIN CULPA\n\nConfigura recordatorios amables acordes a tu día real. Perderse un día no borra tus avances. AuraSage nota que has vuelto; no convierte tu bienestar en un marcador.\n\nPALABRAS HECHAS A TU MEDIDA\n\nElige áreas de enfoque, tono y temas que prefieras evitar. Guarda afirmaciones de amor propio, confianza, calma y notas personales que te resulten útiles. Oculta lo que no encaje. Tus opiniones ayudan a dar forma a una práctica diaria más relevante.\n\nPRIVADO POR DISEÑO\n\nTus textos, reflexiones, preferencias y grabaciones de voz se quedan en tu dispositivo. La app principal funciona sin conexión y los recordatorios se programan localmente. AuraSage no necesita tu nombre, correo, contactos, ubicación ni historial de salud.\n\nLO ESENCIAL GRATIS, PROFUNDIDAD OPCIONAL\n\nLa baraja diaria, los favoritos, las frases personalizadas, la práctica básica, los recordatorios, el reseteo rápido y los sonidos ambiente principales son gratuitos y muy útiles. AuraSage Premium desbloquea más colecciones, mayor personalización, tu voz grabada en las sesiones, materiales adicionales y más sonidos ambiente. Los planes disponibles y las pruebas se muestran con claridad en la app antes de comprar.\n\nEmpieza hoy con siete palabras creíbles. Quédate con la que de verdad puedas sentir.\n\nAuraSage ofrece contenido de bienestar general, no tratamiento médico o psicológico, diagnóstico ni apoyo en crisis.",
+        "text": "Construye una voz interior mas creible con afirmaciones diarias pensadas para la vida real, lejos de las frases vacias y el positivismo toxico.\n\nAuraSage te ofrece siete afirmaciones meditadas cada dia. Elige las que resuenen contigo, quedate con una y vuelve cuando te sea util. No hay rachas que proteger ni obligaciones con tu bienestar.\n\nUNA PEQUEÑA PRACTICA DIARIA\n\n• Lee una baraja diaria limitada en vez de pasar horas deslizando la pantalla\n• Indica a AuraSage que te resulta creible para que las siguientes palabras encajen mejor\n• Lleva una afirmacion contigo a lo largo del dia\n• Guarda tus favoritas y escribe tus propias afirmaciones\n• Usa una pausa breve de 90 segundos cuando necesites un momento de calma\n\nPRACTICA A TU MANERA\n\nRepite afirmaciones positivas diarias de forma silenciosa, con narracion o con tu propia voz grabada. Elige lluvia, oceano, noche, ruido marron o silencio gratis. La version Premium incluye ambientes mas ricos como chimenea, bosque, aves matutinas, un arroyo suave, piano y carillones de viento.\n\nRECORDATORIOS SIN CULPA\n\nConfigura recordatorios suaves adaptados a tu dia a dia. Si te saltas un dia, no pierdes ningun progreso. AuraSage se alegra de que vuelvas; no convierte tu bienestar en un marcador.\n\nPALABRAS QUE ENCAJAN CONTIGO\n\nElige areas de enfoque, tonos y temas que prefieras evitar. Guarda afirmaciones de amor propio, frases de confianza, palabras de calma y recordatorios personales que te resulten utiles. Oculta lo que no encaje. Tus comentarios ayudan a dar forma a una practica diaria mas relevante.\n\nPRIVADAS POR DISEÑO\n\nTus textos, reflexiones, preferencias y grabaciones de voz se quedan en tu dispositivo. La aplicacion principal funciona sin conexion y los recordatorios se programan localmente. AuraSage no necesita tu nombre, correo, contactos, ubicacion ni datos de salud para la practica esencial.\n\nLO ESENCIAL GRATIS, PROFUNDIDAD OPCIONAL\n\nLa baraja diaria, los favoritos, las afirmaciones personalizadas, la practica basica, los recordatorios, la pausa breve y los sonidos esenciales son totalmente utiles de forma gratuita. AuraSage Premium desbloquea mas colecciones, mayor personalizacion, tu voz grabada en las sesiones, materiales adicionales y mas sonidos ambientales. Los planes disponibles y la elegibilidad para pruebas se muestran claramente en la app antes de comprar.\n\nEmpieza hoy con siete palabras creibles. Quedate con la que de verdad puedas sentir.\n\nAuraSage ofrece contenido de bienestar general, no tratamiento medico o psicologico, diagnostico ni apoyo en crisis.",
         "notes": [
           {
             "term": "afirmaciones diarias",
-            "why": "This is a primary search phrase in Spain for users looking for routine mindfulness content."
+            "why": "It matches one of the Play search suggestions naturally within the introductory context."
           },
           {
-            "term": "frases positivas diarias",
-            "why": "This variation matches popular local search behavior without feeling forced or unnatural."
+            "term": "afirmaciones positivas diarias",
+            "why": "It matches a common search phrase in Spain without feeling forced or repetitive."
           }
         ]
       }
     }
   },
-  "native": {
-    "fields": {
-      "title": "AuraSage: afirmaciones diarias",
-      "short": "Siete afirmaciones diarias y calma sin culpa ni presión por las rachas.",
-      "full": "Construye una voz interior más creíble con afirmaciones diarias pensadas para la vida real, huyendo de la positividad vacía y los feeds infinitos.\n\nAuraSage te ofrece siete frases positivas diarias muy cuidadas. Quédate con lo que te resuene, lleva una cerca y vuelve cuando te haga falta. No hay rachas que proteger ni presión por cumplir.\n\nUNA PEQUEÑA PRÁCTICA DIARIA\n\n• Lee una baraja diaria limitada en lugar de hacer scroll sin fin\n• Dile a AuraSage qué te resulta creíble para afinar futuras palabras\n• Llévate una afirmación a lo largo de tu día\n• Guarda favoritas y escribe tus propias palabras\n• Usa un reseteo rápido de 90 segundos cuando necesites calma\n\nPRACTICA A TU MANERA\n\nRepite las afirmaciones positivas diarias en silencio, con narración o con tu propia voz grabada. Elige lluvia, mar, noche, ruido marrón o silencio gratis. La versión premium añade ambientes más ricos como chimenea, bosque, pájaros de mañana, un arroyo suave, piano y carillones.\n\nRECORDATORIOS SIN CULPA\n\nConfigura recordatorios amables acordes a tu día real. Perderse un día no borra tus avances. AuraSage nota que has vuelto; no convierte tu bienestar en un marcador.\n\nPALABRAS HECHAS A TU MEDIDA\n\nElige áreas de enfoque, tono y temas que prefieras evitar. Guarda afirmaciones de amor propio, confianza, calma y notas personales que te resulten útiles. Oculta lo que no encaje. Tus opiniones ayudan a dar forma a una práctica diaria más relevante.\n\nPRIVADO POR DISEÑO\n\nTus textos, reflexiones, preferencias y grabaciones de voz se quedan en tu dispositivo. La app principal funciona sin conexión y los recordatorios se programan localmente. AuraSage no necesita tu nombre, correo, contactos, ubicación ni historial de salud.\n\nLO ESENCIAL GRATIS, PROFUNDIDAD OPCIONAL\n\nLa baraja diaria, los favoritos, las frases personalizadas, la práctica básica, los recordatorios, el reseteo rápido y los sonidos ambiente principales son gratuitos y muy útiles. AuraSage Premium desbloquea más colecciones, mayor personalización, tu voz grabada en las sesiones, materiales adicionales y más sonidos ambiente. Los planes disponibles y las pruebas se muestran con claridad en la app antes de comprar.\n\nEmpieza hoy con siete palabras creíbles. Quédate con la que de verdad puedas sentir.\n\nAuraSage ofrece contenido de bienestar general, no tratamiento médico o psicológico, diagnóstico ni apoyo en crisis."
-    },
-    "notes": [
-      {
-        "term": "afirmaciones diarias",
-        "why": "This is the primary search phrase used by Spanish users looking for daily affirmation apps."
-      },
-      {
-        "term": "frases positivas diarias",
-        "why": "This search phrase is naturally integrated to match colloquial user queries in Spain for positive phrases."
-      },
-      {
-        "term": "sin culpa ni presión",
-        "why": "This phrasing captures the brand voice of restraint and avoids toxic positivity or guilt."
-      },
-      {
-        "term": "reseteo rápido",
-        "why": "A natural translation of Quick Reset that fits the modern mindfulness vocabulary in Spain."
-      }
-    ]
-  },
   "generatedWith": {
     "provider": "gemini",
     "model": "gemini-3.5-flash-lite",
-    "at": "2026-09-29T10:10:37.700Z"
+    "at": "2026-09-29T10:57:32.369Z"
   }
 }

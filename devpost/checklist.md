@@ -49,7 +49,7 @@ Build mode: fast
   Learner check: Switch across all three apps and markets. Does each read native? Export one and open the file.
   Commit: `Seed all example apps and markets, add pickers and export`
 
-- [ ] **5. With a key, every command and "paste your own listing" run live**
+- [x] **5. With a key, every command and "paste your own listing" run live**
   Becomes usable: Paste a Gemini or OpenAI key and the non-seeded commands, free-form command, and Paste Listing all return fresh results through `/api/rewrite` and `/api/localize`. Bad keys show plain errors.
   Why now: It builds on a complete seeded demo, and its failure modes (keys, quotas) can't break anything before it.
   PRD ref: `prd.md > Bring Your Own Key (Playground)`, `prd.md > Commands`, `prd.md > States and Boundaries`
@@ -119,3 +119,4 @@ Activity mode:
 - Seed pacing went from 4s to 6s between calls after the free tier rate-limited the third full regeneration of the day; the run resumed where it stopped.
 - Five markets (BellyClock es-ES and de-DE, and LoveTest AI fr/es/de) are seeded with `gemini-3.1-flash-lite`. The day's regenerations used up the free tier's daily per-model cap for `gemini-3.5-flash-lite` (`GenerateRequestsPerDayPerProjectPerModel`). Each page's "Generated with" label names the model that wrote it.
 - Slice 5's code was committed before its seed regeneration finished: the run was stopped when the machine ran low on memory, and the learner moved on to the landing page (slice 6). Slice 5 stays unchecked until the remaining seeds (BellyClock de-DE commands, LoveTest AI fr/es/de) are regenerated and `bun run validate` passes.
+- Slice 5's seed regeneration was resumed and finished: all 9 files pass `bun run validate` (limits, completeness, no demand claims), and slice 5 is ticked.

@@ -16,233 +16,241 @@
     "source": "Google Play search suggestions",
     "capturedAt": "2026-09-29T10:09:54.230Z"
   },
+  "native": {
+    "fields": {
+      "title": "Love Tester AI - Compatibilité",
+      "short": "Calculateur d'amour, test de compatibilité couple et idées romantiques par IA.",
+      "full": "Love Tester AI vous aide à découvrir votre compatibilité, explorer des insights romantiques et créer des moments privilégiés grâce à des tests d'amour, des quiz de couple et des outils générés par IA, pensés pour les relations d'aujourd'hui. Que vous testiez un crush, compariez vos personnalités, exploriez des affinités astrologiques ou rédigiez des lettres d'amour, Love Tester AI combine l'expérience classique du calculateur d'amour avec des outils intelligents, interactifs et ludiques. Explorez votre complicité grâce à nos tests de compatibilité et nos créations romantiques personnalisées au sein d'une même application. FONCTIONNALITÉS Tests d'amour et compatibilité • Découvrez votre compatibilité avec des tests et analyses de relation. • Explorez des expériences amusantes de test d'amour avec des scores et des insights romantiques. • Essayez divers quiz de compatibilité de couple. • Comparez les prénoms, les personnalités et la dynamique de votre relation instantanément. • Générez des résultats amusants grâce à notre calculateur d'amour moderne. Calculateur d'amour • Utilisez notre calculateur pour explorer votre complicité et votre alchimie romantique. • Redécouvrez les tests classiques enrichis d'insights intelligents. • Explorez la compatibilité par les prénoms, les traits de caractère et les styles de relation. • Profitez d'une version moderne du détecteur d'amour. Langages de l'amour et insights • Découvrez votre langage de l'amour et votre style relationnel. • Répondez à des quiz conçus pour mieux comprendre votre connexion émotionnelle. • Apprenez comment vous et votre partenaire exprimez vos sentiments. Astrologie et numérologie • Explorez la compatibilité par les signes du zodiaque et l'astrologie. • Découvrez des insights sur les affinités entre signes. • Testez votre compatibilité par les dates de naissance. • Explorez la numérologie amoureuse. Mode Couple • Invitez votre partenaire à se connecter en privé. • Répondez ensemble à des questions pour les couples. • Explorez vos résultats de compatibilité de manière interactive. Générateur d'histoires d'amour • Rédigez des lettres d'amour personnalisées instantanément. • Créez des mots doux, des messages sincères et des textes attentionnés. • Utilisez l'IA pour écrire des poèmes, des légendes romantiques et des citations. Sauvegarde et partage • Enregistrez vos résultats de compatibilité et vos créations préférées. • Partagez vos résultats de test et vos cartes de compatibilité avec vos amis ou votre partenaire. • Consultez vos scores, vos messages et vos souvenirs à tout moment. Pourquoi utiliser Love Tester AI • Insights de compatibilité intelligents • Tests de couple amusants • Expériences de calculateur d'amour modernes • Générateur de lettres d'amour et citations • Mode partenaire interactif • Outils d'astrologie et numérologie Idéal pour • Les couples • Les crushs • Les relations à distance • Les conversations romantiques • Découvrir son langage de l'amour Que vous cherchiez un test d'amour ou un générateur de lettres pour exprimer vos sentiments, Love Tester AI réunit tout cela dans une application au design soigné. Téléchargez Love Tester AI dès aujourd'hui pour rendre chaque connexion plus unique. Note : les résultats sont fournis à des fins de divertissement uniquement."
+    },
+    "notes": [
+      {
+        "term": "Compatibilité",
+        "why": "This term directly reflects the user search phrase 'compatibilite amoureuse' provided in the context."
+      },
+      {
+        "term": "Calculateur d'amour",
+        "why": "This matches the 'calculateur d'amour' search phrase suggested for this market."
+      },
+      {
+        "term": "Test d'amour",
+        "why": "This matches the 'test d amour' search phrase provided in the context."
+      },
+      {
+        "term": "Crush",
+        "why": "This is the natural, idiomatic way to describe a romantic interest in French among the target audience."
+      },
+      {
+        "term": "Divertissement",
+        "why": "This word is used to clarify that the app is for entertainment, adhering to the provided developer rules."
+      }
+    ]
+  },
   "commands": {
     "native": {
       "title": {
-        "text": "Love Tester AI Test d'Amour",
+        "text": "Love Tester AI : Test d'amour",
         "notes": [
           {
-            "term": "Test d'Amour",
-            "why": "This is the most searched local phrase for a love test on Google Play in France."
+            "term": "Test d'amour",
+            "why": "This is the most direct and natural way for French users to search for this type of app."
           }
         ]
       },
       "short": {
-        "text": "Calculateur d'amour, test de couple et compatibilité amoureuse par IA.",
+        "text": "Test d'amour, compatibilité amoureuse et idées romantiques boostées par l'IA.",
         "notes": [
           {
-            "term": "Calculateur d'amour",
-            "why": "This is the exact search phrase used by French users looking for a love calculator."
+            "term": "Test d'amour",
+            "why": "This is the most natural and direct phrase French users search for when looking for this type of app."
           },
           {
             "term": "compatibilité amoureuse",
-            "why": "This is the most natural local term for relationship compatibility testing."
+            "why": "This is the standard, widely-used term for checking relationship compatibility in France."
           }
         ]
       },
       "full": {
-        "text": "Love Tester AI vous aide à découvrir votre compatibilité, à explorer des analyses romantiques et à créer des moments privilégiés grâce à des tests d'amour par IA, des quiz de couple, des prompts romantiques et des générateurs conçus pour les relations d'aujourd'hui.\n\nQue vous testiez un crush, compariez vos personnalités, exploriez des affinités astrologiques ou rédigiez des déclarations touchantes, Love Tester AI associe le calculateur d'amour classique à des outils interactifs, ludiques et personnalisés.\n\nFONCTIONNALITÉS\n\nTests d'Amour & Compatibilité par IA\n• Découvrez votre compatibilité grâce à des tests d'amour et des analyses relationnelles (résultats à des fins de divertissement)\n• Explorez des expériences de test d'amour amusantes et des scores de compatibilité\n• Essayez plusieurs tests de compatibilité de couple et des quiz adaptés\n• Comparez instantanément les prénoms, les personnalités et la dynamique relationnelle\n• Générez des résultats amusants avec un calculateur d'amour moderne\n\nCalculateur d'Amour & Détecteur\n• Utilisez un calculateur d'amour pour explorer la compatibilité et la complicité\n• Essayez des tests d'amour classiques enrichis d'analyses astucieuses\n• Découvrez votre affinité amoureuse avec des outils interactifs\n• Explorez la compatibilité par les prénoms et les traits de personnalité\n• Profitez d'une version moderne du détecteur d'amour classique\n\nTests de Langage Amoureux\n• Découvrez votre langage amoureux et votre style relationnel\n• Répondez à un quiz conçu pour comprendre la connexion émotionnelle\n• Explorez la compatibilité à travers la communication et l'affection\n• Apprenez comment vous et votre partenaire exprimez votre amour\n• Profitez de tests de compatibilité axés sur le couple\n\nCompatibilité Astrologique\n• Explorez le calcul d'amour zodiacal et l'astrologie\n• Découvrez des analyses pour des duos comme le Scorpion et la Balance\n• Comparez les dynamiques entre le Verseau et le Sagittaire\n• Essayez la compatibilité par date de naissance\n• Explorez des outils de numérologie romantiques\n\nMode Partenaire\n• Invitez votre partenaire à se connecter en privé\n• Répondez ensemble à des prompts de couple\n• Créez des séries partagées et débloquez des réussites\n• Explorez la compatibilité ensemble de manière ludique\n\nGénérateurs d'Histoires d'Amour\n• Générez des lettres d'amour personnalisées instantanément\n• Créez de doux mots romantiques et des messages sincères\n• Utilisez le générateur pour écrire des messages significatifs\n• Créez des poèmes et des légendes romantiques\n• Générez de beaux messages avec les outils de citation\n\nEnregistrer, Partager & Consulter\n• Enregistrez vos résultats et créations favoris\n• Partagez vos résultats de test d'amour avec vos proches\n• Retrouvez vos scores et messages précédents à tout moment\n\nPourquoi les Utilisateurs Adorent Love Tester AI\n• Des analyses de compatibilité astucieuses\n• Des tests de couple ludiques\n• Des expériences de calculateur d'amour modernes\n• Des générateurs romantiques et des lettres d'amour\n• Un mode partenaire interactif\n• Des outils de compatibilité astrologique\n\nIdéal Pour\n• Les couples\n• Les crushes\n• Les relations à distance\n• Les conversations romantiques\n• Les tests d'amour amusants\n• L'exploration de la compatibilité du zodiaque\n• La découverte du langage amoureux\n\nTéléchargez Love Tester AI dès aujourd'hui pour rendre chaque connexion plus significative.",
+        "text": "Love Tester AI vous aide à explorer votre compatibilité, à mieux comprendre votre relation et à créer des moments complices grâce à des tests d'amour, des quiz de couple et des outils assistés par IA, pensés pour les relations d'aujourd'hui. Que vous souhaitiez tester un crush, comparer vos personnalités, explorer vos affinités astrologiques ou rédiger une lettre d'amour, Love Tester AI revisite le calculateur d'amour classique avec des outils intelligents, ludiques et interactifs. Découvrez votre complicité grâce à nos tests de compatibilité et nos créations romantiques personnalisées, le tout dans une seule application. FONCTIONNALITÉS Tests d'amour et compatibilité • Découvrez votre compatibilité avec des tests et analyses de relation. • Explorez des expériences amusantes de test d'amour avec des scores et des insights romantiques. • Essayez divers quiz de compatibilité de couple. • Comparez les prénoms, les personnalités et la dynamique de votre relation instantanément. • Générez des résultats amusants grâce à notre calculateur d'amour moderne. Calculateur d'amour • Utilisez notre calculateur pour explorer votre complicité et votre alchimie romantique. • Redécouvrez les tests classiques enrichis d'insights intelligents. • Explorez la compatibilité par les prénoms, les traits de caractère et les styles de relation. • Profitez d'une version moderne du détecteur d'amour. Langages de l'amour et insights • Découvrez votre langage de l'amour et votre style relationnel. • Répondez à des quiz conçus pour mieux comprendre votre connexion émotionnelle. • Apprenez comment vous et votre partenaire exprimez vos sentiments. Astrologie et numérologie • Explorez la compatibilité par les signes du zodiaque et l'astrologie. • Découvrez des insights sur les affinités entre signes. • Testez votre compatibilité par les dates de naissance. • Explorez la numérologie amoureuse. Mode Couple • Invitez votre partenaire à se connecter en privé. • Répondez ensemble à des questions pour les couples. • Explorez vos résultats de compatibilité de manière interactive. Générateur d'histoires d'amour • Rédigez des lettres d'amour personnalisées instantanément. • Créez des mots doux, des messages sincères et des textes attentionnés. • Utilisez l'IA pour écrire des poèmes, des légendes romantiques et des citations. Sauvegarde et partage • Enregistrez vos résultats de compatibilité et vos créations préférées. • Partagez vos résultats de test et vos cartes de compatibilité avec vos amis ou votre partenaire. • Consultez vos scores, vos messages et vos souvenirs à tout moment. Pourquoi utiliser Love Tester AI • Insights de compatibilité intelligents • Tests de couple amusants • Expériences de calculateur d'amour modernes • Générateur de lettres d'amour et citations • Mode partenaire interactif • Outils d'astrologie et numérologie Idéal pour • Les couples • Les crushs • Les relations à distance • Les conversations romantiques • Découvrir son langage de l'amour Que vous cherchiez un test d'amour ou un générateur de lettres pour exprimer vos sentiments, Love Tester AI réunit tout cela dans une application au design soigné. Téléchargez Love Tester AI dès aujourd'hui pour rendre chaque connexion plus unique. Note : les résultats sont fournis à des fins de divertissement uniquement.",
         "notes": [
           {
-            "term": "test d'amour",
-            "why": "This is the exact search phrase most commonly used by French speakers looking for this type of app."
+            "term": "crush",
+            "why": "Using the loanword 'crush' is very common among the target demographic in France."
           },
           {
-            "term": "calculateur d'amour",
-            "why": "It is the most natural local equivalent for love calculator in app stores."
+            "term": "complicité",
+            "why": "This word captures the nuance of romantic and emotional connection better than a literal translation of 'connection' in this context."
+          },
+          {
+            "term": "mots doux",
+            "why": "This is the idiomatic French way to refer to sweet, short romantic messages."
           }
         ]
       }
     },
     "aso": {
       "title": {
-        "text": "Love Tester AI Test d'Amour",
+        "text": "Love Tester AI - Test d'amour",
         "notes": [
           {
-            "term": "Test d'Amour",
-            "why": "This is the most natural search phrase in France for love tests and fits the character limit perfectly."
+            "term": "Test d'amour",
+            "why": "This phrase is a direct match for one of the provided search suggestions and reflects the natural way French users describe this type of app."
           }
         ]
       },
       "short": {
-        "text": "Calculateur d'amour, test de couple et compatibilité amoureuse par IA.",
+        "text": "Test d'amour, compatibilité amoureuse et idées romantiques boostées par l'IA.",
         "notes": [
           {
-            "term": "Calculateur d'amour",
-            "why": "This is the exact high-volume search phrase French users type for love calculators."
+            "term": "Test d'amour",
+            "why": "This is the most direct and common way users search for this type of entertainment app in France."
           },
           {
             "term": "compatibilité amoureuse",
-            "why": "This is the most natural term in France for checking romantic compatibility."
+            "why": "This phrase is a natural search term for users looking to test their relationship dynamic."
           }
         ]
       },
       "full": {
-        "text": "Love Tester AI vous aide à découvrir votre compatibilite amoureuse, à explorer des analyses romantiques et à créer des moments privilégiés grâce à des tests d'amour par IA, des quiz de couple, des prompts romantiques et des générateurs conçus pour les relations d'aujourd'hui.\n\nQue vous testiez un crush, compariez vos personnalités, exploriez des affinités astrologiques ou rédigiez des déclarations touchantes, Love Tester AI associe le calculateur d'amour classique à des outils interactifs, ludiques et personnalisés.\n\nFONCTIONNALITÉS\n\nTests d'Amour & Compatibilité par IA\n• Découvrez votre compatibilité grâce à des tests d'amour et des analyses relationnelles (résultats à des fins de divertissement)\n• Explorez des expériences de test d'amour amusantes et des scores de compatibilité\n• Essayez plusieurs test de compatibilité couple et des quiz adaptés\n• Comparez instantanément les prénoms, les personnalités et la dynamique relationnelle\n• Générez des résultats amusants avec un calculateur d'amour véritable moderne\n\nCalculateur d'Amour & Détecteur\n• Utilisez un calculateur d'amour pour explorer la compatibilité et la complicité\n• Essayez des test d amour classiques enrichis d'analyses astucieuses\n• Découvrez votre affinité amoureuse avec des outils interactifs\n• Explorez la compatibilité par les prénoms et les traits de personnalité\n• Profitez d'une version moderne du détecteur d'amour classique\n\nTests de Langage Amoureux\n• Découvrez votre langage amoureux et votre style relationnel\n• Répondez à un quiz conçu pour comprendre la connexion émotionnelle\n• Explorez la compatibilité à travers la communication et l'affection\n• Apprenez comment vous et votre partenaire exprimez votre amour\n• Profitez de tests de compatibilité axés sur le couple\n\nCompatibilité Astrologique\n• Explorez le calcul d'amour zodiacal et l'astrologie\n• Découvrez des analyses pour des duos comme le Scorpion et la Balance\n• Comparez les dynamiques entre le Verseau et le Sagittaire\n• Essayez la compatibilité par date de naissance\n• Explorez des outils de numérologie romantiques\n\nMode Partenaire\n• Invitez votre partenaire à se connecter en privé\n• Répondez ensemble à des prompts de couple\n• Créez des séries partagées et débloquez des réussites\n• Explorez la compatibilité ensemble de manière ludique\n\nGénérateurs d'Histoires d'Amour\n• Générez des lettres d'amour personnalisées instantanément\n• Créez de doux mots romantiques et des messages sincères\n• Utilisez le générateur pour écrire des messages significatifs\n• Créez des poèmes et des légendes romantiques\n• Générez de beaux messages avec les outils de citation\n\nEnregistrer, Partager & Consulter\n• Enregistrez vos résultats et créations favoris\n• Partagez vos test d'amour prenom et résultats avec vos proches\n• Retrouvez vos scores et messages précédents à tout moment\n\nPourquoi les Utilisateurs Adorent Love Tester AI\n• Des analyses de compatibilité astucieuses\n• Des test de couple ludiques\n• Des expériences de calculateur d'amour modernes\n• Des générateurs romantiques et des lettres d'amour\n• Un mode partenaire interactif\n• Des outils de compatibilité astrologique\n\nIdéal Pour\n• Les couples\n• Les crushes\n• Les relations à distance\n• Les conversations romantiques\n• Les test d amour amusants\n• L'exploration de la compatibilité du zodiaque\n• La découverte du langage amoureux\n\nTéléchargez Love Tester AI dès aujourd'hui pour rendre chaque connexion plus significative.",
+        "text": "Love Tester AI vous aide à découvrir votre compatibilité, explorer des insights romantiques et créer des moments privilégiés grâce à des tests d'amour, des quiz de couple et des outils générés par IA, pensés pour les relations d'aujourd'hui. Que vous souhaitiez faire un test d'amour par prénom, comparer vos personnalités, explorer vos affinités astrologiques ou rédiger des lettres d'amour, Love Tester AI combine l'expérience classique du calculateur d'amour avec des outils intelligents, interactifs et ludiques. Explorez votre complicité grâce à nos tests de compatibilité de couple et nos créations romantiques personnalisées. FONCTIONNALITÉS Tests d'amour et compatibilité • Découvrez votre compatibilité avec des tests et analyses de relation. • Explorez des expériences amusantes de test d'amour avec des scores et des insights romantiques. • Essayez divers quiz de compatibilité de couple pour mieux vous connaître. • Comparez les prénoms, les personnalités et la dynamique de votre relation instantanément. • Générez des résultats amusants grâce à notre calculateur d'amour moderne. Calculateur d'amour • Utilisez notre calculateur pour explorer votre complicité et votre alchimie romantique. • Redécouvrez les tests classiques enrichis d'insights intelligents. • Explorez la compatibilité par les prénoms, les traits de caractère et les styles de relation. • Profitez d'une version moderne du test d'amour. Langages de l'amour et insights • Découvrez votre langage de l'amour et votre style relationnel. • Répondez à des quiz conçus pour mieux comprendre votre connexion émotionnelle. • Apprenez comment vous et votre partenaire exprimez vos sentiments. Astrologie et numérologie • Explorez la compatibilité par les signes du zodiaque et l'astrologie. • Découvrez des insights sur les affinités entre signes. • Testez votre compatibilité par les dates de naissance. • Explorez la numérologie amoureuse. Mode Couple • Invitez votre partenaire à se connecter en privé. • Répondez ensemble à des questions pour les couples. • Explorez vos résultats de compatibilité de manière interactive. Générateur d'histoires d'amour • Rédigez des lettres d'amour personnalisées instantanément. • Créez des mots doux, des messages sincères et des textes attentionnés. • Utilisez l'IA pour écrire des poèmes, des légendes romantiques et des citations. Sauvegarde et partage • Enregistrez vos résultats de compatibilité et vos créations préférées. • Partagez vos résultats de test et vos cartes de compatibilité avec vos amis ou votre partenaire. • Consultez vos scores, vos messages et vos souvenirs à tout moment. Pourquoi utiliser Love Tester AI • Insights de compatibilité intelligents • Tests de couple amusants • Expériences de calculateur d'amour modernes • Générateur de lettres d'amour et citations • Mode partenaire interactif • Outils d'astrologie et numérologie Idéal pour • Les couples • Les crushs • Les relations à distance • Les conversations romantiques • Découvrir son langage de l'amour Que vous cherchiez un test d'amour ou un générateur de lettres pour exprimer vos sentiments, Love Tester AI réunit tout cela dans une application au design soigné. Téléchargez Love Tester AI dès aujourd'hui pour rendre chaque connexion plus unique. Note : les résultats sont fournis à des fins de divertissement uniquement.",
         "notes": [
           {
-            "term": "compatibilite amoureuse",
-            "why": "This is a high-volume search phrase that integrates naturally into the introductory sentence."
+            "term": "test d'amour par prénom",
+            "why": "This integrates a high-intent search phrase naturally as a feature description."
           },
           {
-            "term": "test de compatibilité couple",
-            "why": "It replaces a generic phrase with a natural local search term used by couples looking for fun quizzes."
+            "term": "tests de compatibilité de couple",
+            "why": "Using the plural variation of the search phrase helps match user intent while maintaining a professional flow."
           },
           {
-            "term": "calculateur d'amour véritable",
-            "why": "Using this exact search query adds local flavor to the description of the AI calculation feature."
+            "term": "calculateur d'amour",
+            "why": "This is a key search term that perfectly describes the core functionality of the app in French."
           }
         ]
       }
     },
     "punchier": {
       "title": {
-        "text": "Love Tester AI Test d'Amour",
+        "text": "Love Tester AI : Test d'amour",
         "notes": [
           {
-            "term": "Test d'Amour",
-            "why": "This is the most direct and heavily searched phrase for love tests in France."
+            "term": "Test d'amour",
+            "why": "This phrase directly matches one of the search suggestions provided for the French market."
           }
         ]
       },
       "short": {
-        "text": "Teste ta compatibilité amoureuse et calcule ton score avec Love Tester AI !",
+        "text": "Testez votre compatibilité amoureuse et recevez des idées romantiques avec l'IA.",
         "notes": [
           {
             "term": "compatibilité amoureuse",
-            "why": "This is the most natural search phrase French users type when looking for love compatibility features."
+            "why": "This is a natural, high-intent search phrase for users looking to evaluate their relationship status."
           },
           {
-            "term": "Teste",
-            "why": "Using the informal imperative directly engages teens and young adults with a lively, playful tone."
+            "term": "Testez",
+            "why": "Using the imperative form creates a direct, energetic invitation for the user to engage with the app immediately."
           }
         ]
       },
       "full": {
-        "text": "Love Tester AI vous aide à calculer votre compatibilité, à explorer votre complicité et à créer des moments uniques grâce à des tests d'amour par IA, des quiz de couple et des générateurs d'idées romantiques pour les relations d'aujourd'hui.\n\nQue vous testiez un crush, compariez vos prénoms, exploriez des affinités astrologiques ou rédigiez des déclarations touchantes, Love Tester AI associe le calculateur d'amour classique à des outils interactifs et ludiques.\n\nFONCTIONNALITÉS\n\nTests d'Amour & Compatibilité par IA\n• Découvrez votre compatibilité grâce à des tests d'amour et des analyses relationnelles (résultats à des fins de divertissement)\n• Explorez des expériences de test d'amour amusantes et des scores de compatibilité\n• Essayez plusieurs tests de compatibilité de couple et des quiz adaptés\n• Comparez instantanément les prénoms, les personnalités et la dynamique relationnelle\n• Générez des résultats amusants avec un calculateur d'amour moderne\n\nCalculateur d'Amour & Détecteur\n• Utilisez un calculateur d'amour pour explorer la compatibilité et la complicité\n• Essayez des tests d'amour classiques enrichis d'analyses astucieuses\n• Découvrez votre affinité amoureuse avec des outils interactifs\n• Explorez la compatibilité par les prénoms et les traits de personnalité\n• Profitez d'une version moderne du détecteur d'amour classique\n\nTests de Langage Amoureux\n• Découvrez votre langage amoureux et votre style relationnel\n• Répondez à un quiz conçu pour comprendre la connexion émotionnelle\n• Explorez la compatibilité à travers la communication et l'affection\n• Apprenez comment vous et votre partenaire exprimez votre amour\n• Profitez de tests de compatibilité axés sur le couple\n\nCompatibilité Astrologique\n• Explorez le calcul d'amour zodiacal et l'astrologie\n• Découvrez des analyses pour des duos comme le Scorpion et la Balance\n• Comparez les dynamiques entre le Verseau et le Sagittaire\n• Essayez la compatibilité par date de naissance\n• Explorez des outils de numérologie romantiques\n\nMode Partenaire\n• Invitez votre partenaire à se connecter en privé\n• Répondez ensemble à des prompts de couple\n• Créez des séries partagées et débloquez des réussites\n• Explorez la compatibilité ensemble de manière ludique\n\nGénérateurs d'Histoires d'Amour\n• Générez des lettres d'amour personnalisées instantanément\n• Créez de doux mots romantiques et des messages sincères\n• Utilisez le générateur pour écrire des messages significatifs\n• Créez des poèmes et des légendes romantiques\n• Générez de beaux messages avec les outils de citation\n\nEnregistrer, Partager & Consulter\n• Enregistrez vos résultats et créations favoris\n• Partagez vos résultats de test d'amour avec vos proches\n• Retrouvez vos scores et messages précédents à tout moment\n\nPourquoi les Utilisateurs Adorent Love Tester AI\n• Des analyses de compatibilité astucieuses\n• Des tests de couple ludiques\n• Des expériences de calculateur d'amour modernes\n• Des générateurs romantiques et des lettres d'amour\n• Un mode partenaire interactif\n• Des outils de compatibilité astrologique\n\nIdéal Pour\n• Les couples\n• Les crushes\n• Les relations à distance\n• Les conversations romantiques\n• Les tests d'amour amusants\n• L'exploration de la compatibilité du zodiaque\n• La découverte du langage amoureux\n\nTéléchargez Love Tester AI dès aujourd'hui pour rendre chaque connexion plus significative.",
+        "text": "Love Tester AI vous aide à explorer votre compatibilité, à décrypter vos affinités et à partager des moments complices grâce à des outils basés sur l'IA, pensés pour les relations d'aujourd'hui. Que vous testiez un crush, compariez vos personnalités, exploriez vos affinités astrales ou rédigiez une lettre d'amour, Love Tester AI allie le plaisir du calculateur d'amour classique à la puissance de l'IA. Explorez votre complicité avec des tests de compatibilité et des contenus romantiques personnalisés au sein d'une seule application. FONCTIONNALITÉS Tests d'amour et compatibilité • Découvrez votre compatibilité grâce à des tests et analyses de relation. • Explorez des tests d'amour amusants avec des scores et des insights personnalisés. • Essayez divers quiz de compatibilité de couple. • Comparez prénoms, personnalités et dynamiques de couple instantanément. • Générez des résultats ludiques avec un calculateur d'amour moderne. Calculateur d'amour • Utilisez notre calculateur pour explorer votre alchimie romantique. • Redécouvrez les tests classiques enrichis d'analyses intelligentes. • Explorez la compatibilité par les prénoms, les traits de caractère et les styles relationnels. Langages de l'amour et insights • Identifiez votre langage de l'amour et votre style de relation. • Répondez à des quiz conçus pour mieux comprendre votre connexion émotionnelle. • Apprenez comment vous et votre partenaire exprimez vos sentiments. Astrologie et numérologie • Explorez la compatibilité selon les signes du zodiaque. • Découvrez des insights sur les affinités entre signes. • Testez votre compatibilité par les dates de naissance et la numérologie amoureuse. Mode Couple • Invitez votre partenaire à se connecter en privé. • Répondez ensemble à des questions pour les couples. • Explorez vos résultats de compatibilité de manière interactive. Générateur de messages d'amour • Rédigez des lettres d'amour personnalisées instantanément. • Créez des mots doux, des messages sincères et des textes attentionnés. • Utilisez l'IA pour composer des poèmes, des légendes romantiques et des citations. Sauvegarde et partage • Enregistrez vos résultats de compatibilité et vos créations préférées. • Partagez vos résultats et vos cartes de compatibilité avec vos amis ou votre partenaire. • Consultez vos scores et vos souvenirs à tout moment. Pourquoi utiliser Love Tester AI • Insights de compatibilité intelligents • Tests de couple ludiques • Expériences de calculateur d'amour modernes • Générateur de lettres d'amour et citations • Mode partenaire interactif • Outils d'astrologie et numérologie Idéal pour • Les couples et les crushs • Les relations à distance • Les conversations romantiques • Découvrir son langage de l'amour Que vous cherchiez un test d'amour ou un générateur de messages pour exprimer vos sentiments, Love Tester AI réunit tout cela dans une application au design soigné. Téléchargez Love Tester AI dès aujourd'hui pour rendre chaque connexion plus unique. Note : les résultats sont fournis à des fins de divertissement uniquement.",
         "notes": [
           {
-            "term": "tests d'amour",
-            "why": "This is the primary search term used in France for casual love calculators."
+            "term": "compatibilité amoureuse",
+            "why": "This is the most natural and standard phrasing used in French to describe romantic compatibility."
           },
           {
-            "term": "calculateur d'amour",
-            "why": "It directly matches high-intent local search queries for name and score matching apps."
+            "term": "crush",
+            "why": "This term is the standard, everyday word used by the target audience in France to describe a romantic interest."
+          },
+          {
+            "term": "ludiques",
+            "why": "This term effectively captures the playful and entertaining nature of the app in a way that sounds natural to French speakers."
           }
         ]
       }
     },
     "benefit": {
       "title": {
-        "text": "Test d'Amour Love Tester AI",
+        "text": "Compatibilité Love Tester AI",
         "notes": [
           {
-            "term": "Test d'Amour",
-            "why": "This is the most natural search phrase for a love test on the French Google Play store."
+            "term": "Compatibilité",
+            "why": "This is a natural and concise way to refer to the core function of the app while staying within the character limit."
           }
         ]
       },
       "short": {
-        "text": "Teste ta compatibilité amoureuse et découvre ton test d'amour avec l'IA.",
+        "text": "Testez votre compatibilité amoureuse et recevez des idées romantiques avec l'IA.",
         "notes": [
           {
             "term": "compatibilité amoureuse",
-            "why": "This is the most common search phrase used by French users looking for relationship tests."
+            "why": "This term matches one of the provided search suggestions and is the natural way to describe relationship compatibility in French."
           },
           {
-            "term": "test d'amour",
-            "why": "This classic search term captures the playful intent of users wanting a quick love score."
+            "term": "Testez",
+            "why": "Using the imperative form makes the description more engaging and direct for the user."
           }
         ]
       },
       "full": {
-        "text": "Love Tester AI vous aide à découvrir votre compatibilité amoureuse, à explorer des analyses romantiques et à créer des moments privilégiés grâce à des tests de couple par IA, des quiz, des prompts et des générateurs conçus pour les relations d'aujourd'hui.\n\nQue vous testiez un crush avec un test d'amour prénom, compariez vos personnalités, exploriez des affinités astrologiques ou rédigiez des déclarations touchantes, Love Tester AI associe le calculateur d'amour classique à des outils interactifs, ludiques et personnalisés (résultats à des fins de divertissement).\n\nExplorez votre connexion grâce à des tests de compatibilité couple, des quiz, des analyses et des créations romantiques personnalisées en une seule application.\n\nFONCTIONNALITÉS\n\nDécouvrez votre Compatibilité et vos Tests d'Amour\n• Obtenez des résultats instantanés grâce à des tests d'amour et des analyses relationnelles\n• Explorez des expériences de test d'amour amusantes et des scores de compatibilité\n• Essayez plusieurs tests de compatibilité de couple et des quiz adaptés\n• Comparez instantanément les prénoms, les personnalités et la dynamique relationnelle\n• Générez des résultats ludiques avec un calculateur d'amour moderne\n\nUtilisez le Calculateur d'Amour et le Détecteur\n• Explorez la compatibilité et la complicité amoureuse avec un calculateur d'amour\n• Essayez des tests d'amour classiques enrichis d'analyses astucieuses\n• Découvrez votre affinité avec des outils interactifs\n• Explorez la compatibilité par les prénoms et les traits de personnalité\n• Profitez d'une version moderne du détecteur d'amour classique\n\nComprenez votre Langage Amoureux\n• Identifiez votre langage amoureux et votre style relationnel\n• Répondez à un quiz conçu pour comprendre la connexion émotionnelle\n• Explorez la compatibilité à travers la communication et l'affection\n• Apprenez comment vous et votre partenaire exprimez votre amour\n• Profitez de tests de compatibilité axés sur le couple\n\nExplorez la Compatibilité Astrologique\n• Découvrez le calcul d'amour zodiacal et l'astrologie\n• Explorez des analyses pour des duos comme le Scorpion et la Balance\n• Comparez les dynamiques entre le Verseau et le Sagittaire\n• Essayez la compatibilité par date de naissance\n• Explorez des outils de numérologie romantiques\n\nConnectez-vous avec le Mode Partenaire\n• Invitez votre partenaire à se connecter en privé\n• Répondez ensemble à des prompts de couple\n• Créez des séries partagées et débloquez des réussites\n• Explorez la compatibilité ensemble de manière ludique\n\nGénérez des Histoires et Messages d'Amour\n• Créez des lettres d'amour personnalisées instantanément\n• Rédigez de doux mots romantiques et des messages sincères\n• Utilisez le générateur pour écrire des messages significatifs\n• Créez des poèmes et des légendes romantiques\n• Générez de beaux messages avec les outils de citation\n\nEnregistrez, Partagez et Consultez\n• Sauvegardez vos résultats et créations favoris\n• Partagez vos résultats de test d'amour avec vos proches\n• Retrouvez vos scores et messages précédents à tout moment\n\nPourquoi les Utilisateurs Adorent Love Tester AI\n• Des analyses de compatibilité astucieuses\n• Des tests de couple ludiques\n• Des expériences de calculateur d'amour modernes\n• Des générateurs romantiques et des lettres d'amour\n• Un mode partenaire interactif\n• Des outils de compatibilité astrologique\n\nIdéal Pour\n• Les couples\n• Les crushes\n• Les relations à distance\n• Les conversations romantiques\n• Les tests d'amour amusants\n• L'exploration de la compatibilité du zodiaque\n• La découverte du langage amoureux\n\nTéléchargez Love Tester AI dès aujourd'hui pour rendre chaque connexion plus significative.",
+        "text": "Love Tester AI vous aide à explorer votre complicité, tester votre compatibilité et créer des moments uniques grâce à des outils intuitifs pensés pour les relations d'aujourd'hui. Que vous souhaitiez en savoir plus sur un crush, comparer vos personnalités ou rédiger une lettre d'amour, notre application combine le plaisir d'un test d'amour classique avec la puissance de l'IA. Explorez votre connexion, amusez-vous avec des quiz de couple et laissez-vous porter par des idées romantiques personnalisées. FONCTIONNALITÉS Tests d'amour et compatibilité amoureuse • Découvrez votre compatibilité avec des analyses ludiques et des scores de test d'amour. • Explorez des quiz de couple pour mieux comprendre votre dynamique. • Comparez les prénoms, les traits de caractère et les styles de relation instantanément. • Générez des résultats amusants et interactifs avec notre calculateur d'amour moderne. Calculateur d'amour et alchimie • Utilisez notre calculateur pour explorer votre complicité et votre alchimie romantique. • Redécouvrez les tests classiques enrichis d'insights intelligents pour plus de fun. • Profitez d'une version moderne du test d'amour pour évaluer vos affinités. Langages de l'amour et insights • Identifiez votre langage de l'amour et votre style relationnel. • Répondez à des quiz conçus pour approfondir votre connexion émotionnelle. • Apprenez comment vous et votre partenaire exprimez vos sentiments au quotidien. Astrologie et numérologie • Explorez la compatibilité amoureuse par les signes du zodiaque. • Découvrez des insights sur les affinités entre signes astrologiques. • Testez votre compatibilité par les dates de naissance ou via la numérologie. Mode Couple • Invitez votre partenaire à se connecter dans un espace privé. • Répondez ensemble à des questions pour les couples pour renforcer votre complicité. • Explorez vos résultats de compatibilité de manière interactive et partagée. Générateur de messages romantiques • Rédigez des lettres d'amour personnalisées instantanément grâce à l'IA. • Créez des mots doux, des messages sincères et des textes attentionnés pour toutes les occasions. • Composez des poèmes, des légendes romantiques et des citations inspirantes. Sauvegarde et partage • Enregistrez vos résultats de compatibilité et vos créations préférées. • Partagez vos résultats de test et vos cartes de compatibilité avec vos amis ou votre partenaire. • Consultez vos scores, vos messages et vos souvenirs à tout moment. Pourquoi utiliser Love Tester AI • Insights de compatibilité intelligents • Tests de couple amusants • Expériences de calculateur d'amour modernes • Générateur de lettres d'amour et citations • Mode partenaire interactif • Outils d'astrologie et numérologie Idéal pour • Les couples • Les crushs • Les relations à distance • Les conversations romantiques • Découvrir son langage de l'amour Que vous cherchiez un test d'amour ou un générateur de lettres pour exprimer vos sentiments, Love Tester AI réunit tout cela dans une application au design soigné. Téléchargez Love Tester AI dès aujourd'hui pour rendre chaque connexion plus unique. Note : les résultats sont fournis à des fins de divertissement uniquement.",
         "notes": [
           {
             "term": "compatibilité amoureuse",
-            "why": "This is a primary search phrase in France that captures user intent accurately for relationship compatibility."
+            "why": "This is a natural phrasing for French users searching for relationship compatibility tools."
           },
           {
-            "term": "test d'amour prénom",
-            "why": "Including this exact search phrase naturally attracts users looking for name-based matching features."
+            "term": "test d'amour",
+            "why": "This is a standard term used by native speakers for love tests and compatibility calculators."
           }
         ]
       }
     },
     "fit": {
       "title": {
-        "text": "Love Tester AI Test d'Amour",
+        "text": "Love Tester AI - Test d'amour",
         "notes": [
           {
-            "term": "Test d'Amour",
-            "why": "This is the most searched local phrase for a love test on Google Play in France."
+            "term": "Test d'amour",
+            "why": "This phrase directly matches one of the provided search suggestions and is the natural way to describe this app in French."
           }
         ]
       },
       "short": {
-        "text": "Calculateur d'amour, test de couple et compatibilité amoureuse par IA.",
+        "text": "Calculateur d'amour, test de compatibilité couple et idées romantiques par IA.",
         "notes": [
           {
             "term": "Calculateur d'amour",
-            "why": "This is the exact high-volume search phrase that users type into the store in France."
+            "why": "This is a direct and highly relevant search phrase for the category in French."
           },
           {
-            "term": "compatibilité amoureuse",
-            "why": "This natural phrase captures high search intent for love compatibility tests."
+            "term": "test de compatibilité couple",
+            "why": "This phrase is a natural, high-intent search term for users looking to test their relationships."
           }
         ]
       },
       "full": {
-        "text": "Love Tester AI vous aide à découvrir votre compatibilité, à explorer des analyses romantiques et à créer des moments privilégiés grâce à des tests d'amour par IA, des quiz de couple, des prompts romantiques et des générateurs conçus pour les relations d'aujourd'hui.\n\nQue vous testiez un crush, compariez vos personnalités, exploriez des affinités astrologiques ou rédigiez des déclarations touchantes, Love Tester AI associe le calculateur d'amour classique à des outils interactifs, ludiques et personnalisés.\n\nFONCTIONNALITÉS\n\nTests d'Amour & Compatibilité par IA\n• Découvrez votre compatibilité grâce à des tests d'amour et des analyses relationnelles (résultats à des fins de divertissement)\n• Explorez des expériences de test d'amour amusantes et des scores de compatibilité\n• Essayez plusieurs tests de compatibilité de couple et des quiz adaptés\n• Comparez instantanément les prénoms, les personnalités et la dynamique relationnelle\n• Générez des résultats amusants avec un calculateur d'amour moderne\n\nCalculateur d'Amour & Détecteur\n• Utilisez un calculateur d'amour pour explorer la compatibilité et la complicité\n• Essayez des tests d'amour classiques enrichis d'analyses astucieuses\n• Découvrez votre affinité amoureuse avec des outils interactifs\n• Explorez la compatibilité par les prénoms et les traits de personnalité\n• Profitez d'une version moderne du détecteur d'amour classique\n\nTests de Langage Amoureux\n• Découvrez votre langage amoureux et votre style relationnel\n• Répondez à un quiz conçu pour comprendre la connexion émotionnelle\n• Explorez la compatibilité à travers la communication et l'affection\n• Apprenez comment vous et votre partenaire exprimez votre amour\n• Profitez de tests de compatibilité axés sur le couple\n\nCompatibilité Astrologique\n• Explorez le calcul d'amour zodiacal et l'astrologie\n• Découvrez des analyses pour des duos comme le Scorpion et la Balance\n• Comparez les dynamiques entre le Verseau et le Sagittaire\n• Essayez la compatibilité par date de naissance\n• Explorez des outils de numérologie romantiques\n\nMode Partenaire\n• Invitez votre partenaire à se connecter en privé\n• Répondez ensemble à des prompts de couple\n• Créez des séries partagées et débloquez des réussites\n• Explorez la compatibilité ensemble de manière ludique\n\nGénérateurs d'Histoires d'Amour\n• Générez des lettres d'amour personnalisées instantanément\n• Créez de doux mots romantiques et des messages sincères\n• Utilisez le générateur pour écrire des messages significatifs\n• Créez des poèmes et des légendes romantiques\n• Générez de beaux messages avec les outils de citation\n\nEnregistrer, Partager & Consulter\n• Enregistrez vos résultats et créations favoris\n• Partagez vos résultats de test d'amour avec vos proches\n• Retrouvez vos scores et messages précédents à tout moment\n\nPourquoi les Utilisateurs Adorent Love Tester AI\n• Des analyses de compatibilité astucieuses\n• Des tests de couple ludiques\n• Des expériences de calculateur d'amour modernes\n• Des générateurs romantiques et des lettres d'amour\n• Un mode partenaire interactif\n• Des outils de compatibilité astrologique\n\nIdéal Pour\n• Les couples\n• Les crushes\n• Les relations à distance\n• Les conversations romantiques\n• Les tests d'amour amusants\n• L'exploration de la compatibilité du zodiaque\n• La découverte du langage amoureux\n\nTéléchargez Love Tester AI dès aujourd'hui pour rendre chaque connexion plus significative.",
+        "text": "Love Tester AI vous aide à découvrir votre compatibilité, explorer des insights romantiques et créer des moments privilégiés grâce à des tests d'amour, des quiz de couple et des outils IA pensés pour les relations d'aujourd'hui. Que vous testiez un crush, compariez vos personnalités, exploriez des affinités astrologiques ou rédigiez des lettres d'amour, Love Tester AI combine l'expérience classique du calculateur d'amour avec des outils interactifs et ludiques. Explorez votre complicité grâce à nos tests de compatibilité au sein d'une seule application. FONCTIONNALITÉS Tests d'amour et compatibilité • Découvrez votre compatibilité avec des tests et analyses de relation. • Explorez des expériences amusantes de test d'amour avec des scores et insights romantiques. • Essayez divers quiz de compatibilité de couple. • Comparez les prénoms, les personnalités et la dynamique de votre relation instantanément. • Générez des résultats amusants grâce à notre calculateur d'amour moderne. Calculateur d'amour • Utilisez notre calculateur pour explorer votre complicité et votre alchimie romantique. • Redécouvrez les tests classiques enrichis d'insights intelligents. • Explorez la compatibilité par les prénoms, les traits de caractère et les styles de relation. Langages de l'amour et insights • Découvrez votre langage de l'amour et votre style relationnel. • Répondez à des quiz conçus pour mieux comprendre votre connexion émotionnelle. • Apprenez comment vous et votre partenaire exprimez vos sentiments. Astrologie et numérologie • Explorez la compatibilité par les signes du zodiaque. • Découvrez des insights sur les affinités entre signes. • Testez votre compatibilité par les dates de naissance. • Explorez la numérologie amoureuse. Mode Couple • Invitez votre partenaire à se connecter en privé. • Répondez ensemble à des questions pour les couples. • Explorez vos résultats de compatibilité de manière interactive. Générateur d'histoires d'amour • Rédigez des lettres d'amour personnalisées instantanément. • Créez des mots doux, des messages sincères et des textes attentionnés. • Utilisez l'IA pour écrire des poèmes, des légendes romantiques et des citations. Sauvegarde et partage • Enregistrez vos résultats de compatibilité et vos créations préférées. • Partagez vos résultats de test et vos cartes de compatibilité avec vos amis ou votre partenaire. Pourquoi utiliser Love Tester AI • Insights de compatibilité intelligents • Tests de couple amusants • Expériences de calculateur d'amour modernes • Générateur de lettres d'amour et citations • Mode partenaire interactif • Outils d'astrologie et numérologie Idéal pour • Les couples • Les crushs • Les relations à distance • Les conversations romantiques • Découvrir son langage de l'amour Que vous cherchiez un test d'amour ou un générateur de lettres pour exprimer vos sentiments, Love Tester AI réunit tout cela dans une application au design soigné. Téléchargez Love Tester AI dès aujourd'hui pour rendre chaque connexion plus unique. Note : les résultats sont fournis à des fins de divertissement uniquement.",
         "notes": [
           {
             "term": "test d'amour",
-            "why": "This is the most common and natural search phrase used by French users looking for love calculators."
+            "why": "This is the most natural and high-intent phrase used by French speakers to find this type of app."
           },
           {
             "term": "calculateur d'amour",
-            "why": "It perfectly captures the core functionality while matching high-intent local search queries."
+            "why": "This term directly matches the search behavior of users looking for a tool to quantify their romantic compatibility."
           },
           {
-            "term": "divertissement",
-            "why": "It clearly signals that the app is for fun and entertainment, aligning with platform guidelines."
+            "term": "compatibilité de couple",
+            "why": "This phrase is essential for capturing the audience interested in relationship-focused tests."
           }
         ]
       }
     }
   },
-  "native": {
-    "fields": {
-      "title": "Love Tester AI Test d'Amour",
-      "short": "Calculateur d'amour, test de couple et compatibilité amoureuse par IA.",
-      "full": "Love Tester AI vous aide à découvrir votre compatibilité, à explorer des analyses romantiques et à créer des moments privilégiés grâce à des tests d'amour par IA, des quiz de couple, des prompts romantiques et des générateurs conçus pour les relations d'aujourd'hui.\n\nQue vous testiez un crush, compariez vos personnalités, exploriez des affinités astrologiques ou rédigiez des déclarations touchantes, Love Tester AI associe le calculateur d'amour classique à des outils interactifs, ludiques et personnalisés.\n\nFONCTIONNALITÉS\n\nTests d'Amour & Compatibilité par IA\n• Découvrez votre compatibilité grâce à des tests d'amour et des analyses relationnelles (résultats à des fins de divertissement)\n• Explorez des expériences de test d'amour amusantes et des scores de compatibilité\n• Essayez plusieurs tests de compatibilité de couple et des quiz adaptés\n• Comparez instantanément les prénoms, les personnalités et la dynamique relationnelle\n• Générez des résultats amusants avec un calculateur d'amour moderne\n\nCalculateur d'Amour & Détecteur\n• Utilisez un calculateur d'amour pour explorer la compatibilité et la complicité\n• Essayez des tests d'amour classiques enrichis d'analyses astucieuses\n• Découvrez votre affinité amoureuse avec des outils interactifs\n• Explorez la compatibilité par les prénoms et les traits de personnalité\n• Profitez d'une version moderne du détecteur d'amour classique\n\nTests de Langage Amoureux\n• Découvrez votre langage amoureux et votre style relationnel\n• Répondez à un quiz conçu pour comprendre la connexion émotionnelle\n• Explorez la compatibilité à travers la communication et l'affection\n• Apprenez comment vous et votre partenaire exprimez votre amour\n• Profitez de tests de compatibilité axés sur le couple\n\nCompatibilité Astrologique\n• Explorez le calcul d'amour zodiacal et l'astrologie\n• Découvrez des analyses pour des duos comme le Scorpion et la Balance\n• Comparez les dynamiques entre le Verseau et le Sagittaire\n• Essayez la compatibilité par date de naissance\n• Explorez des outils de numérologie romantiques\n\nMode Partenaire\n• Invitez votre partenaire à se connecter en privé\n• Répondez ensemble à des prompts de couple\n• Créez des séries partagées et débloquez des réussites\n• Explorez la compatibilité ensemble de manière ludique\n\nGénérateurs d'Histoires d'Amour\n• Générez des lettres d'amour personnalisées instantanément\n• Créez de doux mots romantiques et des messages sincères\n• Utilisez le générateur pour écrire des messages significatifs\n• Créez des poèmes et des légendes romantiques\n• Générez de beaux messages avec les outils de citation\n\nEnregistrer, Partager & Consulter\n• Enregistrez vos résultats et créations favoris\n• Partagez vos résultats de test d'amour avec vos proches\n• Retrouvez vos scores et messages précédents à tout moment\n\nPourquoi les Utilisateurs Adorent Love Tester AI\n• Des analyses de compatibilité astucieuses\n• Des tests de couple ludiques\n• Des expériences de calculateur d'amour modernes\n• Des générateurs romantiques et des lettres d'amour\n• Un mode partenaire interactif\n• Des outils de compatibilité astrologique\n\nIdéal Pour\n• Les couples\n• Les crushes\n• Les relations à distance\n• Les conversations romantiques\n• Les tests d'amour amusants\n• L'exploration de la compatibilité du zodiaque\n• La découverte du langage amoureux\n\nTéléchargez Love Tester AI dès aujourd'hui pour rendre chaque connexion plus significative."
-    },
-    "notes": [
-      {
-        "term": "Test d'Amour",
-        "why": "This is the most common search phrase used by French users looking for classic romance calculators."
-      },
-      {
-        "term": "Compatibilité amoureuse",
-        "why": "Matches high-intent search volume on the French Google Play store for relationship matching apps."
-      },
-      {
-        "term": "Crush",
-        "why": "The English word crush is widely adopted and heavily used by French teens and young adults in casual dating contexts."
-      },
-      {
-        "term": "Calculateur d'amour",
-        "why": "Directly targets the localized keyword search phrase for love calculator tools in France."
-      },
-      {
-        "term": "Test de couple",
-        "why": "Captures the audience segment searching specifically for interactive activities to do with a partner."
-      }
-    ]
-  },
   "generatedWith": {
     "provider": "gemini",
-    "model": "gemini-3.5-flash-lite",
-    "at": "2026-09-29T10:10:37.700Z"
+    "model": "gemini-3.1-flash-lite",
+    "at": "2026-09-29T11:53:26.326Z"
   }
 }

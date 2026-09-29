@@ -21,210 +21,226 @@
   "native": {
     "fields": {
       "title": "BellyClock: Intervallfasten",
-      "short": "Dein zuverlässiger Fasten Tracker für Intervallfasten und Wasserfasten.",
-      "full": "BellyClock ist dein klarer Fastenrechner und Intervallfasten-Tracker, der dir dabei hilft, deine Fastenzeiten im Blick zu behalten und Routinen einfach umzusetzen. Egal ob du gerade erst mit dem Intervallfasten beginnst oder feste Abläufe hast – BellyClock gibt dir die passenden Werkzeuge an die Hand, um deine Fastenphasen zu berechnen und deinen Fortschritt zu verfolgen.\n\nEntwickelt als unkomplizierter Fasten Tracker für den Alltag, vereint BellyClock Timer-Funktionen, Phasen-Übersichten und Erinnerungen in einer übersichtlichen App.\n\nFUNKTIONEN DES FASTENRECHNERS\n• Fastenrechner für Einsteiger und Erfahrene\n• Genaue Erfassung der Fastenfenster und Essenszeiten\n• Unterstützung für gängige Fastenpläne\n• Timer mit Echtzeit-Countdown für deine Fastenperiode\n• Übersicht über die verschiedenen Phasen deines Fastens\n\nBELIEBTE FASTENMETHODEN VERFOLGEN\n\nBellyClock unterstützt verschiedene Stile, damit du den Rhythmus findest, der zu deinem Alltag passt.\n\n• 16:8 Fasten-Tracker\n• 18:6 Fasten-Tracker\n• OMAD-Tracker\n• Eigene Fastenpläne und flexible Anpassungen\n• Verlauf und tägliche Statistiken\n\nJOURNAL UND WICHTIGE HINWEISE\n\n• Notizen zu Wohlbefinden, Energie und Stimmung während des Fastens\n• Kalender zur Übersicht deiner vergangenen Fastenperioden\n• Erinnerungen für deine Trinkmenge\n\nEinfach, klar und ohne unnötigen Ballast – BellyClock ist dein verlässlicher Begleiter für den Alltag."
+      "short": "Dein zuverlässiger Fasten Tracker und Timer für das Intervallfasten.",
+      "full": "BellyClock ist ein klarer und übersichtlicher Fasten Tracker, der dich dabei unterstützt, dein Intervallfasten konsequent und einfach im Blick zu behalten. Egal, ob du gerade erst mit dem Intervallfasten beginnst oder bereits erfahrener bist: BellyClock bietet dir genau die Werkzeuge, die du brauchst, um deine Fastenzeiten zu planen und deinen Fortschritt zu verfolgen – ganz ohne unnötige Komplexität.\n\nDie Funktionen im Überblick:\n\nFASTEN TRACKER & TIMER\n• Einfacher Fasten Timer für den direkten Start.\n• Präzise Zeiterfassung für deine Fasten- und Essensfenster.\n• Übersichtliche Darstellung deines aktuellen Fortschritts.\n• Anpassbare Fastenpläne für deinen individuellen Rhythmus.\n\nUNTERSTÜTZUNG GÄNGIGER METHODEN\nBellyClock unterstützt verschiedene Fastenstile, damit du die Methode findest, die in deinen Alltag passt:\n• 16:8 Fasten\n• 18:6 Fasten\n• OMAD (One Meal A Day)\n• Individuelle Fastenpläne\n• Tracking deiner Fasten-Historie und Erfolgs-Serien\n\nÜBERSICHTLICH & PRAKTISCH\nBellyClock konzentriert sich auf das Wesentliche: dein Fasten. Wir möchten dich dabei unterstützen, eine Routine zu entwickeln, die zu dir passt. Die App hilft dir dabei, den Überblick zu behalten, ohne dich mit zu vielen Informationen zu überfordern.\n\n• Klare Benutzeroberfläche für eine einfache Bedienung.\n• Keine unnötige Ablenkung.\n• Fokus auf Kontinuität und Struktur.\n\nBellyClock ist dein Begleiter für ein entspanntes Fasten. Wenn du Fragen zu deiner Gesundheit hast oder dir unsicher bist, konsultiere bitte vor Beginn eines neuen Fasten-Programms einen Arzt oder medizinisches Fachpersonal, da diese App keine medizinische Beratung ersetzt.\n\nStarte jetzt mit deinem Intervallfasten und behalte deine Zeiten mit BellyClock jederzeit im Blick."
     },
     "notes": [
       {
         "term": "Intervallfasten",
-        "why": "This is the exact primary search term used in the German market for intermittent fasting."
+        "why": "This is the natural, standard term for intermittent fasting used by German speakers."
       },
       {
         "term": "Fasten Tracker",
-        "why": "Using this common German search phrase makes the purpose instantly recognizable to local users."
+        "why": "This term appears in the provided search suggestions and is the natural way to describe this tool in German."
       },
       {
-        "term": "Fastenrechner",
-        "why": "This natural German compound noun replaces literal translations like Fasten-Kalkulator."
+        "term": "16:8",
+        "why": "The colon format is the standard convention for writing fasting protocols in the German market."
+      },
+      {
+        "term": "Übersichtlich",
+        "why": "This term is the natural choice in German to describe a clean, functional interface that provides a clear overview."
       }
     ]
   },
   "commands": {
     "native": {
       "title": {
-        "text": "BellyClock: Fasten-Tracker",
+        "text": "BellyClock: Intervallfasten",
         "notes": [
           {
-            "term": "Fasten-Tracker",
-            "why": "This compound search phrase matches what German users naturally type when looking for a tool to track their fasting periods."
+            "term": "Intervallfasten",
+            "why": "This is the standard, most natural term for intermittent fasting in German and aligns with user search behavior."
           }
         ]
       },
       "short": {
-        "text": "Dein Fasten Tracker und Intervallfasten Timer für einen klaren Rhythmus.",
+        "text": "Dein zuverlässiger Fasten Tracker und Timer für das Intervallfasten.",
         "notes": [
           {
             "term": "Fasten Tracker",
-            "why": "This search phrase directly addresses users looking for a reliable tool to log their progress."
+            "why": "This term is the most natural search phrase for users looking for a tracking tool in Germany."
           },
           {
-            "term": "Intervallfasten Timer",
-            "why": "It captures the specific search intent for a timed fasting calculator in German."
+            "term": "Intervallfasten",
+            "why": "Intervallfasten is the standard German term for intermittent fasting used by the target audience."
           }
         ]
       },
       "full": {
-        "text": "BellyClock ist dein klarer Fastenrechner und Intervallfasten-Tracker, der dir dabei hilft, deine Fastenzeiten im Blick zu behalten und Routinen einfach umzusetzen. Egal ob du gerade erst mit dem Intervallfasten beginnst oder feste Abläufe hast – BellyClock gibt dir die passenden Werkzeuge an die Hand, um deine Fastenphasen zu berechnen und deinen Fortschritt zu verfolgen.\n\nEntwickelt als unkomplizierter Fasten Tracker für den Alltag, vereint BellyClock Timer-Funktionen, Phasen-Übersichten und Erinnerungen in einer übersichtlichen App.\n\nFUNKTIONEN DES FASTENRECHNERS\n• Fastenrechner für Einsteiger und Erfahrene\n• Genaue Erfassung der Fastenfenster und Essenszeiten\n• Unterstützung für gängige Fastenpläne\n• Timer mit Echtzeit-Countdown für deine Fastenperiode\n• Übersicht über die verschiedenen Phasen deines Fastens\n\nBELIEBTE FASTENMETHODEN VERFOLGEN\n\nBellyClock unterstützt verschiedene Stile, damit du den Rhythmus findest, der zu deinem Alltag passt.\n\n• 16:8 Fasten-Tracker\n• 18:6 Fasten-Tracker\n• OMAD-Tracker\n• Eigene Fastenpläne und flexible Anpassungen\n• Verlauf und tägliche Statistiken\n\nJOURNAL UND WICHTIGE HINWEISE\n\n• Notizen zu Wohlbefinden, Energie und Stimmung während des Fastens\n• Kalender zur Übersicht deiner vergangenen Fastenperioden\n• Erinnerungen für deine Trinkmenge\n\nEinfach, klar und ohne unnötigen Ballast – BellyClock ist dein verlässlicher Begleiter für den Alltag.",
+        "text": "BellyClock ist dein übersichtlicher Fasten-Tracker, mit dem du dein Intervallfasten mühelos in den Alltag integrierst. Egal, ob du gerade erst mit dem Intervallfasten startest oder bereits erfahren bist: BellyClock bietet dir genau die Funktionen, die du brauchst, um deine Fasten- und Essensphasen im Blick zu behalten – ganz ohne unnötige Komplexität. Die Funktionen im Überblick: FASTEN-TRACKER & TIMER • Einfacher Fasten-Timer für den direkten Start. • Präzise Erfassung deiner Fasten- und Essensfenster. • Übersichtliche Darstellung deines Fortschritts in Echtzeit. • Flexible Anpassung an deinen individuellen Rhythmus. UNTERSTÜTZUNG GÄNGIGER METHODEN BellyClock unterstützt verschiedene Fastenstile, damit du die Methode findest, die perfekt in deinen Alltag passt: • 16:8-Fasten • 18:6-Fasten • OMAD (One Meal A Day) • Individuelle Fastenpläne • Tracking deiner Fastenhistorie und Erfolgs-Serien ÜBERSICHTLICH & PRAKTISCH BellyClock konzentriert sich auf das Wesentliche: dein Fasten. Wir unterstützen dich dabei, eine Routine zu entwickeln, die zu dir passt. Die App hilft dir, den Überblick zu behalten, ohne dich mit unnötigen Informationen zu überfordern. • Klare Benutzeroberfläche für eine einfache Bedienung. • Fokus auf Kontinuität und Struktur. • Einfach zu bedienender Fasten-Tracker für jeden Tag. BellyClock ist dein Begleiter für ein entspanntes Fasten. Wenn du gesundheitliche Fragen hast oder unsicher bist, konsultiere bitte vor Beginn eines neuen Fasten-Programms einen Arzt oder medizinisches Fachpersonal, da diese App keine medizinische Beratung ersetzt. Starte jetzt mit deinem Intervallfasten und behalte deine Zeiten mit BellyClock jederzeit im Blick.",
         "notes": [
           {
             "term": "Intervallfasten",
-            "why": "This is the primary search term used in the German market for intermittent fasting."
+            "why": "This term matches one of the search phrases provided and is the standard way to refer to the practice in German."
           },
           {
-            "term": "Fastenrechner",
-            "why": "It directly targets what users look for when searching for a practical calculator tool."
+            "term": "Fasten-Tracker",
+            "why": "Using hyphens in compound nouns is a common and correct grammatical convention in German to ensure readability."
           },
           {
-            "term": "16:8",
-            "why": "Using the colon format is the standard local convention for writing fasting schedules in Germany."
+            "term": "mühelos",
+            "why": "This is a natural idiomatic choice in German to describe a smooth integration of a tool into daily routines."
           }
         ]
       }
     },
     "aso": {
       "title": {
-        "text": "BellyClock: Fasten Timer",
+        "text": "BellyClock: Fasten Tracker",
         "notes": [
           {
-            "term": "Fasten Timer",
-            "why": "This term directly targets users looking for a practical timing tool within the 30-character limit."
+            "term": "Fasten Tracker",
+            "why": "This term matches one of the search phrases provided and clearly describes the app's function in natural German."
           }
         ]
       },
       "short": {
-        "text": "Dein zuverlässiger Fasten Tracker für Intervallfasten und Wasserfasten.",
+        "text": "Dein zuverlässiger Fasten Tracker und Timer für Intervallfasten.",
         "notes": [
           {
             "term": "Fasten Tracker",
-            "why": "This natural phrase matches the core tool function that German users search for on the store."
+            "why": "This term matches one of the provided Play search suggestions and is the natural local way to describe this function."
           },
           {
             "term": "Intervallfasten",
-            "why": "This is the primary search term used in the German market for this style of fasting."
+            "why": "This is the standard, accurate term used by German speakers for intermittent fasting."
           }
         ]
       },
       "full": {
-        "text": "BellyClock ist dein klarer Fastenrechner und Intervallfasten-Tracker, der dir dabei hilft, deine Fastenzeiten im Blick zu behalten und Routinen einfach umzusetzen. Egal ob du gerade erst mit dem Intervallfasten beginnst oder feste Abläufe hast – BellyClock gibt dir die passenden Werkzeuge an die Hand, um deine Fastenphasen zu berechnen und deinen Fortschritt zu verfolgen.\n\nEntwickelt als unkomplizierter Fasten Tracker für den Alltag, vereint BellyClock Timer-Funktionen, Phasen-Übersichten und Erinnerungen in einer übersichtlichen App.\n\nFUNKTIONEN DES FASTENRECHNERS\n• Fastenrechner für Einsteiger und Erfahrene\n• Genaue Erfassung der Fastenfenster und Essenszeiten\n• Unterstützung für gängige Fastenpläne\n• Timer mit Echtzeit-Countdown für deine Fastenperiode\n• Übersicht über die verschiedenen Phasen deines Fastens\n\nBELIEBTE FASTENMETHODEN VERFOLGEN\n\nBellyClock unterstützt verschiedene Stile, damit du den Rhythmus findest, der zu deinem Alltag passt.\n\n• 16:8 Fasten-Tracker\n• 18:6 Fasten-Tracker\n• OMAD-Tracker\n• Eigene Fastenpläne und flexible Anpassungen\n• Verlauf und tägliche Statistiken\n\nJOURNAL UND WICHTIGE HINWEISE\n\n• Notizen zu Wohlbefinden, Energie und Stimmung während des Fastens\n• Kalender zur Übersicht deiner vergangenen Fastenperioden\n• Erinnerungen für deine Trinkmenge\n\nEinfach, klar und ohne unnötigen Ballast – BellyClock ist deine verlässliche fasten app für den Alltag.",
+        "text": "BellyClock ist ein klarer und übersichtlicher Fasten Tracker, der dich dabei unterstützt, dein Intervallfasten konsequent und einfach im Blick zu behalten. Egal, ob du gerade erst mit dem Intervallfasten beginnst oder bereits erfahrener bist: BellyClock bietet dir genau die Werkzeuge, die du brauchst, um deine Fastenzeiten zu planen und deinen Fortschritt zu verfolgen – ganz ohne unnötige Komplexität. Als einfache Fasten App begleitet dich BellyClock zuverlässig durch deinen Alltag.\n\nDie Funktionen im Überblick:\n\nFASTEN TRACKER & TIMER\n• Einfacher Fasten Timer für den direkten Start.\n• Präzise Zeiterfassung für deine Fasten- und Essensfenster.\n• Übersichtliche Darstellung deines aktuellen Fortschritts.\n• Anpassbare Pläne für dein persönliches Intervallfasten.\n\nUNTERSTÜTZUNG GÄNGIGER METHODEN\nBellyClock unterstützt verschiedene Fastenstile, damit du die Methode findest, die in deinen Alltag passt:\n• 16:8 Fasten\n• 18:6 Fasten\n• OMAD (One Meal A Day)\n• Individuelle Fastenpläne\n• Tracking deiner Fasten-Historie und Erfolgs-Serien\n\nÜBERSICHTLICH & PRAKTISCH\nBellyClock konzentriert sich auf das Wesentliche: dein Fasten. Wir möchten dich dabei unterstützen, eine Routine zu entwickeln, die zu dir passt. Die App hilft dir dabei, den Überblick zu behalten, ohne dich mit zu vielen Informationen zu überfordern. Wenn du einen zuverlässigen Fasten Tracker für dein Intervallfasten suchst, ist BellyClock die ideale Wahl.\n\n• Klare Benutzeroberfläche für eine einfache Bedienung.\n• Keine unnötige Ablenkung.\n• Fokus auf Kontinuität und Struktur.\n\nBellyClock ist dein Begleiter für ein entspanntes Fasten. Wenn du Fragen zu deiner Gesundheit hast oder dir unsicher bist, konsultiere bitte vor Beginn eines neuen Fasten-Programms einen Arzt oder medizinisches Fachpersonal, da diese App keine medizinische Beratung ersetzt.\n\nStarte jetzt mit deinem Intervallfasten und behalte deine Zeiten mit BellyClock jederzeit im Blick.",
         "notes": [
           {
-            "term": "Intervallfasten",
-            "why": "This is the primary search term used by German speakers looking for intermittent fasting tools."
+            "term": "Fasten App",
+            "why": "This term matches one of the Play search suggestions and is the natural way to describe this type of tool in German."
           },
           {
-            "term": "fasten app",
-            "why": "Integrating this exact search phrase naturally at the end aligns with user query habits without keyword stuffing."
+            "term": "Fasten Tracker",
+            "why": "This is a natural compound noun used in German to describe a monitoring tool, matching common user search patterns."
+          },
+          {
+            "term": "Intervallfasten",
+            "why": "This is the correct, standard German terminology for intermittent fasting and appears in Play search suggestions."
           }
         ]
       }
     },
     "punchier": {
       "title": {
-        "text": "BellyClock: Fasten-Rechner",
+        "text": "BellyClock: Fasten Tracker",
         "notes": [
           {
-            "term": "Fasten-Rechner",
-            "why": "This term directly translates the source while matching what users search for when looking for a practical fasting calculator."
+            "term": "Fasten Tracker",
+            "why": "This term is highly relevant as it clearly identifies the app's core utility for users searching for a tool to monitor their progress."
           }
         ]
       },
       "short": {
-        "text": "Dein Fasten Tracker für Intervallfasten und Wasserfasten.",
+        "text": "Dein zuverlässiger Fasten Tracker und Timer für Intervall- und Wasserfasten.",
         "notes": [
           {
             "term": "Fasten Tracker",
-            "why": "This is a high-volume search phrase used by German users looking for a direct tracking tool."
+            "why": "This term matches one of the provided search suggestions for users looking for utility apps."
           },
           {
-            "term": "Intervallfasten",
-            "why": "The standard German term for intermittent fasting that directly matches user search intent."
+            "term": "Intervall- und Wasserfasten",
+            "why": "This is the natural, idiomatic way to describe these fasting methods in German."
           }
         ]
       },
       "full": {
-        "text": "BellyClock ist dein klarer Fastenrechner und Intervallfasten-Tracker, der dir dabei hilft, deine Fastenzeiten im Blick zu behalten und Routinen einfach umzusetzen. Egal ob du gerade erst mit dem Intervallfasten beginnst oder feste Abläufe hast – BellyClock gibt dir die passenden Werkzeuge an die Hand, um deine Fastenphasen zu berechnen und deinen Fortschritt zu verfolgen.\n\nEntwickelt als unkomplizierter Fasten Tracker für den Alltag, vereint BellyClock Timer-Funktionen, Phasen-Übersichten und Erinnerungen in einer übersichtlichen App.\n\nFUNKTIONEN DES FASTENRECHNERS\n• Fastenrechner für Einsteiger und Erfahrene\n• Genaue Erfassung der Fastenfenster und Essenszeiten\n• Unterstützung für gängige Fastenpläne\n• Timer mit Echtzeit-Countdown für deine Fastenperiode\n• Übersicht über die verschiedenen Phasen deines Fastens\n\nBELIEBTE FASTENMETHODEN VERFOLGEN\n\nBellyClock unterstützt verschiedene Stile, damit du den Rhythmus findest, der zu deinem Alltag passt.\n\n• 16:8 Fasten-Tracker\n• 18:6 Fasten-Tracker\n• OMAD-Tracker\n• Eigene Fastenpläne und flexible Anpassungen\n• Verlauf und tägliche Statistiken\n\nJOURNAL UND WICHTIGE HINWEISE\n\n• Notizen zu Wohlbefinden, Energie und Stimmung während des Fastens\n• Kalender zur Übersicht deiner vergangenen Fastenperioden\n• Erinnerungen für deine Trinkmenge\n\nEinfach, klar und ohne unnötigen Ballast – BellyClock ist dein verlässlicher Begleiter für den Alltag.",
-        "notes": [
-          {
-            "term": "Intervallfasten",
-            "why": "This is the primary search term used by German speakers looking for intermittent fasting tools."
-          },
-          {
-            "term": "Fastenrechner",
-            "why": "Direct and natural translation of the core utility without sounding like a marketing pitch."
-          }
-        ]
-      }
-    },
-    "benefit": {
-      "title": {
-        "text": "BellyClock: Fasten Timer",
-        "notes": [
-          {
-            "term": "Fasten Timer",
-            "why": "The term accurately reflects the core utility of a fasting clock and matches what users look for when timing their fasts."
-          }
-        ]
-      },
-      "short": {
-        "text": "Behalte den Überblick bei Intervallfasten und Wasserfasten mit dem Timer.",
+        "text": "BellyClock ist dein präziser Fasten-Tracker für ein entspanntes Intervallfasten. Behalte deine Fastenzeiten und Essensfenster mühelos im Blick – egal, ob du Anfänger bist oder bereits Erfahrung mit verschiedenen Fastenmethoden hast. BellyClock liefert dir genau die Werkzeuge, die du für eine konsequente Routine benötigst, ohne unnötige Komplexität.\n\nDEIN FASTEN-TRACKER IM ÜBERBLICK\n\n• Einfacher Fasten-Timer: Starte dein Fasten mit nur einem Fingertipp.\n• Präzise Zeiterfassung: Verfolge deine Fasten- und Essensphasen sekundengenau.\n• Übersichtlicher Fortschritt: Sieh jederzeit, wo du dich in deinem Fastenintervall befindest.\n• Flexible Pläne: Passe deine Fastenintervalle individuell an deinen Alltag an.\n\nUNTERSTÜTZUNG GÄNGIGER FASTENMETHODEN\n\nBellyClock begleitet dich bei deinem gewählten Rhythmus:\n\n• 16:8 Methode: Der Klassiker für den Alltag.\n• 18:6 Fasten: Für Fortgeschrittene.\n• OMAD (One Meal A Day): Einmal täglich essen.\n• Individuelle Zeitpläne: Flexibel und anpassbar.\n• Historie & Serien: Verfolge deine Erfolge und bleib motiviert durch deine Fasten-Historie.\n\nKLAR, ÜBERSICHTLICH & EFFEKTIV\n\nWir konzentrieren uns auf das Wesentliche: dein Fasten. BellyClock bietet dir eine intuitive Benutzeroberfläche ohne Ablenkung, damit du dich voll auf deine Ziele fokussieren kannst.\n\n• Fokus auf Beständigkeit: Baue nachhaltige Routinen auf.\n• Einfache Bedienung: Kein kompliziertes Setup.\n• Kein unnötiger Ballast: Fokus auf die Kernfunktionen eines Trackers.\n\nBellyClock ist dein zuverlässiger Begleiter für ein strukturiertes Fasten. Hinweis: Diese App ersetzt keine medizinische Beratung. Bei gesundheitlichen Fragen oder Unsicherheiten konsultiere bitte vor Beginn eines neuen Fasten-Programms einen Arzt oder medizinisches Fachpersonal.\n\nLade BellyClock jetzt herunter und starte dein Intervallfasten mit einem klaren Überblick über deine Zeiten.",
         "notes": [
           {
             "term": "Intervallfasten",
             "why": "This is the primary search term used in the German market for intermittent fasting."
           },
           {
-            "term": "Timer",
-            "why": "This highlights the core tool functionality rather than promoting a lifestyle program."
+            "term": "Fasten-Tracker",
+            "why": "German users specifically search for 'Tracker' or 'App' when looking for a tool to monitor their fasts."
+          }
+        ]
+      }
+    },
+    "benefit": {
+      "title": {
+        "text": "BellyClock: Fasten-Tracker",
+        "notes": [
+          {
+            "term": "Fasten-Tracker",
+            "why": "This term matches the user search suggestions and is the natural way to describe a fasting tool in German."
+          }
+        ]
+      },
+      "short": {
+        "text": "Dein Intervallfasten einfach planen mit dem übersichtlichen Fasten Tracker Timer.",
+        "notes": [
+          {
+            "term": "Intervallfasten",
+            "why": "This term matches one of the Play search suggestions and is the standard way to refer to the practice in German."
+          },
+          {
+            "term": "Fasten Tracker",
+            "why": "The English loanword 'Tracker' is common terminology in German health and fitness apps."
           }
         ]
       },
       "full": {
-        "text": "BellyClock ist dein klarer Fastenrechner und Intervallfasten-Tracker, der dir zeigt, wann dein Fasten endet und wie deine Fastenphasen verlaufen. Wenn du genau wissen möchtest, wann du wieder essen kannst, unterstützt dich die App im Alltag.\n\nEgal ob du gerade erst mit dem Intervallfasten beginnst oder feste Abläufe hast – BellyClock gibt dir die passenden Werkzeuge an die Hand, um deine Fastenfenster zu berechnen und deinen Fortschritt zu verfolgen.\n\nDEINE VORTEILE AUF EINEN BLICK\n• Immer im Bilde: Sieh jederzeit in Echtzeit, wo du dich in deinem Fasten befindest.\n• Einfacher Timer: Starte und stoppe deine Fastenperiode mit nur einem Tippen.\n• Verlässlicher Begleiter: Behalte deine Fastenzeiten im Blick, ohne dass du dich durch Menüs quälen musst.\n\nFUNKTIONEN DES FASTENRECHNERS\n• Fastenrechner für Einsteiger und Erfahrene\n• Genaue Erfassung der Fastenfenster und Essenszeiten\n• Unterstützung für gängige Fastenpläne\n• Timer mit Echtzeit-Countdown für deine Fastenperiode\n• Übersicht über die verschiedenen Phasen deines Fastens\n\nBELIEBTE FASTENMETHODEN VERFOLGEN\n\nBellyClock unterstützt verschiedene Stile, damit du den Rhythmus findest, der zu deinem Alltag passt.\n\n• 16:8 Fasten-Tracker\n• 18:6 Fasten-Tracker\n• OMAD-Tracker\n• Eigene Fastenpläne und flexible Anpassungen\n• Verlauf und tägliche Statistiken\n\nJOURNAL UND HINWEISE\n\n• Notizen zu Wohlbefinden, Energie und Stimmung während des Fastens\n• Kalender zur Übersicht deiner vergangenen Fastenperioden\n• Erinnerungen für deine Trinkmenge\n\nEinfach, klar und ohne unnötigen Ballast – BellyClock ist dein verlässlicher Begleiter für den Alltag.",
+        "text": "BellyClock ist dein verlässlicher Fasten Tracker, mit dem du dein Intervallfasten mühelos in den Alltag integrierst. Erfahre jederzeit, in welcher Fastenphase du dich befindest und wann dein nächstes Essensfenster beginnt – klar, strukturiert und ohne unnötige Ablenkung.\n\nEgal, ob du als Anfänger startest oder bereits feste Fastenroutinen verfolgst: BellyClock bietet dir genau die Werkzeuge, die du für eine konsequente Umsetzung benötigst.\n\nDEINE VORTEILE MIT BELLYCLOCK:\n\n• Immer den Überblick: Behalte deine Fastenzeiten mit dem intuitiven Timer präzise im Blick.\n• Dein individueller Rhythmus: Wähle die Methode, die zu dir passt, von 16:8 über 18:6 bis hin zu OMAD.\n• Fortschritt verfolgen: Überwache deine Erfolge und bleibe motiviert durch eine klare Darstellung deiner Fasten-Historie.\n• Einfachheit zählt: Eine übersichtliche Benutzeroberfläche sorgt dafür, dass du dich ganz auf dein Fasten konzentrieren kannst.\n\nFUNKTIONEN IM ÜBERBLICK:\n\n• Präziser Fasten Timer: Starte und beende deine Fastenphasen mit einem Fingertipp.\n• Flexible Fastenpläne: Passe die Dauer deiner Fasten- und Essensfenster jederzeit an.\n• Historie & Statistiken: Verfolge deine Kontinuität und baue nachhaltige Routinen auf.\n• Fokus auf das Wesentliche: Kein komplizierter Schnickschnack, sondern eine App, die genau das tut, was sie soll.\n\nBellyClock ist dein Begleiter für ein entspanntes Fasten. Bitte beachte: Diese App dient der Unterstützung deiner Fastenroutine und ersetzt keine medizinische Beratung. Wenn du Fragen zu deiner Gesundheit hast oder dir unsicher bist, konsultiere bitte vor Beginn eines neuen Fasten-Programms einen Arzt oder medizinisches Fachpersonal.\n\nStarte jetzt mit deinem Intervallfasten und behalte deine Zeiten mit BellyClock jederzeit im Blick.",
         "notes": [
           {
-            "term": "wann du wieder essen kannst",
-            "why": "This directly addresses the primary core need of beginners and intermittent fasters in Germany."
+            "term": "Intervallfasten",
+            "why": "This term matches the search phrases provided in the context."
           },
           {
-            "term": "Fastenfenster",
-            "why": "This is the most natural and commonly used industry term among German-speaking users for fasting windows."
+            "term": "Fasten Tracker",
+            "why": "This is the natural German equivalent for the tool described and aligns with the provided search phrases."
           }
         ]
       }
     },
     "fit": {
       "title": {
-        "text": "BellyClock: Fasten-Tracker",
+        "text": "BellyClock: Fasten Tracker",
         "notes": [
           {
-            "term": "Fasten-Tracker",
-            "why": "This term directly targets users searching for a reliable tracking tool in German without exceeding the 30-character limit."
+            "term": "Fasten Tracker",
+            "why": "This is a direct and common search phrase for utility-focused fasting apps in Germany."
           }
         ]
       },
       "short": {
-        "text": "Dein zuverlässiger Fasten Tracker für Intervallfasten und Wasserfasten.",
+        "text": "Dein einfacher Fasten Tracker und Timer für Intervallfasten und Wasserfasten.",
         "notes": [
           {
             "term": "Fasten Tracker",
-            "why": "This term directly targets users searching for tracking tools in German app stores."
+            "why": "This term appears in the provided Play Store search suggestions for this market."
           },
           {
             "term": "Intervallfasten",
-            "why": "This is the primary search phrase used by German speakers for intermittent fasting."
+            "why": "This is the natural and standard German term for intermittent fasting."
+          },
+          {
+            "term": "Wasserfasten",
+            "why": "This is the accurate and commonly understood German term for water fasting."
           }
         ]
       },
       "full": {
-        "text": "BellyClock ist dein klarer Fastenrechner und Intervallfasten-Tracker, der dir dabei hilft, deine Fastenzeiten im Blick zu behalten und Routinen einfach umzusetzen. Egal ob du gerade erst mit dem Intervallfasten beginnst oder feste Abläufe hast – BellyClock gibt dir die passenden Werkzeuge an die Hand, um deine Fastenphasen zu berechnen und deinen Fortschritt zu verfolgen.\n\nEntwickelt als unkomplizierter Fasten Tracker für den Alltag, vereint BellyClock Timer-Funktionen, Phasen-Übersichten und Erinnerungen in einer übersichtlichen App.\n\nFUNKTIONEN DES FASTENRECHNERS\n• Fastenrechner für Einsteiger und Erfahrene\n• Genaue Erfassung der Fastenfenster und Essenszeiten\n• Unterstützung für gängige Fastenpläne\n• Timer mit Echtzeit-Countdown für deine Fastenperiode\n• Übersicht über die verschiedenen Phasen deines Fastens\n\nBELIEBTE FASTENMETHODEN VERFOLGEN\n\nBellyClock unterstützt verschiedene Stile, damit du den Rhythmus findest, der zu deinem Alltag passt.\n\n• 16:8 Fasten-Tracker\n• 18:6 Fasten-Tracker\n• OMAD-Tracker\n• Eigene Fastenpläne und flexible Anpassungen\n• Verlauf und tägliche Statistiken\n\nJOURNAL UND WICHTIGE HINWEISE\n\n• Notizen zu Wohlbefinden, Energie und Stimmung während des Fastens\n• Kalender zur Übersicht deiner vergangenen Fastenperioden\n• Erinnerungen für deine Trinkmenge\n\nEinfach, klar und ohne unnötigen Ballast – BellyClock ist dein verlässlicher Begleiter für den Alltag.",
+        "text": "BellyClock ist ein klarer und übersichtlicher Fasten Tracker, der dich dabei unterstützt, dein Intervallfasten konsequent und einfach im Blick zu behalten. Egal, ob du gerade erst mit dem Intervallfasten beginnst oder bereits erfahrener bist: BellyClock bietet dir genau die Werkzeuge, die du brauchst, um deine Fastenzeiten zu planen und deinen Fortschritt zu verfolgen – ganz ohne unnötige Komplexität. Die Funktionen im Überblick: FASTEN TRACKER & TIMER • Einfacher Fasten Timer für den direkten Start. • Präzise Zeiterfassung für deine Fasten- und Essensfenster. • Übersichtliche Darstellung deines aktuellen Fortschritts. • Anpassbare Fastenpläne für deinen individuellen Rhythmus. UNTERSTÜTZUNG GÄNGIGER METHODEN BellyClock unterstützt verschiedene Fastenstile, damit du die Methode findest, die in deinen Alltag passt: • 16:8 Fasten • 18:6 Fasten • OMAD (One Meal A Day) • Individuelle Fastenpläne • Tracking deiner Fasten-Historie und Erfolgs-Serien ÜBERSICHTLICH & PRAKTISCH BellyClock konzentriert sich auf das Wesentliche: dein Fasten. Wir möchten dich dabei unterstützen, eine Routine zu entwickeln, die zu dir passt. Die App hilft dir dabei, den Überblick zu behalten, ohne dich mit zu vielen Informationen zu überfordern. • Klare Benutzeroberfläche für eine einfache Bedienung. • Keine unnötige Ablenkung. • Fokus auf Kontinuität und Struktur. BellyClock ist dein Begleiter für ein entspanntes Fasten. Wenn du Fragen zu deiner Gesundheit hast oder dir unsicher bist, konsultiere bitte vor Beginn eines neuen Fasten-Programms einen Arzt oder medizinisches Fachpersonal, da diese App keine medizinische Beratung ersetzt. Starte jetzt mit deinem Intervallfasten und behalte deine Zeiten mit BellyClock jederzeit im Blick.",
         "notes": [
           {
-            "term": "Intervallfasten-Tracker",
-            "why": "This integrates the primary search keyword naturally into the opening sentence."
+            "term": "Intervallfasten",
+            "why": "This term matches the search suggestions provided in the prompt."
           },
           {
-            "term": "Fastenrechner",
-            "why": "This establishes the core calculator tool requested by users looking for a free fasting calculator."
+            "term": "Fasten Tracker",
+            "why": "This is the natural German way to describe a tool for monitoring fasting progress."
+          },
+          {
+            "term": "Fasten- und Essensfenster",
+            "why": "This phrasing is the idiomatic way to describe the specific timing phases of intermittent fasting in German."
           }
         ]
       }
@@ -232,7 +248,7 @@
   },
   "generatedWith": {
     "provider": "gemini",
-    "model": "gemini-3.5-flash-lite",
-    "at": "2026-09-29T09:50:48.845Z"
+    "model": "gemini-3.1-flash-lite",
+    "at": "2026-09-29T11:15:13.103Z"
   }
 }

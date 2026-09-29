@@ -15,22 +15,22 @@
   },
   "native": {
     "fields": {
-      "title": "BellyClock: Compteur de jeûne",
-      "short": "Application de jeûne intermittent et compteur pour vos heures de jeûne.",
-      "full": "BellyClock est un compteur de jeûne et une application de jeûne intermittent moderne conçue pour vous aider à rester régulier, à suivre vos progrès et à ancrer de bonnes habitudes sans complexité inutile. Que vous débutiez ou que vous suiviez déjà des plannings avancés, BellyClock vous offre les outils pour calculer vos heures de jeûne, suivre votre parcours et rester motivé au quotidien.\n\nPensée pour répondre aux besoins essentiels des utilisateurs recherchant un outil de suivi simple, l'application réunit un minuteur, des rappels d'hydratation et un suivi personnalisé pour vous accompagner pas à pas.\n\nFONCTIONNALITÉS DU COMPTEUR DE JEÛNE\n• Compteur de jeûne adapté aux débutants comme aux utilisateurs expérimentés\n• Calculateur d'heures de jeûne avec suivi précis de votre fenêtre d'alimentation\n• Outils de suivi du poids pour accompagner vos objectifs personnels\n• Calculateur de temps de jeûne pour plannings flexibles\n• Minuteur de jeûne avec compte à rebours en temps réel\n• Plans de jeûne personnalisables selon vos horaires\n• Suivi des séries quotidiennes et historique de jeûne\n\nSUIVEZ LES MÉTHODES DE JEÛNE POPULAIRES\n\nBellyClock prend en charge plusieurs styles de jeûne afin que vous puissiez adopter la routine qui correspond le mieux à votre corps et à votre mode de vie.\n\n• Suivi du jeûne 16:8\n• Suivi du jeûne 18:6\n• Suivi du jeûne OMAD\n• Suivi du jeûne alterné\n• Plannings de jeûne personnalisés\n• Ajustements flexibles du minuteur\n\nJOURNAL DE JEÛNE ET OUTILS DE BIEN-ÊTRE\n\nLa régularité est essentielle pour ancrer de nouvelles habitudes. BellyClock vous aide à garder le cap au fil de votre parcours.\n\n• Journal de jeûne pour noter vos réflexions, vos envies et votre niveau d'énergie\n• Calendrier pour visualiser vos progrès au fil du temps\n• Gestion simple de vos plannings de jeûne\n• Rappels d'hydratation pour maintenir de bonnes habitudes au quotidien\n• Notifications pour vos routines de bien-être\n\nUN SUIVI CONÇU POUR LA VIE DE TOUS LES JOURS\n\nDe nombreuses applications se limitent à un simple minuteur. BellyClock est conçue pour évoluer avec votre routine sans vous submerger d'informations superflues.\n\nPOURQUOI CHOISIR BELLYCLOCK ?\n\n• Expérience de compteur de jeûne moderne et épurée\n• Application de jeûne intermittent adaptée aux débutants\n• Minuteur flexible pour plusieurs styles de jeûne\n• Calendrier et journal de jeûne intégrés\n• Fonctionnalité de rappel d'hydratation incluse\n\nQue vous ayez besoin d'un compteur de jeûne, d'un minuteur ou d'une application de jeûne intermittent, BellyClock vous donne les outils pour rester concentré sur vos objectifs."
+      "title": "BellyClock: Jeûne intermittent",
+      "short": "Un compteur de jeûne simple et pratique pour suivre votre jeûne intermittent.",
+      "full": "BellyClock est votre chronomètre et compteur de jeûne conçu pour vous aider à suivre votre progression et à garder le cap au quotidien, sans complexité inutile. Que vous débutiez ou que vous suiviez déjà des plannings avancés, l'application vous donne les outils pour calculer vos heures de jeûne et visualiser où vous en êtes.\n\nFonctionnalités principales\n• Compteur de jeûne simple pour débutants et utilisateurs expérimentés\n• Calculateur d'heures de jeûne avec suivi précis de votre fenêtre d'alimentation\n• Compte à rebours en temps réel pour savoir exactement où vous en êtes\n• Plans de jeûne personnalisables selon vos horaires\n• Repères sur les différentes phases du jeûne pour comprendre ce qui se passe\n\nSuivi des méthodes populaires\n\nBellyClock s'adapte à votre rythme de vie et prend en charge plusieurs styles :\n\n• Suivi du jeûne 16:8\n• Suivi du jeûne 18:6\n• Suivi du jeûne OMAD (un repas par jour)\n• Jours de jeûne alternés\n• Horaires personnalisés et ajustements flexibles\n• Historique et suivi des séries en cours\n\nJournal et outils de suivi\n\nLa régularité repose sur de bonnes habitudes. BellyClock vous aide à rester à l'écoute de votre corps.\n\n• Journal de bord pour noter vos réflexions, votre énergie et votre humeur\n• Rappels d'hydratation pour maintenir de bonnes habitudes au quotidien\n• Calendrier pour visualiser votre parcours au fil du temps\n\nConçu pour la vraie vie\n\nBellyClock va droit au but : il vous indique quand votre jeûne a commencé, où vous en êtes et quand il se termine. Que vous cherchiez un minuteur, un suivi simple ou un outil adapté à votre routine, l'application vous accompagne sans vous submerger.\n\nPourquoi choisir BellyClock ?\n\n• Interface claire et moderne\n• Adapté aux débutants comme aux confirmés\n• Flexible pour tous les styles de jeûne\n• Calendrier et journal intégrés\n• Conçu pour des routines durables\n\nConsultez toujours un professionnel de santé pour toute question médicale importante."
     },
     "notes": [
       {
-        "term": "Compteur de jeûne",
-        "why": "This translates the core search phrase 'compteur de jeûne' naturally for French users looking for a dedicated timer tool."
+        "term": "jeûne intermittent",
+        "why": "This is the correct French spelling matching the primary search phrases used by the audience."
       },
       {
-        "term": "Jeûne intermittent",
-        "why": "Using the correct spelling with the circumflex accent is essential for French market search relevance and proper grammar."
+        "term": "compteur de jeûne",
+        "why": "This translates the core tool concept naturally into a common search phrase in the French market."
       },
       {
-        "term": "Fenêtre d'alimentation",
-        "why": "This is the precise idiomatic term used in French intermittent fasting communities instead of a literal translation for feeding window."
+        "term": "fenêtre d'alimentation",
+        "why": "This is the standard terminology used in France for the eating window during intermittent fasting."
       }
     ]
   },
@@ -41,189 +41,193 @@
         "notes": [
           {
             "term": "Compteur de jeûne",
-            "why": "This natural search phrase directly matches what French users type when looking for a fasting timer."
+            "why": "This phrase directly reflects what users search for when looking for a straightforward tracking tool rather than a diet program."
+          },
+          {
+            "term": "jeûne",
+            "why": "The circumflex accent is mandatory in correct French spelling and matches the market search conventions."
           }
         ]
       },
       "short": {
-        "text": "Suivez votre jeûne intermittent et comptez vos heures facilement.",
+        "text": "Un compteur de jeûne simple et pratique pour votre jeûne intermittent.",
         "notes": [
           {
-            "term": "jeûne intermittent",
-            "why": "This is the exact search phrase users type for intermittent fasting in France."
+            "term": "compteur de jeûne",
+            "why": "This term matches one of the Play search suggestions and directly describes the timer tool."
           },
           {
-            "term": "comptez vos heures",
-            "why": "This reflects the core tool function of tracking fasting duration simply."
+            "term": "jeûne intermittent",
+            "why": "This is the correct French spelling for the practice and captures the main search phrase naturally."
           }
         ]
       },
       "full": {
-        "text": "BellyClock est un compteur de jeûne et une application de jeûne intermittent moderne conçue pour vous aider à rester régulier, à suivre vos progrès et à ancrer de bonnes habitudes sans complexité inutile. Que vous débutiez ou que vous suiviez déjà des plannings avancés, BellyClock vous offre les outils pour calculer vos heures de jeûne, suivre votre parcours et rester motivé au quotidien.\n\nPensée pour répondre aux besoins essentiels des utilisateurs recherchant un outil de suivi simple, l'application réunit un minuteur, des rappels d'hydratation et un suivi personnalisé pour vous accompagner pas à pas.\n\nFONCTIONNALITÉS DU COMPTEUR DE JEÛNE\n• Compteur de jeûne adapté aux débutants comme aux utilisateurs expérimentés\n• Calculateur d'heures de jeûne avec suivi précis de votre fenêtre d'alimentation\n• Outils de suivi du poids pour accompagner vos objectifs personnels\n• Calculateur de temps de jeûne pour plannings flexibles\n• Minuteur de jeûne avec compte à rebours en temps réel\n• Plans de jeûne personnalisables selon vos horaires\n• Suivi des séries quotidiennes et historique de jeûne\n\nSUIVEZ LES MÉTHODES DE JEÛNE POPULAIRES\n\nBellyClock prend en charge plusieurs styles de jeûne afin que vous puissiez adopter la routine qui correspond le mieux à votre corps et à votre mode de vie.\n\n• Suivi du jeûne 16:8\n• Suivi du jeûne 18:6\n• Suivi du jeûne OMAD\n• Suivi du jeûne alterné\n• Plannings de jeûne personnalisés\n• Ajustements flexibles du minuteur\n\nJOURNAL DE JEÛNE ET OUTILS DE BIEN-ÊTRE\n\nLa régularité est essentielle pour ancrer de nouvelles habitudes. BellyClock vous aide à garder le cap au fil de votre parcours.\n\n• Journal de jeûne pour noter vos réflexions, vos envies et votre niveau d'énergie\n• Calendrier pour visualiser vos progrès au fil du temps\n• Gestion simple de vos plannings de jeûne\n• Rappels d'hydratation pour maintenir de bonnes habitudes au quotidien\n• Notifications pour vos routines de bien-être\n\nUN SUIVI CONÇU POUR LA VIE DE TOUS LES JOURS\n\nDe nombreuses applications se limitent à un simple minuteur. BellyClock est conçue pour évoluer avec votre routine sans vous submerger d'informations superflues.\n\nPOURQUOI CHOISIR BELLYCLOCK ?\n\n• Expérience de compteur de jeûne moderne et épurée\n• Application de jeûne intermittent adaptée aux débutants\n• Minuteur flexible pour plusieurs styles de jeûne\n• Calendrier et journal de jeûne intégrés\n• Fonctionnalité de rappel d'hydratation incluse\n\nQue vous ayez besoin d'un compteur de jeûne, d'un minuteur ou d'une application de jeûne intermittent, BellyClock vous donne les outils pour rester concentré sur vos objectifs.",
+        "text": "BellyClock est votre chronomètre et compteur de jeûne conçu pour vous aider à suivre votre progression et à garder le cap au quotidien, sans complexité inutile. Que vous débutiez ou que vous suiviez déjà des plannings avancés, l'application vous donne les outils pour calculer vos heures de jeûne et visualiser où vous en êtes.\n\nFonctionnalités principales\n• Compteur de jeûne simple pour débutants et utilisateurs expérimentés\n• Calculateur d'heures de jeûne avec suivi précis de votre fenêtre d'alimentation\n• Compte à rebours en temps réel pour savoir exactement où vous en êtes\n• Plans de jeûne personnalisables selon vos horaires\n• Repères sur les différentes phases du jeûne pour comprendre ce qui se passe\n\nSuivi des méthodes populaires\n\nBellyClock s'adapte à votre rythme de vie et prend en charge plusieurs styles :\n\n• Suivi du jeûne 16:8\n• Suivi du jeûne 18:6\n• Suivi du jeûne OMAD (un repas par jour)\n• Jours de jeûne alternés\n• Horaires personnalisés et ajustements flexibles\n• Historique et suivi des séries en cours\n\nJournal et outils de suivi\n\nLa régularité repose sur de bonnes habitudes. BellyClock vous aide à rester à l'écoute de votre corps.\n\n• Journal de bord pour noter vos réflexions, votre énergie et votre humeur\n• Rappels d'hydratation pour maintenir de bonnes habitudes au quotidien\n• Calendrier pour visualiser votre parcours au fil du temps\n\nConçu pour la vraie vie\n\nBellyClock va droit au but : il vous indique quand votre jeûne a commencé, où vous en êtes et quand il se termine. Que vous cherchiez un minuteur, un suivi simple ou un outil adapté à votre routine, l'application vous accompagne sans vous submerger.\n\nPourquoi choisir BellyClock ?\n\n• Interface claire et moderne\n• Adapté aux débutants comme aux confirmés\n• Flexible pour tous les styles de jeûne\n• Calendrier et journal intégrés\n• Conçu pour des routines durables\n\nConsultez toujours un professionnel de santé pour toute question médicale importante.",
         "notes": [
           {
             "term": "compteur de jeûne",
-            "why": "This natural search phrase reflects how French users look for fasting tracking tools."
+            "why": "This matches one of the Play search suggestions naturally."
           },
           {
-            "term": "jeûne intermittent",
-            "why": "Using the correct accents and spelling is essential for natural SEO in France."
-          },
-          {
-            "term": "fenêtre d'alimentation",
-            "why": "This is the precise and idiomatic term used in French fasting communities."
+            "term": "jeûne 16:8",
+            "why": "The colon format is standard for intermittent fasting ratios in French."
           }
         ]
       }
     },
     "aso": {
       "title": {
-        "text": "BellyClock: Compteur de jeûne",
+        "text": "BellyClock: Jeûne intermittent",
         "notes": [
           {
-            "term": "Compteur de jeûne",
-            "why": "This natural French phrase directly captures the core search intent for a fasting timer without exceeding the strict character limit."
+            "term": "Jeûne intermittent",
+            "why": "This term matches one of the Play search suggestions and uses the correct French spelling with the circumflex."
           }
         ]
       },
       "short": {
-        "text": "Suivez votre jeûne intermittent avec ce compteur et plan 16:8 simple.",
+        "text": "Un compteur de jeûne simple et pratique pour suivre votre jeûne intermittent.",
         "notes": [
           {
-            "term": "jeûne intermittent",
-            "why": "This is the primary search phrase used by French users looking for this type of application."
+            "term": "compteur de jeûne",
+            "why": "This term matches the search suggestion and clearly describes the tool's core function."
           },
           {
-            "term": "compteur",
-            "why": "It accurately reflects the tool-focused nature of BellyClock as a timer rather than a diet program."
+            "term": "jeûne intermittent",
+            "why": "This is the correct French spelling for the main practice supported by the app."
           }
         ]
       },
       "full": {
-        "text": "BellyClock est un compteur de jeûne et une application de jeûne intermittent moderne conçue pour vous aider à rester régulier, à suivre vos progrès et à ancrer de bonnes habitudes sans complexité inutile. Que vous débutiez ou que vous suiviez déjà des plannings avancés, BellyClock vous offre les outils pour calculer vos heures de jeûne, suivre votre parcours et rester motivé au quotidien.\n\nPensée pour répondre aux besoins essentiels des utilisateurs recherchant une application jeune intermittent gratuit, l'application réunit un minuteur, des rappels d'hydratation et un suivi personnalisé pour vous accompagner pas à pas.\n\nFONCTIONNALITÉS DU COMPTEUR DE JEÛNE\n• Compteur de jeûne adapté aux débutants comme aux utilisateurs expérimentés\n• Calculateur d'heures de jeûne avec suivi précis de votre fenêtre d'alimentation\n• Outils de suivi du poids pour accompagner vos objectifs personnels\n• Calculateur de temps de jeûne pour plannings flexibles\n• Minuteur de jeûne avec compte à rebours en temps réel\n• Plans de jeûne personnalisables selon vos horaires\n• Suivi des séries quotidiennes et historique de jeûne\n\nSUIVEZ LES MÉTHODES DE JEÛNE POPULAIRES\n\nBellyClock prend en charge plusieurs styles de jeûne afin que vous puissiez adopter la routine qui correspond le mieux à votre corps et à votre mode de vie.\n\n• Suivi du jeûne 16:8\n• Suivi du jeûne 18:6\n• Suivi du jeûne OMAD\n• Suivi du jeûne alterné\n• Plannings de jeûne personnalisés\n• Ajustements flexibles du minuteur\n\nJOURNAL DE JEÛNE ET OUTILS DE BIEN-ÊTRE\n\nLa régularité est essentielle pour ancrer de nouvelles habitudes. BellyClock vous aide à garder le cap au fil de votre parcours.\n\n• Journal de jeûne pour noter vos réflexions, vos envies et votre niveau d'énergie\n• Calendrier pour visualiser vos progrès au fil du temps\n• Gestion simple de vos plannings de jeûne\n• Rappels d'hydratation pour maintenir de bonnes habitudes au quotidien\n• Notifications pour vos routines de bien-être\n\nUN SUIVI CONÇU POUR LA VIE DE TOUS LES JOURS\n\nDe nombreuses applications se limitent à un simple minuteur. BellyClock est conçue pour évoluer avec votre routine sans vous submerger d'informations superflues.\n\nPOURQUOI CHOISIR BELLYCLOCK ?\n\n• Expérience de compteur de jeûne moderne et épurée\n• Application de jeûne intermittent adaptée aux débutants\n• Minuteur flexible pour plusieurs styles de jeûne\n• Calendrier et journal de jeûne intégrés\n• Fonctionnalité de rappel d'hydratation incluse\n\nQue vous ayez besoin d'un compteur de jeûne, d'un minuteur ou d'une application jeune intermittent, BellyClock vous donne les outils pour rester concentré sur vos objectifs.",
+        "text": "BellyClock est votre chronomètre et compteur de jeûne conçu pour vous aider à suivre votre progression et à garder le cap au quotidien, sans complexité inutile. Que vous débutiez avec un programme de jeune intermittent ou que vous suiviez déjà des plannings avancés, l'application vous donne les outils pour calculer vos heures de jeûne et visualiser où vous en êtes.\n\nFonctionnalités principales\n• Compteur de jeûne simple pour débutants et utilisateurs expérimentés\n• Calculateur d'heures de jeûne avec suivi précis de votre fenêtre d'alimentation\n• Compte à rebours en temps réel pour savoir exactement où vous en êtes\n• Plans de jeûne personnalisables selon vos horaires\n• Repères sur les différentes phases du jeûne pour comprendre ce qui se passe\n\nSuivi des méthodes populaires\n\nBellyClock s'adapte à votre rythme de vie et prend en charge plusieurs styles comme le jeune intermittent 16/8 :\n\n• Suivi du jeûne 16:8\n• Suivi du jeûne 18:6\n• Suivi du jeûne OMAD (un repas par jour)\n• Jours de jeûne alternés\n• Horaires personnalisés et ajustements flexibles\n• Historique et suivi des séries en cours\n\nJournal et outils de suivi\n\nLa régularité repose sur de bonnes habitudes. Ce compteur de jeune vous aide à rester à l'écoute de votre corps.\n\n• Journal de bord pour noter vos réflexions, votre énergie et votre humeur\n• Rappels d'hydratation pour maintenir de bonnes habitudes au quotidien\n• Calendrier pour visualiser votre parcours au fil du temps\n\nConçu pour la vraie vie\n\nBellyClock va droit au but : il vous indique quand votre jeûne a commencé, où vous en êtes et quand il se termine. Que vous cherchiez un minuteur, un suivi simple ou une application de jeune intermittent, l'outil vous accompagne sans vous submerger.\n\nPourquoi choisir BellyClock ?\n\n• Interface claire et moderne\n• Adapté aux débutants comme aux confirmés\n• Flexible pour tous les styles de jeûne\n• Calendrier et journal intégrés\n• Conçu pour des routines durables\n\nConsultez toujours un professionnel de santé pour toute question médicale importante.",
         "notes": [
           {
-            "term": "application jeune intermittent gratuit",
-            "why": "Integrated naturally into the introductory paragraph to capture user search intent without looking forced."
+            "term": "jeune intermittent",
+            "why": "It matches one of the Play search suggestions and reads naturally in a French description."
           },
           {
-            "term": "application jeune intermittent",
-            "why": "Used near the conclusion as a direct match for what French users type into the search bar."
+            "term": "compteur de jeune",
+            "why": "It is a natural unaccented variation of the search phrases used for fasting trackers in France."
+          },
+          {
+            "term": "application de jeune intermittent",
+            "why": "It integrates a key search phrase smoothly without keyword stuffing."
           }
         ]
       }
     },
     "punchier": {
       "title": {
-        "text": "BellyClock: Calcul de jeûne",
+        "text": "BellyClock: Minuteur Jeûne",
         "notes": [
           {
-            "term": "Calcul de jeûne",
-            "why": "This direct and active phrase reflects the core calculation tool users search for while staying within the strict character limit."
+            "term": "Minuteur",
+            "why": "This term directly translates the core timer function sought by users looking for a fasting calculator."
+          },
+          {
+            "term": "Jeûne",
+            "why": "This is the correct French spelling including the circumflex accent for fasting."
           }
         ]
       },
       "short": {
-        "text": "Suivez votre jeûne intermittent et gérez vos heures de jeûne facilement.",
+        "text": "Suivez votre jeûne intermittent avec un compteur de jeûne simple et clair.",
         "notes": [
           {
             "term": "jeûne intermittent",
-            "why": "This is the primary search term used in the French market for this practice."
+            "why": "It matches the primary search phrase used by French users looking for fasting tools."
           },
           {
-            "term": "suivez votre",
-            "why": "This strong verb emphasizes the tracking tool aspect rather than a diet program."
+            "term": "compteur de jeûne",
+            "why": "This natural phrase directly describes the core timer function without adding marketing hype."
           }
         ]
       },
       "full": {
-        "text": "BellyClock est votre compteur de jeûne et application de jeûne intermittent de référence pour rythmer votre journée, suivre vos progrès et ancrer des habitudes durables sans complication. Que vous débutiez ou que vous suiviez déjà un jeûne intermittent 16/8, l'application vous offre des outils précis pour calculer vos heures, monitorer votre parcours et garder le cap.\n\nConçu pour répondre aux attentes des utilisateurs cherchant une application de jeûne intermittent gratuit, BellyClock associe minuteur, rappels d'hydratation et suivi personnalisé au sein d'une seule interface claire.\n\nFONCTIONNALITÉS DU COMPTEUR DE JEÛNE\n• Compteur de jeûne adapté aux débutants comme aux pratiquants expérimentés\n• Calculateur d'heures de jeûne avec suivi exact de votre fenêtre d'alimentation\n• Outils de suivi du poids pour accompagner vos objectifs personnels\n• Calculateur de temps de jeûne pour plannings modulables\n• Minuteur de jeûne avec compte à rebours en temps réel\n• Plans de jeûne personnalisables selon vos horaires\n• Suivi des séries quotidiennes et historique de jeûne complet\n\nSUIVEZ LES MÉTHODES DE JEÛNE POPULAIRES\n\nBellyClock prend en charge plusieurs styles pour s'adapter parfaitement à votre corps et à votre mode de vie.\n\n• Suivi du jeûne 16:8\n• Suivi du jeûne 18:6\n• Suivi du jeûne OMAD\n• Suivi du jeûne alterné\n• Plannings de jeûne personnalisés\n• Ajustements flexibles du minuteur\n\nJOURNAL DE JEÛNE ET OUTILS DE SUIVI\n\nLa régularité prime lors de l'instauration de nouvelles habitudes. BellyClock vous aide à rester constant tout au long de votre parcours.\n\n• Journal de jeûne pour noter vos réflexions, vos envies et votre niveau d'énergie\n• Calendrier pour visualiser vos progrès au fil du temps\n• Gestion simple de vos plannings de jeûne\n• Rappels d'hydratation pour maintenir de bonnes habitudes au quotidien\n• Notifications pour vos routines de suivi\n\nUN SUIVI CONÇU POUR LA VIE DE TOUS LES JOURS\n\nDe nombreuses applications se limitent à un simple minuteur. BellyClock est conçue pour évoluer avec votre routine sans vous submerger d'informations superflues.\n\nPOURQUOI CHOISIR BELLYCLOCK ?\n\n• Expérience de compteur de jeûne moderne et épurée\n• Application de jeûne intermittent adaptée aux débutants\n• Minuteur flexible pour plusieurs styles de jeûne\n• Calendrier et journal de jeûne intégrés\n• Fonctionnalité de rappel d'hydratation incluse\n\nQue vous ayez besoin d'un compteur de jeûne, d'un minuteur ou d'une application de jeûne intermittent, BellyClock vous donne les outils pour rester concentré sur vos objectifs.",
+        "text": "BellyClock est votre chronomètre et compteur de jeûne conçu pour vous aider à suivre votre progression et à garder le cap au quotidien, sans complexité inutile. Que vous débutiez ou que vous suiviez déjà des plannings avancés, l'application vous donne les outils pour calculer vos heures de jeûne et visualiser où vous en êtes.\n\nFonctionnalités principales\n• Compteur de jeûne simple pour débutants et utilisateurs expérimentés\n• Calculateur d'heures de jeûne avec suivi précis de votre fenêtre d'alimentation\n• Compte à rebours en temps réel pour savoir exactement où vous en êtes\n• Plans de jeûne personnalisables selon vos horaires\n• Repères sur les différentes phases du jeûne pour comprendre ce qui se passe\n\nSuivi des méthodes populaires\n\nBellyClock s'adapte à votre rythme de vie et prend en charge plusieurs styles :\n\n• Suivi du jeûne 16:8\n• Suivi du jeûne 18:6\n• Suivi du jeûne OMAD (un repas par jour)\n• Jours de jeûne alternés\n• Horaires personnalisés et ajustements flexibles\n• Historique et suivi des séries en cours\n\nJournal et outils de suivi\n\nLa régularité repose sur de bonnes habitudes. BellyClock vous aide à rester à l'écoute de votre corps.\n\n• Journal de bord pour noter vos réflexions, votre énergie et votre humeur\n• Rappels d'hydratation pour maintenir de bonnes habitudes au quotidien\n• Calendrier pour visualiser votre parcours au fil du temps\n\nConçu pour la vraie vie\n\nBellyClock va droit au but : il vous indique quand votre jeûne a commencé, où vous en êtes et quand il se termine. Que vous cherchiez un minuteur, un suivi simple ou un outil adapté à votre routine, l'application vous accompagne sans vous submerger.\n\nPourquoi choisir BellyClock ?\n\n• Interface claire et moderne\n• Adapté aux débutants comme aux confirmés\n• Flexible pour tous les styles de jeûne\n• Calendrier et journal intégrés\n• Conçu pour des routines durables\n\nConsultez toujours un professionnel de santé pour toute question médicale importante.",
         "notes": [
           {
             "term": "compteur de jeûne",
-            "why": "This is a high-volume search phrase used by French users looking for a direct tracking tool."
+            "why": "This matches one of the Play search suggestions naturally."
           },
           {
-            "term": "jeûne intermittent 16/8",
-            "why": "Formatting the slash as a colon represents the standard spelling used in France for this popular protocol."
+            "term": "jeûne 16:8",
+            "why": "This is the natural local wording used by practitioners in France."
           }
         ]
       }
     },
     "benefit": {
       "title": {
-        "text": "BellyClock: Jeûne intermittent",
+        "text": "BellyClock: Calculateur jeûne",
         "notes": [
           {
-            "term": "Jeûne intermittent",
-            "why": "This is the primary search term used by French users looking for intermittent fasting."
+            "term": "Calculateur",
+            "why": "This term directly matches the required instruction to lead with the core calculator function."
+          },
+          {
+            "term": "jeûne",
+            "why": "This uses the correct French spelling with a circumflex to represent the fasting concept accurately."
           }
         ]
       },
       "short": {
-        "text": "Compteur de jeûne et suivi d'intermittent 16:8 simple et gratuit.",
+        "text": "Suivez votre jeûne intermittent et calculez vos plages horaires simplement.",
         "notes": [
           {
-            "term": "Compteur de jeûne",
-            "why": "This search phrase accurately targets users looking for a straightforward fasting calculator and timer."
-          },
-          {
-            "term": "intermittent 16:8",
-            "why": "The 16:8 schedule is the most common fasting plan searched for by beginners in France."
+            "term": "jeûne intermittent",
+            "why": "This term matches one of the provided Play search suggestions in its correct local spelling."
           }
         ]
       },
       "full": {
-        "text": "BellyClock est un compteur de jeûne et une application de jeûne intermittent moderne conçue pour vous aider à rester régulier, à suivre vos progrès et à ancrer de bonnes habitudes sans complexité inutile. Que vous débutiez ou que vous suiviez déjà des plannings avancés, BellyClock vous offre les outils pour calculer vos heures de jeûne, suivre votre parcours et rester motivé au quotidien.\n\nPensée pour répondre aux besoins essentiels des utilisateurs recherchant un outil de suivi simple, l'application réunit un minuteur, des rappels d'hydratation et un suivi personnalisé pour vous accompagner pas à pas.\n\nFONCTIONNALITÉS DU COMPTEUR DE JEÛNE\n• Suivre précisément votre fenêtre d'alimentation grâce au calculateur d'heures de jeûne adapté aux débutants comme aux utilisateurs expérimentés\n• Rester motivé avec le minuteur de jeûne et son compte à rebours en temps réel\n• Adapter vos horaires grâce aux plans de jeûne personnalisables pour un suivi de jeûne intermittent flexible\n• Accompagner vos objectifs personnels à l'aide d'outils de suivi du poids et de l'historique de vos séries quotidiennes\n\nSUIVEZ LES MÉTHODES DE JEÛNE POPULAIRES\n\nBellyClock prend en charge plusieurs styles de jeûne afin que vous puissiez adopter la routine qui correspond le mieux à votre corps et à votre mode de vie.\n\n• Suivi du jeûne 16:8\n• Suivi du jeûne 18:6\n• Suivi du jeûne OMAD\n• Suivi du jeûne alterné\n• Plannings de jeûne personnalisés\n• Ajustements flexibles du minuteur\n\nJOURNAL DE JEÛNE ET OUTILS DE BIEN-ÊTRE\n\nLa régularité est essentielle pour ancrer de nouvelles habitudes. BellyClock vous aide à garder le cap au fil de votre parcours.\n\n• Noter vos réflexions, vos envies et votre niveau d'énergie dans le journal de jeûne\n• Visualiser vos progrès au fil du temps grâce au calendrier\n• Maintenir de bonnes habitudes au quotidien avec les rappels d'hydratation\n• Gérer simplement vos plannings et vos notifications de routine\n\nUN SUIVI CONÇU POUR LA VIE DE TOUS LES JOURS\n\nDe nombreuses applications se limitent à un simple minuteur. BellyClock est conçue pour évoluer avec votre routine sans vous submerger d'informations superflues.\n\nPOURQUOI CHOISIR BELLYCLOCK ?\n\n• Expérience de compteur de jeûne moderne et épurée\n• Application de jeûne intermittent adaptée aux débutants\n• Minuteur flexible pour plusieurs styles de jeûne\n• Calendrier et journal de jeûne intégrés\n• Fonctionnalité de rappel d'hydratation incluse\n\nQue vous ayez besoin d'un compteur de jeûne, d'un minuteur ou d'une application de jeûne intermittent, BellyClock vous donne les outils pour rester concentré sur vos objectifs.",
+        "text": "BellyClock est votre chronomètre et compteur de jeûne conçu pour vous aider à savoir exactement quand vous pouvez manger et à garder le cap au quotidien, sans complexité inutile. Que vous débutiez ou que vous suiviez déjà des plannings avancés, l'application vous donne les outils pour calculer vos heures de jeûne et visualiser où vous en êtes.\n\nSavoir où vous en êtes et quand manger\n• Compte à rebours en temps réel pour savoir exactement où vous en êtes grâce à un compteur de jeûne simple\n• Calculateur d'heures de jeûne avec suivi précis de votre fenêtre d'alimentation\n• Repères sur les différentes phases du jeûne pour comprendre ce qui se passe\n• Plans de jeûne personnalisables selon vos horaires\n\nSuivi des méthodes populaires\n\nBellyClock s'adapte à votre rythme de vie et prend en charge plusieurs styles de jeune intermittent :\n\n• Suivi du jeûne 16:8\n• Suivi du jeûne 18:6\n• Suivi du jeûne OMAD (un repas par jour)\n• Jours de jeûne alternés\n• Horaires personnalisés et ajustements flexibles\n• Historique et suivi des séries en cours\n\nJournal et outils de suivi\n\nLa régularité repose sur de bonnes habitudes. BellyClock vous aide à rester à l'écoute de votre corps.\n\n• Journal de bord pour noter vos réflexions, votre énergie et votre humeur\n• Rappels d'hydratation pour maintenir de bonnes habitudes au quotidien\n• Calendrier pour visualiser votre parcours au fil du temps\n\nConçu pour la vraie vie\n\nBellyClock va droit au but : il vous indique quand votre jeûne a commencé, où vous en êtes et quand il se termine. Que vous cherchiez un minuteur, un suivi simple ou une application de jeune intermittent, l'outil vous accompagne sans vous submerger.\n\nPourquoi choisir BellyClock ?\n\n• Interface claire et moderne\n• Adapté aux débutants comme aux confirmés\n• Flexible pour tous les styles de jeûne\n• Calendrier et journal intégrés\n• Conçu pour des routines durables\n\nConsultez toujours un professionnel de santé pour toute question médicale importante.",
         "notes": [
           {
             "term": "compteur de jeûne",
-            "why": "This is a natural French search phrase used on Google Play for fasting tools."
+            "why": "This term matches one of the Play search suggestions provided for this market."
           },
           {
-            "term": "jeûne intermittent",
-            "why": "The spelling includes the required circumflex accent as per market standards."
-          },
-          {
-            "term": "fenêtre d'alimentation",
-            "why": "This is the exact terminology French speakers use for eating windows."
+            "term": "jeune intermittent",
+            "why": "This term matches one of the Play search suggestions provided for this market, written with proper French accents."
           }
         ]
       }
     },
     "fit": {
       "title": {
-        "text": "BellyClock: Compteur de jeûne",
+        "text": "BellyClock: Jeûne intermittent",
         "notes": [
           {
-            "term": "Compteur de jeûne",
-            "why": "This is a natural and exact translation of the core tool that people search for in the French market."
+            "term": "Jeûne intermittent",
+            "why": "This term matches the most natural search phrase while keeping the core tool identity within the character limit."
           }
         ]
       },
       "short": {
-        "text": "Application de jeûne intermittent et compteur de jeûne simple et gratuit.",
+        "text": "Suivez votre jeûne intermittent et vos heures de jeûne avec ce compteur simple.",
         "notes": [
           {
             "term": "jeûne intermittent",
-            "why": "This is the primary search term used by French speakers looking for fasting apps."
+            "why": "This phrase directly matches the main user search intent for the market."
           },
           {
-            "term": "compteur de jeûne",
-            "why": "This natural search phrase describes the core timing tool function without hype."
+            "term": "compteur",
+            "why": "This word reflects the core tool nature of the app rather than a lifestyle programme."
           }
         ]
       },
       "full": {
-        "text": "BellyClock est un compteur de jeûne et une application de jeûne intermittent moderne conçue pour vous aider à rester régulier, à suivre vos progrès et à ancrer de bonnes habitudes sans complexité inutile. Que vous débutiez ou que vous suiviez déjà des plannings avancés, BellyClock vous offre les outils pour calculer vos heures de jeûne, suivre votre parcours et rester motivé au quotidien.\n\nPensée pour répondre aux besoins essentiels des utilisateurs recherchant un outil de suivi simple, l'application réunit un minuteur, des rappels d'hydratation et un suivi personnalisé pour vous accompagner pas à pas.\n\nFONCTIONNALITÉS DU COMPTEUR DE JEÛNE\n• Compteur de jeûne adapté aux débutants comme aux utilisateurs expérimentés\n• Calculateur d'heures de jeûne avec suivi précis de votre fenêtre d'alimentation\n• Outils de suivi pour accompagner vos objectifs personnels\n• Calculateur de temps de jeûne pour plannings flexibles\n• Minuteur de jeûne avec compte à rebours en temps réel\n• Plans de jeûne personnalisables selon vos horaires\n• Suivi des séries quotidiennes et historique de jeûne\n\nSUIVEZ LES MÉTHODES DE JEÛNE POPULAIRES\n\nBellyClock prend en charge plusieurs styles de jeûne afin que vous puissiez adopter la routine qui correspond le mieux à votre corps et à votre mode de vie.\n\n• Suivi du jeûne 16:8\n• Suivi du jeûne 18:6\n• Suivi du jeûne OMAD\n• Suivi du jeûne alterné\n• Plannings de jeûne personnalisés\n• Ajustements flexibles du minuteur\n\nJOURNAL DE JEÛNE ET OUTILS DE BIEN-ÊTRE\n\nLa régularité est essentielle pour ancrer de nouvelles habitudes. BellyClock vous aide à garder le cap au fil de votre parcours.\n\n• Journal de jeûne pour noter vos réflexions, vos envies et votre niveau d'énergie\n• Calendrier pour visualiser vos progrès au fil du temps\n• Gestion simple de vos plannings de jeûne\n• Rappels d'hydratation pour maintenir de bonnes habitudes au quotidien\n• Notifications pour vos routines de bien-être\n\nUN SUIVI CONÇU POUR LA VIE DE TOUS LES JOURS\n\nDe nombreuses applications se limitent à un simple minuteur. BellyClock est conçue pour évoluer avec votre routine sans vous submerger d'informations superflues.\n\nPOURQUOI CHOISIR BELLYCLOCK ?\n\n• Expérience de compteur de jeûne moderne et épurée\n• Application de jeûne intermittent adaptée aux débutants\n• Minuteur flexible pour plusieurs styles de jeûne\n• Calendrier et journal de jeûne intégrés\n• Fonctionnalité de rappel d'hydratation incluse\n\nQue vous ayez besoin d'un compteur de jeûne, d'un minuteur ou d'une application de jeûne intermittent, BellyClock vous donne les outils pour rester concentré sur vos objectifs.",
+        "text": "BellyClock est votre chronomètre et compteur de jeûne conçu pour vous aider à suivre votre progression et à garder le cap au quotidien, sans complexité inutile. Que vous débutiez avec le jeûne intermittent ou que vous suiviez déjà des plannings avancés, l'application vous donne les outils pour calculer vos heures de jeûne et visualiser où vous en êtes.\n\nFonctionnalités principales\n• Compteur de jeûne simple pour débutants et utilisateurs expérimentés\n• Calculateur d'heures de jeûne avec suivi précis de votre fenêtre d'alimentation\n• Compte à rebours en temps réel pour savoir exactement où vous en êtes\n• Plans de jeûne personnalisables selon vos horaires\n• Repères sur les différentes phases du jeûne pour comprendre ce qui se passe\n\nSuivi des méthodes populaires\n\nBellyClock s'adapte à votre rythme de vie et prend en charge plusieurs styles :\n\n• Suivi du jeûne 16:8\n• Suivi du jeûne 18:6\n• Suivi du jeûne OMAD (un repas par jour)\n• Jours de jeûne alternés\n• Horaires personnalisés et ajustements flexibles\n• Historique et suivi des séries en cours\n\nJournal et outils de suivi\n\nLa régularité repose sur de bonnes habitudes. BellyClock vous aide à rester à l'écoute de votre corps.\n\n• Journal de bord pour noter vos réflexions, votre énergie et votre humeur\n• Rappels d'hydratation pour maintenir de bonnes habitudes au quotidien\n• Calendrier pour visualiser votre parcours au fil du temps\n\nConçu pour la vraie vie\n\nBellyClock va droit au but : il vous indique quand votre jeûne a commencé, où vous en êtes et quand il se termine. Que vous cherchiez un minuteur, un suivi simple ou un outil adapté à votre routine, l'application vous accompagne sans vous submerger.\n\nPourquoi choisir BellyClock ?\n\n• Interface claire et moderne\n• Adapté aux débutants comme aux confirmés\n• Flexible pour tous les styles de jeûne\n• Calendrier et journal intégrés\n• Conçu pour des routines durables\n\nConsultez toujours un professionnel de santé pour toute question médicale importante.",
         "notes": [
           {
             "term": "compteur de jeûne",
-            "why": "This is a key search phrase naturally integrated into the text to match French search behavior."
+            "why": "It matches one of the Play search suggestions naturally used by French speakers."
           },
           {
             "term": "jeûne intermittent",
-            "why": "Using the correctly accented spelling aligns with the audience's search intent without keyword stuffing."
+            "why": "This is the correct local spelling matching user search terms in the market."
           }
         ]
       }
@@ -232,6 +236,6 @@
   "generatedWith": {
     "provider": "gemini",
     "model": "gemini-3.5-flash-lite",
-    "at": "2026-09-29T10:31:54.200Z"
+    "at": "2026-09-29T10:57:32.369Z"
   }
 }

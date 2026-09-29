@@ -18,102 +18,151 @@
     "source": "Google Play search suggestions",
     "capturedAt": "2026-09-29T10:10:37.458Z"
   },
+  "native": {
+    "fields": {
+      "title": "BellyClock: Ayuno intermitente",
+      "short": "Controla tus periodos de ayuno intermitente con este sencillo temporizador.",
+      "full": "BellyClock es un temporizador y calculadora de ayuno diseñado para ayudarte a mantener la constancia y seguir tus progresos sin complicaciones innecesarias. Tanto si te inicias en el ayuno intermitente como si ya tienes experiencia con horarios más avanzados, BellyClock te ofrece las herramientas necesarias para gestionar tus horas de ayuno y mantenerte motivado en tu día a día. \n\nBellyClock combina un diseño intuitivo con funciones prácticas para que sepas exactamente en qué punto de tu ayuno te encuentras. \n\nCARACTERÍSTICAS PRINCIPALES\n• Calculadora y temporizador de ayuno fácil de usar.\n• Seguimiento preciso de las ventanas de ayuno.\n• Temporizador con cuenta atrás en tiempo real.\n• Ajustes flexibles para personalizar tus horarios.\n• Registro de historial para ver tu progreso a largo plazo.\n• Visualización de las fases metabólicas durante el ayuno.\n\nADAPTABLE A DIVERSOS MÉTODOS\nBellyClock es compatible con los estilos de ayuno más comunes para que elijas el que mejor se adapte a tu ritmo de vida:\n\n• Ayuno 16:8.\n• Ayuno 18:6.\n• OMAD (una comida al día).\n• Ayuno en días alternos.\n• Horarios personalizados a tu medida.\n\nUNA HERRAMIENTA SENCILLA PARA TU RUTINA\nLa constancia es la clave para crear hábitos saludables. BellyClock te ayuda a mantener el enfoque sin distracciones, funcionando como un compañero práctico que te permite visualizar tu evolución mediante un calendario de ayuno claro y sencillo.\n\n• Interfaz limpia y sin rodeos.\n• Ideal tanto para principiantes como para usuarios avanzados.\n• Seguimiento de rachas diarias.\n• Recordatorios útiles para mantener tu rutina.\n\nBellyClock no es una dieta, sino una herramienta de seguimiento. Si tienes dudas sobre tu salud o sobre cómo empezar a practicar el ayuno, te recomendamos consultar siempre con un profesional sanitario antes de realizar cambios significativos en tu alimentación. \n\nDescarga BellyClock y empieza a gestionar tus periodos de ayuno de forma clara y organizada."
+    },
+    "notes": [
+      {
+        "term": "Ayuno intermitente",
+        "why": "Es el término estándar y más buscado en España para referirse a esta práctica."
+      },
+      {
+        "term": "Temporizador",
+        "why": "Es la palabra natural que los usuarios españoles usan para referirse a una herramienta que cuenta el tiempo en una app."
+      },
+      {
+        "term": "Sin rodeos",
+        "why": "Esta expresión idiomática española transmite perfectamente la idea de una interfaz sencilla y directa, tal como busca el usuario de BellyClock."
+      },
+      {
+        "term": "Profesional sanitario",
+        "why": "Es la forma correcta y profesional de referirse a médicos o especialistas en el contexto de salud en España."
+      }
+    ]
+  },
   "commands": {
     "native": {
       "title": {
-        "text": "BellyClock: Ayuno y contador",
+        "text": "BellyClock: Ayuno intermitente",
         "notes": [
           {
-            "term": "Ayuno y contador",
-            "why": "This combines the core search phrase with the calculator function within the strict 30-character limit."
+            "term": "Ayuno intermitente",
+            "why": "This is the most direct and natural way to describe the core functionality for Spanish-speaking users."
           }
         ]
       },
       "short": {
-        "text": "Controla tu ayuno intermitente y descubre en qué fase estás de forma sencilla.",
+        "text": "Controla tus periodos de ayuno intermitente con este sencillo contador de ayuno.",
         "notes": [
           {
+            "term": "contador de ayuno",
+            "why": "This term matches one of the provided search suggestions and is the natural way to describe a timer for this activity."
+          },
+          {
             "term": "ayuno intermitente",
-            "why": "This is the exact search phrase most users type when looking for this type of tool in Spain."
+            "why": "This is the standard, technically correct term used in Spain to refer to this practice."
           }
         ]
       },
       "full": {
-        "text": "BellyClock es un reloj de ayuno y un contador de ayuno intermitente pensado para ayudarte a mantener la constancia, ver tus progresos y crear rutinas saludables sin complicaciones. Tanto si empiezas con el ayuno intermitente como si sigues horarios avanzados, la app te ofrece las herramientas para calcular las horas de ayuno y seguir tu evolución cada día.\n\nDiseñado para quienes buscan una herramienta clara, BellyClock combina un temporizador fiable, registro de hábitos, avisos de hidratación y un seguimiento visual en una misma plataforma.\n\nFUNCIONES DEL CONTADOR DE AYUNO\n• Contador de ayuno intermitente para principiantes y usuarios experimentados\n• Cálculo preciso de las horas de ayuno y la ventana de alimentación\n• Soporte para horarios flexibles de ayuno intermitente\n• Temporizador de ayuno con cuenta atrás en tiempo real\n• Planificador personalizable para adaptarlo a tu ritmo de vida\n• Registro de progreso y recordatorios diarios\n• Visualización de las fases metabólicas durante los periodos de ayuno\n\nMÉTODOS DE AYUNO POPULARES\n\nBellyClock es compatible con diferentes estilos para que puedas seguir el que mejor se adapte a tu cuerpo y a tu día a día.\n\n• Seguimiento del método 16:8\n• Control del ayuno 18:6\n• Seguimiento de OMAD (una comida al día)\n• Ayuno en días alternos\n• Horarios de ayuno personalizados\n• Ajustes flexibles del temporizador\n• Historial de ayunos y rachas diarias\n\nDIARIO DE AYUNO Y BIENESTAR\n\nLa constancia es clave para crear hábitos saludables. BellyClock te ayuda a mantener el enfoque durante todo el proceso.\n\n• Diario de ayuno para anotar reflexiones, energía y estado de ánimo\n• Calendario para visualizar la constancia a lo largo del tiempo\n• Recordatorios de hidratación para mantener buenos hábitos de agua\n• Notificaciones diarias y avisos de apoyo\n\nSOPORTE PARA AYUNO ISLÁMICO Y RAMADÁN\n\nBellyClock también incluye opciones adaptadas al ayuno espiritual y a las rutinas de bienestar islámicas.\n• Herramientas de seguimiento para el Ramadán\n• Funciones de apoyo para el ayuno diario\n• Integraciones opcionales con el calendario islámico\n\nUN CONTADOR PENSADO PARA EL DÍA A DÍA\n\nMuchas aplicaciones se centran únicamente en cronómetros. BellyClock busca ofrecer una experiencia completa que evoluciona con tu rutina, ya sea que busques mejorar tus hábitos alimentarios o mantener la consistencia sin agobios.\n\n¿POR QUÉ BELLYCLOCK?\n\n• Interfaz limpia, moderna y fácil de usar\n• Diseñado para adaptarse a principiantes y expertos\n• Compatible con múltiples estilos de ayuno\n• Calendario y diario integrados\n• Recordatorios de hidratación incluidos\n\nTanto si necesitas un contador de ayuno, un temporizador, una app de ayuno intermitente o un diario de seguimiento, BellyClock te da las herramientas para mantener la motivación.",
+        "text": "BellyClock es tu calculadora y temporizador de ayuno, diseñada para ayudarte a mantener la constancia y seguir tus progresos sin complicaciones. Tanto si te inicias en el ayuno intermitente como si ya tienes experiencia con horarios más avanzados, BellyClock te ofrece las herramientas necesarias para gestionar tus horas de ayuno y mantenerte motivado día a día. BellyClock combina un diseño intuitivo con funciones prácticas para que sepas en todo momento en qué punto de tu ayuno te encuentras. CARACTERÍSTICAS PRINCIPALES • Calculadora y temporizador de ayuno fácil de usar. • Seguimiento preciso de las ventanas de ayuno. • Temporizador con cuenta atrás en tiempo real. • Ajustes flexibles para personalizar tus horarios. • Historial detallado para ver tu progreso a largo plazo. • Visualización de las etapas metabólicas durante el ayuno. ADAPTABLE A DIVERSOS MÉTODOS BellyClock es compatible con los estilos de ayuno más comunes para que elijas el que mejor se adapte a tu ritmo de vida: • Ayuno 16:8. • Ayuno 18:6. • OMAD (una comida al día). • Ayuno en días alternos. • Horarios personalizados a tu medida. UNA HERRAMIENTA SENCILLA PARA TU RUTINA La constancia es la clave para consolidar hábitos saludables. BellyClock te ayuda a mantener el enfoque sin distracciones, funcionando como un compañero práctico que te permite visualizar tu evolución mediante un calendario de ayuno claro y sencillo. • Interfaz limpia y sin rodeos. • Ideal tanto para principiantes como para usuarios avanzados. • Seguimiento de rachas diarias. • Recordatorios para mantener tu rutina. BellyClock no es una dieta, sino una herramienta de seguimiento. Si tienes dudas sobre tu salud o sobre cómo empezar a practicar el ayuno, te recomendamos consultar siempre con un profesional sanitario antes de realizar cambios significativos en tu alimentación. Descarga BellyClock y empieza a gestionar tus periodos de ayuno de forma clara y organizada.",
         "notes": [
           {
-            "term": "contador de ayuno intermitente",
-            "why": "This is the exact search phrase Spanish speakers use when looking for a tracking tool in the Play Store."
+            "term": "ayuno intermitente",
+            "why": "This is the standard, most natural term for intermittent fasting in Spain, preferred over direct translations or complex phrasings."
           },
           {
-            "term": "ventana de alimentación",
-            "why": "This is the standard terminology used in Spain for the eating period during intermittent fasting."
+            "term": "profesional sanitario",
+            "why": "In Spain, 'profesional sanitario' is the standard and professional way to refer to medical or health experts, sounding more natural than 'médico' or 'especialista'."
           },
           {
-            "term": "sin agobios",
-            "why": "This idiomatic expression captures the idea of avoiding unnecessary complexity in a natural, conversational way for Spain."
+            "term": "sin rodeos",
+            "why": "This idiomatic expression means 'straightforward' or 'no-nonsense', which perfectly captures the brand's focus on simplicity and utility."
           }
         ]
       }
     },
     "aso": {
       "title": {
-        "text": "BellyClock: Ayuno intermitente",
+        "text": "BellyClock: Contador de ayuno",
         "notes": [
           {
-            "term": "Ayuno intermitente",
-            "why": "This is the core search phrase used by the target audience in Spain."
+            "term": "Contador de ayuno",
+            "why": "This is a direct and highly relevant search phrase for users looking for a utility-focused tool in Spain."
           }
         ]
       },
       "short": {
-        "text": "Controla tus horas con esta app de ayuno intermitente y reloj de ayuno.",
+        "text": "Controla tus periodos de ayuno intermitente con este sencillo contador de ayuno.",
         "notes": [
           {
-            "term": "app de ayuno intermitente",
-            "why": "This is one of the most common natural search phrases used by beginners in Spain looking for a reliable tool."
+            "term": "contador de ayuno",
+            "why": "This term matches one of the provided search phrases and accurately describes the app's core function as a tool."
+          },
+          {
+            "term": "ayuno intermitente",
+            "why": "This is the standard and natural way to refer to this practice in Spain."
           }
         ]
       },
       "full": {
-        "text": "BellyClock es un reloj de ayuno y un contador de ayuno intermitente pensado para ayudarte a mantener la constancia, ver tus progresos y crear rutinas saludables sin complicaciones. Tanto si empiezas con el ayuno intermitente como si sigues horarios avanzados, la app te ofrece las herramientas para calcular las horas de ayuno y seguir tu evolución cada día.\n\nDiseñado para quienes buscan una app de ayuno intermitente clara y funcional, BellyClock combina un temporizador fiable, registro de hábitos, avisos de hidratación y un seguimiento visual en una misma plataforma.\n\nFUNCIONES DEL CONTADOR DE AYUNO\n• Contador de ayuno intermitente para principiantes y usuarios experimentados\n• Cálculo preciso de las horas de ayuno y la ventana de alimentación\n• Soporte para horarios flexibles de ayuno intermitente\n• Temporizador de ayuno con cuenta atrás en tiempo real\n• Planificador personalizable para adaptarlo a tu ritmo de vida\n• Registro de progreso y recordatorios diarios\n• Visualización de las fases metabólicas durante los periodos de ayuno\n\nMÉTODOS DE AYUNO POPULARES\n\nBellyClock es compatible con diferentes estilos para que puedas seguir el que mejor se adapte a tu cuerpo y a tu día a día.\n\n• Seguimiento del método 16:8\n• Control del ayuno 18:6\n• Seguimiento de OMAD (una comida al día)\n• Ayuno en días alternos\n• Horarios de ayuno personalizados\n• Ajustes flexibles del temporizador\n• Historial de ayunos y rachas diarias\n\nDIARIO DE AYUNO Y BIENESTAR\n\nLa constancia es clave para crear hábitos saludables. BellyClock te ayuda a mantener el enfoque durante todo el proceso.\n\n• Diario de ayuno para anotar reflexiones, energía y estado de ánimo\n• Calendario para visualizar la constancia a lo largo del tiempo\n• Recordatorios de hidratación para mantener buenos hábitos de agua\n• Notificaciones diarias y avisos de apoyo\n\nSOPORTE PARA AYUNO ISLÁMICO Y RAMADÁN\n\nBellyClock también incluye opciones adaptadas al ayuno espiritual y a las rutinas de bienestar islámicas.\n\n• Herramientas de seguimiento para el Ramadán\n• Funciones de apoyo para el ayuno diario\n• Integraciones opcionales con el calendario islámico\n\nUN CONTADOR PENSADO PARA EL DÍA A DÍA\n\nMuchas aplicaciones se centran únicamente en cronómetros. BellyClock busca ofrecer una experiencia completa que evoluciona con tu rutina, ya sea que busques mejorar tus hábitos alimentarios o mantener la consistencia sin agobios.\n\n¿POR QUÉ BELLYCLOCK?\n\n• Interfaz limpia, moderna y fácil de usar\n• Diseñado para adaptarse a principiantes y expertos\n• Compatible con múltiples estilos de ayuno\n• Calendario y diario integrados\n• Recordatorios de hidratación incluidos\n\nTanto si necesitas un contador de ayuno intermitente como una app para ayuno intermitente, BellyClock te da las herramientas para mantener la motivación.",
+        "text": "BellyClock es un temporizador y calculadora de ayuno diseñado para ayudarte a mantener la constancia y seguir tus progresos sin complicaciones. Tanto si te inicias en el ayuno intermitente como si ya tienes experiencia con horarios más avanzados, BellyClock te ofrece las herramientas necesarias para gestionar tus horas de ayuno y mantenerte motivado en tu día a día. BellyClock combina un diseño intuitivo con funciones prácticas para que sepas exactamente en qué punto de tu ayuno te encuentras. CARACTERÍSTICAS PRINCIPALES • Temporizador y calculadora de ayuno fácil de usar. • Seguimiento preciso de tus ventanas de ayuno. • Cuenta atrás en tiempo real. • Ajustes flexibles para personalizar tus horarios. • Registro de historial para ver tu progreso a largo plazo. • Visualización de las fases metabólicas durante el ayuno. ADAPTABLE A DIVERSOS MÉTODOS BellyClock es una app de ayuno intermitente ideal para seguir los estilos más comunes y adaptarlos a tu ritmo de vida: • Ayuno 16:8. • Ayuno 18:6. • OMAD (una comida al día). • Ayuno en días alternos. • Horarios personalizados. UNA HERRAMIENTA SENCILLA PARA TU RUTINA La constancia es la clave. Si buscas un contador de ayuno intermitente gratis que sea claro y directo, BellyClock te ayuda a mantener el enfoque sin distracciones, funcionando como un compañero práctico para visualizar tu evolución. • Interfaz limpia y sin rodeos. • Ideal tanto para principiantes como para usuarios avanzados. • Seguimiento de rachas diarias. • Recordatorios útiles para mantener tu rutina. BellyClock no es una dieta, sino una herramienta de seguimiento. Si tienes dudas sobre tu salud o sobre cómo empezar a practicar el ayuno, te recomendamos consultar siempre con un profesional sanitario antes de realizar cambios significativos en tu alimentación. Descarga esta app para hacer ayuno intermitente gratis y empieza a gestionar tus periodos de forma clara y organizada.",
         "notes": [
           {
             "term": "app de ayuno intermitente",
-            "why": "This is one of the most common natural search phrases used by Spanish users looking for this category of mobile tool."
+            "why": "This is a natural, high-intent search phrase that fits perfectly into the flow of the text."
           },
           {
-            "term": "contador de ayuno intermitente",
-            "why": "It accurately captures the exact feature and search intent for users who want to time and track their fasting hours."
+            "term": "contador de ayuno intermitente gratis",
+            "why": "This phrase is included to capture users specifically looking for a free tracking tool without sounding like keyword stuffing."
+          },
+          {
+            "term": "app para hacer ayuno intermitente gratis",
+            "why": "This serves as a natural closing phrase that addresses the user's specific need for a free tool to start their practice."
           }
         ]
       }
     },
     "punchier": {
       "title": {
-        "text": "BellyClock: Reloj de ayuno",
+        "text": "BellyClock: Contador de ayuno",
         "notes": [
           {
-            "term": "Reloj de ayuno",
-            "why": "This phrase directly highlights the core clock function while aligning with the brand identity of BellyClock."
+            "term": "Contador de ayuno",
+            "why": "This is a direct and functional term that matches the user intent for a tool rather than a diet program."
           }
         ]
       },
       "short": {
-        "text": "Tu app de ayuno intermitente para calcular horas y seguir tu progreso.",
+        "text": "Controla tus ayunos con este temporizador sencillo para ayuno intermitente.",
         "notes": [
           {
             "term": "ayuno intermitente",
-            "why": "This is the primary search phrase used by users in Spain looking for a fasting tool."
+            "why": "This is the primary search phrase used by Spanish users looking for this type of tool."
+          },
+          {
+            "term": "temporizador",
+            "why": "This term is more accurate and common than 'contador' for a tool that tracks time intervals."
           }
         ]
       },
       "full": {
-        "text": "BellyClock es tu reloj de ayuno y contador de ayuno intermitente definitivo para mantener la constancia, ver tus progresos y crear rutinas saludables sin complicaciones. Tanto si empiezas con el ayuno intermitente como si sigues horarios avanzados, la app te ofrece las herramientas precisas para calcular las horas de ayuno y seguir tu evolución cada día.\n\nDiseñado para ofrecer claridad, BellyClock combina un temporizador fiable, registro de hábitos, avisos de hidratación y un seguimiento visual en una misma plataforma práctica.\n\nFUNCIONES DEL CONTADOR DE AYUNO\n• Contador de ayuno intermitente para principiantes y usuarios experimentados\n• Cálculo exacto de las horas de ayuno y la ventana de alimentación\n• Soporte para horarios flexibles de ayuno intermitente\n• Temporizador de ayuno con cuenta atrás en tiempo real\n• Planificador personalizable para adaptarlo a tu ritmo de vida\n• Registro de progreso y recordatorios diarios\n• Visualización de las fases metabólicas durante los periodos de ayuno\n\nMÉTODOS DE AYUNO POPULARES\n\nBellyClock es compatible con diferentes estilos para que puedas seguir el que mejor se adapte a tu cuerpo y a tu día a día.\n\n• Seguimiento del método 16:8\n• Control del ayuno 18:6\n• Seguimiento de OMAD (una comida al día)\n• Ayuno en días alternos\n• Horarios de ayuno personalizados\n• Ajustes flexibles del temporizador\n• Historial de ayunos y rachas diarias\n\nDIARIO DE AYUNO Y BIENESTAR\n\nLa constancia es clave para crear hábitos saludables. BellyClock te ayuda a mantener el enfoque durante todo el proceso.\n\n• Diario de ayuno para anotar reflexiones, energía y estado de ánimo\n• Calendario para visualizar la constancia a lo largo del tiempo\n• Recordatorios de hidratación para mantener buenos hábitos de agua\n• Notificaciones diarias y avisos de apoyo\n\nSOPORTE PARA AYUNO ISLÁMICO Y RAMADÁN\n\nBellyClock también incluye opciones adaptadas al ayuno espiritual y a las rutinas de bienestar islámicas.\n\n• Herramientas de seguimiento para el Ramadán\n• Funciones de apoyo para el ayuno diario\n• Integraciones opcionales con el calendario islámico\n\nUN CONTADOR PENSADO PARA EL DÍA A DÍA\n\nMuchas aplicaciones se centran únicamente en cronómetros. BellyClock busca ofrecer una experiencia completa que evoluciona con tu rutina, ya sea que busques mejorar tus hábitos alimentarios o mantener la consistencia sin agobios.\n\n¿POR QUÉ BELLYCLOCK?\n\n• Interfaz limpia, moderna y fácil de usar\n• Diseñado para adaptarse a principiantes y expertos\n• Compatible con múltiples estilos de ayuno\n• Calendario y diario integrados\n• Recordatorios de hidratación incluidos\n\nTanto si necesitas un contador de ayuno, un temporizador, una app de ayuno intermitente o un diario de seguimiento, BellyClock te da las herramientas para mantener la motivación.",
+        "text": "BellyClock es tu calculadora y temporizador de ayuno, diseñada para que mantengas la constancia y sigas tu evolución sin complicaciones. Tanto si te inicias en el ayuno intermitente como si ya sigues horarios avanzados, BellyClock te proporciona las herramientas para gestionar tus periodos de ayuno y avanzar en tu rutina diaria con claridad. BellyClock combina un diseño funcional con herramientas precisas para que sepas en todo momento en qué fase de tu ayuno te encuentras. CARACTERÍSTICAS DE TU CONTADOR DE AYUNO • Calculadora de ayuno intuitiva para todos los niveles. • Seguimiento preciso de tus ventanas de alimentación y ayuno. • Temporizador con cuenta atrás en tiempo real. • Ajustes flexibles para adaptar el horario a tu día a día. • Historial detallado para visualizar tu progreso. • Información sobre las fases metabólicas durante el ayuno. COMPATIBLE CON MÉTODOS POPULARES Configura BellyClock según el estilo que mejor encaje con tu ritmo de vida: • Ayuno 16:8. • Ayuno 18:6. • OMAD (una comida al día). • Ayuno en días alternos. • Horarios y planes de ayuno personalizados. HERRAMIENTAS PARA TU RUTINA La constancia es la clave para consolidar hábitos. BellyClock te ayuda a mantener el enfoque con una interfaz limpia y sin distracciones, funcionando como un aliado práctico para gestionar tu calendario de ayuno. • Interfaz clara, directa y sin rodeos. • Seguimiento de rachas diarias para reforzar tu motivación. • Recordatorios configurables para acompañar tu rutina. BellyClock es una herramienta de seguimiento, no un programa de dieta. Si tienes dudas sobre tu salud o sobre cómo integrar el ayuno en tu vida, consulta siempre a un profesional sanitario antes de realizar cambios en tu alimentación. Descarga BellyClock y gestiona tus periodos de ayuno de forma organizada.",
         "notes": [
           {
-            "term": "contador de ayuno intermitente",
-            "why": "This is a high-intent search phrase in Spain that immediately clarifies the app's core utility."
+            "term": "contador de ayuno",
+            "why": "This is a direct and highly relevant search phrase in Spain for users looking for a tool to track their fasting hours."
+          },
+          {
+            "term": "sin rodeos",
+            "why": "This idiomatic Spanish expression conveys the 'no-nonsense' and 'straightforward' brand voice effectively."
+          },
+          {
+            "term": "profesional sanitario",
+            "why": "This is the standard and professional term used in Spain to refer to healthcare providers, ensuring the app remains compliant with health regulations."
           }
         ]
       }
@@ -124,33 +173,37 @@
         "notes": [
           {
             "term": "Contador de ayuno",
-            "why": "This natural search phrase clearly communicates the core timing tool users want without exceeding the character limit."
+            "why": "This is a direct and highly relevant search phrase for users looking for a tool to track their fasting progress."
           }
         ]
       },
       "short": {
-        "text": "Sigue tu ayuno intermitente con este contador y descubre en qué fase estás.",
+        "text": "Controla tus ayunos con este temporizador sencillo para ayuno intermitente.",
         "notes": [
           {
             "term": "ayuno intermitente",
-            "why": "This is the primary search phrase used by the target audience in Spain."
+            "why": "This is the primary search phrase used by Spanish users looking for this type of tool."
           },
           {
-            "term": "contador",
-            "why": "It reflects the core utility of the app as a timer rather than a complex wellness program."
+            "term": "temporizador",
+            "why": "It accurately describes the core functionality of the app as a tool rather than a lifestyle program."
           }
         ]
       },
       "full": {
-        "text": "Sabe exactamente cuándo puedes comer de nuevo y mantén la constancia con BellyClock, tu reloj de ayuno y contador de ayuno intermitente. Tanto si empiezas con el ayuno intermitente como si sigues horarios avanzados, la app te ayuda a calcular las horas de ayuno y seguir tu evolución cada día sin complicaciones.\n\nDiseñado para quienes buscan una herramienta clara, BellyClock combina un temporizador fiable, registro de hábitos, avisos de hidratación y un seguimiento visual en una misma plataforma.\n\nFUNCIONES DEL CONTADOR DE AYUNO\n• Contador de ayuno intermitente para principiantes y usuarios experimentados\n• Cálculo preciso de las horas de ayuno y la ventana de alimentación\n• Soporte para horarios flexibles de ayuno intermitente\n• Temporizador de ayuno con cuenta atrás en tiempo real\n• Planificador personalizable para adaptarlo a tu ritmo de vida\n• Registro de progreso y recordatorios diarios\n• Visualización de las fases metabólicas durante los periodos de ayuno\n\nMÉTODOS DE AYUNO POPULARES\n\nBellyClock es compatible con diferentes estilos para que puedas seguir el que mejor se adapte a tu cuerpo y a tu día a día.\n\n• Seguimiento del método 16:8\n• Control del ayuno 18:6\n• Seguimiento de OMAD (una comida al día)\n• Ayuno en días alternos\n• Horarios de ayuno personalizados\n• Ajustes flexibles del temporizador\n• Historial de ayunos y rachas diarias\n\nDIARIO DE AYUNO Y BIENESTAR\n\nLa constancia es clave para crear hábitos saludables. BellyClock te ayuda a mantener el enfoque durante todo el proceso.\n\n• Diario de ayuno para anotar reflexiones, energía y estado de ánimo\n• Calendario para visualizar la constancia a lo largo del tiempo\n• Recordatorios de hidratación para mantener buenos hábitos de agua\n• Notificaciones diarias y avisos de apoyo\n\nSOPORTE PARA AYUNO ISLÁMICO Y RAMADÁN\n\nBellyClock también incluye opciones adaptadas al ayuno espiritual y a las rutinas de bienestar islámicas.\n\n• Herramientas de seguimiento para el Ramadán\n• Funciones de apoyo para el ayuno diario\n• Integraciones opcionales con el calendario islámico\n\nUN CONTADOR PENSADO PARA EL DÍA A DÍA\n\nMuchas aplicaciones se centran únicamente en cronómetros. BellyClock busca ofrecer una experiencia completa que evoluciona con tu rutina, ya sea que busques mejorar tus hábitos alimentarios o mantener la consistencia sin agobios.\n\n¿POR QUÉ BELLYCLOCK?\n\n• Interfaz limpia, moderna y fácil de usar\n• Diseñado para adaptarse a principiantes y expertos\n• Compatible con múltiples estilos de ayuno\n• Calendario y diario integrados\n• Recordatorios de hidratación incluidos\n\nTanto si necesitas un contador de ayuno, un temporizador, una app de ayuno intermitente o un diario de seguimiento, BellyClock te da las herramientas para mantener la motivación.",
+        "text": "BellyClock es tu calculadora y contador de ayuno intermitente diseñado para que sepas exactamente cuándo puedes volver a comer y en qué fase de tu ayuno te encuentras. Si buscas una herramienta clara, sin complicaciones y centrada en la funcionalidad, nuestra app te ayuda a seguir tus horarios de forma sencilla y constante. Tanto si empiezas ahora como si ya tienes experiencia, BellyClock te ofrece un seguimiento preciso para que gestiones tus periodos de ayuno de manera organizada. CARACTERÍSTICAS DE NUESTRA CALCULADORA DE AYUNO • Contador de ayuno intermitente con cuenta atrás en tiempo real. • Seguimiento preciso de tus ventanas de ayuno y alimentación. • Registro detallado de tu historial para ver tu progreso. • Ajustes flexibles adaptados a tu ritmo de vida. • Visualización de las fases metabólicas durante el ayuno. ADAPTABLE A TU ESTILO DE VIDA BellyClock es compatible con los métodos de ayuno más comunes: • Ayuno 16:8. • Ayuno 18:6. • OMAD (una comida al día). • Ayuno en días alternos. • Horarios personalizados. UNA HERRAMIENTA PRÁCTICA PARA TUS HÁBITOS La constancia es fundamental. BellyClock te ayuda a mantener el enfoque con una interfaz limpia, diseñada para que no pierdas tiempo en configuraciones complejas. • Interfaz sencilla y sin distracciones. • Seguimiento de rachas para mantener la motivación. • Recordatorios útiles integrados en tu rutina. BellyClock es una herramienta de registro y temporización, no un programa de dieta. Si tienes dudas sobre tu salud o sobre cómo empezar, te recomendamos consultar siempre con un profesional sanitario antes de realizar cambios en tu alimentación. Empieza a gestionar tus periodos de ayuno con la claridad que necesitas. Descarga BellyClock.",
         "notes": [
           {
-            "term": "contador de ayuno intermitente",
-            "why": "Users in Spain frequently search for this exact term when looking for a reliable fasting timer tool."
+            "term": "contador de ayuno",
+            "why": "This is a natural, high-intent search phrase for users looking for a tool to track their fasting time."
           },
           {
-            "term": "ventana de alimentación",
-            "why": "This is the natural, idiomatic way intermittent fasting practitioners in Spain refer to their eating window."
+            "term": "ayuno intermitente",
+            "why": "This is the standard, essential term for the subject matter in Spain."
+          },
+          {
+            "term": "profesional sanitario",
+            "why": "This is the formal and respectful term for a healthcare professional used in Spain."
           }
         ]
       }
@@ -161,66 +214,45 @@
         "notes": [
           {
             "term": "Ayuno intermitente",
-            "why": "This is the primary search phrase used by Spanish users looking for fasting tools."
+            "why": "This term matches one of the search phrases provided for this market and is the standard way to refer to the practice in Spain."
           }
         ]
       },
       "short": {
-        "text": "Controla tu ayuno intermitente y descubre en qué fase estás de forma sencilla.",
+        "text": "Controla tus periodos de ayuno intermitente con este sencillo temporizador.",
         "notes": [
           {
             "term": "ayuno intermitente",
-            "why": "This is the primary search phrase used by users in this market."
+            "why": "This is the natural way to refer to the practice in Spanish-speaking markets."
           },
           {
-            "term": "Controla",
-            "why": "This verb accurately reflects the tracking nature of the tool without using hype."
+            "term": "temporizador",
+            "why": "This term accurately reflects the utility-focused nature of the app as a tool."
           }
         ]
       },
       "full": {
-        "text": "BellyClock es un reloj de ayuno y un contador de ayuno intermitente pensado para ayudarte a mantener la constancia, ver tus progresos y crear rutinas saludables sin complicaciones. Tanto si empiezas con el ayuno intermitente como si sigues horarios avanzados, la app te ofrece las herramientas para calcular las horas de ayuno y seguir tu evolución cada día. Diseñado para quienes buscan una herramienta clara, BellyClock combina un temporizador fiable, registro de hábitos, avisos de hidratación y un seguimiento visual en una misma plataforma. FUNCIONES DEL CONTADOR DE AYUNO • Contador de ayuno intermitente para principiantes y usuarios experimentados • Cálculo preciso de las horas de ayuno y la ventana de alimentación • Soporte para horarios flexibles de ayuno intermitente • Temporizador de ayuno con cuenta atrás en tiempo real • Planificador personalizable para adaptarlo a tu ritmo de vida • Registro de progreso y recordatorios diarios • Visualización de las fases metabólicas durante los periodos de ayuno MÉTODOS DE AYUNO POPULARES BellyClock es compatible con diferentes estilos para que puedas seguir el que mejor se adapte a tu cuerpo y a tu día a día. • Seguimiento del método 16:8 • Control del ayuno 18:6 • Seguimiento de OMAD (una comida al día) • Ayuno en días alternos • Horarios de ayuno personalizados • Ajustes flexibles del temporizador • Historial de ayunos y rachas diarias DIARIO DE AYUNO Y BIENESTAR La constancia es clave para crear hábitos saludables. BellyClock te ayuda a mantener el enfoque durante todo el proceso. • Diario de ayuno para anotar reflexiones, energía y estado de ánimo • Calendario para visualizar la constancia a lo largo del tiempo • Recordatorios de hidratación para mantener buenos hábitos de agua • Notificaciones diarias y avisos de apoyo SOPORTE PARA AYUNO ISLÁMICO Y RAMADÁN BellyClock también incluye opciones adaptadas al ayuno espiritual y a las rutinas de bienestar islámicas. • Herramientas de seguimiento para el Ramadán • Funciones de apoyo para el ayuno diario • Integraciones opcionales con el calendario islámico UN CONTADOR PENSADO PARA EL DÍA A DÍA Muchas aplicaciones se centran únicamente en cronómetros. BellyClock busca ofrecer una experiencia completa que evoluciona con tu rutina, ya sea que busques mejorar tus hábitos alimentarios o mantener la consistencia sin agobios. ¿POR QUÉ BELLYCLOCK? • Interfaz limpia, moderna y fácil de usar • Diseñado para adaptarse a principiantes y expertos • Compatible con múltiples estilos de ayuno • Calendario y diario integrados • Recordatorios de hidratación incluidos Tanto si necesitas un contador de ayuno, un temporizador, una app de ayuno intermitente o un diario de seguimiento, BellyClock te da las herramientas para mantener la motivación.",
+        "text": "BellyClock es un temporizador y calculadora de ayuno diseñado para ayudarte a mantener la constancia y seguir tus progresos sin complicaciones. Tanto si te inicias en el ayuno intermitente como si ya tienes experiencia, BellyClock te ofrece las herramientas necesarias para gestionar tus horas de ayuno y mantenerte motivado cada día. BellyClock combina un diseño intuitivo con funciones prácticas para que sepas en qué punto de tu ayuno te encuentras. CARACTERÍSTICAS PRINCIPALES • Calculadora y temporizador de ayuno fácil de usar. • Seguimiento preciso de las ventanas de ayuno. • Temporizador con cuenta atrás en tiempo real. • Ajustes flexibles para personalizar tus horarios. • Registro de historial para ver tu progreso. • Visualización de las fases metabólicas durante el ayuno. ADAPTABLE A DIVERSOS MÉTODOS BellyClock es compatible con los estilos de ayuno más comunes para que elijas el que mejor se adapte a tu ritmo de vida: • Ayuno 16:8. • Ayuno 18:6. • OMAD (una comida al día). • Ayuno en días alternos. • Horarios personalizados a tu medida. UNA HERRAMIENTA SENCILLA PARA TU RUTINA La constancia es la clave para crear hábitos saludables. BellyClock te ayuda a mantener el enfoque sin distracciones, funcionando como un compañero práctico que te permite visualizar tu evolución mediante un calendario de ayuno claro. • Interfaz limpia y sin rodeos. • Ideal tanto para principiantes como para usuarios avanzados. • Seguimiento de rachas diarias. • Recordatorios para mantener tu rutina. BellyClock no es una dieta, sino una herramienta de seguimiento. Si tienes dudas sobre tu salud o sobre cómo empezar a practicar el ayuno, te recomendamos consultar siempre con un profesional sanitario antes de realizar cambios significativos en tu alimentación. Descarga BellyClock y empieza a gestionar tus periodos de ayuno de forma clara y organizada.",
         "notes": [
           {
-            "term": "contador de ayuno intermitente",
-            "why": "This natural search phrase directly targets Spanish users looking for a dedicated tracker."
+            "term": "ayuno intermitente",
+            "why": "This is the standard, most natural term for intermittent fasting in Spain, matching user search intent perfectly."
           },
           {
-            "term": "ventana de alimentación",
-            "why": "This is the exact terminology used by intermittent fasting practitioners in Spain for eating windows."
+            "term": "calculadora y temporizador de ayuno",
+            "why": "These terms are used to capture searches for both tracking and planning functionality without resorting to keyword stuffing."
+          },
+          {
+            "term": "profesional sanitario",
+            "why": "This is the formal and respectful way to refer to medical professionals in Spain when giving health disclaimers."
           }
         ]
       }
     }
   },
-  "native": {
-    "fields": {
-      "title": "BellyClock: Ayuno intermitente",
-      "short": "Controla tus horas de ayuno y descubre en qué fase estás de forma sencilla.",
-      "full": "BellyClock es un reloj de ayuno y un contador de ayuno intermitente pensado para ayudarte a mantener la constancia, ver tus progresos y crear rutinas saludables sin complicaciones. Tanto si empiezas con el ayuno intermitente como si sigues horarios avanzados, la app te ofrece las herramientas para calcular las horas de ayuno y seguir tu evolución cada día.\n\nDiseñado para quienes buscan una herramienta clara, BellyClock combina un temporizador fiable, registro de hábitos, avisos de hidratación y un seguimiento visual en una misma plataforma.\n\nFUNCIONES DEL CONTADOR DE AYUNO\n• Contador de ayuno intermitente para principiantes y usuarios experimentados\n• Cálculo preciso de las horas de ayuno y la ventana de alimentación\n• Soporte para horarios flexibles de ayuno intermitente\n• Temporizador de ayuno con cuenta atrás en tiempo real\n• Planificador personalizable para adaptarlo a tu ritmo de vida\n• Registro de progreso y recordatorios diarios\n• Visualización de las fases metabólicas durante los periodos de ayuno\n\nMÉTODOS DE AYUNO POPULARES\n\nBellyClock es compatible con diferentes estilos para que puedas seguir el que mejor se adapte a tu cuerpo y a tu día a día.\n\n• Seguimiento del método 16:8\n• Control del ayuno 18:6\n• Seguimiento de OMAD (una comida al día)\n• Ayuno en días alternos\n• Horarios de ayuno personalizados\n• Ajustes flexibles del temporizador\n• Historial de ayunos y rachas diarias\n\nDIARIO DE AYUNO Y BIENESTAR\n\nLa constancia es clave para crear hábitos saludables. BellyClock te ayuda a mantener el enfoque durante todo el proceso.\n\n• Diario de ayuno para anotar reflexiones, energía y estado de ánimo\n• Calendario para visualizar la constancia a lo largo del tiempo\n• Recordatorios de hidratación para mantener buenos hábitos de agua\n• Notificaciones diarias y avisos de apoyo\n\nSOPORTE PARA AYUNO ISLÁMICO Y RAMADÁN\n\nBellyClock también incluye opciones adaptadas al ayuno espiritual y a las rutinas de bienestar islámicas.\n\n• Herramientas de seguimiento para el Ramadán\n• Funciones de apoyo para el ayuno diario\n• Integraciones opcionales con el calendario islámico\n\nUN CONTADOR PENSADO PARA EL DÍA A DÍA\n\nMuchas aplicaciones se centran únicamente en cronómetros. BellyClock busca ofrecer una experiencia completa que evoluciona con tu rutina, ya sea que busques mejorar tus hábitos alimentarios o mantener la consistencia sin agobios.\n\n¿POR QUÉ BELLYCLOCK?\n\n• Interfaz limpia, moderna y fácil de usar\n• Diseñado para adaptarse a principiantes y expertos\n• Compatible con múltiples estilos de ayuno\n• Calendario y diario integrados\n• Recordatorios de hidratación incluidos\n\nTanto si necesitas un contador de ayuno, un temporizador, una app de ayuno intermitente o un diario de seguimiento, BellyClock te da las herramientas para mantener la motivación."
-    },
-    "notes": [
-      {
-        "term": "ayuno intermitente",
-        "why": "This is the primary search term used by users in Spain looking for fasting apps."
-      },
-      {
-        "term": "contador de ayuno",
-        "why": "It directly matches the local search phrasing for a fasting timer and calculator tool."
-      },
-      {
-        "term": "ventana de alimentación",
-        "why": "This is the standard, natural terminology used in Spain when discussing intermittent fasting schedules."
-      },
-      {
-        "term": "OMAD (una comida al día)",
-        "why": "Using the English acronym alongside the natural Spanish explanation ensures recognition for this specific fasting style."
-      }
-    ]
-  },
   "generatedWith": {
     "provider": "gemini",
-    "model": "gemini-3.5-flash-lite",
-    "at": "2026-09-29T10:10:37.700Z"
+    "model": "gemini-3.1-flash-lite",
+    "at": "2026-09-29T11:15:13.103Z"
   }
 }
