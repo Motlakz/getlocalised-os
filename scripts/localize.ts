@@ -14,6 +14,7 @@ import {
   FIELDS,
   FieldsSchema,
   getCommand,
+  SEEDED_COMMANDS,
   LIMITS,
   localizeListing,
   createProvider,
@@ -65,18 +66,42 @@ async function runSeed() {
     const listing = loadListing(app);
     const skills = loadSkills(app);
     for (const market of pickMarkets(values.to)) {
-      const file = loadMarket(app, market);
+      let file = loadMarket(app, market);
       if (!file) fail(`No ${market}.json for ${app}. Run \`bun run capture --app ${app}\` first.`);
-      if (file.native && !values.force) {
-        console.log(`${app} ${market}: native listing exists, skipping`);
-        continue;
+      const phrases = file.phrases.items;
+
+      if (!file.native || values.force) {
+        console.log(`${app} ${market}: generating native listing…`);
+        const native = await withBackoff(`${app} ${market}`, () =>
+          localizeListing({ source: listing.fields, market, skills, phrases, provider }),
+        );
+        file = { ...file, native, commands: {}, generatedWith };
+        writeJson(marketPath(app, market), file);
+        await sleep(PACE_MS);
       }
-      console.log(`${app} ${market}: generating native listing…`);
-      const native = await withBackoff(`${app} ${market}`, () =>
-        localizeListing({ source: listing.fields, market, skills, phrases: file.phrases.items, provider }),
-      );
-      writeJson(marketPath(app, market), { ...file, native, generatedWith });
-      await sleep(PACE_MS);
+
+      // Each seeded command on each field, written as it goes so an interrupted run resumes.
+      for (const command of SEEDED_COMMANDS) {
+        for (const field of FIELDS) {
+          if (file.commands[command.id]?.[field]) continue;
+          console.log(`${app} ${market}: ${command.label} · ${FIELD_LABELS[field]}`);
+          const [preview] = await withBackoff(`${app} ${market} ${command.id} ${field}`, () =>
+            rewriteField({
+              field,
+              text: file!.native!.fields[field],
+              sourceText: listing.fields[field],
+              market,
+              skills,
+              phrases,
+              command,
+              provider,
+            }),
+          );
+          file = { ...file, commands: { ...file.commands, [command.id]: { ...file.commands[command.id], [field]: preview } } };
+          writeJson(marketPath(app, market), file);
+          await sleep(PACE_MS);
+        }
+      }
     }
   }
 }

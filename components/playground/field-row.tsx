@@ -13,6 +13,9 @@ export function FieldRow({
   value,
   language,
   onChange,
+  onSlash,
+  onFocus,
+  applied,
   actions,
 }: {
   field: Field;
@@ -20,6 +23,11 @@ export function FieldRow({
   value: string;
   language: string;
   onChange: (value: string) => void;
+  /** Typing `/` at the start of the field or after a space opens the command menu. */
+  onSlash: () => void;
+  onFocus: () => void;
+  /** Label of the command last applied to this field, if any. */
+  applied?: string;
   actions?: React.ReactNode;
 }) {
   const long = field === "full";
@@ -44,6 +52,7 @@ export function FieldRow({
         <div className="mb-2 flex items-center justify-between gap-2">
           <span className="text-xs font-medium">
             {FIELD_LABELS[field]} <span className="font-mono text-muted-foreground">· {language}</span>
+            {applied && <span className="ml-2 border px-1.5 py-0.5 font-mono text-[10px] text-muted-foreground uppercase">{applied}</span>}
           </span>
           <div className="flex items-center gap-1">
             <CharCount count={value.length} limit={LIMITS[field]} className="mr-1" />
@@ -55,6 +64,15 @@ export function FieldRow({
           aria-label={`${FIELD_LABELS[field]} in ${language}`}
           value={value}
           onChange={(e) => onChange(e.target.value)}
+          onFocus={onFocus}
+          onKeyDown={(e) => {
+            const el = e.currentTarget;
+            const before = el.value.slice(0, el.selectionStart ?? 0);
+            if (e.key === "/" && !e.ctrlKey && !e.metaKey && (before === "" || /\s$/.test(before))) {
+              e.preventDefault();
+              onSlash();
+            }
+          }}
           spellCheck={false}
           className={cn(
             text,

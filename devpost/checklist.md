@@ -29,7 +29,7 @@ Build mode: fast
   Learner check: Open http://localhost:3000/playground. Does it look like a greyscale sibling of your app? Do the findings make sense for the German text?
   Commit: `Add Playground compare view with findings`
 
-- [ ] **3. The `/` menu reshapes a field from seeded commands, and skills are visible**
+- [x] **3. The `/` menu reshapes a field from seeded commands, and skills are visible**
   Becomes usable: Typing `/` in a German field (or clicking its button) opens the Commands + Skills menu. The five seeded commands show previews; picking one replaces the text and findings update. The Commands rail sits top right and the Skills panel bottom right.
   Why now: This is the demo's "oh, that's cool" beat, and it only needs slice 2's screen plus seeded command data.
   PRD ref: `prd.md > Commands`, `prd.md > Skills`, `prd.md > Screens and Layout`
