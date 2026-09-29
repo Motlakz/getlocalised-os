@@ -5,7 +5,7 @@
 /*
  * Slate design tokens in greyscale: the GetLocalised structure (ink, raised, paper, square corners)
  * with neutral greys and no lime. Tokens and base resets only; components use utility classes.
- * `.dark` on <html> follows the system preference (set in app/layout.tsx); it can also force a subtree.
+ * `.dark` on <html> is the default; the theme toggle can switch to light (see app/layout.tsx).
  */
 
 @custom-variant dark (&:is(.dark *));

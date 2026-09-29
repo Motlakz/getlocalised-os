@@ -1,5 +1,6 @@
 import Link from "next/link";
 
+import { ThemeToggle } from "@/components/theme-toggle";
 import { MARKET_INFO, type Market } from "@/lib/engine/types";
 
 export function TopBar({
@@ -32,7 +33,10 @@ export function TopBar({
             </>
           )}
         </div>
-        <div className="ml-auto flex items-center gap-2">{right}</div>
+        <div className="ml-auto flex items-center gap-2">
+          {right}
+          <ThemeToggle />
+        </div>
       </div>
     </header>
   );

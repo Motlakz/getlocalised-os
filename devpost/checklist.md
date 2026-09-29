@@ -81,8 +81,10 @@ Build mode: fast
 
 ## Hands-on Checkpoints
 
-- [ ] Early usable behavior explored: after slice 2 (the kernel on screen), where feedback on look and native quality can still shape slices 3–6
+- [x] Early usable behavior explored: after slice 2 (the kernel on screen), where feedback on look and native quality can still shape slices 3–6
 - [ ] Final kick-the-tires exploration and feedback completed
+
+Early checkpoint feedback (after slice 2): the look is right and the listing is accurate and native, with its explanation. It is "more informative than usable" for now, which slice 3's commands address. Asked for dark mode as the default plus a theme toggle, which was done before slice 3.
 
 ## Final Review
 
@@ -106,3 +108,4 @@ Activity mode:
 - Transient provider errors (5xx) are retried with backoff (20s/60s/120s), like rate limits. Capture and the single local run use the same retry, because the first real runs hit demand spikes.
 - The Playground uses static routes `/playground/<app>/<market>` (built with `generateStaticParams`) instead of `/playground?app=…&market=…`, and `/playground` redirects to BellyClock → de-DE. The build showed that query params would make the page dynamic and read seed files from disk on Vercel at request time; static routes read them only at build. Switching app or market navigates to another page, which gives the planned reset-on-switch for free.
 - `shadcn add` without an existing `lib/utils` rewrote imports to a bare `cn` package and installed it. Fixed by adding `lib/utils.ts`, restoring the imports, removing the package and installing the real dependencies (radix-ui, cva, clsx, tailwind-merge, hugeicons, tw-animate-css).
+- Dark mode is now the default with a light/dark toggle, instead of following the system. Learner feedback at the slice 2 checkpoint.

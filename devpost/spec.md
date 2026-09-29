@@ -59,7 +59,7 @@ Chosen to match the author's existing GetLocalised stack (the same tools, with c
 ## Look and Feel
 Carries forward `prd.md > Look and Feel` and `scope.md > Inspiration & Identity`.
 - **Palette:** the Slate structure in **pure greyscale**. Tokens are defined in `app/globals.css` under the original's role names (`ink`, `ink-raised`, `paper`, `mk-*`), but with neutral greys in place of green-cast ink and sage, and **no lime**. The one accent is high-contrast white-on-ink (dark) / ink-on-paper (light). Status colours (over-limit) are always paired with a text label.
-- **Theme:** theme-aware tokens (light + dark). The landing page defaults to dark, like the original marketing site.
+- **Theme:** theme-aware tokens (light + dark). **Dark is the default everywhere**; `components/theme-toggle.tsx` switches to light and saves the choice in `localStorage` (an inline script in `app/layout.tsx` applies it before paint).
 - **Type:** Raleway for headings, Source Sans 3 for body/UI, Merriweather for occasional editorial serif (e.g. hero subline), and a monospace stack for code, commands, and character counts.
 - **Density:** the landing page is spacious and documentation-like: a sticky section nav on desktop, prose, and code blocks. The Playground is a denser working tool.
 - **Motion:** the hero uses short, eased step transitions (fade/slide/typewriter reveal of fields) via `motion`, respecting `prefers-reduced-motion`.

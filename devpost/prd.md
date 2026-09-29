@@ -45,6 +45,7 @@ Styled to match: a greyscale banner, a clear structure, and matching badges, wit
 ## Look and Feel
 - The original GetLocalised **Slate** design, in **greyscale instead of lime**: near-black ink, neutral greys, no lime accent. Raleway headings, Source Sans body, Merriweather serif.
 - The Playground follows the original app's UI patterns: side-by-side compare, character counts, and the `/` command palette with previews.
+- **Dark mode is the default**, with a light/dark toggle in the top bar that remembers the choice (from the slice 2 checkpoint).
 - Motion: cinematic, smooth step transitions in the hero. Built from code, not video.
 - Landing structure: the informative, documentation-like layout of popular open-source developer projects.
 - To avoid: generic AI-app styling and any lime/brand colour from the original.

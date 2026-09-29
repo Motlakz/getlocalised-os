@@ -15,11 +15,11 @@ export const metadata: Metadata = {
     "Open-source localization agent for mobile apps. Turn a Play Store listing into a native one, shaped by skills you can read.",
 };
 
-/** Sets `.dark` from the system preference before paint, so there is no flash. */
+/** Dark by default; a saved choice from the theme toggle wins. Runs before paint, so there is no flash. */
 const themeScript = `(() => {
-  const m = matchMedia("(prefers-color-scheme: dark)");
-  const set = () => document.documentElement.classList.toggle("dark", m.matches);
-  set(); m.addEventListener("change", set);
+  let theme = "dark";
+  try { theme = localStorage.getItem("theme") || "dark"; } catch {}
+  document.documentElement.classList.toggle("dark", theme !== "light");
 })();`;
 
 export default function RootLayout({ children }: LayoutProps<"/">) {
